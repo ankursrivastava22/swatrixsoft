@@ -1,0 +1,521 @@
+{
+  "courseFeatureBox": [
+    {
+      "title": "What you'll learn",
+      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+      "img": "/images/course/course-single-01.jpg",
+      "featureList": [
+        {
+          "text": "Become an advanced, confident."
+        },
+        {
+          "text": "Have an intermediate skill."
+        },
+        {
+          "text": "Have a portfolio of various."
+        },
+        {
+          "text": "Have a portfolio of various."
+        },
+        {
+          "text": "Use the numpy library to create."
+        },
+        {
+          "text": "Use the Jupyter Notebook."
+        },
+        {
+          "text": "Use the pandas module with."
+        },
+        {
+          "text": "Have a portfolio of various."
+        },
+        {
+          "text": "Create data visualizations."
+        },
+        {
+          "text": "Have a portfolio of various."
+        }
+      ]
+    }
+  ],
+  "certificate": [
+    {
+      "certificateOne": [
+        {
+          "img": "/images/course/single-course-02.jpg",
+          "imgTwo": "/images/course/course-feature-03.jpg",
+          "tag": "Hello! Web Development Course",
+          "title": "Complete app development course with HiStudy",
+          "desc": "The idea of establishing a private university to provide quality education at an affordable cost in Uk London.",
+          "list": [
+            {
+              "icon": "/images/icons/card-icon-1.png",
+              "num": 300,
+              "text": "Got Hired"
+            },
+            {
+              "icon": "/images/icons/card-icon-4.png",
+              "num": 10,
+              "text": "Enrolled"
+            },
+            {
+              "icon": "/images/icons/card-icon-2.png",
+              "num": 300,
+              "text": "Month Required"
+            }
+          ]
+        }
+      ],
+      "certificateTwo": [
+        {
+          "img": "/images/course/single-course-06.jpg",
+          "imgTwo": "/images/course/course-feature-01.jpg",
+          "title": "Get a Certificate",
+          "desc": "Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September year Undergraduate.",
+          "list": [
+            {
+              "icon": "/images/icons/card-icon-11.png",
+              "num": 5000,
+              "text": "Got Award"
+            },
+            {
+              "icon": "/images/icons/card-icon-12.png",
+              "num": 10,
+              "text": "Zero to career"
+            }
+          ]
+        }
+      ],
+      "certificateThree": [
+        {
+          "title": "Projects You Will Build",
+          "desc": "Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September year Undergraduate.",
+          "list": [
+            {
+              "text": "Ecommerce Website"
+            },
+            {
+              "text": "Travel Agency"
+            },
+            {
+              "text": "Shopping Cart"
+            },
+            {
+              "text": "News Portal"
+            },
+            {
+              "text": "Education Management"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "courseContent": [
+    {
+      "title": "Intro to Course and Histudy",
+      "isShow": true,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": false,
+          "min": 30
+        },
+        {
+          "text": "Watch Before Start",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": false,
+          "min": 0.5
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": false,
+          "min": 10
+        }
+      ]
+    },
+    {
+      "title": "15 Things To Know About Education?",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    },
+    {
+      "title": "Course Fundamentals",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    },
+    {
+      "title": "You can develop skill and setup",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    },
+    {
+      "title": "Course Description",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    },
+    {
+      "title": "Route 53",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    },
+    {
+      "title": "EC2 Instance Storage",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    },
+    {
+      "title": "IAM & AWS CLI",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    },
+    {
+      "title": "Getting started with AWS",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    },
+    {
+      "title": "EC2 Fundamentals",
+      "isShow": false,
+      "list": [
+        {
+          "text": "Course Intro",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Why You Should Not Go To Education.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        },
+        {
+          "text": "Ten Factors That Affect Education's Longevity.",
+          "isPlay": true,
+          "isDoc": false,
+          "isLoc": true
+        },
+        {
+          "text": "Read Before You Start",
+          "isPlay": false,
+          "isDoc": true,
+          "isLoc": true
+        }
+      ]
+    }
+  ]
+}

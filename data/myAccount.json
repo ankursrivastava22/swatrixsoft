@@ -1,0 +1,51 @@
+{
+  "account": [
+    {
+      "dashboard": [
+        {
+          "name": "Rainbow Dev",
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since"
+        }
+      ],
+      "orders": [
+        {
+          "id": 1,
+          "name": "Miracle Morning",
+          "date": "Janu 22, 2024",
+          "status": "Pending",
+          "price": 45
+        },
+        {
+          "id": 2,
+          "name": "Happy Strong",
+          "date": "Aug 23, 2024",
+          "status": "Approved",
+          "price": 70
+        },
+        {
+          "id": 3,
+          "name": "Micale",
+          "date": "Oct 12, 2024",
+          "status": "On Hold",
+          "price": 20
+        }
+      ],
+      "downloads": [
+        {
+          "id": 1,
+          "name": "Miracle Morning",
+          "date": "Janu 22, 2024",
+          "expire": false,
+          "price": 45
+        },
+        {
+          "id": 2,
+          "name": "Happy Strong",
+          "date": "Aug 23, 2024",
+          "expire": true,
+          "price": 70
+        }
+      ]
+    }
+  ]
+}

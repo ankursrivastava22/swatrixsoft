@@ -1,0 +1,497 @@
+{
+  "testimonialOne": [
+    {
+      "user": [
+        {
+          "tab": "testimonial-tab1-tab",
+          "target": "testimonial-tab1",
+          "isSelected": true,
+          "img": "/images/testimonial/testimonial-1.jpg"
+        },
+        {
+          "tab": "testimonial-tab2-tab",
+          "target": "testimonial-tab2",
+          "isSelected": false,
+          "img": "/images/testimonial/testimonial-2.jpg"
+        },
+        {
+          "tab": "testimonial-tab3-tab",
+          "target": "testimonial-tab3",
+          "isSelected": false,
+          "img": "/images/testimonial/testimonial-3.jpg"
+        },
+        {
+          "tab": "testimonial-tab4-tab",
+          "target": "testimonial-tab4",
+          "isSelected": false,
+          "img": "/images/testimonial/testimonial-4.jpg"
+        },
+        {
+          "tab": "testimonial-tab5-tab",
+          "target": "testimonial-tab5",
+          "isSelected": false,
+          "img": "/images/testimonial/testimonial-5.jpg"
+        },
+        {
+          "tab": "testimonial-tab6-tab",
+          "target": "testimonial-tab6",
+          "isSelected": false,
+          "img": "/images/testimonial/testimonial-6.jpg"
+        },
+        {
+          "tab": "testimonial-tab7-tab",
+          "target": "testimonial-tab7",
+          "isSelected": false,
+          "img": "/images/testimonial/testimonial-7.jpg"
+        },
+        {
+          "tab": "testimonial-tab8-tab",
+          "target": "testimonial-tab8",
+          "isSelected": false,
+          "img": "/images/testimonial/testimonial-8.jpg"
+        }
+      ],
+      "body": [
+        {
+          "tab": "testimonial-tab1-tab",
+          "target": "testimonial-tab1",
+          "isSelected": true,
+          "desc": "Histudy The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "name": "Histudy",
+          "post": "COO, AMERIMAR ENTERPRISES, INC."
+        },
+        {
+          "tab": "testimonial-tab2-tab",
+          "target": "testimonial-tab2",
+          "isSelected": false,
+          "desc": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "name": "Nira",
+          "post": "COO, AMERIMAR ENTERPRISES, INC."
+        },
+        {
+          "tab": "testimonial-tab3-tab",
+          "target": "testimonial-tab3",
+          "isSelected": false,
+          "desc": "Rainbowq The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "name": "Jone Jane",
+          "post": "COO, AMERIMAR ENTERPRISES, INC."
+        },
+        {
+          "tab": "testimonial-tab4-tab",
+          "target": "testimonial-tab4",
+          "isSelected": false,
+          "desc": "Janen The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "name": "Janen Asrafy",
+          "post": "COO, AMERIMAR ENTERPRISES, INC."
+        },
+        {
+          "tab": "testimonial-tab5-tab",
+          "target": "testimonial-tab5",
+          "isSelected": false,
+          "desc": "Afrin The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "name": "Afrin",
+          "post": "COO, AMERIMAR ENTERPRISES, INC."
+        },
+        {
+          "tab": "testimonial-tab6-tab",
+          "target": "testimonial-tab6",
+          "isSelected": false,
+          "desc": "Education The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "name": "Asrafy",
+          "post": "COO, AMERIMAR ENTERPRISES, INC."
+        },
+        {
+          "tab": "testimonial-tab7-tab",
+          "target": "testimonial-tab7",
+          "isSelected": false,
+          "desc": "Mohima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "name": "Mohima Asrafy",
+          "post": "COO, AMERIMAR ENTERPRISES, INC."
+        },
+        {
+          "tab": "testimonial-tab8-tab",
+          "target": "testimonial-tab8",
+          "isSelected": false,
+          "desc": "Nuha The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
+          "name": "Nuha",
+          "post": "COO, AMERIMAR ENTERPRISES, INC."
+        }
+      ]
+    }
+  ],
+  "testimonialTwo": [
+    {
+      "left": [
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-02.png",
+          "title": "Michael D. Lovelady",
+          "position": "CEO",
+          "company": "@ Google",
+          "desc": "Histudy education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. "
+        },
+        {
+          "img": "/images/testimonial/client-03.png",
+          "title": "Valerie J. Creasman",
+          "position": "Executive Designer",
+          "company": "@ Google",
+          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. "
+        },
+        {
+          "img": "/images/testimonial/client-04.png",
+          "title": "Hannah R. Sutton",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "People says about, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-05.png",
+          "title": "Pearl B. Hill",
+          "position": "Chairman SR",
+          "company": "@ Facebook",
+          "desc": "Like this histudy, vulputate at sapien sit amet,auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-06.png",
+          "title": "Mandy F. Wood",
+          "position": "SR Designer",
+          "company": "@ Google",
+          "desc": "Educational template, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-07.png",
+          "title": "Mildred W. Diaz",
+          "position": "Executive Officer",
+          "company": "@ Yelp",
+          "desc": "Online leaning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        },
+        {
+          "img": "/images/testimonial/client-08.png",
+          "title": "Christopher H. Win",
+          "position": "Product Designer",
+          "company": "@ Google",
+          "desc": "Remote learning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+        },
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "University managemnet, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+        }
+      ],
+      "right": [
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-02.png",
+          "title": "Michael D. Lovelady",
+          "position": "CEO",
+          "company": "@ Google",
+          "desc": "Histudy education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. "
+        },
+        {
+          "img": "/images/testimonial/client-03.png",
+          "title": "Valerie J. Creasman",
+          "position": "Executive Designer",
+          "company": "@ Google",
+          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. "
+        },
+        {
+          "img": "/images/testimonial/client-04.png",
+          "title": "Hannah R. Sutton",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "People says about, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-05.png",
+          "title": "Pearl B. Hill",
+          "position": "Chairman SR",
+          "company": "@ Facebook",
+          "desc": "Like this histudy, vulputate at sapien sit amet,auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-06.png",
+          "title": "Mandy F. Wood",
+          "position": "SR Designer",
+          "company": "@ Google",
+          "desc": "Educational template, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-07.png",
+          "title": "Mildred W. Diaz",
+          "position": "Executive Officer",
+          "company": "@ Yelp",
+          "desc": "Online leaning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        },
+        {
+          "img": "/images/testimonial/client-08.png",
+          "title": "Christopher H. Win",
+          "position": "Product Designer",
+          "company": "@ Google",
+          "desc": "Remote learning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        },
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "University managemnet, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        }
+      ]
+    }
+  ],
+  "testimonialThree": [
+    {
+      "tag": "EDUCATION FOR EVERYONE",
+      "title": "Student's Feedback",
+      "desc": "Learning communicate to global world and build a bright future and career development, increase your skill with our histudy.",
+      "accordion": [
+        {
+          "heading": "headingOne",
+          "collapse": "collapseOne",
+          "expanded": true,
+          "show": true,
+          "collapsed": true,
+          "btnText": "What is Histudy ? How does it work?",
+          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be run their online leaning management system by histudy education template."
+        },
+        {
+          "heading": "headingTwo",
+          "collapse": "collapseTwo",
+          "expanded": false,
+          "show": false,
+          "collapsed": false,
+          "btnText": "How can I get the customer support?",
+          "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com."
+        },
+        {
+          "heading": "headingThree",
+          "collapse": "collapseThree",
+          "expanded": false,
+          "show": false,
+          "collapsed": false,
+          "btnText": "Can I get update regularly and For how long do I get updates?",
+          "desc": "Yes, We will get update the Histudy. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+        }
+      ],
+      "body": [
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+        },
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+        },
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+        }
+      ]
+    }
+  ],
+  "testimonialFour": [
+    {
+      "tag": "EDUCATION FOR EVERYONE",
+      "title": "Student's Feedback",
+      "body": [
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "company": "@ Google",
+          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "img": "/images/testimonial/client-02.png",
+          "title": "Michael D. Lovelady",
+          "position": "CEO",
+          "company": "@ Google",
+          "desc": "Histudy education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. "
+        },
+        {
+          "img": "/images/testimonial/client-03.png",
+          "title": "Valerie J. Creasman",
+          "position": "Executive Designer",
+          "company": "@ Google",
+          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+        }
+      ]
+    }
+  ],
+  "testimonialSeven": [
+    {
+      "left": [
+        {
+          "client": "/images/testimonial/client-01.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Martha Maldonado",
+          "position": "CEO",
+          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "client": "/images/testimonial/client-02.png",
+          "img": "/images/icons/google.png",
+          "title": "Michael D. Lovelady",
+          "position": "CEO",
+          "desc": "Histudy education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. Vestibulum eget risus velit."
+        },
+        {
+          "client": "/images/testimonial/client-03.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Valerie J. Creasman",
+          "position": "CEO",
+          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. "
+        },
+        {
+          "client": "/images/testimonial/client-04.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Hannah R. Sutton",
+          "position": "CEO",
+          "desc": "People says about, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "client": "/images/testimonial/client-05.png",
+          "img": "/images/icons/bing.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Pearl B. Hill",
+          "position": "Marketing",
+          "desc": "Like this histudy, vulputate at sapien sit amet,auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "client": "/images/testimonial/client-06.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Mandy F. Wood",
+          "position": "CEO",
+          "desc": "Educational template, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "client": "/images/testimonial/client-07.png",
+          "img": "/images/icons/hubs.png",
+          "title": "Mildred W. Diaz",
+          "position": "Executive",
+          "desc": "Online leaning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        },
+        {
+          "client": "/images/testimonial/client-08.png",
+          "img": "/images/icons/bing.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Christopher H. Win",
+          "position": "CEO",
+          "desc": "Remote learning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        },
+        {
+          "client": "/images/testimonial/client-09.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Martha Maldonado",
+          "position": "SR Designer",
+          "desc": "University managemnet, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+        }
+      ],
+      "right": [
+        {
+          "client": "/images/testimonial/client-01.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Martha Maldonado",
+          "position": "CEO",
+          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "client": "/images/testimonial/client-02.png",
+          "img": "/images/icons/google.png",
+          "title": "Michael D. Lovelady",
+          "position": "CEO",
+          "desc": "Histudy education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. "
+        },
+        {
+          "client": "/images/testimonial/client-03.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Valerie J. Creasman",
+          "position": "Executive Designer",
+          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+        },
+        {
+          "client": "/images/testimonial/client-04.png",
+          "img": "/images/icons/bing.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Hannah R. Sutton",
+          "position": "Executive Chairman",
+          "desc": "People says about, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "client": "/images/testimonial/client-05.png",
+          "img": "/images/icons/hubs.png",
+          "title": "Pearl B. Hill",
+          "position": "Chairman SR",
+          "desc": "Like this histudy, vulputate at sapien sit amet,auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "client": "/images/testimonial/client-06.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Mandy F. Wood",
+          "position": "SR Designer",
+          "desc": "Educational template, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+        },
+        {
+          "client": "/images/testimonial/client-07.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Mildred W. Diaz",
+          "position": "Executive Officer",
+          "company": "@ Yelp",
+          "desc": "Online leaning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        },
+        {
+          "client": "/images/testimonial/client-08.png",
+          "img": "/images/icons/bing.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Christopher H. Win",
+          "position": "Product Designer",
+          "desc": "Remote learning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        },
+        {
+          "client": "/images/testimonial/client-09.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Martha Maldonado",
+          "position": "Executive Chairman",
+          "desc": "University managemnet, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+        }
+      ]
+    }
+  ]
+}

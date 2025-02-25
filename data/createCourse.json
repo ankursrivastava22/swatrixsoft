@@ -1,0 +1,33 @@
+{
+  "createCourse": [
+    {
+      "landscape": [
+        {
+          "type": "preview",
+          "img": "/images/others/preview-01.png"
+        },
+        {
+          "type": "preview",
+          "img": "/images/others/preview-02.png"
+        },
+        {
+          "type": "preview",
+          "img": "/images/others/preview-03.png"
+        },
+        {
+          "type": "preview",
+          "img": "/images/others/preview-04.png"
+        },
+        {
+          "type": "preview",
+          "img": "/images/others/preview-05.png"
+        },
+        { "type": "port", "img": "/images/others/preview-port-01.png" },
+        { "type": "port", "img": "/images/others/preview-port-02.png" },
+        { "type": "port", "img": "/images/others/preview-port-03.png" },
+        { "type": "port", "img": "/images/others/preview-port-05.png" },
+        { "type": "port", "img": "/images/others/preview-port-06.png" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "pricingOne": [
+    {
+      "tag": "COURSE PRICING",
+      "title": "Style One",
+      "yearlyPlan": "Yearly Plan",
+      "monthlyPlan": "Monthly Plan",
+      "basicPlan": [
+        {
+          "title": "Basic Plan",
+          "badge": "Free for a Month",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 30.99,
+          "monthlyAmount": 8,
+          "monthlyDuration": "monthly",
+          "isPopular": false,
+          "isPrimary": false,
+          "isActive": false,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": true
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": true
+            }
+          ]
+        }
+      ],
+      "standardPlan": [
+        {
+          "title": "Standard Plan",
+          "badge": "Most Popular",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 100.99,
+          "monthlyAmount": 20.0,
+          "monthlyDuration": "monthly",
+          "isPopular": false,
+          "isSecondary": false,
+          "isActive": true,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": true
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": true
+            }
+          ]
+        }
+      ],
+      "exclusivePlan": [
+        {
+          "title": "Exclusive Plan",
+          "badge": "Free for a Month",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 99.99,
+          "monthlyAmount": 39.0,
+          "monthlyDuration": "monthly",
+          "isPopular": false,
+          "isPink": false,
+          "isActive": false,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": true
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pricingTwo": [
+    {
+      "tag": "COURSE PRICING",
+      "title": "Style Two",
+      "yearlyPlan": "Yearly Plan",
+      "monthlyPlan": "Monthly Plan",
+      "basicPlan": [
+        {
+          "title": "Basic Plan",
+          "badge": "Free for a Month",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 30.99,
+          "monthlyAmount": 8,
+          "monthlyDuration": "monthly",
+          "isPopular": false,
+          "isPrimary": false,
+          "isActive": false,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": false
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": false
+            }
+          ]
+        }
+      ],
+      "standardPlan": [
+        {
+          "title": "Standard Plan",
+          "badge": "Most Popular",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 100.99,
+          "monthlyAmount": 20.0,
+          "monthlyDuration": "monthly",
+          "isPopular": true,
+          "isSecondary": false,
+          "isActive": true,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": true
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": true
+            }
+          ]
+        }
+      ],
+      "exclusivePlan": [
+        {
+          "title": "Exclusive Plan",
+          "badge": "Free for a Month",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 99.99,
+          "monthlyAmount": 39.0,
+          "monthlyDuration": "monthly",
+          "isPopular": false,
+          "isPink": false,
+          "isActive": false,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": false
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pricingThree": [
+    {
+      "tag": "COURSE PRICING",
+      "title": "Style Three",
+      "yearlyPlan": "Yearly Plan",
+      "monthlyPlan": "Monthly Plan",
+      "basicPlan": [
+        {
+          "title": "Basic Plan",
+          "badge": "Free for a Month",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 30.99,
+          "monthlyAmount": 8,
+          "monthlyDuration": "monthly",
+          "isPopular": false,
+          "isPrimary": true,
+          "isActive": false,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": false
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": false
+            }
+          ]
+        }
+      ],
+      "standardPlan": [
+        {
+          "title": "Standard Plan",
+          "badge": "Most Popular",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 100.99,
+          "monthlyAmount": 20.0,
+          "monthlyDuration": "monthly",
+          "isPopular": true,
+          "isSecondary": true,
+          "isActive": true,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": true
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": true
+            }
+          ]
+        }
+      ],
+      "exclusivePlan": [
+        {
+          "title": "Exclusive Plan",
+          "badge": "Free for a Month",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 99.99,
+          "monthlyAmount": 39.0,
+          "monthlyDuration": "monthly",
+          "isPopular": false,
+          "isPink": true,
+          "isActive": false,
+          "list": [
+            {
+              "text": "Unlimited Access Courses",
+              "isCheck": true
+            },
+            {
+              "text": "Certificate After Completion",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": false
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pricingFour": [
+    {
+      "tag": "COURSE PRICING",
+      "title": "Style Four",
+      "yearlyPlan": "Yearly Plan",
+      "monthlyPlan": "Monthly Plan",
+      "basicPlan": [
+        {
+          "title": "6 weeks to 12 months",
+          "badge": "Free for a Month",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 147,
+          "monthlyAmount": 80,
+          "monthlyDuration": "monthly",
+          "img": "/images/icons/pricing-icon-01.png",
+          "isPopular": false,
+          "isPrimary": true,
+          "isActive": false,
+          "list": [
+            {
+              "text": "5 Full Days",
+              "isCheck": true
+            },
+            {
+              "text": "7:00 am to 6:00 pm",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": false
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": false
+            }
+          ]
+        }
+      ],
+      "standardPlan": [
+        {
+          "title": "12 months to 24 months",
+          "badge": "Most Popular",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 1100.99,
+          "monthlyAmount": 40.0,
+          "monthlyDuration": "monthly",
+          "img": "/images/icons/pricing-icon-02.png",
+          "isPopular": true,
+          "isSecondary": true,
+          "isActive": true,
+          "list": [
+            {
+              "text": "8 Full Days",
+              "isCheck": true
+            },
+            {
+              "text": "7:00 am to 6:00 pm",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": false
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": false
+            }
+          ]
+        }
+      ],
+      "exclusivePlan": [
+        {
+          "title": "Pre Primary Community",
+          "badge": "Free for a Month",
+          "yearlyDuration": "yearly",
+          "yearlyAmount": 999.99,
+          "monthlyAmount": 39.0,
+          "monthlyDuration": "monthly",
+          "img": "/images/icons/pricing-icon-03.png",
+          "isPopular": false,
+          "isPink": true,
+          "isActive": false,
+          "list": [
+            {
+              "text": "Pre Primary Community",
+              "isCheck": true
+            },
+            {
+              "text": "Kindergarten Community",
+              "isCheck": true
+            },
+            {
+              "text": "High Resolution Videos",
+              "isCheck": true
+            },
+            {
+              "text": "24/7 Dedicated Support",
+              "isCheck": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

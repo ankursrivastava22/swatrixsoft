@@ -1,0 +1,37 @@
+{
+  "splitOne": [
+    {
+      "tag": "University Status",
+      "title": "University Overview.",
+      "subTitle": "Campus Information",
+      "img": "/images/split/split-01.jpg",
+      "imgIcon": "/images/shape/school.png",
+      "desc": "Histudy we prepare you to launch your career by providing a supportive, creative, and professional environment from which to learn practical skills, build a network of industry contacts.",
+      "list": [
+        {
+          "text": "- Doug DeMarco, Design Prototyping Manager"
+        },
+        {
+          "text": "- 108 million paying subscribers"
+        },
+        {
+          "text": "- Over 1.7 billion hours of music played monthly"
+        },
+        {
+          "text": "- 4,000+ employees working across 16 offices"
+        }
+      ]
+    }
+  ],
+  "splitTwo": [
+    {
+      "tag": "HOW WE WORK",
+      "title": "Build your Career And Upgrade Your Life",
+      "subTitle": "Campus Information",
+      "img": "/images/split/split-01.jpg",
+      "imgTwo": "/images/others/video-01.jpg",
+      "imgIcon": "/images/icons/youtube.png",
+      "desc": "Histudy we prepare you to launch your career by providing a supportive, creative, and professional environment from which to learn practical skills, build a network of industry contacts."
+    }
+  ]
+}

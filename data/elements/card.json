@@ -1,0 +1,163 @@
+{
+  "cardOne": [
+    {
+      "title": "React Front To Back",
+      "author": "Angela",
+      "post": "Development",
+      "link": "/course-details",
+      "linkTwo": "/profile",
+      "img": "/images/course/course-online-01.jpg",
+      "avatar": "/images/client/avatar-02.png",
+      "desc": "It is a long established fact that a reader will be distracted.",
+      "button": false,
+      "rating": 15,
+      "discount": 40,
+      "lesson": 12,
+      "student": 50,
+      "price": 60,
+      "offPrice": 120
+    },
+    {
+      "title": "PHP Beginner Advanced",
+      "author": "Angela",
+      "post": "Development",
+      "link": "/course-details",
+      "linkTwo": "/profile",
+      "img": "/images/course/course-online-02.jpg",
+      "avatar": "/images/client/avatar-02.png",
+      "desc": "It is a long established fact that a reader will be distracted.",
+      "button": true,
+      "rating": 15,
+      "discount": 0,
+      "lesson": 12,
+      "student": 50,
+      "price": 60,
+      "offPrice": 120
+    },
+    {
+      "title": "Angular Zero to Mastery",
+      "author": "Slaughter",
+      "post": "Languages",
+      "link": "/course-details",
+      "linkTwo": "/profile",
+      "img": "/images/course/course-online-03.jpg",
+      "avatar": "/images/client/avatar-03.png",
+      "desc": "Angular Js long fact that a reader will be distracted by the readable.",
+      "button": false,
+      "rating": 5,
+      "discount": 10,
+      "lesson": 8,
+      "student": 30,
+      "price": 80,
+      "offPrice": 100
+    }
+  ],
+  "cardTwo": [
+    {
+      "title": "Chemistry",
+      "badge": "Product Course",
+      "link": "/course-details",
+      "img": "/images/blog/blog-card-01.jpg",
+      "desc": "It is a long established fact that a reader will be distracted.",
+      "width": 638,
+      "height": 330,
+      "children": [
+        {
+          "title": "Competitive Strategy law of education.",
+          "link": "/course-details",
+          "img": "/images/blog/blog-card-02.jpg",
+          "width": 290,
+          "height": 150,
+          "mt": false
+        },
+        {
+          "title": "Difficult Things About Education.",
+          "link": "/course-details",
+          "img": "/images/blog/blog-card-03.jpg",
+          "width": 290,
+          "height": 150,
+          "mt": true
+        },
+        {
+          "title": "Education Is So Famous, But Know.",
+          "link": "/course-details",
+          "img": "/images/blog/blog-card-04.jpg",
+          "width": 290,
+          "height": 150,
+          "mt": true
+        }
+      ]
+    }
+  ],
+  "cardThree": [
+    {
+      "title": "React Front To Back",
+      "author": "Angela",
+      "post": "Development",
+      "link": "/course-details",
+      "linkTwo": "/profile",
+      "img": "/images/course/course-list-01.jpg",
+      "avatar": "/images/client/avatar-02.png",
+      "desc": "It is a long established fact that a reader will be distracted.",
+      "button": false,
+      "rating": 15,
+      "lesson": 12,
+      "student": 50,
+      "price": 60,
+      "offPrice": 120
+    },
+    {
+      "title": "PHP Beginner Advanced",
+      "author": "Angela",
+      "post": "Development",
+      "link": "/course-details",
+      "linkTwo": "/profile",
+      "img": "/images/course/course-list-02.jpg",
+      "avatar": "/images/client/avatar-02.png",
+      "desc": "It is a long established fact that a reader will be distracted.",
+      "button": true,
+      "rating": 15,
+      "lesson": 12,
+      "student": 50,
+      "price": 60,
+      "offPrice": 120
+    }
+  ],
+  "cardFour": [
+    {
+      "title": "Difficult Things About Education.",
+      "categoryOne": "Design",
+      "categoryTwo": "Development",
+      "link": "/course-details",
+      "img": "/images/course/course-list-03.jpg",
+      "desc": "It is a long established fact that a reader will be distracted.",
+      "lesson": 12
+    },
+    {
+      "title": "Web Designs About Education.",
+      "categoryOne": "Web",
+      "categoryTwo": "Development",
+      "link": "/course-details",
+      "img": "/images/course/course-list-04.jpg",
+      "desc": "It is a long established fact that a reader will be distracted.",
+      "lesson": 12
+    }
+  ],
+  "cardFive": [
+    {
+      "title": "Difficult Things About Education.",
+      "link": "/course-details",
+      "img": "/images/course/language-academy-01.jpg"
+    },
+    {
+      "title": "Web Designs About Education.",
+      "link": "/course-details",
+      "img": "/images/course/language-academy-02.jpg"
+    },
+    {
+      "title": "English Class About Education.",
+      "link": "/course-details",
+      "img": "/images/course/language-academy-03.jpg"
+    }
+  ]
+}

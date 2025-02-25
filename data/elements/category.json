@@ -1,0 +1,108 @@
+{
+  "categoryItemOne": [
+    {
+      "text": "Web Design",
+      "link": "#"
+    },
+    {
+      "text": "Art",
+      "link": "#"
+    },
+    {
+      "text": "Figma",
+      "link": "#"
+    },
+    {
+      "text": "Adobe",
+      "link": "#"
+    },
+    {
+      "text": "Math",
+      "link": "#"
+    }
+  ],
+  "categoryItemTwo": [
+    {
+      "text": "Photo",
+      "link": "#"
+    },
+    {
+      "text": "English",
+      "link": "#"
+    },
+    {
+      "text": "Figma",
+      "link": "#"
+    },
+    {
+      "text": "Web Development",
+      "link": "#"
+    },
+    {
+      "text": "Read",
+      "link": "#"
+    }
+  ],
+  "categoryItemThree": [
+    {
+      "text": "Child List 01",
+      "link": "#"
+    },
+    {
+      "text": "Child List 09",
+      "link": "#"
+    },
+    {
+      "text": "Child List 02",
+      "link": "#"
+    },
+    {
+      "text": "Child List 10",
+      "link": "#"
+    },
+    {
+      "text": "Child List 03",
+      "link": "#"
+    },
+    {
+      "text": "Child List 11",
+      "link": "#"
+    },
+    {
+      "text": "Child List 04",
+      "link": "#"
+    },
+    {
+      "text": "Child List 12",
+      "link": "#"
+    },
+    {
+      "text": "Child List 05",
+      "link": "#"
+    },
+    {
+      "text": "Child List 13",
+      "link": "#"
+    },
+    {
+      "text": "Child List 06",
+      "link": "#"
+    },
+    {
+      "text": "Child List 14",
+      "link": "#"
+    },
+    {
+      "text": "Child List 07",
+      "link": "#"
+    },
+    {
+      "text": "Child List 15",
+      "link": "#"
+    },
+    {
+      "text": "Child List 08",
+      "link": "#"
+    }
+  ]
+}

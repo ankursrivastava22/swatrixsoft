@@ -1,0 +1,55 @@
+{
+  "collectionOne": [
+    {
+      "left": [
+        {
+          "tag": "New Collection",
+          "title": "Online Courses from Histudy",
+          "desc": "Top instructors from around the world",
+          "img": "/images/others/video-01.jpg"
+        }
+      ],
+      "right": [
+        {
+          "tag": "Top Teacher",
+          "title": "Free Online Courses from Histudy School To Education",
+          "desc": "Top instructors from around the world"
+        }
+      ]
+    }
+  ],
+  "collectionTwo": [
+    {
+      "tag": "CALL TO ACTION",
+      "title": "Style Two",
+      "subTitle": "Ready to start creating a standard website?",
+      "desc": "Finest choice for your home & office",
+      "img": "/images/shape/cta-text.png"
+    }
+  ],
+  "collectionThree": [
+    {
+      "tag": "CALL TO ACTION",
+      "title": "Style Three",
+      "subTitle": "Ready to start creating a standard website?"
+    }
+  ],
+  "collectionFour": [
+    {
+      "title": "Ready to start creating a Educational Website?",
+      "img": "/images/shape/cta.png"
+    }
+  ],
+  "collectionFive": [
+    {
+      "title": "Download our mobile app, start learning today",
+      "desc": "Includes all Course && Features"
+    }
+  ],
+  "collectionSix": [
+    {
+      "title": "Scholarship Programs",
+      "desc": "Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September 2024 · Undergraduate & Graduate Admission: Fall 2024 Semester · 20% Waiver on ..."
+    }
+  ]
+}

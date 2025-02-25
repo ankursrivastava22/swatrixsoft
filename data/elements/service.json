@@ -1,0 +1,701 @@
+{
+  "serviceOne": [
+    {
+      "sectionTitle": "Style One.",
+      "body": [
+        {
+          "title": "Best Coaching",
+          "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.",
+          "img": "/images/icons/card-icon-1.png",
+          "bgOne": true,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFour": false
+        },
+        {
+          "title": "Convenient practice",
+          "desc": "Convenient practice dolor sit adipisicing elit. Minima error reiciendis.",
+          "img": "/images/icons/card-icon-2.png",
+          "bgTwo": true,
+          "bgOne": false,
+          "bgThree": false,
+          "bgFour": false
+        },
+        {
+          "title": "Video Lecture",
+          "desc": "Video Lecture sit, amet consectetur adipisicing elit. Minima error reiciendis..",
+          "img": "/images/icons/card-icon-3.png",
+          "bgThree": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgFour": false
+        },
+        {
+          "title": "Live Class",
+          "desc": "Live Class dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.",
+          "img": "/images/icons/card-icon-4.png",
+          "bgFour": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgThree": false
+        }
+      ]
+    }
+  ],
+  "serviceTwo": [
+    {
+      "sectionTitle": "Style Two.",
+      "body": [
+        {
+          "title": "React",
+          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "img": "/images/service/service-01.png"
+        },
+        {
+          "title": "English",
+          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "img": "/images/service/service-02.png"
+        },
+        {
+          "title": "Education",
+          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "img": "/images/service/service-03.png"
+        }
+      ]
+    }
+  ],
+  "serviceThree": [
+    {
+      "sectionTitle": "Style Three.",
+      "body": [
+        {
+          "title": "React",
+          "desc": "React Js dolor sit, amet consectetur.",
+          "img": "/images/service/service-06.png",
+          "bgOne": true,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFour": false
+        },
+        {
+          "title": "English",
+          "desc": "Spken english dolor sit, amet consectetur.",
+          "img": "/images/service/service-05.png",
+          "bgTwo": true,
+          "bgOne": false,
+          "bgThree": false,
+          "bgFour": false
+        },
+        {
+          "title": "Education",
+          "desc": "Eearning edu dolor sit, amet consectetur.",
+          "img": "/images/service/service-03.png",
+          "bgThree": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgFour": false
+        },
+        {
+          "title": "Education",
+          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "img": "/images/service/service-04.png",
+          "bgFour": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgThree": false
+        }
+      ]
+    }
+  ],
+  "serviceFour": [
+    {
+      "sectionTitle": "Style Four.",
+      "body": [
+        {
+          "title": "Chemistry",
+          "course": 5,
+          "img": "/images/shape/icon-01.png"
+        },
+        {
+          "title": "Accounting",
+          "course": 40,
+          "img": "/images/shape/icon-02.png"
+        },
+        {
+          "title": "Management",
+          "course": 60,
+          "img": "/images/shape/icon-03.png"
+        },
+        {
+          "title": "Art & Design",
+          "course": 20,
+          "img": "/images/shape/icon-04.png"
+        },
+        {
+          "title": "Biology",
+          "course": 20,
+          "img": "/images/shape/icon-05.png"
+        },
+        {
+          "title": "Marketing",
+          "course": 20,
+          "img": "/images/shape/icon-06.png"
+        },
+        {
+          "title": "Astrology",
+          "course": 25,
+          "img": "/images/shape/icon-07.png"
+        },
+        {
+          "title": "Engineering ",
+          "course": 10,
+          "img": "/images/shape/icon-08.png"
+        }
+      ]
+    }
+  ],
+  "serviceFive": [
+    {
+      "sectionTitle": "Style Five.",
+      "body": [
+        {
+          "title": "Your Apply",
+          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/001-bulb.png"
+        },
+        {
+          "title": "We Connect",
+          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/002-hat.png"
+        },
+        {
+          "title": "You Get Ready",
+          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/003-id-card.png"
+        },
+        {
+          "title": "Modern Skills",
+          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/004-pass.png"
+        }
+      ]
+    }
+  ],
+  "serviceSix": [
+    {
+      "sectionTitle": "Style Six.",
+      "body": [
+        {
+          "title": "Grow Confident",
+          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-01.png",
+          "bgOne": true,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFour": false
+        },
+        {
+          "title": "Accive Good Job",
+          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-04.png",
+          "bgTwo": true,
+          "bgOne": false,
+          "bgThree": false,
+          "bgFour": false
+        },
+        {
+          "title": "Best Learning",
+          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-03.png",
+          "bgThree": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgFour": false
+        },
+        {
+          "title": "Modern Skills",
+          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-02.png",
+          "bgFour": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgThree": false
+        }
+      ]
+    }
+  ],
+  "serviceSaven": [
+    {
+      "sectionTitle": "Style Seven.",
+      "title": "What will you learn after the course?.",
+      "desc": "There are many variations of passages of the Ipsum available.",
+      "body": [
+        {
+          "title": "English Learning",
+          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-01.png",
+          "bgOne": true,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFour": false,
+          "bgFive": false
+        },
+        {
+          "title": "Javascript Learning",
+          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-04.png",
+          "bgTwo": true,
+          "bgOne": false,
+          "bgThree": false,
+          "bgFour": false,
+          "bgFive": false
+        },
+        {
+          "title": "Angular Learning",
+          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-03.png",
+          "bgThree": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgFour": false,
+          "bgFive": false
+        },
+        {
+          "title": "Php Learning",
+          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/shape/service-02.png",
+          "bgFour": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFive": false
+        },
+        {
+          "title": "Spoken English",
+          "desc": "Spoken english looking for random paragraphs, you've come to the right place. When a random word.",
+          "img": "/images/shape/service-05.png",
+          "bgFive": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFour": false
+        }
+      ]
+    }
+  ],
+  "serviceEight": [
+    {
+      "sectionTitle": "Style Eight.",
+      "body": [
+        {
+          "title": "Chemistry",
+          "img": "/images/category/image/web-design.jpg"
+        },
+        {
+          "title": "Graphic Design",
+          "img": "/images/category/image/graphic-design.jpg"
+        },
+        {
+          "title": "Software",
+          "img": "/images/category/image/software.jpg"
+        },
+        {
+          "title": "Mobile App",
+          "img": "/images/category/image/mobile.jpg"
+        },
+        {
+          "title": "Finance",
+          "img": "/images/category/image/finance.jpg"
+        },
+        {
+          "title": "Art & Humanities",
+          "img": "/images/category/image/arts.jpg"
+        }
+      ]
+    }
+  ],
+  "serviceNine": [
+    {
+      "sectionTitle": "Style Nine.",
+      "body": [
+        {
+          "title": "Best Coaching",
+          "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.",
+          "img": "/images/icons/card-icon-1.png",
+          "bgOne": true,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFour": false,
+          "list": [
+            {
+              "text": "570 Free Video",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "35 Subjects",
+              "icon": "feather-book"
+            },
+            {
+              "text": "Live Class",
+              "icon": "feather-video"
+            },
+            {
+              "text": "MCQ and CQ Bank",
+              "icon": "feather-info"
+            }
+          ]
+        },
+        {
+          "title": "Convenient practice",
+          "desc": "Convenient practice dolor sit adipisicing elit. Minima error reiciendis.",
+          "img": "/images/icons/card-icon-2.png",
+          "bgTwo": true,
+          "bgOne": false,
+          "bgThree": false,
+          "bgFour": false,
+          "list": [
+            {
+              "text": "370 Free Video",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "120 Subjects",
+              "icon": "feather-book"
+            },
+            {
+              "text": "Live Class",
+              "icon": "feather-video"
+            },
+            {
+              "text": "MCQ and CQ Bank",
+              "icon": "feather-info"
+            }
+          ]
+        },
+        {
+          "title": "Video Lecture",
+          "desc": "Video Lecture sit, amet consectetur adipisicing elit. Minima error reiciendis..",
+          "img": "/images/icons/card-icon-3.png",
+          "bgThree": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgFour": false,
+          "list": [
+            {
+              "text": "125 Free Video",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "12 Subjects",
+              "icon": "feather-book"
+            },
+            {
+              "text": "Live Class",
+              "icon": "feather-video"
+            },
+            {
+              "text": "MCQ and CQ Bank",
+              "icon": "feather-info"
+            }
+          ]
+        },
+        {
+          "title": "Live Class",
+          "desc": "Live Class dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.",
+          "img": "/images/icons/card-icon-4.png",
+          "bgFour": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgThree": false,
+          "list": [
+            {
+              "text": "124 Free Video",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "56 Subjects",
+              "icon": "feather-book"
+            },
+            {
+              "text": "Live Class",
+              "icon": "feather-video"
+            },
+            {
+              "text": "MCQ and CQ Bank",
+              "icon": "feather-info"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serviceTen": [
+    {
+      "sectionTitle": "Style Ten.",
+      "body": [
+        {
+          "title": "BCS Exam",
+          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "img": "/images/service/service-01.png",
+          "listLeft": [
+            {
+              "text": "125  Free Video",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "12 Subjects",
+              "icon": "feather-book"
+            }
+          ],
+          "listRight": [
+            {
+              "text": "Live Class",
+              "icon": "feather-video"
+            },
+            {
+              "text": "MCQ and CQ Bank",
+              "icon": "feather-info"
+            }
+          ]
+        },
+        {
+          "title": "Medical Exam",
+          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "img": "/images/service/service-02.png",
+          "listLeft": [
+            {
+              "text": "785 Free Video",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "95 Subjects",
+              "icon": "feather-book"
+            }
+          ],
+          "listRight": [
+            {
+              "text": "Live Class",
+              "icon": "feather-video"
+            },
+            {
+              "text": "MCQ and CQ Bank",
+              "icon": "feather-info"
+            }
+          ]
+        },
+        {
+          "title": "University Admit Exam",
+          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "img": "/images/service/service-03.png",
+          "listLeft": [
+            {
+              "text": "123 Free Video",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "85 Subjects",
+              "icon": "feather-book"
+            }
+          ],
+          "listRight": [
+            {
+              "text": "Live Class",
+              "icon": "feather-video"
+            },
+            {
+              "text": "MCQ and CQ Bank",
+              "icon": "feather-info"
+            }
+          ]
+        },
+        {
+          "title": "IELTS Exam",
+          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "img": "/images/service/service-03.png",
+          "listLeft": [
+            {
+              "text": "150 Free Video",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "26 Subjects",
+              "icon": "feather-book"
+            }
+          ],
+          "listRight": [
+            {
+              "text": "Live Class",
+              "icon": "feather-video"
+            },
+            {
+              "text": "MCQ and CQ Bank",
+              "icon": "feather-info"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serviceEleven": [
+    {
+      "sectionTitle": "Style Eleven.",
+      "body": [
+        {
+          "title": "Infant",
+          "imgFront": "/images/flip/kindergarten-01-front.jpg",
+          "img": "/images/flip/kindergarten-01-back.jpg",
+          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
+          "bgOne": true,
+          "bgTwo": false,
+          "bgThree": false,
+          "bgFour": false,
+          "list": [
+            {
+              "text": "Health and Wellness",
+              "icon": "feather-heart"
+            },
+            {
+              "text": "Literacy and Language",
+              "icon": "feather-flag"
+            },
+            {
+              "text": "Social-Emotional Learning",
+              "icon": "feather-eye"
+            },
+            {
+              "text": "Visual and Creative Arts",
+              "icon": "feather-edit-2"
+            },
+            {
+              "text": "Thinking and Learning",
+              "icon": "feather-battery-charging"
+            }
+          ]
+        },
+        {
+          "title": "Toddler/Twos",
+          "imgFront": "/images/flip/kindergarten-02-front.jpg",
+          "img": "/images/flip/kindergarten-02-back.jpg",
+          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
+          "bgTwo": true,
+          "bgOne": false,
+          "bgThree": false,
+          "bgFour": false,
+          "list": [
+            {
+              "text": "Health and Wellness",
+              "icon": "feather-heart"
+            },
+            {
+              "text": "Literacy and Language",
+              "icon": "feather-flag"
+            },
+            {
+              "text": "Social-Emotional Learning",
+              "icon": "feather-eye"
+            },
+            {
+              "text": "Visual and Creative Arts",
+              "icon": "feather-edit-2"
+            },
+            {
+              "text": "Thinking and Learning",
+              "icon": "feather-battery-charging"
+            }
+          ]
+        },
+        {
+          "title": "Preschool",
+          "imgFront": "/images/flip/kindergarten-03-front.jpg",
+          "img": "/images/flip/kindergarten-03-back.jpg",
+          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
+          "bgThree": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgFour": false,
+          "list": [
+            {
+              "text": "Health and Wellness",
+              "icon": "feather-heart"
+            },
+            {
+              "text": "Literacy and Language",
+              "icon": "feather-flag"
+            },
+            {
+              "text": "Social-Emotional Learning",
+              "icon": "feather-eye"
+            },
+            {
+              "text": "Visual and Creative Arts",
+              "icon": "feather-edit-2"
+            },
+            {
+              "text": "Thinking and Learning",
+              "icon": "feather-battery-charging"
+            }
+          ]
+        },
+        {
+          "title": "Kindergarten Prep",
+          "imgFront": "/images/flip/kindergarten-04-front.jpg",
+          "img": "/images/flip/kindergarten-04-back.jpg",
+          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
+          "bgFour": true,
+          "bgOne": false,
+          "bgTwo": false,
+          "bgThree": false,
+          "list": [
+            {
+              "text": "Health and Wellness",
+              "icon": "feather-heart"
+            },
+            {
+              "text": "Literacy and Language",
+              "icon": "feather-flag"
+            },
+            {
+              "text": "Social-Emotional Learning",
+              "icon": "feather-eye"
+            },
+            {
+              "text": "Visual and Creative Arts",
+              "icon": "feather-edit-2"
+            },
+            {
+              "text": "Thinking and Learning",
+              "icon": "feather-battery-charging"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serviceTwelve": [
+    {
+      "sectionTitle": "Style Twelve.",
+      "body": [
+        {
+          "title": "Your Apply",
+          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/001-bulb.png"
+        },
+        {
+          "title": "We Connect",
+          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/002-hat.png"
+        },
+        {
+          "title": "You Get Ready",
+          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/003-id-card.png"
+        },
+        {
+          "title": "Completed",
+          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "img": "/images/icons/004-pass.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "lesson": [
+    {
+      "id": 1,
+      "title": "Welcome",
+      "isShow": true,
+      "listItem": [
+        {
+          "lssonLink": "/lesson",
+          "lssonIntroLink": false,
+          "lessonName": "Course Intro",
+          "lable": true,
+          "time": 30,
+          "unread": false,
+          "isCircle": true
+        },
+        {
+          "lssonLink": "/lesson-intro",
+          "lessonName": "Introduction",
+          "iconFile": true,
+          "lable": false,
+          "time": 30,
+          "unread": false,
+          "isCircle": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Welcome Lessons",
+      "isShow": false,
+      "listItem": [
+        {
+          "lssonLink": "/lesson",
+          "lessonName": "Hello World!",
+          "lable": true,
+          "time": 2,
+          "unread": false,
+          "isCircle": true
+        },
+        {
+          "lssonLink": "#",
+          "lessonName": "Values and Variables",
+          "lable": true,
+          "time": 20,
+          "unread": true,
+          "isCircle": true
+        },
+        {
+          "lssonLink": "#",
+          "lessonName": "Basic Operators",
+          "lable": true,
+          "time": 15,
+          "unread": true,
+          "isCircle": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Histudy Quiz",
+      "isShow": false,
+      "listItem": [
+        {
+          "lssonLink": "/questions-types",
+          "lessonName": "Questions Types",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        },
+        {
+          "lssonLink": "/all-questions",
+          "lessonName": "Questions Below Each Other",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        },
+        {
+          "lssonLink": "/pagination-quiz",
+          "lessonName": "Pagination Quiz Style",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        },
+        {
+          "lssonLink": "/single-question",
+          "lessonName": "Single Question",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        },
+        {
+          "lssonLink": "/quiz-with-point",
+          "lessonName": "Quiz with individual point",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        },
+        {
+          "lssonLink": "/quiz-with-custom-timer",
+          "lessonName": "Quiz with custom timer",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        },
+        {
+          "lssonLink": "/lesson-quiz",
+          "lessonName": "Histudy Quiz Start",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        },
+        {
+          "lssonLink": "/lesson-quiz-result",
+          "lessonName": "Histudy Quiz Result",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Histudy Assignments",
+      "isShow": false,
+      "listItem": [
+        {
+          "lssonLink": "/lesson-assignments",
+          "lessonName": "Histudy Assignments",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        },
+        {
+          "lssonLink": "/lesson-assignments-submit",
+          "lessonName": "Histudy Assignments Submit",
+          "lable": true,
+          "time": 0,
+          "unread": true,
+          "isCircle": false,
+          "iconHelp": true
+        }
+      ]
+    }
+  ],
+  "lessonQuiz": [
+    {
+      "date": "December 26, 2024",
+      "qus": 4,
+      "tm": 8,
+      "ca": 4,
+      "ia": 4,
+      "marks": 0,
+      "isPass": true
+    },
+    {
+      "date": "December 26, 2024",
+      "qus": 4,
+      "tm": 8,
+      "ca": 4,
+      "ia": 0,
+      "marks": 0,
+      "isPass": true
+    },
+    {
+      "date": "December 26, 2024",
+      "qus": 4,
+      "tm": 8,
+      "ca": 4,
+      "ia": 0,
+      "marks": 0,
+      "isPass": true
+    },
+    {
+      "date": "December 26, 2024",
+      "qus": 4,
+      "tm": 8,
+      "ca": 4,
+      "ia": 1,
+      "marks": 0,
+      "isPass": false
+    }
+  ]
+}

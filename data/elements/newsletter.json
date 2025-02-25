@@ -1,0 +1,45 @@
+{
+  "newsletterOne": [
+    {
+      "subTitle": "Get Latest Histudy Update",
+      "strong": "Subscribe",
+      "title": "Our Newsletter",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+    }
+  ],
+  "newsletterTwo": [
+    {
+      "subTitle": "Get Latest Histudy Update",
+      "strong": "Subscribe",
+      "title": "Our Newsletter",
+      "text": "No ads, No trails, No commitments",
+      "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam explicabo sit est eos earum reprehenderit inventore nam autem corrupti rerum!",
+      "body": [
+        {
+          "num": 500,
+          "title": "Successfully Trained",
+          "subTitle": "Learners & counting",
+          "offset": true
+        },
+        {
+          "num": 100,
+          "title": "Certification Students",
+          "subTitle": "Online Course",
+          "offset": false
+        }
+      ]
+    }
+  ],
+  "newsletterThree": [
+    {
+      "subTitle": "Subscribe",
+      "title": "Our Newsletter"
+    }
+  ],
+  "newsletterFour": [
+    {
+      "title": "Want to get special offers",
+      "subTitle": "and Course updates?"
+    }
+  ]
+}

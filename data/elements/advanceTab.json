@@ -1,0 +1,202 @@
+{
+  "advanceOne": [
+    {
+      "tag": "YOU CAN CUSTOMIZE ALL",
+      "title": "Advance Tab Style One.",
+      "body": [
+        {
+          "text": "Market Researce.",
+          "isActive": false,
+          "tab": "home-tab",
+          "target": "home",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-03.jpg"
+        },
+        {
+          "text": "Corporate Report.",
+          "isActive": true,
+          "tab": "profile-tab",
+          "target": "profile",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-02.jpg"
+        },
+        {
+          "text": "App Development.",
+          "isActive": false,
+          "tab": "contact-tab",
+          "target": "contact",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-01.jpg"
+        }
+      ]
+    }
+  ],
+  "advanceTwo": [
+    {
+      "tag": "YOU CAN CUSTOMIZE ALL",
+      "title": "Advance Tab Style Two.",
+
+      "body": [
+        {
+          "text": "Market Researce.",
+          "isActive": false,
+          "tab": "home-tab-2",
+          "target": "home-2",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-04.jpg"
+        },
+        {
+          "text": "Corporate Report.",
+          "isActive": true,
+          "tab": "profile-tab-2",
+          "target": "profile-2",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-05.jpg"
+        },
+        {
+          "text": "App Development.",
+          "isActive": false,
+          "tab": "contact-tab-2",
+          "target": "contact-2",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-06.jpg"
+        }
+      ]
+    }
+  ],
+  "advanceThree": [
+    {
+      "tag": "YOU CAN CUSTOMIZE ALL",
+      "title": "Advance Tab Style Three.",
+
+      "body": [
+        {
+          "text": "Market Researce.",
+          "isActive": false,
+          "tab": "home-tab-3",
+          "target": "home-3",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-07.jpg"
+        },
+        {
+          "text": "Corporate Report.",
+          "isActive": true,
+          "tab": "profile-tab-3",
+          "target": "profile-3",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-08.jpg"
+        },
+        {
+          "text": "App Development.",
+          "isActive": false,
+          "tab": "contact-tab-3",
+          "target": "contact-3",
+          "desc": "Use Doob template you can build a corporate website a short time.",
+          "img": "/images/tab/tabs-09.jpg"
+        }
+      ]
+    }
+  ],
+  "advanceFour": [
+    {
+      "tag": "YOU CAN CUSTOMIZE ALL",
+      "title": "Advance Tab Style Four.",
+      "body": [
+        {
+          "text": "Educational Technology.",
+          "isActive": false,
+          "tab": "home-tab-4",
+          "target": "home-4",
+          "controls": "home",
+          "desc": "Educational technology ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+        },
+        {
+          "text": "Physical Education.",
+          "isActive": true,
+          "tab": "profile-tab-4",
+          "target": "profile-4",
+          "controls": "profile",
+          "desc": "Physical education ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+        },
+        {
+          "text": "Experiencing Music.",
+          "isActive": false,
+          "tab": "contact-tab-4",
+          "target": "contact-4",
+          "controls": "contact",
+          "desc": "Experiencing music ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+        }
+      ],
+      "gallery": [
+        {
+          "text": "Education",
+          "img": "/images/gallery/gallery-01.jpg",
+          "width": 638,
+          "height": 623,
+          "subGallery": [
+            {
+              "text": "React",
+              "lgImg": true,
+              "smImg": false,
+              "img": "/images/gallery/gallery-02.jpg",
+              "width": 638,
+              "height": 294
+            },
+            {
+              "text": "Javascript",
+              "lgImg": false,
+              "smImg": true,
+              "img": "/images/gallery/gallery-03.jpg",
+              "width": 304,
+              "height": 298
+            },
+            {
+              "text": "Vue-Js",
+              "lgImg": false,
+              "smImg": true,
+              "img": "/images/gallery/gallery-04.jpg",
+              "width": 304,
+              "height": 298
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "advanceFive": [
+    {
+      "tag": "YOU CAN CUSTOMIZE ALL",
+      "title": "Advance Tab Style Five.",
+      "img": "/images/tab/tabs-02.jpg",
+      "body": [
+        {
+          "text": "Strategy",
+          "isActive": true,
+          "tab": "home-tab-5",
+          "target": "home-5",
+          "controls": "home",
+          "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo.",
+          "descTwo": "Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo."
+        },
+        {
+          "text": "Reporting",
+          "isActive": false,
+          "tab": "profile-tab-5",
+          "target": "profile-5",
+          "controls": "profile",
+          "desc": "Ipsum lorem dolor sit amet consectetur, adipisicing elit. Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo.",
+          "descTwo": "Ipsa Quibusdam, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo.."
+        },
+        {
+          "text": "Development",
+          "isActive": false,
+          "tab": "contact-tab-5",
+          "target": "contact-5",
+          "controls": "contact",
+          "desc": "Exercitationem Ipsum lorem dolor sit amet consectetur, adipisicing elit. Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla tempore corrupti! Nemo.",
+          "descTwo": "Ipsa Quibusdam, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo."
+        }
+      ]
+    }
+  ]
+}

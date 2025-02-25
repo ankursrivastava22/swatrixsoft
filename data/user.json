@@ -1,0 +1,50 @@
+{
+  "user": [
+    {
+      "name": "Rainbow Dev",
+      "img": "/images/team/avatar.jpg",
+      "userList": [
+        {
+          "icon": "feather-home",
+          "text": "My Dashboard",
+          "link": "/instructor/instructor-dashboard"
+        },
+        {
+          "icon": "feather-bookmark",
+          "text": "Bookmark",
+          "link": "#"
+        },
+        {
+          "icon": "feather-shopping-bag",
+          "text": "Enrolled Courses",
+          "link": "/instructor/instructor-enrolled-course"
+        },
+        {
+          "icon": "feather-heart",
+          "text": "Wishlist",
+          "link": "/instructor/instructor-wishlist"
+        },
+        {
+          "icon": "feather-star",
+          "text": "Reviews",
+          "link": "/instructor/instructor-reviews"
+        },
+        {
+          "icon": "feather-list",
+          "text": "My Quiz Attempts",
+          "link": "/instructor/instructor-my-quiz-attempts"
+        },
+        {
+          "icon": "feather-clock",
+          "text": "Order History",
+          "link": "/instructor/instructor-order-history"
+        },
+        {
+          "icon": "feather-message-square",
+          "text": "Question & Answer",
+          "link": "/instructor/instructor-quiz-attempts"
+        }
+      ]
+    }
+  ]
+}

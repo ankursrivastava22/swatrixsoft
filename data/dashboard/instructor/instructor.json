@@ -1,0 +1,2345 @@
+[
+  {
+    "id": 1,
+    "title": "React Front To Back",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 4.8,
+      "total": 215475
+    },
+    "students": 616029,
+    "authorId": 1,
+    "courseCategory": "Development",
+    "lastUpdated": "Aug 27 2022",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 84.99,
+    "offerPrice": 60,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "progressValue": 40,
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-01.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 1,
+      "twoStar": 1,
+      "threeStar": 6,
+      "fourStar": 29,
+      "fiveStar": 63
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  },
+  {
+    "id": 2,
+    "title": "PHP Beginner Advanced",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 4.2,
+      "total": 215475
+    },
+    "students": 6160,
+    "authorId": 2,
+    "courseCategory": "Web Design",
+    "lastUpdated": "Jan 05 2024",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 100,
+    "offerPrice": 80,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "progressValue": 65,
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-02.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 1,
+      "twoStar": 1,
+      "threeStar": 6,
+      "fourStar": 5,
+      "fiveStar": 8
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  },
+  {
+    "id": 3,
+    "title": "Angular Zero to Mastery",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 5.0,
+      "total": 215475
+    },
+    "students": 6160299,
+    "authorId": 1,
+    "courseCategory": "Graphic Design",
+    "lastUpdated": "May 25 2020",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 90,
+    "offerPrice": 40,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "progressValue": 90,
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-03.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 1,
+      "twoStar": 1,
+      "threeStar": 6,
+      "fourStar": 25,
+      "fiveStar": 69
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  },
+  {
+    "id": 4,
+    "title": "Web Front To Back",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 3.5,
+      "total": 215475
+    },
+    "students": 716029,
+    "authorId": 2,
+    "courseCategory": "Development",
+    "lastUpdated": "Dec 15 2022",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 70,
+    "offerPrice": 50,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-online-01.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 6,
+      "twoStar": 5,
+      "threeStar": 6,
+      "fourStar": 65,
+      "fiveStar": 10
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  },
+  {
+    "id": 5,
+    "title": "SQL Beginner Advanced",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 4.1,
+      "total": 215475
+    },
+    "students": 456,
+    "authorId": 1,
+    "courseCategory": "Web Design",
+    "lastUpdated": "Feb 22 2022",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 90,
+    "offerPrice": 80,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-online-02.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 1,
+      "twoStar": 1,
+      "threeStar": 4,
+      "fourStar": 56,
+      "fiveStar": 42
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  },
+  {
+    "id": 6,
+    "title": "JS Zero to Mastery",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 5.0,
+      "total": 215475
+    },
+    "students": 8152,
+    "authorId": 2,
+    "courseCategory": "Graphic Design",
+    "lastUpdated": "Aug 30 2022",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 150,
+    "offerPrice": 100,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-online-03.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 1,
+      "twoStar": 1,
+      "threeStar": 6,
+      "fourStar": 40,
+      "fiveStar": 20
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  },
+  {
+    "id": 7,
+    "title": "The Complete Histudy 2022: From Zero to Expert!",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 2.8,
+      "total": 215475
+    },
+    "students": 6584,
+    "authorId": 1,
+    "courseCategory": "Development",
+    "lastUpdated": "Mar 07 2021",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 56,
+    "offerPrice": 40,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-online-04.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 1,
+      "twoStar": 3,
+      "threeStar": 6,
+      "fourStar": 35,
+      "fiveStar": 55
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  },
+  {
+    "id": 8,
+    "title": "The Complete Histudy 2022: From Zero to Expert!",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 3.1,
+      "total": 215475
+    },
+    "students": 6987,
+    "authorId": 1,
+    "courseCategory": "Web Design",
+    "lastUpdated": "Jul 26 2021",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 69,
+    "offerPrice": 55,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-online-05.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 5,
+      "twoStar": 4,
+      "threeStar": 6,
+      "fourStar": 5,
+      "fiveStar": 32
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  },
+  {
+    "id": 9,
+    "title": "The Complete Histudy 2022: From Zero to Expert!",
+    "shortDescription": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+    "sellerType": "Bestseller",
+    "rating": {
+      "average": 4.8,
+      "total": 215475
+    },
+    "students": 3654,
+    "authorId": 1,
+    "courseCategory": "Graphic Design",
+    "lastUpdated": "Apr 09 2022",
+    "courseLanguage": "English",
+    "certification": true,
+    "coursePrice": 99.99,
+    "offerPrice": 67.99,
+    "remainingTime": "3 days left!",
+    "courseDuration": "5 Hrs 20 Min",
+    "enrolledStudent": "100",
+    "lectures": "50",
+    "skillLevel": "Basic",
+    "passPercentage": 95,
+    "courseThumbnail": "/images/course/course-online-06.jpg",
+    "courseOverview": {
+      "whatYouLearn": "<p>\n                Are you new to PHP or need a refresher? Then this course will help you get\n                all the fundamentals of Procedural PHP, Object Oriented PHP, MYSQLi and\n                ending the course by building a CMS system similar to WordPress, Joomla or\n                Drupal. Knowing PHP has allowed me to make enough money to stay home and\n                make courses like this one for students all over the world. \n            </p>\n            <div className=\"row g-5 mb--30\">\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Become an advanced, confident, and\n                            modern\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have an intermediate skill level of\n                            Python\n                            programming.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the numpy library to create and\n                            manipulate\n                            arrays.\n                        </li>\n                    </ul>\n                </div>\n                <div className=\"col-lg-6\">\n                    <ul className=\"rbt-list-style-1\">\n                        <li><i className=\"feather-check\"></i>Use the Jupyter Notebook\n                            Environment.\n                            JavaScript developer from scratch.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Use the pandas module with Python\n                            to create and\n                            structure data.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Have a portfolio of various data\n                            analysis\n                            projects.\n                        </li>\n                        <li><i className=\"feather-check\"></i>Create data visualizations using\n                            matplotlib and\n                            the seaborn.\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <p>\n                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, aliquam\n                voluptas laudantium incidunt architecto nam excepturi provident rem laborum\n                repellendus placeat neque aut doloremque ut ullam, veritatis nesciunt iusto\n                officia alias, non est vitae. Eius repudiandae optio quam alias aperiam nemo\n                nam tempora, dignissimos dicta excepturi ea quo ipsum omnis maiores\n                perferendis commodi voluptatum facere vel vero. Praesentium quisquam iure\n                veritatis, perferendis adipisci sequi blanditiis quidem porro eligendi\n                fugiat facilis inventore amet delectus expedita deserunt ut molestiae modi\n                laudantium, quia tenetur animi natus ea. Molestiae molestias ducimus\n                pariatur et consectetur. Error vero, eum soluta delectus necessitatibus\n                eligendi numquam hic at?\n            </p>"
+    },
+    "courseContent": [
+      {
+        "title": "Intro to Course and Histudy",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": true
+          },
+          {
+            "title": "Watch Before Start",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "0.5 min",
+            "unlocked": true
+          },
+          {
+            "title": "Course Intro",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Fundamentals",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "You can develop skill and setup",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "15 Things To Know About Education?",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      },
+      {
+        "title": "Course Description",
+        "lectures": [
+          {
+            "title": "Course Intro",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Why You Should Not Go To Education.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          },
+          {
+            "title": "Ten Factors That Affect Education's Longevity.",
+            "type": "video",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "duration": "30 min",
+            "unlocked": false
+          },
+          {
+            "title": "Read Before You Start",
+            "type": "document",
+            "link": "https://www.youtube.com/watch?v=xFOG_9Y883c",
+            "unlocked": false
+          }
+        ]
+      }
+    ],
+    "courseRequirements": [
+      "Become an advanced, confident, and modern JavaScript developer from scratch.",
+      "Have an intermediate skill level of Python programming.",
+      "Have a portfolio of various data analysis projects.",
+      "Use the numpy library to create and manipulate arrays."
+    ],
+    "courseDescriptions": [
+      "Use the Jupyter Notebook Environment. JavaScript developer from scratch.",
+      "Use the pandas module with Python to create and structure data.",
+      "Have a portfolio of various data analysis projects.",
+      "Create data visualizations using matplotlib and the seaborn."
+    ],
+    "instructorId": 1,
+    "socialLinks": [
+      { "facebook": "https://www.facebook.com/" },
+      { "twitter": "https://twitter.com/" },
+      { "instagram": "https://www.instagram.com/" },
+      { "linkedin": "https://www.linkedin.com/" }
+    ],
+    "reviews": {
+      "oneStar": 4,
+      "twoStar": 9,
+      "threeStar": 44,
+      "fourStar": 36,
+      "fiveStar": 8
+    },
+    "featuredReviews": [1, 2, 3, 4, 5],
+    "instructorTopCourses": [2, 3],
+    "relatedCourses": [4, 5, 6]
+  }
+]

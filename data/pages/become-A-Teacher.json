@@ -1,0 +1,52 @@
+{
+  "becomeATeacher": [
+    {
+      "tag": "INSTRUCTOR",
+      "title": "Apply As Instructor",
+      "desc": "Lorem ipsum dolor sit amet, consectetur",
+      "body": [
+        {
+          "text": "Become an Intructor.",
+          "isActive": false,
+          "tab": "home-tab-4",
+          "target": "home-4",
+          "controls": "home",
+          "desc": "Educational technology ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+        },
+        {
+          "text": "Intructor Rules.",
+          "isActive": true,
+          "tab": "profile-tab-4",
+          "target": "profile-4",
+          "controls": "profile",
+          "desc": "Physical education ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+        },
+        {
+          "text": "Start with courses.",
+          "isActive": false,
+          "tab": "contact-tab-4",
+          "target": "contact-4",
+          "controls": "contact",
+          "desc": "Experiencing music ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+        }
+      ],
+      "gallery": [
+        {
+          "img": "/images/banner/gallery-banner-01.jpg",
+          "width": 1305,
+          "height": 600
+        },
+        {
+          "img": "/images/banner/gallery-banner-03.jpg",
+          "width": 1305,
+          "height": 600
+        },
+        {
+          "img": "/images/banner/gallery-banner-02.jpg",
+          "width": 1305,
+          "height": 600
+        }
+      ]
+    }
+  ]
+}

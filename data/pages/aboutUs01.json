@@ -1,0 +1,47 @@
+{
+  "aboutUsO1": [
+    {
+      "tag": "Skill Teacher",
+      "title": "Whose Inspirations You Love",
+      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "body": [
+        {
+          "img": "/images/team/team-07.jpg",
+          "name": "Alejandro",
+          "dep": "Math Teacher",
+          "address": "CO Miego, AD,USA"
+        },
+        {
+          "img": "/images/team/team-08.jpg",
+          "name": "John Due",
+          "dep": "Depertment Head",
+          "address": "CO Miego, AD,USA"
+        },
+        {
+          "img": "/images/team/team-09.jpg",
+          "name": "Joo Bieden",
+          "dep": "Math Teacher",
+          "address": "CO Miego, AD,USA"
+        },
+        {
+          "img": "/images/team/team-06.jpg",
+          "name": "Jogn Due",
+          "dep": "English Teacher",
+          "address": "CO Miego, AD,USA"
+        },
+        {
+          "img": "/images/team/team-05.jpg",
+          "name": "John Due",
+          "dep": "Depertment Head",
+          "address": "CO Miego, AD,USA"
+        },
+        {
+          "img": "/images/team/team-04.jpg",
+          "name": "Joo Bieden",
+          "dep": "Math Teacher",
+          "address": "CO Miego, AD,USA"
+        }
+      ]
+    }
+  ]
+}
