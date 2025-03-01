@@ -1,107 +1,155 @@
 {
   "categoryItemOne": [
     {
-      "text": "Web Design",
+      "text": "Custom Websites",
       "link": "#"
     },
     {
-      "text": "Art",
+      "text": "E-Commerce Solutions",
       "link": "#"
     },
     {
-      "text": "Figma",
+      "text": "CMS Development (WordPress, etc.)",
       "link": "#"
     },
     {
-      "text": "Adobe",
+      "text": "API Integration",
       "link": "#"
     },
     {
-      "text": "Math",
+      "text": "Performance & Security",
       "link": "#"
     }
   ],
   "categoryItemTwo": [
     {
-      "text": "Photo",
+      "text": "Android Apps",
       "link": "#"
     },
     {
-      "text": "English",
+      "text": "iOS Apps",
       "link": "#"
     },
     {
-      "text": "Figma",
+      "text": "Cross-Platform (Flutter, React Native)",
       "link": "#"
     },
     {
-      "text": "Web Development",
+      "text": "App Store Deployment",
       "link": "#"
     },
     {
-      "text": "Read",
+      "text": "Mobile UI/UX",
       "link": "#"
     }
   ],
   "categoryItemThree": [
     {
-      "text": "Child List 01",
+      "text": "Custom LMS Platforms",
       "link": "#"
     },
     {
-      "text": "Child List 09",
+      "text": "Online Course Portals",
       "link": "#"
     },
     {
-      "text": "Child List 02",
+      "text": "SCORM Compliance",
       "link": "#"
     },
     {
-      "text": "Child List 10",
+      "text": "Moodle/Canvas Implementation",
       "link": "#"
     },
     {
-      "text": "Child List 03",
+      "text": "Virtual Classroom Setup",
+      "link": "#"
+    }
+  ],
+  "categoryItemFour": [
+    {
+      "text": "Website UI Design",
       "link": "#"
     },
     {
-      "text": "Child List 11",
+      "text": "Mobile App UI Design",
       "link": "#"
     },
     {
-      "text": "Child List 04",
+      "text": "Wireframing & Prototyping",
       "link": "#"
     },
     {
-      "text": "Child List 12",
+      "text": "Brand Identity & Logos",
       "link": "#"
     },
     {
-      "text": "Child List 05",
+      "text": "Figma / Adobe XD",
+      "link": "#"
+    }
+  ],
+  "categoryItemFive": [
+    {
+      "text": "SEO (Search Engine Optimization)",
       "link": "#"
     },
     {
-      "text": "Child List 13",
+      "text": "Social Media Marketing",
       "link": "#"
     },
     {
-      "text": "Child List 06",
+      "text": "Pay-Per-Click (PPC) Ads",
       "link": "#"
     },
     {
-      "text": "Child List 14",
+      "text": "Content Marketing",
       "link": "#"
     },
     {
-      "text": "Child List 07",
+      "text": "Email Marketing",
+      "link": "#"
+    }
+  ],
+  "categoryItemSix": [
+    {
+      "text": "Website Maintenance",
       "link": "#"
     },
     {
-      "text": "Child List 15",
+      "text": "App Updates & Bug Fixes",
       "link": "#"
     },
     {
-      "text": "Child List 08",
+      "text": "Performance Optimization",
+      "link": "#"
+    },
+    {
+      "text": "Security & Backups",
+      "link": "#"
+    },
+    {
+      "text": "Technical Support",
+      "link": "#"
+    }
+  ],
+  "categoryItemSeven": [
+    {
+      "text": "Advanced E-Learning Analytics",
+      "link": "#"
+    },
+    {
+      "text": "Gamification & Engagement Tools",
+      "link": "#"
+    },
+    {
+      "text": "Multi-Language Support",
+      "link": "#"
+    },
+    {
+      "text": "Course Monetization",
+      "link": "#"
+    },
+    {
+      "text": "Content Authoring Tools",
       "link": "#"
     }
   ]

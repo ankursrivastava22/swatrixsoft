@@ -84,7 +84,7 @@ const HeaderStyleTwelve = () => {
                   <Link href="/">
                     <Image
                       src={logo}
-                      width={152}
+                      width={65}
                       height={50}
                       alt="Education Logo Images"
                     />

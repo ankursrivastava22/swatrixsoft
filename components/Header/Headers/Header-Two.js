@@ -52,7 +52,7 @@ const HeaderTwo = ({
                   {isLightTheme ? (
                     <Image
                       src={logo}
-                      width={152}
+                      width={65}
                       height={50}
                       priority={true}
                       alt="Education Logo Images"
@@ -60,7 +60,7 @@ const HeaderTwo = ({
                   ) : (
                     <Image
                       src={logoLight}
-                      width={152}
+                      width={65}
                       height={50}
                       priority={true}
                       alt="Education Logo Images"
