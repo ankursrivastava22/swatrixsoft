@@ -175,7 +175,7 @@ const ClassicLms = ({ blogdata }) => {
               <div className="section-title text-center">
                 <span className="subtitle bg-secondary-opacity">Instagram</span>
                 <h2 className="title">
-                  Follow Histudy On
+                  Follow Swatrixsoft On
                   <span className="color-primary">Instagram</span>
                 </h2>
               </div>

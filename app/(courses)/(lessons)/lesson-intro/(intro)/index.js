@@ -29,7 +29,7 @@ const LessonIntroPage = () => {
             <div className="inner">
               <div className="content">
                 <div className="section-title">
-                  <h4>Introduction to Our Histudy</h4>
+                  <h4>Introduction to Our Swatrixsoft</h4>
                   <p>
                     Welcome to our online course for beginners JavaScript! This
                     course is designed to give you a solid foundation in the

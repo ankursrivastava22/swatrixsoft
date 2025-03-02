@@ -266,10 +266,10 @@ const OnlineSchool = ({ blogs }) => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-pink-opacity">
-                  Histudy Feature
+                  Swatrixsoft Feature
                 </span>
                 <h2 className="title">
-                  Check out Histudy&apos;s features <br /> to win any exam
+                  Check out Swatrixsoft&apos;s features <br /> to win any exam
                 </h2>
               </div>
             </div>
@@ -311,7 +311,7 @@ const OnlineSchool = ({ blogs }) => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-secondary-opacity">Courses</span>
-                <h2 className="title">Histudy All Courses</h2>
+                <h2 className="title">Swatrixsoft All Courses</h2>
               </div>
             </div>
           </div>
@@ -325,7 +325,7 @@ const OnlineSchool = ({ blogs }) => {
             <div className="col-lg-6 col-md-6 col-12">
               <div className="section-title text-start">
                 <span className="subtitle bg-primary-opacity">Our Events</span>
-                <h2 className="title">Histudy Events</h2>
+                <h2 className="title">Swatrixsoft Events</h2>
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-12">
@@ -389,7 +389,7 @@ const OnlineSchool = ({ blogs }) => {
             <div className="col-lg-6 col-md-6 col-12">
               <div className="section-title text-start">
                 <span className="subtitle bg-primary-opacity">Our Blog</span>
-                <h2 className="title">Histudy Blog</h2>
+                <h2 className="title">Swatrixsoft Blog</h2>
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-12">

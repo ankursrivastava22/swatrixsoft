@@ -61,7 +61,7 @@ const MainDemo = ({ blogs }) => {
                     Top Popular Course
                   </span>
                   <h2 className="title">
-                    Histudy Course student <br /> can join with us.
+                    Swatrixsoft Course student <br /> can join with us.
                   </h2>
                 </div>
               </div>

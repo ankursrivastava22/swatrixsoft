@@ -2,7 +2,7 @@
   "courseDetails": [
     {
       "id": 1,
-      "courseTitle": "The Complete Histudy 2024: From Zero to Expert!",
+      "courseTitle": "The Complete Swatrixsoft 2024: From Zero to Expert!",
       "category": "Web Design",
       "courseType": "featured",
       "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
@@ -69,7 +69,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -612,7 +612,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -1154,7 +1154,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -1619,7 +1619,7 @@
     },
     {
       "id": 4,
-      "courseTitle": "The Complete Histudy 2024: From Zero to Expert!",
+      "courseTitle": "The Complete Swatrixsoft 2024: From Zero to Expert!",
       "category": "Mobile Application",
       "courseType": "popular",
       "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
@@ -1686,7 +1686,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -2223,7 +2223,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -2758,7 +2758,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -3293,7 +3293,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -3831,7 +3831,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -4369,7 +4369,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -4907,7 +4907,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -5445,7 +5445,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -5983,7 +5983,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -6457,7 +6457,7 @@
       "courseTitle": "React Front To Back",
       "category": "Art & Humanities",
       "courseType": "home-elegant",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 12,
       "review": 15,
       "price": 90,
@@ -6530,7 +6530,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -7004,7 +7004,7 @@
       "courseTitle": "English Popular Course",
       "category": "Art & Humanities",
       "courseType": "home-elegant",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 12,
       "review": 15,
       "price": 90,
@@ -7077,7 +7077,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -7551,7 +7551,7 @@
       "courseTitle": "App Development",
       "category": "Art & Humanities",
       "courseType": "home-elegant",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 12,
       "review": 15,
       "price": 90,
@@ -7624,7 +7624,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -8098,7 +8098,7 @@
       "courseTitle": "Web Development",
       "category": "Art & Humanities",
       "courseType": "special",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 12,
       "review": 15,
       "price": 90,
@@ -8171,7 +8171,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -8645,7 +8645,7 @@
       "courseTitle": "Graphic Design",
       "category": "Art & Humanities",
       "courseType": "special",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 12,
       "review": 15,
       "price": 90,
@@ -8718,7 +8718,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -9192,7 +9192,7 @@
       "courseTitle": "Social Marketing",
       "category": "Art & Humanities",
       "courseType": "special",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 12,
       "review": 15,
       "price": 90,
@@ -9265,7 +9265,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -9738,7 +9738,7 @@
   "courseTab": [
     {
       "id": 13,
-      "courseTitle": "The Complete Histudy 2024: From Zero to Expert!",
+      "courseTitle": "The Complete Swatrixsoft 2024: From Zero to Expert!",
       "category": "Web Design",
       "courseType": "featured",
       "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
@@ -9804,7 +9804,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -10346,7 +10346,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -10887,7 +10887,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -11352,7 +11352,7 @@
     },
     {
       "id": 16,
-      "courseTitle": "The Complete Histudy 2024: From Zero to Expert!",
+      "courseTitle": "The Complete Swatrixsoft 2024: From Zero to Expert!",
       "category": "Mobile Application",
       "courseType": "popular",
       "desc": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
@@ -11418,7 +11418,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -11954,7 +11954,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -12488,7 +12488,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -13022,7 +13022,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -13559,7 +13559,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -14096,7 +14096,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -14633,7 +14633,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -15170,7 +15170,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -15707,7 +15707,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -16183,7 +16183,7 @@
       "courseTitle": "English Courses",
       "category": "Art & Humanities",
       "courseType": "language",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 12,
       "review": 15,
       "price": 90,
@@ -16257,7 +16257,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -16731,7 +16731,7 @@
       "courseTitle": "French Courses",
       "category": "Art & Humanities",
       "courseType": "language",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 10,
       "review": 15,
       "price": 90,
@@ -16805,7 +16805,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -17279,7 +17279,7 @@
       "courseTitle": "German Courses",
       "category": "Art & Humanities",
       "courseType": "language",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 21,
       "review": 15,
       "price": 90,
@@ -17353,7 +17353,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -17827,7 +17827,7 @@
       "courseTitle": "italian Courses",
       "category": "Art & Humanities",
       "courseType": "language",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 21,
       "review": 15,
       "price": 90,
@@ -17901,7 +17901,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -18375,7 +18375,7 @@
       "courseTitle": "japan Courses",
       "category": "Art & Humanities",
       "courseType": "language",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 22,
       "review": 15,
       "price": 90,
@@ -18449,7 +18449,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,
@@ -18923,7 +18923,7 @@
       "courseTitle": "korea Courses",
       "category": "Art & Humanities",
       "courseType": "language",
-      "desc": "Histudy is elegant template.",
+      "desc": "Swatrixsoft is elegant template.",
       "lesson": 22,
       "review": 15,
       "price": 90,
@@ -18997,7 +18997,7 @@
           "title": "Course Content",
           "contentList": [
             {
-              "title": "Intro to Course and Histudy",
+              "title": "Intro to Course and Swatrixsoft",
               "time": "1hr 30min",
               "collapsed": true,
               "isShow": true,

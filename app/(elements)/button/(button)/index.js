@@ -20,7 +20,7 @@ const ButtonPage = () => {
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
           <Cart />
-          <BreadCrumb title="Welcome to Histudy Button" text="Button" />
+          <BreadCrumb title="Welcome to Swatrixsoft Button" text="Button" />
 
           <Button />
 

@@ -9,11 +9,11 @@ const QuestionType = () => {
           <div className="inner py-0">
             <div className="section-title">
               <p>
-                At Histudy, we offer a variety of
+                At Swatrixsoft, we offer a variety of
                 <strong> 7 interactive quiz types </strong>
                 designed to enhance the learning experience. Our quizzes are an
                 excellent tool for assessing students&apos; knowledge, making
-                education both engaging and effective. With Histudy, learning is
+                education both engaging and effective. With Swatrixsoft, learning is
                 not just informative but also enjoyable.
               </p>
 

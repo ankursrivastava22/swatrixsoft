@@ -78,7 +78,7 @@ const Shop = () => {
                             src={data.courseImg}
                             width={355}
                             height={426}
-                            alt="Histudy Book Image"
+                            alt="Swatrixsoft Book Image"
                           />
                         </Link>
                       </div>

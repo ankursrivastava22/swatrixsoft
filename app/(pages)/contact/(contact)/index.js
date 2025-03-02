@@ -29,7 +29,7 @@ const ContactPage = () => {
                       Contact Us
                     </span>
                     <h2 className="title">
-                      Histudy Course Contact <br /> can join with us.
+                      Swatrixsoft Course Contact <br /> can join with us.
                     </h2>
                   </div>
                 </div>

@@ -17,7 +17,7 @@ const LessonTop = ({ sidebar, setSidebar }) => {
               <i className="feather-arrow-left"></i>
             </button>
           </div>
-          <h5>The Complete Histudy 2023: From Zero to Expert!</h5>
+          <h5>The Complete Swatrixsoft 2023: From Zero to Expert!</h5>
         </div>
         <div className="lesson-top-right">
           <div className="rbt-btn-close">

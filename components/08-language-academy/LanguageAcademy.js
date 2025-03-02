@@ -263,7 +263,7 @@ const LanguageAcademy = ({ blogs }) => {
                 <span className="subtitle bg-primary-opacity">
                   Why Choose Us
                 </span>
-                <h2 className="title">Why Choose Histudy</h2>
+                <h2 className="title">Why Choose Swatrixsoft</h2>
                 <p className="description has-medium-font-size mt--20 mb--0">
                   Language Academic?
                 </p>
@@ -297,7 +297,7 @@ const LanguageAcademy = ({ blogs }) => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-pink-opacity">Our Posts</span>
-                <h2 className="title">Histudy News</h2>
+                <h2 className="title">Swatrixsoft News</h2>
                 <p className="description has-medium-font-size mt--20">
                   Language Academy Blog.
                 </p>

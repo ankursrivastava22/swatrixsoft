@@ -27,7 +27,7 @@ const CallToActionSix = () => {
               <div className="call-to-btn text-start text-xl-end">
                 <Link className="rbt-btn btn-white hover-icon-reverse" href="#">
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Histudy Financial Aid</span>
+                    <span className="btn-text">Swatrixsoft Financial Aid</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>

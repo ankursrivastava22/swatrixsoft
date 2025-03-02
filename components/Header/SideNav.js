@@ -74,7 +74,7 @@ const SideNav = () => {
               </div>
             </div>
             <p className="description">
-              Histudy is a education website template. You can customize all.
+              Swatrixsoft is a education website template. You can customize all.
             </p>
 
             <ul className="navbar-top-left rbt-information-list justify-content-start">

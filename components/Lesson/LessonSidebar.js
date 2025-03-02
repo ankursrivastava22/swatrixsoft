@@ -66,7 +66,7 @@ const LessonSidebar = () => {
                       onClick={() => setActiveTab(data.id)}
                     >
                       {data.title}
-                      {data.title === "Histudy Quiz" ? (
+                      {data.title === "Swatrixsoft Quiz" ? (
                         <span className="rbt-badge-5 ml--10">
                           {isActive("/questions-types")
                             ? 1
@@ -107,7 +107,7 @@ const LessonSidebar = () => {
                             : 0}
                           /{data.listItem.length}
                         </span>
-                      ) : data.title === "Histudy Assignments" ? (
+                      ) : data.title === "Swatrixsoft Assignments" ? (
                         <span className="rbt-badge-5 ml--10">
                           {isActive("/lesson-assignments")
                             ? 1

@@ -51,8 +51,8 @@ const CallToActionTwo = () => {
                         className="rbt-btn rbt-switch-btn rbt-switch-y"
                         href="#"
                       >
-                        <span data-text="Purchase Histudy">
-                          Purchase Histudy
+                        <span data-text="Purchase Swatrixsoft">
+                          Purchase Swatrixsoft
                         </span>
                       </Link>
                       <div className="shape-text-image">

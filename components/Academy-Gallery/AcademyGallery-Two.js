@@ -11,7 +11,7 @@ const AcademyGalleryTwo = () => {
             <div className="section-title text-start">
               <h2 className="title">Business Administration</h2>
               <p className="description mt--20">
-                <strong>Histudy educational platform</strong> <br /> ipsum dolor
+                <strong>Swatrixsoft educational platform</strong> <br /> ipsum dolor
                 sit amet consectetur adipisicing elit.
               </p>
 

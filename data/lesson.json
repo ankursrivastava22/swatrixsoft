@@ -58,7 +58,7 @@
     },
     {
       "id": 3,
-      "title": "Histudy Quiz",
+      "title": "Swatrixsoft Quiz",
       "isShow": false,
       "listItem": [
         {
@@ -117,7 +117,7 @@
         },
         {
           "lssonLink": "/lesson-quiz",
-          "lessonName": "Histudy Quiz Start",
+          "lessonName": "Swatrixsoft Quiz Start",
           "lable": true,
           "time": 0,
           "unread": true,
@@ -126,7 +126,7 @@
         },
         {
           "lssonLink": "/lesson-quiz-result",
-          "lessonName": "Histudy Quiz Result",
+          "lessonName": "Swatrixsoft Quiz Result",
           "lable": true,
           "time": 0,
           "unread": true,
@@ -137,12 +137,12 @@
     },
     {
       "id": 4,
-      "title": "Histudy Assignments",
+      "title": "Swatrixsoft Assignments",
       "isShow": false,
       "listItem": [
         {
           "lssonLink": "/lesson-assignments",
-          "lessonName": "Histudy Assignments",
+          "lessonName": "Swatrixsoft Assignments",
           "lable": true,
           "time": 0,
           "unread": true,
@@ -151,7 +151,7 @@
         },
         {
           "lssonLink": "/lesson-assignments-submit",
-          "lessonName": "Histudy Assignments Submit",
+          "lessonName": "Swatrixsoft Assignments Submit",
           "lable": true,
           "time": 0,
           "unread": true,

@@ -5,7 +5,7 @@ const OnlineSchoolForm = () => {
   return (
     <>
       <div className="rbt-contact-form contact-form-style-1">
-        <h3 className="title">Get a Free Histudy Online Course</h3>
+        <h3 className="title">Get a Free Swatrixsoft Online Course</h3>
         <form id="contact-form">
           <div
             className={`form-group ${focusedInput === "name" ? "focused" : ""}`}

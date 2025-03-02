@@ -252,7 +252,7 @@ const CourseSchool = ({ blogs }) => {
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <h5 className="subtitle bg-secondary-opacity">
-                  Histudy Feature Category
+                  Swatrixsoft Feature Category
                 </h5>
               </div>
             </div>

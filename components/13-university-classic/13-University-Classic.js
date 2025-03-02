@@ -226,7 +226,7 @@ const UniversityClassic = ({ blogdata }) => {
             <div className="col-lg-6 col-md-12 col-12">
               <div className="load-more-btn text-start text-lg-end">
                 <Link className="rbt-btn-link" href="#">
-                  Browse Histudy Program<i className="feather-arrow-right"></i>
+                  Browse Swatrixsoft Program<i className="feather-arrow-right"></i>
                 </Link>
               </div>
             </div>
@@ -299,7 +299,7 @@ const UniversityClassic = ({ blogdata }) => {
             <div className="col-lg-6 col-md-12 col-12">
               <div className="load-more-btn text-start text-lg-end">
                 <Link className="rbt-btn-link" href="#">
-                  Browse Histudy Courses<i className="feather-arrow-right"></i>
+                  Browse Swatrixsoft Courses<i className="feather-arrow-right"></i>
                 </Link>
               </div>
             </div>
@@ -325,7 +325,7 @@ const UniversityClassic = ({ blogdata }) => {
             <div className="col-lg-6 col-md-12 col-12">
               <div className="load-more-btn text-start text-lg-end">
                 <Link className="rbt-btn-link" href="/blog-list">
-                  Browse Histudy Post<i className="feather-arrow-right"></i>
+                  Browse Swatrixsoft Post<i className="feather-arrow-right"></i>
                 </Link>
               </div>
             </div>

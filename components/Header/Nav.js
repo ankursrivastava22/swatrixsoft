@@ -348,7 +348,7 @@ const Nav = () => {
                       href="#"
                     >
                       <span className="icon-reverse-wrapper">
-                        <span className="btn-text">Visit Histudy Template</span>
+                        <span className="btn-text">Visit Swatrixsoft Template</span>
                         <span className="btn-icon">
                           <i className="feather-arrow-right"></i>
                         </span>

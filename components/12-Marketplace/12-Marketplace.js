@@ -26,7 +26,7 @@ const Marketplace = ({ blogdata }) => {
             <div className="col-md-12">
               <div className="inner text-start">
                 <h2 className="title">
-                  <span className="text-decoration-underline">Histudy</span>
+                  <span className="text-decoration-underline">Swatrixsoft</span>
                   Starter is a community for creative people
                 </h2>
                 <p className="description">
@@ -80,7 +80,7 @@ const Marketplace = ({ blogdata }) => {
                   className="rbt-btn btn-border icon-hover radius-round"
                   href="/course-filter-one-toggle"
                 >
-                  <span className="btn-text">Browse Histudy Courses</span>
+                  <span className="btn-text">Browse Swatrixsoft Courses</span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right"></i>
                   </span>

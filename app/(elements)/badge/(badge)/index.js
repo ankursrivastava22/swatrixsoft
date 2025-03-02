@@ -21,7 +21,7 @@ const BadgePage = () => {
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
           <Cart />
-          <BreadCrumb title="Welcome to Histudy Badge" text="Badge" />
+          <BreadCrumb title="Welcome to Swatrixsoft Badge" text="Badge" />
 
           <div className="rbt-badge-area rbt-section-gap bg-color-white position-relative">
             <Badge />

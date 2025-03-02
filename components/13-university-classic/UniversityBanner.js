@@ -44,7 +44,7 @@ const UniversityBanner = () => {
                         <h1 className="title w-700">
                           Hey! Build Your Career <br />
                           <strong className="color-white">
-                            With Follow Histudy
+                            With Follow Swatrixsoft
                           </strong>
                         </h1>
                         <div className="button-group mt--30">
@@ -108,7 +108,7 @@ const UniversityBanner = () => {
                           </span>
                         </div>
                         <h1 className="title w-700">
-                          Histudy Starter is a community <br />
+                          Swatrixsoft Starter is a community <br />
                           <strong className="color-white">
                             for creative people.
                           </strong>

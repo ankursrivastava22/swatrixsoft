@@ -28,7 +28,7 @@ const CallToActionThree = () => {
                   <div className="col-lg-4">
                     <div className="call-to-btn text-start text-lg-end">
                       <Link className="rbt-btn bg-white-opacity icon-hover" href="#">
-                        <span className="btn-text">Purchase Histudy</span>
+                        <span className="btn-text">Purchase Swatrixsoft</span>
                         <span className="btn-icon">
                           <i className="feather-arrow-right"></i>
                         </span>

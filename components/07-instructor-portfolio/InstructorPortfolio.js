@@ -29,7 +29,7 @@ const InstructorPortfolio = () => {
               <div className="col-12">
                 <div className="inner text-center">
                   <div className="badge-top mb--30">
-                    <span className="rbt-badge">Histudy Badge</span>
+                    <span className="rbt-badge">Swatrixsoft Badge</span>
                   </div>
                   <h1 className="title">
                     Hey! Build Your <span className="theme-gradient">Life</span>
@@ -94,7 +94,7 @@ const InstructorPortfolio = () => {
                         href="#"
                       >
                         <span className="icon-reverse-wrapper">
-                          <span className="btn-text">Purchase Histudy</span>
+                          <span className="btn-text">Purchase Swatrixsoft</span>
                           <span className="btn-icon">
                             <i className="feather-arrow-right"></i>
                           </span>

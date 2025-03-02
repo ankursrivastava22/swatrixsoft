@@ -10,19 +10,19 @@ const Badge = () => {
         <div className="col-lg-12">
           <div className="rbt-badge-group">
             <span className="rbt-default-badge position-static">
-              Histudy Badge
+              Swatrixsoft Badge
             </span>
-            <span className="rbt-badge">Histudy Badge</span>
-            <span className="rbt-badge-4">Histudy Badge</span>
-            <span className="rbt-badge-5">Histudy Badge</span>
+            <span className="rbt-badge">Swatrixsoft Badge</span>
+            <span className="rbt-badge-4">Swatrixsoft Badge</span>
+            <span className="rbt-badge-5">Swatrixsoft Badge</span>
             <span className="rbt-badge variation-02 bg-primary-opacity">
-              Histudy Badge
+              Swatrixsoft Badge
             </span>
             <span className="rbt-badge-6 bg-primary-opacity">
-              Histudy Badge
+              Swatrixsoft Badge
             </span>
             <span className="rbt-badge-6 bg-secondary-opacity">
-              Histudy Badge
+              Swatrixsoft Badge
             </span>
             <Link href="#" className="rbt-badge-2">
               <div className="image">

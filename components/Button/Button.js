@@ -33,7 +33,7 @@ const Button = () => {
             text="Button Color"
           />
         }
-        btnText="Histudy Button"
+        btnText="Swatrixsoft Button"
         classOne="rbt-button-area rbt-section-gap bg-color-white"
         btnClassOne=""
         btnClassTwo="btn-secondary"
@@ -51,7 +51,7 @@ const Button = () => {
             text="Button Border"
           />
         }
-        btnText="Histudy Button"
+        btnText="Swatrixsoft Button"
         classOne="rbt-button-area rbt-section-gapBottom bg-color-white"
         btnClassOne="btn-border square"
         btnClassTwo="btn-border"
@@ -75,7 +75,7 @@ const Button = () => {
                   className="rbt-btn btn-border radius-round color-white-off"
                   href="#"
                 >
-                  Histudy Button
+                  Swatrixsoft Button
                 </Link>
               </div>
             </div>
@@ -196,31 +196,31 @@ const Button = () => {
             <div className="col-lg-12">
               <div className="rbt-button-group">
                 <Link className="rbt-btn icon-hover" href="#">
-                  <span className="btn-text">Histudy Button</span>
+                  <span className="btn-text">Swatrixsoft Button</span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right"></i>
                   </span>
                 </Link>
                 <Link className="rbt-btn btn-gradient icon-hover" href="#">
-                  <span className="btn-text">Histudy Button</span>
+                  <span className="btn-text">Swatrixsoft Button</span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right"></i>
                   </span>
                 </Link>
                 <Link className="rbt-btn btn-border icon-hover" href="#">
-                  <span className="btn-text">Histudy Button</span>
+                  <span className="btn-text">Swatrixsoft Button</span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right"></i>
                   </span>
                 </Link>
                 <Link className="rbt-btn btn-white icon-hover" href="#">
-                  <span className="btn-text">Histudy Button</span>
+                  <span className="btn-text">Swatrixsoft Button</span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right"></i>
                   </span>
                 </Link>
                 <Link className="rbt-btn btn-white radius icon-hover" href="#">
-                  <span className="btn-text">Histudy Button</span>
+                  <span className="btn-text">Swatrixsoft Button</span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right"></i>
                   </span>
@@ -243,7 +243,7 @@ const Button = () => {
               <div className="rbt-button-group">
                 <Link className="rbt-btn hover-icon-reverse" href="#">
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Histudy Button</span>
+                    <span className="btn-text">Swatrixsoft Button</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>
@@ -257,7 +257,7 @@ const Button = () => {
                   href="#"
                 >
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Histudy Button</span>
+                    <span className="btn-text">Swatrixsoft Button</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>
@@ -271,7 +271,7 @@ const Button = () => {
                   href="#"
                 >
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Histudy Button</span>
+                    <span className="btn-text">Swatrixsoft Button</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>
@@ -282,7 +282,7 @@ const Button = () => {
                 </Link>
                 <Link className="rbt-btn btn-white hover-icon-reverse" href="#">
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Histudy Button</span>
+                    <span className="btn-text">Swatrixsoft Button</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>
@@ -296,7 +296,7 @@ const Button = () => {
                   href="#"
                 >
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Histudy Button</span>
+                    <span className="btn-text">Swatrixsoft Button</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>
@@ -418,7 +418,7 @@ const Button = () => {
                   href="#"
                 >
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Histudy Button</span>
+                    <span className="btn-text">Swatrixsoft Button</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>
@@ -431,7 +431,7 @@ const Button = () => {
                   className="rbt-btn rbt-marquee-btn marquee-auto btn-border-gradient radius-round"
                   href="#"
                 >
-                  <span data-text="Histudy Button">Histudy Button</span>
+                  <span data-text="Swatrixsoft Button">Swatrixsoft Button</span>
                 </Link>
               </div>
             </div>

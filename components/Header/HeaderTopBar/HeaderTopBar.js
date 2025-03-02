@@ -25,7 +25,7 @@ const HeaderTopBar = () => {
                     </span>
                     <span className="news-text color-white-off">
                       <Image src={emoji} alt="Hand Emojji Images" /> Intro
-                      price. Get Histudy for Big Sale -95% off.
+                      price. Get Swatrixsoft for Big Sale -95% off.
                     </span>
                   </div>
                   <div className="right-button">

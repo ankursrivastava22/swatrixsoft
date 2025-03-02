@@ -2,7 +2,7 @@ import HomePageLayout from "./(main-demo)";
 import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
-  title: "Histudy - Online Courses & Education NEXTJS14 Template",
+  title: "Swatrixsoft - Online Courses & Education NEXTJS14 Template",
   description: "Online Courses & Education NEXTJS14 Template",
 };
 

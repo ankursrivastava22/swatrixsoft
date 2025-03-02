@@ -22,7 +22,7 @@ const CallToActionFour = ({ btnClass }) => {
                     <div className="call-to-btn text-start mt--30">
                       <Link className={btnClass} href="#">
                         <span className="icon-reverse-wrapper">
-                          <span className="btn-text">Purchase Histudy</span>
+                          <span className="btn-text">Purchase Swatrixsoft</span>
                           <span className="btn-icon">
                             <i className="feather-arrow-right"></i>
                           </span>

@@ -76,12 +76,12 @@ const QuizWithTimeLayout = () => {
                       <div className="inner py-0">
                         <div className="section-title">
                           <p>
-                            At Histudy, we offer a variety of
+                            At Swatrixsoft, we offer a variety of
                             <strong> 8 interactive quiz types </strong>
                             designed to enhance the learning experience. Our
                             quizzes are an excellent tool for assessing
                             students&apos; knowledge, making education both
-                            engaging and effective. With Histudy, learning is
+                            engaging and effective. With Swatrixsoft, learning is
                             not just informative but also enjoyable.
                           </p>
 
