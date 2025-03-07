@@ -70,7 +70,7 @@ const Marketplace = ({ blogdata }) => {
                 <p className="description mt--20">
                   Learning communicate to global world and build Link bright
                   future and career development, increase your skill with our
-                  histudy.
+                  swatrixsoft.
                 </p>
               </div>
             </div>
@@ -127,7 +127,7 @@ const Marketplace = ({ blogdata }) => {
                   <p className="description color-white-off mt--20">
                     Learning communicate to global world and build Link bright
                     future and career development, increase your skill with our
-                    histudy.
+                    swatrixsoft.
                   </p>
                 </div>
               </div>

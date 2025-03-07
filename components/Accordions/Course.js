@@ -89,7 +89,7 @@ const Course = ({ title, tag }) => {
                     src={data.img}
                     width={526}
                     height={644}
-                    alt="histudy image"
+                    alt="swatrixsoft image"
                   />
                 </div>
               </div>

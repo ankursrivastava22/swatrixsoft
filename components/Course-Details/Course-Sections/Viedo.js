@@ -32,7 +32,7 @@ const Viedo = ({ checkMatchCourses }) => {
 
   useEffect(() => {
     dispatch({ type: "COUNT_CART_TOTALS" });
-    localStorage.setItem("hiStudy", JSON.stringify(cart));
+    localStorage.setItem("swatrixsoft", JSON.stringify(cart));
   }, [cart]);
 
   // =====> For video PopUp

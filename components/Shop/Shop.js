@@ -41,7 +41,7 @@ const Shop = () => {
 
   useEffect(() => {
     dispatch({ type: "COUNT_CART_TOTALS" });
-    localStorage.setItem("hiStudy", JSON.stringify(cart));
+    localStorage.setItem("swatrixsoft", JSON.stringify(cart));
   }, [cart]);
 
   useEffect(() => {

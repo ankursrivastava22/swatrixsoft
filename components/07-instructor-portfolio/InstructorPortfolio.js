@@ -66,7 +66,7 @@ const InstructorPortfolio = () => {
                 </h2>
                 <p className="description has-medium-font-size mt--20">
                   Learning new technology, data sience, university, communicate
-                  to global world and build a bright future with our histudy.
+                  to global world and build a bright future with our swatrixsoft.
                 </p>
               </div>
             </div>
@@ -131,7 +131,7 @@ const InstructorPortfolio = () => {
                 </h2>
                 <p className="description has-medium-font-size mt--20">
                   Learning new technology, data sience, university, communicate
-                  to global world and build a bright future with our histudy.
+                  to global world and build a bright future with our swatrixsoft.
                 </p>
               </div>
             </div>
@@ -218,7 +218,7 @@ const InstructorPortfolio = () => {
                 </h2>
                 <p className="description has-medium-font-size mt--20">
                   Learning new technology, data sience, university, communicate
-                  to global world and build a bright future with our histudy.
+                  to global world and build a bright future with our swatrixsoft.
                 </p>
               </div>
             </div>
@@ -237,7 +237,7 @@ const InstructorPortfolio = () => {
                 </h2>
                 <p className="description has-medium-font-size mt--20">
                   Learning new technology, data sience, university, communicate
-                  to global world and build a bright future with our histudy.
+                  to global world and build a bright future with our swatrixsoft.
                 </p>
               </div>
             </div>
@@ -258,7 +258,7 @@ const InstructorPortfolio = () => {
                 </h2>
                 <p className="description mt--20">
                   Learning communicate to global world and build a bright future
-                  with our histudy.
+                  with our swatrixsoft.
                 </p>
                 <div className="veiw-more-btn mt--20">
                   <Link
@@ -285,7 +285,7 @@ const InstructorPortfolio = () => {
                 </h2>
                 <p className="description has-medium-font-size mt--20">
                   Learning new technology, data sience, university, communicate
-                  to global world and build a bright future with our histudy.
+                  to global world and build a bright future with our swatrixsoft.
                 </p>
               </div>
             </div>

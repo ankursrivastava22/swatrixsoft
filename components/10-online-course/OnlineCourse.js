@@ -205,7 +205,7 @@ const OnlineCourse = () => {
               <div className="content">
                 <div className="section-title text-start">
                   <h2 className="title">
-                    Want to stay informed about new courses & histudy?
+                    Want to stay informed about new courses & swatrixsoft?
                   </h2>
                   <p className="description mt--20">
                     Swatrixsoft educational platform ipsum dolor sit amet

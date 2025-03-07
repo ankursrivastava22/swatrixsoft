@@ -27348,7 +27348,7 @@ blockquote.has-text-align-right cite,
 	Template Styles
 ***************************************/
 /*------------------------------
- * HiStudy Banner Styles
+ * swatrixsoft Banner Styles
 ---------------------------------*/
 .active-header-transparent .rbt-banner-area {
   padding-top: 100px;
@@ -28076,7 +28076,7 @@ blockquote.has-text-align-right cite,
   z-index: -1;
   bottom: 0;
   right: 0;
-  background-image: url("../images/banner/histudy-text.png");
+  /* background-image: url("../images/banner/swatrixsoft-text.png"); */
   background-repeat: repeat-x;
   background-size: auto;
   height: 206px;

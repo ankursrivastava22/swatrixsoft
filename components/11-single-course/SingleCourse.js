@@ -203,7 +203,7 @@ const SingleCourse = () => {
                     EDUCATION FOR EVERYONE
                   </span>
                   <h2 className="title">
-                    People like histudy education. <br /> No joking - here’s the
+                    People like swatrixsoft education. <br /> No joking - here’s the
                     proof!
                   </h2>
                 </div>
@@ -221,7 +221,7 @@ const SingleCourse = () => {
               <div className="section-title text-center">
                 <h2 className="title">Plans For This Course</h2>
                 <p className="description mt--20">
-                  See this our three main plans for our histudy courses. It
+                  See this our three main plans for our swatrixsoft courses. It
                   starts from here! You can teach yourself what you really like.
                 </p>
               </div>

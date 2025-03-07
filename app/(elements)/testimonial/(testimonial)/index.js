@@ -50,7 +50,7 @@ const TestimonialPage = () => {
                         EDUCATION FOR EVERYONE
                       </span>
                       <h2 className="title">
-                        People like histudy education. <br /> No joking - here’s
+                        People like swatrixsoft education. <br /> No joking - here’s
                         the proof!
                       </h2>
                     </div>
@@ -82,7 +82,7 @@ const TestimonialPage = () => {
                     <h2 className="title">What Our Learners Say</h2>
                     <p className="description mt--20">
                       Learning communicate to global world and build a bright
-                      future with our histudy.
+                      future with our swatrixsoft.
                     </p>
                     <div className="veiw-more-btn mt--20">
                       <Link
@@ -108,7 +108,7 @@ const TestimonialPage = () => {
                         EDUCATION FOR EVERYONE
                       </span>
                       <h2 className="title">
-                        People like histudy education. <br /> No joking - here’s
+                        People like swatrixsoft education. <br /> No joking - here’s
                         the proof!
                       </h2>
                     </div>

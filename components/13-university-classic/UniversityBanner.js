@@ -38,7 +38,7 @@ const UniversityBanner = () => {
                       <div className="inner text-center">
                         <div className="section-title">
                           <span className="subtitle bg-white-opacity d-inline-block">
-                            BASED ON THE BEST HISTUDY
+                            BASED ON THE BEST swatrixsoft
                           </span>
                         </div>
                         <h1 className="title w-700">

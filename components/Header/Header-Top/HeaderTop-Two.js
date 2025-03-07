@@ -29,7 +29,7 @@ const HeaderTopTwo = ({ gapSpaceBetween, container }) => {
                   <p>
                     <i className="feather-phone"></i>
                     <span>
-                      <Link href="#">+1-202-555-0174</Link>
+                      <Link href="#">9680469083</Link>
                     </span>
                   </p>
                 </div>

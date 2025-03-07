@@ -53,7 +53,7 @@ const AboutUsPage = () => {
                     <h2 className="title">What Our Learners Say</h2>
                     <p className="description mt--20">
                       Learning communicate to global world and build a bright
-                      future with our histudy.
+                      future with our swatrixsoft.
                     </p>
                     <div className="veiw-more-btn mt--20">
                       <Link

@@ -14,7 +14,7 @@ const CountDownTwo = () => {
               </h2>
               <p className="description has-medium-font-size mt--20 mb--0 color-white opacity-7">
                 Learning new technology, data sience, university, communicate to
-                global world and build a bright future with our histudy.
+                global world and build a bright future with our swatrixsoft.
               </p>
             </div>
             <div className="countdown-style-1 mt--50">

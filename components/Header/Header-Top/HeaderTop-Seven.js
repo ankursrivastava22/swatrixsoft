@@ -33,7 +33,7 @@ const HeaderTopSeven = ({ gapSpaceBetween, bgColor, flexDirection }) => {
                       </li>
                       <li>
                         <a href="#">
-                          <i className="feather-phone"></i>+1-202-555-0174
+                          <i className="feather-phone"></i>9680469083
                         </a>
                       </li>
                     </ul>

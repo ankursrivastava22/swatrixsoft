@@ -386,7 +386,7 @@ const UniversityClassic = ({ blogdata }) => {
                     EDUCATION FOR EVERYONE
                   </span>
                   <h2 className="title">
-                    People like histudy education. <br /> No joking - Parents
+                    People like swatrixsoft education. <br /> No joking - Parents
                     Review Here!
                   </h2>
                 </div>

@@ -36,7 +36,7 @@ const ProductBody = ({ product }) => {
 
   useEffect(() => {
     dispatch({ type: "COUNT_CART_TOTALS" });
-    localStorage.setItem("hiStudy", JSON.stringify(cart));
+    localStorage.setItem("swatrixsoft", JSON.stringify(cart));
   }, [cart, product]);
 
   const getProductForUpdateQty = cart.find((prod) => prod.id === product.id);

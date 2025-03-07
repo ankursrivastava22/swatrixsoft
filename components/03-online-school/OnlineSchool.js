@@ -372,7 +372,7 @@ const OnlineSchool = ({ blogs }) => {
                     EDUCATION FOR EVERYONE
                   </span>
                   <h2 className="title">
-                    People like histudy education. <br /> No joking - here’s the
+                    People like swatrixsoft education. <br /> No joking - here’s the
                     proof!
                   </h2>
                 </div>

@@ -27,7 +27,7 @@ const Context = ({ children }) => {
   }, [cart]);
 
   useEffect(() => {
-    const themeType = localStorage.getItem("histudy-theme");
+    const themeType = localStorage.getItem("swatrixsoft-theme");
     if (themeType === "dark") {
       setLightTheme(false);
       document.body.classList.add("active-dark-mode");
@@ -37,10 +37,10 @@ const Context = ({ children }) => {
   useEffect(() => {
     if (isLightTheme) {
       document.body.classList.remove("active-dark-mode");
-      localStorage.setItem("histudy-theme", "light");
+      localStorage.setItem("swatrixsoft-theme", "light");
     } else {
       document.body.classList.add("active-dark-mode");
-      localStorage.setItem("histudy-theme", "dark");
+      localStorage.setItem("swatrixsoft-theme", "dark");
     }
   }, [isLightTheme]);
 
