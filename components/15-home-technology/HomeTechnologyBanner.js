@@ -17,13 +17,13 @@ const HomeTechnologyBanner = () => {
                 <div className="inner text-center">
                   <div className="section-title">
                     <span className="subtitle bg-primary-opacity">
-                      Enjoy Learning!
+                      Welcome
                     </span>
                   </div>
 
                   <h1 className="banner-title">
-                    Learn Product Design in
-                    <span className="theme-gradient">16 weeks</span>
+                    Website Development Company
+                    <span className="theme-gradient"> In Jodhpur</span>
                   </h1>
 
                   <p className="description has-medium-font-size mt--20">

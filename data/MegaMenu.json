@@ -1,222 +1,6 @@
 {
   "menuData": [
     {
-      "menuTitle": "Home",
-      "menuType": "home",
-      "hasMegamenu": true,
-      "hasMenuChild": true,
-      "hasPositionStatic": true,
-      "menuItems": [
-        {
-          "id": 1,
-          "link": "/01-main-demo",
-          "title": "Home Demo",
-          "img": "/images/splash/demo/h1.jpg",
-          "badget": ""
-        },
-        {
-          "id": 2,
-          "link": "/12-marketplace",
-          "title": "Marketplace",
-          "img": "/images/splash/demo/h12.jpg",
-          "badget": ""
-        },
-        {
-          "id": 3,
-          "link": "/04-kindergarten",
-          "title": "kindergarten",
-          "img": "/images/splash/demo/h4.jpg",
-          "badget": ""
-        },
-        {
-          "id": 4,
-          "link": "/13-university-classic",
-          "title": "University Classic",
-          "img": "/images/splash/demo/h13.jpg",
-          "badget": ""
-        },
-        {
-          "id": 14,
-          "link": "/05-classic-lms",
-          "title": "Classic Lms",
-          "img": "/images/splash/demo/h5.jpg"
-        },
-        {
-          "id": 16,
-          "link": "/16-udemy-affiliate",
-          "title": "Udemy Affiliate",
-          "img": "/images/splash/demo/h16.jpg"
-        },
-        {
-          "id": 5,
-          "link": "/14-home-elegant",
-          "title": "Home Elegant",
-          "img": "/images/splash/demo/h14.jpg"
-        },
-        {
-          "id": 6,
-          "link": "/09-gym-coaching",
-          "title": "Gym Coaching",
-          "img": "/images/splash/demo/h9.jpg",
-          "badget": "Coming Soon"
-        },
-        {
-          "id": 7,
-          "link": "/03-online-school",
-          "title": "Online School",
-          "img": "/images/splash/demo/h3.jpg"
-        },
-        {
-          "id": 8,
-          "link": "/06-university-status",
-          "title": "University Status",
-          "img": "/images/splash/demo/h6.jpg"
-        },
-        {
-          "id": 9,
-          "link": "/15-home-technology",
-          "title": "Home Technology",
-          "img": "/images/splash/demo/h15.jpg"
-        },
-        {
-          "id": 10,
-          "link": "/07-instructor-portfolio",
-          "title": "Instructor Portfolio",
-          "img": "/images/splash/demo/h7.jpg"
-        },
-        {
-          "id": 11,
-          "link": "/08-language-academy",
-          "title": "Language Academy",
-          "img": "/images/splash/demo/h8.jpg"
-        },
-        {
-          "id": 12,
-          "link": "/11-single-course",
-          "title": "Single Course",
-          "img": "/images/splash/demo/h11.jpg"
-        },
-        {
-          "id": 13,
-          "link": "/10-online-course",
-          "title": "Online Course",
-          "img": "/images/splash/demo/h10.jpg"
-        },
-
-        {
-          "id": 15,
-          "link": "/02-course-school",
-          "title": "Course School",
-          "img": "/images/splash/demo/h2.jpg"
-        },
-
-        {
-          "id": 17,
-          "link": "/",
-          "title": "Coming Soon",
-          "img": "/images/splash/demo/coming-soon-1.png"
-        },
-        {
-          "id": 18,
-          "link": "/",
-          "title": "Coming Soon 2",
-          "img": "/images/splash/demo/coming-soon-2.png"
-        }
-      ]
-    },
-    {
-      "menuTitle": "Courses",
-      "menuType": "grid-item-2",
-      "hasMegamenu": true,
-      "hasMenuChild": true,
-      "hasPositionStatic": true,
-      "gridItem": 2,
-      "submenuBanner": [
-        {
-          "title": "Developer hub",
-          "description": "Start building fast, with code samples, key resources and more."
-        }
-      ],
-      "menuFooterItems": [
-        {
-          "title": "Quick Start Guide",
-          "link": "#"
-        },
-        {
-          "title": "For Open Source",
-          "link": "#"
-        },
-        {
-          "title": "API Status",
-          "link": "#"
-        },
-        {
-          "title": "Support",
-          "link": "#"
-        }
-      ],
-      "menuItems": [
-        {
-          "title": "Filter One Toggle",
-          "link": "/course-filter-one-toggle"
-        },
-        {
-          "title": "Filter One Open",
-          "link": "/course-filter-one-open"
-        },
-        {
-          "title": "Filter Two Toggle",
-          "link": "/course-filter-two-toggle"
-        },
-        {
-          "title": "Filter Two Open",
-          "link": "/course-filter-two-open"
-        },
-        {
-          "title": "Course With Tab",
-          "link": "/course-with-tab"
-        },
-        {
-          "title": "Course With Tab Two",
-          "link": "/course-with-tab-two"
-        },
-        {
-          "title": "Course Card Two",
-          "link": "/course-card-2"
-        },
-        {
-          "title": "Course Card Three",
-          "link": "/course-card-3"
-        },
-        {
-          "title": "Course Masonry",
-          "link": "/course-masonry"
-        },
-        {
-          "title": "Course With Sidebar",
-          "link": "/course-with-sidebar"
-        },
-        {
-          "title": "Course Details",
-          "link": "/course-details"
-        },
-        {
-          "title": "Course Details Two",
-          "link": "/course-details-two"
-        },
-        {
-          "title": "Course Lesson",
-          "link": "/lesson",
-          "subTitle": "New"
-        },
-        {
-          "title": "Create Course",
-          "link": "/create-course",
-          "subTitle": "New"
-        }
-      ]
-    },
-    {
       "menuTitle": "Dashboard",
       "menuType": "default-dropdown",
       "hasMegamenu": false,
@@ -311,6 +95,98 @@
               "link": "/student/student-settings"
             }
           ]
+        }
+      ]
+    },
+    {
+      "menuTitle": "Courses",
+      "menuType": "grid-item-2",
+      "hasMegamenu": true,
+      "hasMenuChild": true,
+      "hasPositionStatic": true,
+      "gridItem": 2,
+      "submenuBanner": [
+        {
+          "title": "Developer hub",
+          "description": "Start building fast, with code samples, key resources and more."
+        }
+      ],
+      "menuFooterItems": [
+        {
+          "title": "Quick Start Guide",
+          "link": "#"
+        },
+        {
+          "title": "For Open Source",
+          "link": "#"
+        },
+        {
+          "title": "API Status",
+          "link": "#"
+        },
+        {
+          "title": "Support",
+          "link": "#"
+        }
+      ],
+      "menuItems": [
+        {
+          "title": "Filter One Toggle",
+          "link": "/course-filter-one-toggle"
+        },
+        {
+          "title": "Filter One Open",
+          "link": "/course-filter-one-open"
+        },
+        {
+          "title": "Filter Two Toggle",
+          "link": "/course-filter-two-toggle"
+        },
+        {
+          "title": "Filter Two Open",
+          "link": "/course-filter-two-open"
+        },
+        {
+          "title": "Course With Tab",
+          "link": "/course-with-tab"
+        },
+        {
+          "title": "Course With Tab Two",
+          "link": "/course-with-tab-two"
+        },
+        {
+          "title": "Course Card Two",
+          "link": "/course-card-2"
+        },
+        {
+          "title": "Course Card Three",
+          "link": "/course-card-3"
+        },
+        {
+          "title": "Course Masonry",
+          "link": "/course-masonry"
+        },
+        {
+          "title": "Course With Sidebar",
+          "link": "/course-with-sidebar"
+        },
+        {
+          "title": "Course Details",
+          "link": "/course-details"
+        },
+        {
+          "title": "Course Details Two",
+          "link": "/course-details-two"
+        },
+        {
+          "title": "Course Lesson",
+          "link": "/lesson",
+          "subTitle": "New"
+        },
+        {
+          "title": "Create Course",
+          "link": "/create-course",
+          "subTitle": "New"
         }
       ]
     },
@@ -595,7 +471,7 @@
           "link": "#"
         }
       ],
-      "submenuFooterText": "Visit Swatrixsoft Template"
+      "submenuFooterText": "Visit Histudy Template"
     },
     {
       "menuTitle": "Blog",

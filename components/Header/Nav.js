@@ -18,9 +18,7 @@ const Nav = () => {
   const [activeMenuItem, setActiveMenuItem] = useState(null);
 
   const pathname = usePathname();
-
   const isActive = (href) => pathname.startsWith(href);
-
   const toggleMenuItem = (item) => {
     setActiveMenuItem(activeMenuItem === item ? null : item);
   };
@@ -28,95 +26,25 @@ const Nav = () => {
   return (
     <nav className="mainmenu-nav">
       <ul className="mainmenu">
-        <li className="with-megamenu has-menu-child-item position-static">
-          <Link
-            className={`${activeMenuItem === "home" ? "open" : ""}`}
-            onClick={() => toggleMenuItem("home")}
-            href="#"
-          >
-            Home
-            <i className="feather-chevron-down"></i>
-          </Link>
-          <div
-            className={`rbt-megamenu menu-skin-dark ${
-              activeMenuItem === "home" ? "active d-block" : ""
-            }`}
-          >
-            <div className="wrapper">
-              <div className="row row--15 home-plesentation-wrapper single-dropdown-menu-presentation">
-                {MenuData &&
-                  MenuData.menuData.map((data, index) => {
-                    if (data.menuType === "home") {
-                      const elements = data.menuItems?.map(
-                        (value, innerIndex) => (
-                          <div
-                            className="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item"
-                            key={innerIndex}
-                          >
-                            <div className="demo-single">
-                              <div
-                                className={`inner ${
-                                  value.badget ? "disable" : ""
-                                }`}
-                              >
-                                <div className="thumbnail">
-                                  <Link href={value.link} className="relative">
-                                    <Image
-                                      src={value.img}
-                                      width={454}
-                                      height={332}
-                                      alt="Demo Images"
-                                    />
-                                    {value.badget ? (
-                                      <span className="rbt-badge-card rbt-badge-card__coming">
-                                        Coming
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
-                                  </Link>
-                                </div>
-                                <div className="content">
-                                  <h4 className="title">
-                                    <Link href={value.link}>
-                                      {value.title}
-                                      {value.badget ? (
-                                        <span className="rbt-badge-card ms-3 d-lg-none">
-                                          Coming
-                                        </span>
-                                      ) : (
-                                        ""
-                                      )}
-                                      <span className="btn-icon">
-                                        <i className="feather-arrow-right"></i>
-                                      </span>
-                                    </Link>
-                                  </h4>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        )
-                      );
-                      return elements;
-                    }
-                    return null;
-                  })}
-              </div>
-            </div>
-          </div>
+        {/* 
+          1) HOME as a simple link (no dropdown):
+             Removed the dropdown arrow <i className="feather-chevron-down"></i>
+             and the entire .rbt-megamenu block.
+        */}
+        <li>
+          <Link href="/">Home</Link>
         </li>
 
+        {/* 2) ABOUT US (unchanged) */}
         <li className="with-megamenu has-menu-child-item">
           <Link
-            className={`${activeMenuItem === "courses" ? "open" : ""}`}
+            className={activeMenuItem === "courses" ? "open" : ""}
             href="#"
             onClick={() => toggleMenuItem("courses")}
           >
-            Courses
+            AboutUs
             <i className="feather-chevron-down"></i>
           </Link>
-
           <div
             className={`rbt-megamenu grid-item-2 ${
               activeMenuItem === "courses" ? "active d-block" : ""
@@ -186,13 +114,15 @@ const Nav = () => {
             </div>
           </div>
         </li>
+
+        {/* 3) SERVICES */}
         <li className="has-dropdown has-menu-child-item">
           <Link
-            className={`${activeMenuItem === "dashboard" ? "open" : ""}`}
+            className={activeMenuItem === "dashboard" ? "open" : ""}
             href="#"
             onClick={() => toggleMenuItem("dashboard")}
           >
-            Dashboard
+            Services
             <i className="feather-chevron-down"></i>
           </Link>
           <ul
@@ -230,13 +160,15 @@ const Nav = () => {
               })}
           </ul>
         </li>
+
+        {/* 4) PORTFOLIO */}
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
             href="#"
-            className={`${activeMenuItem === "pages" ? "open" : ""}`}
+            className={activeMenuItem === "pages" ? "open" : ""}
             onClick={() => toggleMenuItem("pages")}
           >
-            Pages
+            Portfolio
             <i className="feather-chevron-down"></i>
           </Link>
           <div
@@ -284,9 +216,7 @@ const Nav = () => {
                                         height={332}
                                         alt={value.title}
                                       />
-                                    ) : (
-                                      ""
-                                    )}
+                                    ) : null}
                                   </div>
                                   <Link href={value.link}>
                                     <span>{value.title}</span>
@@ -305,13 +235,15 @@ const Nav = () => {
             </div>
           </div>
         </li>
+
+        {/* 5) BLOG/INSIGHTS */}
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
             href="#"
-            className={`${activeMenuItem === "elements" ? "open" : ""}`}
+            className={activeMenuItem === "elements" ? "open" : ""}
             onClick={() => toggleMenuItem("elements")}
           >
-            Elements
+            Blog/Insights
             <i className="feather-chevron-down"></i>
           </Link>
           <div
@@ -348,7 +280,9 @@ const Nav = () => {
                       href="#"
                     >
                       <span className="icon-reverse-wrapper">
-                        <span className="btn-text">Visit Swatrixsoft Template</span>
+                        <span className="btn-text">
+                          Visit Swatrixsoft Template
+                        </span>
                         <span className="btn-icon">
                           <i className="feather-arrow-right"></i>
                         </span>
@@ -363,13 +297,15 @@ const Nav = () => {
             </div>
           </div>
         </li>
+
+        {/* 6) CONTACT */}
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
             href="#"
-            className={`${activeMenuItem === "blog" ? "open" : ""}`}
+            className={activeMenuItem === "blog" ? "open" : ""}
             onClick={() => toggleMenuItem("blog")}
           >
-            Blog
+            Contact
             <i className="feather-chevron-down"></i>
           </Link>
           <div
@@ -406,9 +342,7 @@ const Nav = () => {
                                       <span className="rbt-badge-card">
                                         {value.subTitle}
                                       </span>
-                                    ) : (
-                                      ""
-                                    )}
+                                    ) : null}
                                   </Link>
                                 </li>
                               )
@@ -446,9 +380,7 @@ const Nav = () => {
                                       <span className="rbt-badge-card">
                                         {value.subTitle}
                                       </span>
-                                    ) : (
-                                      ""
-                                    )}
+                                    ) : null}
                                   </Link>
                                 </li>
                               )
@@ -473,4 +405,5 @@ const Nav = () => {
     </nav>
   );
 };
+
 export default Nav;
