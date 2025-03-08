@@ -22,8 +22,7 @@ const AcademyGalleryOne = () => {
             <div className="section-title text-start">
               <h2 className="title">Arts & Humanities</h2>
               <p className="description mt--20">
-                <strong>Swatrixsoft educational platform</strong> <br /> ipsum dolor
-                sit amet consectetur adipisicing elit.
+              Swatrixsoft is a full-service website development company based in Jodhpur. We help businesses of all sizes transform ideas into engaging online experiences. Our team crafts high-performance websites, intuitive user interfaces, and scalable solutions—ensuring your digital presence truly stands out.
               </p>
 
               <h5 className="mb--20">More Feature List:</h5>

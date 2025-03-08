@@ -2,635 +2,551 @@
   "shop": [
     {
       "id": 111,
-      "title": "Miracle Morning",
-      "productBy": "HAL ELROD",
+      "title": "Digital Transformation Blueprint",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 95,
       "offPrice": 150,
       "rating": 75,
       "courseImg": "/images/product/1.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-001",
+      "categories": "Digital Solutions",
+      "tag": ["IT Solutions", "Digital Transformation"],
+      "desc": "A comprehensive guide to implementing digital transformation across your enterprise. Learn best practices in cloud integration, agile development, and cybersecurity to drive your business forward.",
+      "descTwo": "Master innovative strategies to optimize operations, enhance user engagement, and secure a competitive edge in today’s digital economy.",
       "review": [
         {
           "userImg": "/images/testimonial/testimonial-1.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Swatrixsoft’s solutions helped our business achieve a seamless digital transformation. Their expertise in cloud integration and agile development is unmatched."
         },
         {
           "userImg": "/images/testimonial/testimonial-3.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Innovative and reliable IT services that truly transformed our digital infrastructure."
         }
       ],
       "related": [
         {
           "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
+          "title": "Enterprise Growth Accelerator",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 90,
           "offPrice": 100,
           "rating": 50,
           "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-002",
+          "categories": "Digital Solutions"
         },
         {
           "id": 333,
-          "title": "Rich Dad Poor Dad",
-          "productBy": "Rainbow",
+          "title": "Innovative IT Mastery",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 95,
           "offPrice": 150,
           "rating": 75,
           "courseImg": "/images/product/3.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-003",
+          "categories": "Digital Innovation"
         }
       ]
     },
     {
       "id": 222,
-      "title": "Happy & Strong",
-      "productBy": "John Due",
+      "title": "Enterprise Growth Accelerator",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 90,
       "offPrice": 100,
       "rating": 50,
       "courseImg": "/images/product/7.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-002",
+      "categories": "Digital Solutions",
+      "tag": ["IT Services", "Business Growth"],
+      "desc": "Unlock your enterprise’s potential with tailored IT strategies that drive efficiency and innovation. Our advanced solutions are designed to scale with your business.",
+      "descTwo": "Experience measurable improvements in productivity and competitiveness through our comprehensive digital transformation services.",
       "review": [
         {
           "userImg": "/images/testimonial/testimonial-1.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Their strategic approach and deep industry knowledge helped us accelerate our digital initiatives."
         },
         {
           "userImg": "/images/testimonial/testimonial-3.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "A game changer for our business. Highly recommended for enterprises seeking growth."
         }
       ],
       "related": [
         {
           "id": 333,
-          "title": "Rich Dad Poor Dad",
-          "productBy": "Rainbow",
+          "title": "Innovative IT Mastery",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 95,
           "offPrice": 150,
           "rating": 75,
           "courseImg": "/images/product/3.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-003",
+          "categories": "Digital Innovation"
         },
         {
-          "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
+          "id": 111,
+          "title": "Digital Transformation Blueprint",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
-          "price": 90,
-          "offPrice": 100,
-          "rating": 50,
-          "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
-        },
-        {
-          "id": 444,
-          "title": "Momentum Theorem",
-          "productBy": "Rainbow",
-          "productType": "shop",
-          "price": 80,
-          "offPrice": 90,
-          "rating": 150,
-          "courseImg": "/images/product/4.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "price": 95,
+          "offPrice": 150,
+          "rating": 75,
+          "courseImg": "/images/product/1.jpg",
+          "sku": "it-001",
+          "categories": "Digital Solutions"
         }
       ]
     },
     {
       "id": 333,
-      "title": "Rich Dad Poor Dad",
-      "productBy": "Rainbow",
+      "title": "Innovative IT Mastery",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 95,
       "offPrice": 150,
       "rating": 75,
       "courseImg": "/images/product/3.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-003",
+      "categories": "Digital Innovation",
+      "tag": ["IT Solutions", "Tech Leadership"],
+      "desc": "Learn the fundamentals and advanced concepts of full-stack IT development. Our course provides hands-on experience with modern technologies and innovative practices.",
+      "descTwo": "Gain practical skills in system architecture, cloud computing, and cybersecurity to drive digital innovation in your organization.",
       "review": [
         {
-          "userImg": "/images/testimonial/testimonial-2.jpg",
+          "userImg": "/images/testimonial/testimonial-1.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "A well-structured program that covers both theory and practical applications in IT innovation."
         },
         {
-          "userImg": "/images/testimonial/testimonial-4.jpg",
+          "userImg": "/images/testimonial/testimonial-3.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Insightful and practical. The course elevated our technical expertise significantly."
         }
       ],
       "related": [
         {
-          "id": 666,
-          "title": "The Road",
-          "productBy": "John Due",
+          "id": 111,
+          "title": "Digital Transformation Blueprint",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
-          "price": 50,
-          "offPrice": 60,
-          "rating": 250,
-          "courseImg": "/images/product/6.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "price": 95,
+          "offPrice": 150,
+          "rating": 75,
+          "courseImg": "/images/product/1.jpg",
+          "sku": "it-001",
+          "categories": "Digital Solutions"
         },
         {
-          "id": 555,
-          "title": "Happy Days",
-          "productBy": "John Due",
+          "id": 444,
+          "title": "Agile Development Framework",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
-          "price": 70,
+          "price": 80,
           "offPrice": 90,
-          "rating": 100,
-          "courseImg": "/images/product/8.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "rating": 150,
+          "courseImg": "/images/product/4.jpg",
+          "sku": "it-004",
+          "categories": "Software Development"
         }
       ]
     },
     {
       "id": 444,
-      "title": "Momentum Theorem",
-      "productBy": "Rainbow",
+      "title": "Agile Development Framework",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 80,
       "offPrice": 90,
       "rating": 150,
       "courseImg": "/images/product/4.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-004",
+      "categories": "Software Development",
+      "tag": ["IT Solutions", "Agile Methodologies"],
+      "desc": "Implement agile frameworks that empower your teams to innovate quickly and adapt to market changes. Our training equips you with practical skills for iterative development.",
+      "descTwo": "Learn agile best practices, effective project management techniques, and continuous integration strategies to drive efficiency.",
       "review": [
         {
-          "userImg": "/images/testimonial/testimonial-2.jpg",
+          "userImg": "/images/testimonial/testimonial-1.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "The agile framework training was transformative, enabling us to shorten our development cycles."
         },
         {
-          "userImg": "/images/testimonial/testimonial-4.jpg",
+          "userImg": "/images/testimonial/testimonial-3.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "A must-have course for any organization looking to implement agile methodologies effectively."
         }
       ],
       "related": [
         {
-          "id": 555,
-          "title": "Happy Days",
-          "productBy": "John Due",
-          "productType": "shop",
-          "price": 70,
-          "offPrice": 90,
-          "rating": 100,
-          "courseImg": "/images/product/8.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
-        },
-        {
           "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
+          "title": "Enterprise Growth Accelerator",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 90,
           "offPrice": 100,
           "rating": 50,
           "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-002",
+          "categories": "Digital Solutions"
         },
         {
           "id": 666,
-          "title": "The Road",
-          "productBy": "John Due",
+          "title": "Cloud Integration Essentials",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 50,
           "offPrice": 60,
           "rating": 250,
           "courseImg": "/images/product/6.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-006",
+          "categories": "Cloud Solutions"
         }
       ]
     },
     {
       "id": 555,
-      "title": "Happy Days",
-      "productBy": "John Due",
+      "title": "Enterprise Efficiency Suite",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 70,
       "offPrice": 90,
       "rating": 100,
       "courseImg": "/images/product/8.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-005",
+      "categories": "IT Optimization",
+      "tag": ["Digital Transformation", "Efficiency"],
+      "desc": "Boost your organization’s productivity with integrated IT solutions designed for efficiency and scalability. Our suite optimizes workflows and streamlines operations.",
+      "descTwo": "Learn how to implement automation, real-time analytics, and process optimization strategies to enhance business performance.",
       "review": [
         {
-          "userImg": "/images/testimonial/testimonial-2.jpg",
+          "userImg": "/images/testimonial/testimonial-1.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Our operations improved dramatically after implementing these optimized solutions."
         },
         {
-          "userImg": "/images/testimonial/testimonial-4.jpg",
+          "userImg": "/images/testimonial/testimonial-3.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Efficient, reliable, and scalable – exactly what our business needed."
         }
       ],
       "related": [
         {
-          "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
-          "productType": "shop",
-          "price": 90,
-          "offPrice": 100,
-          "rating": 50,
-          "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
-        },
-        {
           "id": 666,
-          "title": "The Road",
-          "productBy": "John Due",
+          "title": "Cloud Integration Essentials",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 50,
           "offPrice": 60,
           "rating": 250,
           "courseImg": "/images/product/6.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-006",
+          "categories": "Cloud Solutions"
+        },
+        {
+          "id": 111,
+          "title": "Digital Transformation Blueprint",
+          "productBy": "Swatrixsoft",
+          "productType": "shop",
+          "price": 95,
+          "offPrice": 150,
+          "rating": 75,
+          "courseImg": "/images/product/1.jpg",
+          "sku": "it-001",
+          "categories": "Digital Solutions"
         }
       ]
     },
     {
       "id": 666,
-      "title": "The Road",
-      "productBy": "John Due",
+      "title": "Cloud Integration Essentials",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 50,
       "offPrice": 60,
       "rating": 250,
       "courseImg": "/images/product/6.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-006",
+      "categories": "Cloud Solutions",
+      "tag": ["Cloud Integration", "IT Services"],
+      "desc": "Learn the fundamentals of integrating cloud technologies into your business. Our course offers practical training on cloud setup, migration, and optimization.",
+      "descTwo": "Enhance your organization’s agility and security by mastering cloud integration techniques.",
       "review": [
         {
-          "userImg": "/images/testimonial/testimonial-2.jpg",
+          "userImg": "/images/testimonial/testimonial-1.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "The course provided clear, actionable insights into cloud integration strategies."
         },
         {
-          "userImg": "/images/testimonial/testimonial-4.jpg",
+          "userImg": "/images/testimonial/testimonial-3.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Highly recommended for businesses looking to modernize their IT infrastructure."
         }
       ],
       "related": [
         {
-          "id": 555,
-          "title": "Happy Days",
-          "productBy": "John Due",
-          "productType": "shop",
-          "price": 70,
-          "offPrice": 90,
-          "rating": 100,
-          "courseImg": "/images/product/8.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
-        },
-        {
           "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
+          "title": "Enterprise Growth Accelerator",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 90,
           "offPrice": 100,
           "rating": 50,
           "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-002",
+          "categories": "Digital Solutions"
         },
         {
           "id": 111,
-          "title": "Miracle Morning",
-          "productBy": "HAL ELROD",
+          "title": "Digital Transformation Blueprint",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 95,
           "offPrice": 150,
           "rating": 75,
           "courseImg": "/images/product/1.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-001",
+          "categories": "Digital Solutions"
         }
       ]
     },
     {
       "id": 777,
-      "title": "Napoleon Hill",
-      "productBy": "John Due",
+      "title": "Next-Gen IT Strategies",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 50,
       "offPrice": 60,
       "rating": 250,
       "courseImg": "/images/product/2.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-007",
+      "categories": "Digital Strategy",
+      "tag": ["IT Consulting", "Innovation"],
+      "desc": "Develop forward-thinking IT strategies that drive innovation and secure your competitive edge. Our course covers market analysis, strategic planning, and emerging technology trends.",
+      "descTwo": "Gain insights to navigate complex digital landscapes and implement transformative IT solutions.",
       "review": [
         {
           "userImg": "/images/testimonial/testimonial-2.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "A visionary approach to IT strategy that helped us redefine our digital roadmap."
         },
         {
           "userImg": "/images/testimonial/testimonial-4.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Insightful and inspiring. This course reshaped our approach to digital innovation."
         }
       ],
       "related": [
         {
-          "id": 555,
-          "title": "Happy Days",
-          "productBy": "John Due",
+          "id": 666,
+          "title": "Cloud Integration Essentials",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
-          "price": 70,
-          "offPrice": 90,
-          "rating": 100,
-          "courseImg": "/images/product/8.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
-        },
-        {
-          "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
-          "productType": "shop",
-          "price": 90,
-          "offPrice": 100,
-          "rating": 50,
-          "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "price": 50,
+          "offPrice": 60,
+          "rating": 250,
+          "courseImg": "/images/product/6.jpg",
+          "sku": "it-006",
+          "categories": "Cloud Solutions"
         },
         {
           "id": 111,
-          "title": "Miracle Morning",
-          "productBy": "HAL ELROD",
+          "title": "Digital Transformation Blueprint",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 95,
           "offPrice": 150,
           "rating": 75,
           "courseImg": "/images/product/1.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-001",
+          "categories": "Digital Solutions"
         }
       ]
     },
     {
       "id": 888,
-      "title": "Emily Henry",
-      "productBy": "John Due",
+      "title": "Advanced IT Solutions Certification",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 150,
       "offPrice": 260,
       "rating": 350,
       "courseImg": "/images/product/5.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-008",
+      "categories": "Certification",
+      "tag": ["IT Certification", "Professional Development"],
+      "desc": "Earn a professional certification in advanced IT solutions and digital transformation. Validate your expertise and boost your career with our industry-recognized program.",
+      "descTwo": "Our certification program combines rigorous coursework with practical projects to ensure you’re prepared for real-world challenges.",
       "review": [
         {
           "userImg": "/images/testimonial/testimonial-2.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "A transformative experience that significantly boosted my technical skills and professional confidence."
         },
         {
           "userImg": "/images/testimonial/testimonial-4.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "The certification is comprehensive and perfectly aligned with industry needs."
         }
       ],
       "related": [
         {
           "id": 777,
-          "title": "Napoleon Hill",
-          "productBy": "John Due",
+          "title": "Next-Gen IT Strategies",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 50,
           "offPrice": 60,
           "rating": 250,
           "courseImg": "/images/product/2.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-007",
+          "categories": "Digital Strategy"
         },
         {
           "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
+          "title": "Enterprise Growth Accelerator",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 90,
           "offPrice": 100,
           "rating": 50,
           "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
-        },
-        {
-          "id": 111,
-          "title": "Miracle Morning",
-          "productBy": "HAL ELROD",
-          "productType": "shop",
-          "price": 95,
-          "offPrice": 150,
-          "rating": 75,
-          "courseImg": "/images/product/1.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-002",
+          "categories": "Digital Solutions"
         }
       ]
     },
     {
       "id": 999,
-      "title": "Happy & Strong",
-      "productBy": "John Due",
+      "title": "Business Optimization Suite",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 90,
       "offPrice": 100,
       "rating": 50,
       "courseImg": "/images/product/7.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-009",
+      "categories": "Digital Solutions",
+      "tag": ["IT Optimization", "Business Growth"],
+      "desc": "Empower your business with integrated IT solutions designed to boost efficiency and drive growth. Our suite of services covers process automation, real-time analytics, and streamlined operations.",
+      "descTwo": "Leverage our expertise to remain competitive in a rapidly evolving digital landscape.",
       "review": [
         {
           "userImg": "/images/testimonial/testimonial-2.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "Our operations have improved significantly since adopting these solutions. The impact is evident in our efficiency and customer satisfaction."
         },
         {
           "userImg": "/images/testimonial/testimonial-4.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "A robust and comprehensive approach to business optimization. Truly transformative."
         }
       ],
       "related": [
         {
           "id": 777,
-          "title": "Napoleon Hill",
-          "productBy": "John Due",
+          "title": "Next-Gen IT Strategies",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 50,
           "offPrice": 60,
           "rating": 250,
           "courseImg": "/images/product/2.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
-        },
-        {
-          "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
-          "productType": "shop",
-          "price": 90,
-          "offPrice": 100,
-          "rating": 50,
-          "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-007",
+          "categories": "Digital Strategy"
         },
         {
           "id": 111,
-          "title": "Miracle Morning",
-          "productBy": "HAL ELROD",
+          "title": "Digital Transformation Blueprint",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 95,
           "offPrice": 150,
           "rating": 75,
           "courseImg": "/images/product/1.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-001",
+          "categories": "Digital Solutions"
         }
       ]
     },
     {
       "id": 100,
-      "title": "Miracle Morning",
-      "productBy": "HAL ELROD",
+      "title": "Digital Transformation Blueprint",
+      "productBy": "Swatrixsoft",
       "productType": "shop",
       "price": 95,
       "offPrice": 150,
       "rating": 75,
       "courseImg": "/images/product/1.jpg",
-      "sku": "book-8",
-      "categories": "Motivation",
-      "tag": ["Book Store", "Self Development"],
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
-      "descTwo": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+      "sku": "it-001",
+      "categories": "Digital Solutions",
+      "tag": ["IT Solutions", "Digital Transformation"],
+      "desc": "A definitive guide to driving digital transformation with cutting-edge IT solutions. Explore strategies that integrate technology and innovation to reshape your business.",
+      "descTwo": "Our program covers agile methodologies, cloud integration, and data-driven decision-making to ensure sustainable growth.",
       "review": [
         {
           "userImg": "/images/testimonial/testimonial-2.jpg",
           "name": "Cameron Williamson",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "This guide provided invaluable insights and practical strategies that transformed our digital approach."
         },
         {
           "userImg": "/images/testimonial/testimonial-4.jpg",
           "name": "Rainbow Dev",
           "date": "Nov 23, 2018 at 12:23 pm",
-          "desc": "Duis hendrerit velit scelerisque felis tempus, id porta libero venenatis. Nulla facilisi. Phasellus viverra magna commodo dui lacinia tempus. Donec malesuada nunc non dui posuere, fringilla vestibulum urna mollis. Integer condimentum ac sapien quis maximus."
+          "desc": "A must-read for any business serious about digital innovation and transformation."
         }
       ],
       "related": [
         {
-          "id": 777,
-          "title": "Napoleon Hill",
-          "productBy": "John Due",
-          "productType": "shop",
-          "price": 50,
-          "offPrice": 60,
-          "rating": 250,
-          "courseImg": "/images/product/2.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
-        },
-        {
           "id": 222,
-          "title": "Happy & Strong",
-          "productBy": "John Due",
+          "title": "Enterprise Growth Accelerator",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
           "price": 90,
           "offPrice": 100,
           "rating": 50,
           "courseImg": "/images/product/7.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "sku": "it-002",
+          "categories": "Digital Solutions"
         },
         {
-          "id": 111,
-          "title": "Miracle Morning",
-          "productBy": "HAL ELROD",
+          "id": 666,
+          "title": "Cloud Integration Essentials",
+          "productBy": "Swatrixsoft",
           "productType": "shop",
-          "price": 95,
-          "offPrice": 150,
-          "rating": 75,
-          "courseImg": "/images/product/1.jpg",
-          "sku": "book-8",
-          "categories": "Motivation"
+          "price": 50,
+          "offPrice": 60,
+          "rating": 250,
+          "courseImg": "/images/product/6.jpg",
+          "sku": "it-006",
+          "categories": "Cloud Solutions"
         }
       ]
     }

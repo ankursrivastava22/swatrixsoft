@@ -4,8 +4,8 @@
       "sectionTitle": "Style One.",
       "body": [
         {
-          "title": "Best Coaching",
-          "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.",
+          "title": "Innovative IT Consulting",
+          "desc": "Leverage our expert IT consulting to unlock digital potential and drive business transformation.",
           "img": "/images/icons/card-icon-1.png",
           "bgOne": true,
           "bgTwo": false,
@@ -13,8 +13,8 @@
           "bgFour": false
         },
         {
-          "title": "Convenient practice",
-          "desc": "Convenient practice dolor sit adipisicing elit. Minima error reiciendis.",
+          "title": "Seamless Integration",
+          "desc": "Our seamless integration services connect your systems and streamline your digital operations.",
           "img": "/images/icons/card-icon-2.png",
           "bgTwo": true,
           "bgOne": false,
@@ -22,8 +22,8 @@
           "bgFour": false
         },
         {
-          "title": "Video Lecture",
-          "desc": "Video Lecture sit, amet consectetur adipisicing elit. Minima error reiciendis..",
+          "title": "Custom Software Solutions",
+          "desc": "Tailored software development to meet your unique business challenges.",
           "img": "/images/icons/card-icon-3.png",
           "bgThree": true,
           "bgOne": false,
@@ -31,8 +31,8 @@
           "bgFour": false
         },
         {
-          "title": "Live Class",
-          "desc": "Live Class dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.",
+          "title": "Real-Time Support",
+          "desc": "Access dedicated support and rapid problem resolution to keep your systems running smoothly.",
           "img": "/images/icons/card-icon-4.png",
           "bgFour": true,
           "bgOne": false,
@@ -47,18 +47,18 @@
       "sectionTitle": "Style Two.",
       "body": [
         {
-          "title": "React",
-          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "title": "Web Development",
+          "desc": "Build responsive, high-performance websites tailored for your business.",
           "img": "/images/service/service-01.png"
         },
         {
-          "title": "English",
-          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "title": "App Development",
+          "desc": "Create mobile applications that deliver seamless user experiences.",
           "img": "/images/service/service-02.png"
         },
         {
-          "title": "Education",
-          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "title": "Cloud Solutions",
+          "desc": "Implement scalable cloud architectures that drive efficiency and innovation.",
           "img": "/images/service/service-03.png"
         }
       ]
@@ -69,8 +69,8 @@
       "sectionTitle": "Style Three.",
       "body": [
         {
-          "title": "React",
-          "desc": "React Js dolor sit, amet consectetur.",
+          "title": "Full-Stack Development",
+          "desc": "Our full-stack services cover everything from front-end design to back-end functionality.",
           "img": "/images/service/service-06.png",
           "bgOne": true,
           "bgTwo": false,
@@ -78,8 +78,8 @@
           "bgFour": false
         },
         {
-          "title": "English",
-          "desc": "Spken english dolor sit, amet consectetur.",
+          "title": "Technical Support",
+          "desc": "Reliable technical support to ensure your systems are always optimized.",
           "img": "/images/service/service-05.png",
           "bgTwo": true,
           "bgOne": false,
@@ -87,8 +87,8 @@
           "bgFour": false
         },
         {
-          "title": "Education",
-          "desc": "Eearning edu dolor sit, amet consectetur.",
+          "title": "Digital Transformation",
+          "desc": "Transform your business with modern IT strategies and innovative solutions.",
           "img": "/images/service/service-03.png",
           "bgThree": true,
           "bgOne": false,
@@ -96,8 +96,8 @@
           "bgFour": false
         },
         {
-          "title": "Education",
-          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "title": "User Experience Design",
+          "desc": "Craft intuitive digital experiences that engage and delight your customers.",
           "img": "/images/service/service-04.png",
           "bgFour": true,
           "bgOne": false,
@@ -112,42 +112,42 @@
       "sectionTitle": "Style Four.",
       "body": [
         {
-          "title": "Chemistry",
+          "title": "Cloud Computing",
           "course": 5,
           "img": "/images/shape/icon-01.png"
         },
         {
-          "title": "Accounting",
+          "title": "Data Analytics",
           "course": 40,
           "img": "/images/shape/icon-02.png"
         },
         {
-          "title": "Management",
+          "title": "Project Management",
           "course": 60,
           "img": "/images/shape/icon-03.png"
         },
         {
-          "title": "Art & Design",
+          "title": "UI/UX Design",
           "course": 20,
           "img": "/images/shape/icon-04.png"
         },
         {
-          "title": "Biology",
+          "title": "Cybersecurity",
           "course": 20,
           "img": "/images/shape/icon-05.png"
         },
         {
-          "title": "Marketing",
+          "title": "Digital Marketing",
           "course": 20,
           "img": "/images/shape/icon-06.png"
         },
         {
-          "title": "Astrology",
+          "title": "Business Intelligence",
           "course": 25,
           "img": "/images/shape/icon-07.png"
         },
         {
-          "title": "Engineering ",
+          "title": "Software Engineering",
           "course": 10,
           "img": "/images/shape/icon-08.png"
         }
@@ -159,23 +159,23 @@
       "sectionTitle": "Style Five.",
       "body": [
         {
-          "title": "Your Apply",
-          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Your Consultation",
+          "desc": "Connect with our IT experts to discuss tailored solutions for your business.",
           "img": "/images/icons/001-bulb.png"
         },
         {
           "title": "We Connect",
-          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "desc": "Our team collaborates with you to integrate innovative digital strategies.",
           "img": "/images/icons/002-hat.png"
         },
         {
-          "title": "You Get Ready",
-          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Project Kickoff",
+          "desc": "Get ready to launch your digital transformation journey with our expert guidance.",
           "img": "/images/icons/003-id-card.png"
         },
         {
           "title": "Modern Skills",
-          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "desc": "Equip your team with the latest IT skills and best practices.",
           "img": "/images/icons/004-pass.png"
         }
       ]
@@ -187,7 +187,7 @@
       "body": [
         {
           "title": "Grow Confident",
-          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "desc": "Boost your business performance with our tailored IT solutions.",
           "img": "/images/shape/service-01.png",
           "bgOne": true,
           "bgTwo": false,
@@ -195,8 +195,8 @@
           "bgFour": false
         },
         {
-          "title": "Accive Good Job",
-          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Achieve Excellence",
+          "desc": "Our expert team ensures top-quality execution for every project.",
           "img": "/images/shape/service-04.png",
           "bgTwo": true,
           "bgOne": false,
@@ -204,8 +204,8 @@
           "bgFour": false
         },
         {
-          "title": "Best Learning",
-          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Innovative Solutions",
+          "desc": "We deliver innovative IT solutions that drive growth and efficiency.",
           "img": "/images/shape/service-03.png",
           "bgThree": true,
           "bgOne": false,
@@ -213,8 +213,8 @@
           "bgFour": false
         },
         {
-          "title": "Modern Skills",
-          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Modern Expertise",
+          "desc": "Stay ahead with cutting-edge technologies and industry best practices.",
           "img": "/images/shape/service-02.png",
           "bgFour": true,
           "bgOne": false,
@@ -227,12 +227,12 @@
   "serviceSaven": [
     {
       "sectionTitle": "Style Seven.",
-      "title": "What will you learn after the course?.",
-      "desc": "There are many variations of passages of the Ipsum available.",
+      "title": "What will you learn after partnering with us?",
+      "desc": "Explore the comprehensive range of digital strategies and IT best practices that our experts deliver.",
       "body": [
         {
-          "title": "English Learning",
-          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Digital Strategy",
+          "desc": "Learn to craft forward-thinking strategies that drive digital innovation.",
           "img": "/images/shape/service-01.png",
           "bgOne": true,
           "bgTwo": false,
@@ -241,8 +241,8 @@
           "bgFive": false
         },
         {
-          "title": "Javascript Learning",
-          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Software Development",
+          "desc": "Master the art of building custom software solutions tailored to your business.",
           "img": "/images/shape/service-04.png",
           "bgTwo": true,
           "bgOne": false,
@@ -251,8 +251,8 @@
           "bgFive": false
         },
         {
-          "title": "Angular Learning",
-          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Cloud Technologies",
+          "desc": "Understand cloud integration and migration to optimize your IT infrastructure.",
           "img": "/images/shape/service-03.png",
           "bgThree": true,
           "bgOne": false,
@@ -261,8 +261,8 @@
           "bgFive": false
         },
         {
-          "title": "Php Learning",
-          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
+          "title": "Cybersecurity",
+          "desc": "Learn essential cybersecurity measures to protect your digital assets.",
           "img": "/images/shape/service-02.png",
           "bgFour": true,
           "bgOne": false,
@@ -271,8 +271,8 @@
           "bgFive": false
         },
         {
-          "title": "Spoken English",
-          "desc": "Spoken english looking for random paragraphs, you've come to the right place. When a random word.",
+          "title": "IT Communication",
+          "desc": "Enhance your team’s collaboration with modern communication strategies.",
           "img": "/images/shape/service-05.png",
           "bgFive": true,
           "bgOne": false,
@@ -288,7 +288,7 @@
       "sectionTitle": "Style Eight.",
       "body": [
         {
-          "title": "Chemistry",
+          "title": "Web Development",
           "img": "/images/category/image/web-design.jpg"
         },
         {
@@ -296,19 +296,19 @@
           "img": "/images/category/image/graphic-design.jpg"
         },
         {
-          "title": "Software",
+          "title": "Software Engineering",
           "img": "/images/category/image/software.jpg"
         },
         {
-          "title": "Mobile App",
+          "title": "Mobile Applications",
           "img": "/images/category/image/mobile.jpg"
         },
         {
-          "title": "Finance",
+          "title": "Digital Marketing",
           "img": "/images/category/image/finance.jpg"
         },
         {
-          "title": "Art & Humanities",
+          "title": "Creative Arts",
           "img": "/images/category/image/arts.jpg"
         }
       ]
@@ -319,8 +319,8 @@
       "sectionTitle": "Style Nine.",
       "body": [
         {
-          "title": "Best Coaching",
-          "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.",
+          "title": "Advanced IT Consulting",
+          "desc": "Our expert consultants provide insights that drive digital transformation and enterprise growth.",
           "img": "/images/icons/card-icon-1.png",
           "bgOne": true,
           "bgTwo": false,
@@ -328,26 +328,26 @@
           "bgFour": false,
           "list": [
             {
-              "text": "570 Free Video",
+              "text": "570+ Expert Sessions",
               "icon": "feather-youtube"
             },
             {
-              "text": "35 Subjects",
+              "text": "35+ Industry Topics",
               "icon": "feather-book"
             },
             {
-              "text": "Live Class",
+              "text": "Live Consultations",
               "icon": "feather-video"
             },
             {
-              "text": "MCQ and CQ Bank",
+              "text": "Comprehensive Strategy Guides",
               "icon": "feather-info"
             }
           ]
         },
         {
-          "title": "Convenient practice",
-          "desc": "Convenient practice dolor sit adipisicing elit. Minima error reiciendis.",
+          "title": "Scalable Digital Strategies",
+          "desc": "Develop and implement scalable digital strategies that drive efficiency and growth.",
           "img": "/images/icons/card-icon-2.png",
           "bgTwo": true,
           "bgOne": false,
@@ -355,26 +355,26 @@
           "bgFour": false,
           "list": [
             {
-              "text": "370 Free Video",
+              "text": "370+ Expert Sessions",
               "icon": "feather-youtube"
             },
             {
-              "text": "120 Subjects",
+              "text": "120+ Topics Covered",
               "icon": "feather-book"
             },
             {
-              "text": "Live Class",
+              "text": "Live Consultations",
               "icon": "feather-video"
             },
             {
-              "text": "MCQ and CQ Bank",
+              "text": "Detailed Strategy Guides",
               "icon": "feather-info"
             }
           ]
         },
         {
-          "title": "Video Lecture",
-          "desc": "Video Lecture sit, amet consectetur adipisicing elit. Minima error reiciendis..",
+          "title": "Custom Software Development",
+          "desc": "Tailor-made software solutions built to meet your unique business requirements.",
           "img": "/images/icons/card-icon-3.png",
           "bgThree": true,
           "bgOne": false,
@@ -382,26 +382,26 @@
           "bgFour": false,
           "list": [
             {
-              "text": "125 Free Video",
+              "text": "125+ Successful Projects",
               "icon": "feather-youtube"
             },
             {
-              "text": "12 Subjects",
+              "text": "12+ Technology Stacks",
               "icon": "feather-book"
             },
             {
-              "text": "Live Class",
+              "text": "Live Project Demos",
               "icon": "feather-video"
             },
             {
-              "text": "MCQ and CQ Bank",
+              "text": "End-to-End Development Guides",
               "icon": "feather-info"
             }
           ]
         },
         {
-          "title": "Live Class",
-          "desc": "Live Class dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.",
+          "title": "24/7 Enterprise Support",
+          "desc": "Round-the-clock support to ensure your IT systems operate smoothly and reliably.",
           "img": "/images/icons/card-icon-4.png",
           "bgFour": true,
           "bgOne": false,
@@ -409,19 +409,19 @@
           "bgThree": false,
           "list": [
             {
-              "text": "124 Free Video",
+              "text": "124+ Support Sessions",
               "icon": "feather-youtube"
             },
             {
-              "text": "56 Subjects",
+              "text": "56+ Service Topics",
               "icon": "feather-book"
             },
             {
-              "text": "Live Class",
+              "text": "Live Assistance",
               "icon": "feather-video"
             },
             {
-              "text": "MCQ and CQ Bank",
+              "text": "Comprehensive Support Guides",
               "icon": "feather-info"
             }
           ]
@@ -434,101 +434,101 @@
       "sectionTitle": "Style Ten.",
       "body": [
         {
-          "title": "BCS Exam",
-          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "title": "Enterprise IT Solutions",
+          "desc": "Our enterprise plans offer robust IT services including custom development, cloud integration, and strategic consulting to accelerate your digital transformation.",
           "img": "/images/service/service-01.png",
           "listLeft": [
             {
-              "text": "125  Free Video",
+              "text": "125+ Expert Sessions",
               "icon": "feather-youtube"
             },
             {
-              "text": "12 Subjects",
+              "text": "12+ In-Depth Modules",
               "icon": "feather-book"
             }
           ],
           "listRight": [
             {
-              "text": "Live Class",
+              "text": "Live Consultations",
               "icon": "feather-video"
             },
             {
-              "text": "MCQ and CQ Bank",
+              "text": "Detailed Implementation Guides",
               "icon": "feather-info"
             }
           ]
         },
         {
-          "title": "Medical Exam",
-          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "title": "Cloud Integration & Migration",
+          "desc": "Streamline your operations with our cloud integration and migration services, designed to boost efficiency and scalability.",
           "img": "/images/service/service-02.png",
           "listLeft": [
             {
-              "text": "785 Free Video",
+              "text": "785+ Expert Sessions",
               "icon": "feather-youtube"
             },
             {
-              "text": "95 Subjects",
+              "text": "95+ Comprehensive Modules",
               "icon": "feather-book"
             }
           ],
           "listRight": [
             {
-              "text": "Live Class",
+              "text": "Live Demos",
               "icon": "feather-video"
             },
             {
-              "text": "MCQ and CQ Bank",
+              "text": "Step-by-Step Guides",
               "icon": "feather-info"
             }
           ]
         },
         {
-          "title": "University Admit Exam",
-          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "title": "Digital Strategy Consulting",
+          "desc": "Receive expert consulting on digital transformation, tailored to your business needs.",
           "img": "/images/service/service-03.png",
           "listLeft": [
             {
-              "text": "123 Free Video",
+              "text": "123+ Expert Sessions",
               "icon": "feather-youtube"
             },
             {
-              "text": "85 Subjects",
+              "text": "85+ Strategic Modules",
               "icon": "feather-book"
             }
           ],
           "listRight": [
             {
-              "text": "Live Class",
+              "text": "Live Consultations",
               "icon": "feather-video"
             },
             {
-              "text": "MCQ and CQ Bank",
+              "text": "Actionable Roadmaps",
               "icon": "feather-info"
             }
           ]
         },
         {
-          "title": "IELTS Exam",
-          "desc": "Lorem ipsum dolor sit, amet consectetur.",
+          "title": "IT Certification & Training",
+          "desc": "Enhance your skills with our industry-recognized IT certification and training programs.",
           "img": "/images/service/service-03.png",
           "listLeft": [
             {
-              "text": "150 Free Video",
+              "text": "150+ Expert Sessions",
               "icon": "feather-youtube"
             },
             {
-              "text": "26 Subjects",
+              "text": "26+ Specialized Modules",
               "icon": "feather-book"
             }
           ],
           "listRight": [
             {
-              "text": "Live Class",
+              "text": "Live Workshops",
               "icon": "feather-video"
             },
             {
-              "text": "MCQ and CQ Bank",
+              "text": "Comprehensive Exam Prep",
               "icon": "feather-info"
             }
           ]
@@ -541,130 +541,130 @@
       "sectionTitle": "Style Eleven.",
       "body": [
         {
-          "title": "Infant",
-          "imgFront": "/images/flip/kindergarten-01-front.jpg",
-          "img": "/images/flip/kindergarten-01-back.jpg",
-          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
+          "title": "Corporate IT Consulting",
+          "imgFront": "/images/flip/corporate-01-front.jpg",
+          "img": "/images/flip/corporate-01-back.jpg",
+          "desc": "Our corporate IT consulting services empower businesses with strategies to streamline operations and drive innovation.",
           "bgOne": true,
           "bgTwo": false,
           "bgThree": false,
           "bgFour": false,
           "list": [
             {
-              "text": "Health and Wellness",
-              "icon": "feather-heart"
+              "text": "Enterprise Solutions",
+              "icon": "feather-briefcase"
             },
             {
-              "text": "Literacy and Language",
-              "icon": "feather-flag"
+              "text": "Digital Strategy",
+              "icon": "feather-trending-up"
             },
             {
-              "text": "Social-Emotional Learning",
-              "icon": "feather-eye"
+              "text": "Process Optimization",
+              "icon": "feather-sliders"
             },
             {
-              "text": "Visual and Creative Arts",
-              "icon": "feather-edit-2"
+              "text": "Cloud Migration",
+              "icon": "feather-cloud"
             },
             {
-              "text": "Thinking and Learning",
-              "icon": "feather-battery-charging"
+              "text": "Cybersecurity",
+              "icon": "feather-shield"
             }
           ]
         },
         {
-          "title": "Toddler/Twos",
-          "imgFront": "/images/flip/kindergarten-02-front.jpg",
-          "img": "/images/flip/kindergarten-02-back.jpg",
-          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
+          "title": "Managed IT Services",
+          "imgFront": "/images/flip/corporate-02-front.jpg",
+          "img": "/images/flip/corporate-02-back.jpg",
+          "desc": "Our managed IT services ensure your systems remain secure, efficient, and always up-to-date.",
           "bgTwo": true,
           "bgOne": false,
           "bgThree": false,
           "bgFour": false,
           "list": [
             {
-              "text": "Health and Wellness",
-              "icon": "feather-heart"
+              "text": "24/7 Monitoring",
+              "icon": "feather-watch"
             },
             {
-              "text": "Literacy and Language",
-              "icon": "feather-flag"
+              "text": "Proactive Maintenance",
+              "icon": "feather-settings"
             },
             {
-              "text": "Social-Emotional Learning",
-              "icon": "feather-eye"
+              "text": "Expert Support",
+              "icon": "feather-headphones"
             },
             {
-              "text": "Visual and Creative Arts",
-              "icon": "feather-edit-2"
+              "text": "Scalable Solutions",
+              "icon": "feather-server"
             },
             {
-              "text": "Thinking and Learning",
-              "icon": "feather-battery-charging"
+              "text": "Data Backup & Recovery",
+              "icon": "feather-database"
             }
           ]
         },
         {
-          "title": "Preschool",
-          "imgFront": "/images/flip/kindergarten-03-front.jpg",
-          "img": "/images/flip/kindergarten-03-back.jpg",
-          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
+          "title": "Cloud & Digital Solutions",
+          "imgFront": "/images/flip/corporate-03-front.jpg",
+          "img": "/images/flip/corporate-03-back.jpg",
+          "desc": "Leverage cutting-edge cloud and digital technologies to propel your business forward with scalable, secure solutions.",
           "bgThree": true,
           "bgOne": false,
           "bgTwo": false,
           "bgFour": false,
           "list": [
             {
-              "text": "Health and Wellness",
-              "icon": "feather-heart"
+              "text": "Cloud Integration",
+              "icon": "feather-cloud"
             },
             {
-              "text": "Literacy and Language",
-              "icon": "feather-flag"
+              "text": "Digital Transformation",
+              "icon": "feather-smartphone"
             },
             {
-              "text": "Social-Emotional Learning",
-              "icon": "feather-eye"
+              "text": "IT Optimization",
+              "icon": "feather-bar-chart-2"
             },
             {
-              "text": "Visual and Creative Arts",
-              "icon": "feather-edit-2"
+              "text": "Business Intelligence",
+              "icon": "feather-activity"
             },
             {
-              "text": "Thinking and Learning",
-              "icon": "feather-battery-charging"
+              "text": "Cybersecurity Solutions",
+              "icon": "feather-lock"
             }
           ]
         },
         {
-          "title": "Kindergarten Prep",
-          "imgFront": "/images/flip/kindergarten-04-front.jpg",
-          "img": "/images/flip/kindergarten-04-back.jpg",
-          "desc": "Babies enjoy classrooms made for exploring with teachers who support today’s big milestones.",
+          "title": "IT Project Management",
+          "imgFront": "/images/flip/corporate-04-front.jpg",
+          "img": "/images/flip/corporate-04-back.jpg",
+          "desc": "Our project management services ensure that your IT initiatives are delivered on time, within budget, and to the highest quality standards.",
           "bgFour": true,
           "bgOne": false,
           "bgTwo": false,
           "bgThree": false,
           "list": [
             {
-              "text": "Health and Wellness",
-              "icon": "feather-heart"
+              "text": "Agile Methodologies",
+              "icon": "feather-rotate-cw"
             },
             {
-              "text": "Literacy and Language",
-              "icon": "feather-flag"
+              "text": "Risk Management",
+              "icon": "feather-alert-triangle"
             },
             {
-              "text": "Social-Emotional Learning",
-              "icon": "feather-eye"
+              "text": "Resource Allocation",
+              "icon": "feather-users"
             },
             {
-              "text": "Visual and Creative Arts",
-              "icon": "feather-edit-2"
+              "text": "Budget Optimization",
+              "icon": "feather-dollar-sign"
             },
             {
-              "text": "Thinking and Learning",
-              "icon": "feather-battery-charging"
+              "text": "Timely Delivery",
+              "icon": "feather-clock"
             }
           ]
         }
@@ -676,24 +676,104 @@
       "sectionTitle": "Style Twelve.",
       "body": [
         {
-          "title": "Your Apply",
-          "desc": "English Learning looking for random paragraphs, you've come to the right place. When a random.",
-          "img": "/images/icons/001-bulb.png"
+          "title": "Enterprise IT Solutions",
+          "desc": "Our enterprise plans offer robust IT services including custom development, cloud integration, and strategic consulting to accelerate your digital transformation.",
+          "img": "/images/service/service-01.png",
+          "listLeft": [
+            {
+              "text": "125+ Expert Sessions",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "12+ In-Depth Modules",
+              "icon": "feather-book"
+            }
+          ],
+          "listRight": [
+            {
+              "text": "Live Consultations",
+              "icon": "feather-video"
+            },
+            {
+              "text": "Detailed Implementation Guides",
+              "icon": "feather-info"
+            }
+          ]
         },
         {
-          "title": "We Connect",
-          "desc": "Javascript Learning looking for random paragraphs, you've come to the right place. When a random.",
-          "img": "/images/icons/002-hat.png"
+          "title": "Cloud Integration & Migration",
+          "desc": "Streamline your operations with our cloud integration and migration services, designed to boost efficiency and scalability.",
+          "img": "/images/service/service-02.png",
+          "listLeft": [
+            {
+              "text": "785+ Expert Sessions",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "95+ Comprehensive Modules",
+              "icon": "feather-book"
+            }
+          ],
+          "listRight": [
+            {
+              "text": "Live Demos",
+              "icon": "feather-video"
+            },
+            {
+              "text": "Step-by-Step Guides",
+              "icon": "feather-info"
+            }
+          ]
         },
         {
-          "title": "You Get Ready",
-          "desc": "Angular Learning looking for random paragraphs, you've come to the right place. When a random.",
-          "img": "/images/icons/003-id-card.png"
+          "title": "Digital Strategy Consulting",
+          "desc": "Receive expert consulting on digital transformation, tailored to your business needs.",
+          "img": "/images/service/service-03.png",
+          "listLeft": [
+            {
+              "text": "123+ Expert Sessions",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "85+ Strategic Modules",
+              "icon": "feather-book"
+            }
+          ],
+          "listRight": [
+            {
+              "text": "Live Consultations",
+              "icon": "feather-video"
+            },
+            {
+              "text": "Actionable Roadmaps",
+              "icon": "feather-info"
+            }
+          ]
         },
         {
-          "title": "Completed",
-          "desc": "Php Learning looking for random paragraphs, you've come to the right place. When a random.",
-          "img": "/images/icons/004-pass.png"
+          "title": "IT Certification & Training",
+          "desc": "Enhance your skills with our industry-recognized IT certification and training programs.",
+          "img": "/images/service/service-03.png",
+          "listLeft": [
+            {
+              "text": "150+ Expert Sessions",
+              "icon": "feather-youtube"
+            },
+            {
+              "text": "26+ Specialized Modules",
+              "icon": "feather-book"
+            }
+          ],
+          "listRight": [
+            {
+              "text": "Live Workshops",
+              "icon": "feather-video"
+            },
+            {
+              "text": "Comprehensive Exam Prep",
+              "icon": "feather-info"
+            }
+          ]
         }
       ]
     }

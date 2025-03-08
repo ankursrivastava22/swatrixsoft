@@ -30,40 +30,47 @@ const HomeTechnology = () => {
       });
     });
   }, []);
+
   return (
     <>
+      {/* Banner Section */}
       <div
         className="rbt-banner-area rbt-banner-8 variation-03 section-bottom-overlay"
         id="home"
       >
         <HomeTechnologyBanner />
         <div className="banner-overlay-section">
+          {/* Team section (optional) */}
           <TeamEight head={false} />
         </div>
       </div>
 
+      {/* About Section */}
       <div className="rbt-about-area bg-color-white rbt-section-gap" id="about">
         <div className="container">
           <AboutSaven />
         </div>
       </div>
 
+      {/* Services Section */}
       <div className="rbt-service-area bg-color-extra2 rbt-section-gap">
         <div className="container">
           <div className="row mb--60">
             <div className="col-lg-12">
               <div className="section-title text-center">
                 <span className="subtitle bg-primary-opacity">
-                  EDUCATION FOR EVERYONE
+                  ALL-IN-ONE IT SOLUTIONS
                 </span>
-                <h2 className="title">Why Choose Us?</h2>
+                <h2 className="title">Why Choose Swatrixsoft?</h2>
               </div>
             </div>
           </div>
+          {/* Services component */}
           <Service head={false} />
         </div>
       </div>
 
+      {/* Comprehensive Solutions Section */}
       <div
         className="rbt-course-banner-area rbt-section-gap bg-color-white"
         id="guideline"
@@ -74,8 +81,8 @@ const HomeTechnology = () => {
               <div className="inner">
                 <div className="section-title text-center mb--60">
                   <h2 className="title">
-                    <span className="theme-gradient">Complete guideline</span>
-                    from absolute <br /> beginners to getting hired.
+                    <span className="theme-gradient">Complete Solutions</span>
+                    from Initial Planning <br /> to Final Launch
                   </h2>
                   <div className="rbt-button-group mt--30">
                     <Link
@@ -83,7 +90,7 @@ const HomeTechnology = () => {
                       href="#"
                     >
                       <span className="icon-reverse-wrapper">
-                        <span className="btn-text">Explore Course</span>
+                        <span className="btn-text">Explore Services</span>
                         <span className="btn-icon">
                           <i className="feather-arrow-right"></i>
                         </span>
@@ -97,7 +104,7 @@ const HomeTechnology = () => {
                       href="#"
                     >
                       <span className="icon-reverse-wrapper">
-                        <span className="btn-text">Hired List</span>
+                        <span className="btn-text">Our Portfolio</span>
                         <span className="btn-icon">
                           <i className="feather-arrow-right"></i>
                         </span>
@@ -109,6 +116,7 @@ const HomeTechnology = () => {
                   </div>
                 </div>
                 <div className="row g-5">
+                  {/* Example usage of SingleCourseProp if you still want to show "certificate" data */}
                   <SingleCourseProp courseData={SingleCourseData.certificate} />
                 </div>
               </div>
@@ -117,6 +125,7 @@ const HomeTechnology = () => {
         </div>
       </div>
 
+      {/* Service / LMS Content Section */}
       <div
         className="rbt-course-content rbt-section-gap bg-color-extra2"
         id="coursecontent"
@@ -125,22 +134,25 @@ const HomeTechnology = () => {
           <div className="row align-items-end mb--60">
             <div className="col-lg-6 col-md-6">
               <div className="section-title text-start">
-                <h2 className="title">Course Content</h2>
+                <h2 className="title">Our Full Range of Services</h2>
                 <p className="description has-small-font-size mt--10">
-                  32 sections • 376 lectures • 27h 8m total length
+                  We offer a variety of solutions across web & app development,
+                  digital marketing, LMS platforms, and more.
                 </p>
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
               <div className="expend-button text-start text-md-end">
                 <Link className="rbt-btn-link w-700" href="#">
-                  Expand all sections<i className="feather-arrow-right"></i>
+                  See All Services
+                  <i className="feather-arrow-right"></i>
                 </Link>
               </div>
             </div>
           </div>
 
           <div className="row gy-5 row--30">
+            {/* Reusing CourseLessonProp to show your approach or a “service content” list. */}
             <CourseLessonProp
               courseImg={courseImg}
               courseContent={SingleCourseData.courseContent}
@@ -149,14 +161,13 @@ const HomeTechnology = () => {
         </div>
       </div>
 
+      {/* Brand / Partners Section */}
       <div className="rbt-brand-area bg-color-secondary-alt rbt-section-gap">
         <BrandThree />
       </div>
 
-      <div
-        className="rbt-video-area bg-color-white rbt-section-gap"
-        id="career"
-      >
+      {/* Video Section */}
+      <div className="rbt-video-area bg-color-white rbt-section-gap" id="career">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
@@ -183,17 +194,17 @@ const HomeTechnology = () => {
             <div className="col-lg-6">
               <div className="inner pl--50 pl_lg--0 pl_md--0 pl_sm--0">
                 <div className="section-title text-start">
-                  <h4 className="title">Build your Career Life.</h4>
+                  <h4 className="title">Transform Your Digital Presence</h4>
                   <p className="description mt--30 mt_md--15 mt_sm--15 mb_md--15 mb_sm--15">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
+                    We provide end-to-end IT solutions, from initial planning
+                    and development to post-launch marketing and support.
+                    Whether you’re a startup or an established enterprise, our
+                    team is here to elevate your online footprint.
                   </p>
                   <p className="mb_md--15 mb_sm--15">
-                    Convenient practice dolor sit adipisicing elit. Minima error
-                    reiciendis. far from the countries Vokalia and Consonantia,
-                    there live the blind texts far from the countries Vokalia
-                    and Consonantia.
+                    Let us handle the complexities of web & app development,
+                    digital marketing strategies, and even LMS platforms—so you
+                    can focus on what you do best: growing your business.
                   </p>
                   <div className="view-all-button">
                     <Link
@@ -201,7 +212,7 @@ const HomeTechnology = () => {
                       href="#"
                     >
                       <span className="icon-reverse-wrapper">
-                        <span className="btn-text">View All Courses</span>
+                        <span className="btn-text">View All Services</span>
                         <span className="btn-icon">
                           <i className="feather-arrow-right"></i>
                         </span>
@@ -218,14 +229,17 @@ const HomeTechnology = () => {
         </div>
       </div>
 
+      {/* Testimonials Section */}
       <div className="thumb-wrapper bg-color-white rbt-section-gapBottom">
         <TestimonialFour />
       </div>
 
+      {/* Teacher / Team Gallery (If you still want to highlight LMS or your team) */}
       <div className="thumb-wrapper bg-color-white rbt-section-gapBottom">
         <TeacherGallery />
       </div>
 
+      {/* Newsletter / Contact Section */}
       <div className="rbt-newsletter-area bg-color-white rbt-section-gapBottom">
         <div className="container">
           <div className="row">

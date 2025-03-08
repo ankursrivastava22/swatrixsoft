@@ -2,8 +2,8 @@
   "accordion": [
     {
       "tag": "accordion",
-      "title": "Swatrixsoft Course student",
-      "subTitle": "can join with us.",
+      "title": "Swatrixsoft Solutions Overview",
+      "subTitle": "Grow your business with us.",
       "imgOne": "/images/about/about-01.jpg",
       "imgTwo": "/images/about/about-04.jpg",
       "accordionBody": [
@@ -13,8 +13,8 @@
           "expanded": true,
           "collapsed": true,
           "show": true,
-          "accordionTitle": "What is Swatrixsoft ? How does it work?",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be run their online leaning management system by swatrixsoft education template."
+          "accordionTitle": "What is Swatrixsoft? How does it work?",
+          "desc": "Swatrixsoft is a comprehensive IT solutions provider offering web/app development, digital marketing, LMS platforms, and more. We tailor each project to our clients’ unique needs, ensuring scalable and secure digital solutions that drive real results."
         },
         {
           "collapse": "collapseTwo",
@@ -22,8 +22,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "How can I get the customer support?",
-          "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com."
+          "accordionTitle": "How can I get customer support?",
+          "desc": "If you need assistance after purchasing our services or solutions, simply reach out to our support team at support@swatrixsoft.com. We’re here to help with troubleshooting, updates, and general inquiries."
         },
         {
           "collapse": "collapseThree",
@@ -31,8 +31,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "Can I get update regularly and For how long do I get updates?",
-          "desc": "Yes, We will get update the Swatrixsoft. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+          "accordionTitle": "Do you provide regular updates or upgrades?",
+          "desc": "Yes. We continually enhance our services to stay ahead of industry trends. You’ll receive updates, new features, and improvements at no additional cost for the duration of your service plan."
         },
         {
           "collapse": "collapseFour",
@@ -40,8 +40,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "15 Things To Know About Education?",
-          "desc": "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph."
+          "accordionTitle": "15 Things to Know About Modern IT Solutions",
+          "desc": "Staying competitive in today’s digital landscape requires constant innovation, security, and a user-centric mindset. Our team of experts is committed to delivering best-in-class IT solutions to help your business thrive."
         }
       ]
     }
@@ -50,10 +50,10 @@
   "AccordionTwo": [
     {
       "tag": "faq",
-      "title": "Have a Question with ",
-      "subTitle": " Swatrixsoft University?",
-      "strong": "Its an educational platform",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "title": "Have a Question About",
+      "subTitle": "Swatrixsoft Services?",
+      "strong": "We Provide Comprehensive IT Solutions",
+      "description": "Swatrixsoft is a leading provider of end-to-end digital services, from strategy and development to deployment and support. Below are some frequently asked questions about our offerings.",
       "imgOne": "/images/about/about-01.jpg",
       "imgTwo": "/images/about/about-10.jpg",
       "faqBody": [
@@ -63,8 +63,8 @@
           "expanded": true,
           "collapsed": true,
           "show": true,
-          "accordionTitle": "What is Swatrixsoft ? How does it work?",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be run their online leaning management system by swatrixsoft education template."
+          "accordionTitle": "What is Swatrixsoft? How does it work?",
+          "desc": "Swatrixsoft delivers holistic IT services—web development, app creation, digital marketing, LMS solutions—tailored to meet your business objectives. We collaborate closely with clients to ensure each project’s success."
         },
         {
           "collapse": "collapseTwo2",
@@ -72,8 +72,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "How can I get the customer support?",
-          "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com."
+          "accordionTitle": "How can I get customer support?",
+          "desc": "Our dedicated support team is available via email or phone. After you begin using our services, you’ll receive direct contact details to quickly address any questions or concerns."
         },
         {
           "collapse": "collapseThree2",
@@ -81,8 +81,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "Can I get update regularly and For how long do I get updates?",
-          "desc": "Yes, We will get update the Swatrixsoft. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+          "accordionTitle": "Are regular updates included?",
+          "desc": "Yes, we continually improve our products and services. You’ll be notified of any updates or enhancements as they become available, ensuring your solution remains current."
         },
         {
           "collapse": "collapseFour2",
@@ -90,8 +90,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "15 Things To Know About Education?",
-          "desc": "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph."
+          "accordionTitle": "15 Things to Know About Digital Solutions",
+          "desc": "Digital solutions can help streamline operations, increase customer engagement, and boost overall efficiency. Our team is dedicated to delivering the highest quality in each of these areas."
         }
       ]
     }
@@ -100,10 +100,10 @@
   "AccordionThree": [
     {
       "tag": "faq",
-      "title": "Have a Question with ",
-      "subTitle": " Swatrixsoft University?",
-      "strong": "Its an educational platform",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "title": "Have a Question About",
+      "subTitle": "Swatrixsoft Solutions?",
+      "strong": "Empowering Businesses with Technology",
+      "description": "We specialize in delivering scalable, secure, and user-friendly digital products. Below are some of our most common FAQs.",
       "faqBody": [
         {
           "collapse": "collapseOne3",
@@ -111,8 +111,8 @@
           "expanded": true,
           "collapsed": true,
           "show": true,
-          "accordionTitle": "What is Swatrixsoft ? How does it work?",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be run their online leaning management system by swatrixsoft education template."
+          "accordionTitle": "What is Swatrixsoft? How does it work?",
+          "desc": "Swatrixsoft merges cutting-edge technology with industry best practices to create high-performance solutions. We handle everything from design to deployment, ensuring seamless integration into your existing workflow."
         },
         {
           "collapse": "collapseTwo3",
@@ -121,7 +121,7 @@
           "collapsed": false,
           "show": false,
           "accordionTitle": "How can I get the customer support?",
-          "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com."
+          "desc": "Our support channels include email, phone, and live chat. Whether you need a quick fix or have a complex query, our support team is always ready to assist."
         },
         {
           "collapse": "collapseThree3",
@@ -129,8 +129,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "Can I get update regularly and For how long do I get updates?",
-          "desc": "Yes, We will get update the Swatrixsoft. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+          "accordionTitle": "Do you provide updates regularly?",
+          "desc": "Absolutely. We regularly refine our solutions to keep them relevant and secure. All updates are communicated to clients in a timely manner."
         },
         {
           "collapse": "collapseFour3",
@@ -138,8 +138,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "15 Things To Know About Education?",
-          "desc": "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph."
+          "accordionTitle": "15 Things to Know About Modern IT Services",
+          "desc": "Embracing the latest tech trends is crucial for sustained growth. Our services cover everything from architecture design to post-launch optimization, ensuring your project’s long-term success."
         }
       ],
       "faqBody2": [
@@ -149,8 +149,8 @@
           "expanded": true,
           "collapsed": true,
           "show": true,
-          "accordionTitle": "What is Swatrixsoft ? How does it work?",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be run their online leaning management system by swatrixsoft education template."
+          "accordionTitle": "What is Swatrixsoft? How does it work?",
+          "desc": "Swatrixsoft provides full-stack solutions for businesses of all sizes. Our flexible approach lets you choose the services you need, from web dev to digital marketing."
         },
         {
           "collapse": "collapseTwo4",
@@ -158,8 +158,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "10 Brilliant Ways To Advertise Education",
-          "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com."
+          "accordionTitle": "10 Brilliant Ways To Promote Your Digital Presence",
+          "desc": "Our marketing experts can guide you through strategies that include SEO, social media outreach, and paid campaigns—ensuring your brand stands out in a crowded marketplace."
         },
         {
           "collapse": "collapseThree4",
@@ -167,8 +167,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "7 Facts About Education That Will Blow",
-          "desc": "Yes, We will get update the Swatrixsoft. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+          "accordionTitle": "7 Facts About Tech Innovation That Will Surprise You",
+          "desc": "Staying ahead in tech means continuous learning and adaptation. Our team constantly researches emerging trends, so we can offer cutting-edge solutions to our clients."
         },
         {
           "collapse": "collapseFour4",
@@ -176,8 +176,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "15 Things To Know About Education?",
-          "desc": "If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph."
+          "accordionTitle": "15 Things to Know About Future-Ready Solutions",
+          "desc": "Whether it’s adopting AI, implementing advanced security protocols, or optimizing for performance, our approach ensures your solutions remain relevant well into the future."
         }
       ]
     }
@@ -186,10 +186,10 @@
   "AccordionFour": [
     {
       "tag": "faq",
-      "title": "Have a Question with ",
-      "subTitle": " Swatrixsoft University?",
-      "strong": "Its an educational platform",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "title": "Have a Question About",
+      "subTitle": "Swatrixsoft Solutions?",
+      "strong": "We Drive Digital Innovation",
+      "description": "Swatrixsoft focuses on creating reliable, scalable, and user-friendly applications. Below are some frequently asked questions about our process and offerings.",
       "imgOne": "/images/about/about-03.jpg",
       "imgTwo": "/images/about/about-11.jpg",
       "faqBody": [
@@ -199,8 +199,8 @@
           "expanded": true,
           "collapsed": true,
           "show": true,
-          "accordionTitle": "What is Swatrixsoft ? How does it work?",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose."
+          "accordionTitle": "What is Swatrixsoft? How does it work?",
+          "desc": "Swatrixsoft provides integrated solutions for web, mobile, and digital marketing. We design, develop, and deploy projects, ensuring smooth functionality and exceptional user experiences."
         },
         {
           "collapse": "collapseTwo4",
@@ -208,8 +208,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "How can I get the customer support?",
-          "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com."
+          "accordionTitle": "How can I get customer support?",
+          "desc": "Our dedicated support team is available around the clock. Contact us via email or phone, and we’ll promptly address any issue or question you have."
         },
         {
           "collapse": "collapseThree4",
@@ -217,8 +217,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "Can I get update regularly and For how long do I get updates?",
-          "desc": "Yes, We will get update the Swatrixsoft. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+          "accordionTitle": "Are updates included? How often do they occur?",
+          "desc": "Yes. We regularly release updates to improve performance, security, and features. The frequency depends on project requirements and emerging industry standards."
         },
         {
           "collapse": "collapseFour4",
@@ -226,16 +226,16 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "accordionTitle": "How can I run Swatrixsoft html template?",
-          "desc": "You can run Swatrixsoft easily. First You'll need to have node and npm on your machine. So Please open your command prompt then check your node."
+          "accordionTitle": "How can I implement Swatrixsoft solutions?",
+          "desc": "Our setup is straightforward. We’ll guide you through the initial requirements, environment setup, and deployment steps to ensure a seamless integration."
         }
       ]
     }
   ],
   "course": [
     {
-      "tag": "COURSE PRICING",
-      "title": "Tuition & Fees",
+      "tag": "SERVICE PRICING",
+      "title": "Packages & Fees",
       "img": "/images/about/about-07.png",
       "courseBody": [
         {
@@ -244,8 +244,8 @@
           "expanded": true,
           "collapsed": true,
           "show": true,
-          "subTitle": "Master of Business Administration (MBA)",
-          "text": "Total Cost Breakdown 2024",
+          "subTitle": "Basic Web Development Package",
+          "text": "Cost Breakdown for 2024",
           "cost": 500
         },
         {
@@ -254,8 +254,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "subTitle": "MSS in Economics",
-          "text": "Admission Eligibility Breakdown 2024",
+          "subTitle": "Advanced Mobile App Package",
+          "text": "Eligibility & Cost Breakdown 2024",
           "cost": 4589
         },
         {
@@ -264,8 +264,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "subTitle": "MS in Applied Physics & Electronics",
-          "text": "Admission Eligibility Breakdown 2024",
+          "subTitle": "UI/UX Design & Branding",
+          "text": "Service Details & Cost Breakdown 2024",
           "cost": 1400
         },
         {
@@ -274,8 +274,8 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "subTitle": "Master of Laws (LL.M.)",
-          "text": "Total Cost Breakdown 2024",
+          "subTitle": "Enterprise LMS Solution",
+          "text": "Cost & Feature Breakdown 2024",
           "cost": 4589
         },
         {
@@ -284,7 +284,7 @@
           "expanded": false,
           "collapsed": false,
           "show": false,
-          "subTitle": "Master of Population, Reproductive Health",
+          "subTitle": "Comprehensive Digital Marketing Suite",
           "text": "Total Cost Breakdown 2024",
           "cost": 5000
         }

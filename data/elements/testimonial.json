@@ -56,65 +56,65 @@
           "tab": "testimonial-tab1-tab",
           "target": "testimonial-tab1",
           "isSelected": true,
-          "desc": "Swatrixsoft The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
-          "name": "Swatrixsoft",
-          "post": "COO, AMERIMAR ENTERPRISES, INC."
+          "desc": "Swatrixsoft delivers innovative IT solutions that drive business transformation. Our strategic approach and technical expertise have redefined digital excellence.",
+          "name": "Ravi Kumar",
+          "post": "CTO, Swatrixsoft"
         },
         {
           "tab": "testimonial-tab2-tab",
           "target": "testimonial-tab2",
           "isSelected": false,
-          "desc": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
-          "name": "Nira",
-          "post": "COO, AMERIMAR ENTERPRISES, INC."
+          "desc": "Our cutting-edge digital strategies have enabled our clients to stay ahead of the curve in a competitive market.",
+          "name": "Anjali Sharma",
+          "post": "CEO, Swatrixsoft"
         },
         {
           "tab": "testimonial-tab3-tab",
           "target": "testimonial-tab3",
           "isSelected": false,
-          "desc": "Rainbowq The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
-          "name": "Jone Jane",
-          "post": "COO, AMERIMAR ENTERPRISES, INC."
+          "desc": "Swatrixsoft’s expertise in cloud integration and custom software development is truly unparalleled.",
+          "name": "Suresh Gupta",
+          "post": "Head of IT, Swatrixsoft"
         },
         {
           "tab": "testimonial-tab4-tab",
           "target": "testimonial-tab4",
           "isSelected": false,
-          "desc": "Janen The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
-          "name": "Janen Asrafy",
-          "post": "COO, AMERIMAR ENTERPRISES, INC."
+          "desc": "Our experience in delivering enterprise-level IT solutions is backed by a passion for innovation.",
+          "name": "Priya Singh",
+          "post": "COO, Swatrixsoft"
         },
         {
           "tab": "testimonial-tab5-tab",
           "target": "testimonial-tab5",
           "isSelected": false,
-          "desc": "Afrin The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
-          "name": "Afrin",
-          "post": "COO, AMERIMAR ENTERPRISES, INC."
+          "desc": "Swatrixsoft transforms digital challenges into opportunities with robust, scalable solutions.",
+          "name": "Deepak Mehta",
+          "post": "Digital Strategist, Swatrixsoft"
         },
         {
           "tab": "testimonial-tab6-tab",
           "target": "testimonial-tab6",
           "isSelected": false,
-          "desc": "Education The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
-          "name": "Asrafy",
-          "post": "COO, AMERIMAR ENTERPRISES, INC."
+          "desc": "Our commitment to excellence ensures every project delivers measurable business value.",
+          "name": "Neha Reddy",
+          "post": "Senior Consultant, Swatrixsoft"
         },
         {
           "tab": "testimonial-tab7-tab",
           "target": "testimonial-tab7",
           "isSelected": false,
-          "desc": "Mohima The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
-          "name": "Mohima Asrafy",
-          "post": "COO, AMERIMAR ENTERPRISES, INC."
+          "desc": "Innovative, reliable, and forward-thinking – that’s the Swatrixsoft promise.",
+          "name": "Amit Patel",
+          "post": "VP of Operations, Swatrixsoft"
         },
         {
           "tab": "testimonial-tab8-tab",
           "target": "testimonial-tab8",
           "isSelected": false,
-          "desc": "Nuha The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.",
-          "name": "Nuha",
-          "post": "COO, AMERIMAR ENTERPRISES, INC."
+          "desc": "Our transformative IT solutions have set new benchmarks in digital performance.",
+          "name": "Sunita Verma",
+          "post": "Chief Innovation Officer, Swatrixsoft"
         }
       ]
     }
@@ -124,140 +124,140 @@
       "left": [
         {
           "img": "/images/testimonial/client-01.png",
-          "title": "Martha Maldonado",
+          "title": "Rohan Sharma",
           "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "company": "@ TCS",
+          "desc": "Swatrixsoft's IT solutions revolutionized our digital strategy, delivering exceptional performance and scalability."
         },
         {
           "img": "/images/testimonial/client-02.png",
-          "title": "Michael D. Lovelady",
+          "title": "Ayesha Khan",
           "position": "CEO",
-          "company": "@ Google",
-          "desc": "Swatrixsoft education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. "
+          "company": "@ Infosys",
+          "desc": "Their innovative approach and seamless integration capabilities have significantly boosted our business."
         },
         {
           "img": "/images/testimonial/client-03.png",
-          "title": "Valerie J. Creasman",
+          "title": "Vikram Joshi",
           "position": "Executive Designer",
-          "company": "@ Google",
-          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. "
+          "company": "@ Wipro",
+          "desc": "The creativity and technical expertise at Swatrixsoft are evident in every project they deliver."
         },
         {
           "img": "/images/testimonial/client-04.png",
-          "title": "Hannah R. Sutton",
+          "title": "Sonia Patel",
           "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "People says about, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "company": "@ Reliance",
+          "desc": "Their proactive solutions and excellent support make them a trusted IT partner."
         },
         {
           "img": "/images/testimonial/client-05.png",
-          "title": "Pearl B. Hill",
+          "title": "Rajesh Mehta",
           "position": "Chairman SR",
-          "company": "@ Facebook",
-          "desc": "Like this swatrixsoft, vulputate at sapien sit amet,auctor iaculis lorem. In vel hend rerit."
+          "company": "@ Google",
+          "desc": "Swatrixsoft's services are innovative and perfectly aligned with modern enterprise needs."
         },
         {
           "img": "/images/testimonial/client-06.png",
-          "title": "Mandy F. Wood",
+          "title": "Neha Gupta",
           "position": "SR Designer",
-          "company": "@ Google",
-          "desc": "Educational template, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "company": "@ Adobe",
+          "desc": "Their design-driven approach combined with technical excellence is truly impressive."
         },
         {
           "img": "/images/testimonial/client-07.png",
-          "title": "Mildred W. Diaz",
+          "title": "Kiran Desai",
           "position": "Executive Officer",
-          "company": "@ Yelp",
-          "desc": "Online leaning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "company": "@ Flipkart",
+          "desc": "Swatrixsoft offers reliable and innovative IT solutions that empower businesses to excel."
         },
         {
           "img": "/images/testimonial/client-08.png",
-          "title": "Christopher H. Win",
+          "title": "Vijay Reddy",
           "position": "Product Designer",
-          "company": "@ Google",
-          "desc": "Remote learning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+          "company": "@ Amazon",
+          "desc": "Their cutting-edge technology and commitment to quality set them apart in the IT industry."
         },
         {
           "img": "/images/testimonial/client-01.png",
-          "title": "Martha Maldonado",
+          "title": "Rohan Sharma",
           "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "University managemnet, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+          "company": "@ TCS",
+          "desc": "Swatrixsoft's strategic vision and technical prowess make them an invaluable partner for digital transformation."
         }
       ],
       "right": [
         {
           "img": "/images/testimonial/client-01.png",
-          "title": "Martha Maldonado",
+          "title": "Rohan Sharma",
           "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "company": "@ TCS",
+          "desc": "Their IT solutions have redefined our digital landscape with innovative and scalable approaches."
         },
         {
           "img": "/images/testimonial/client-02.png",
-          "title": "Michael D. Lovelady",
+          "title": "Ayesha Khan",
           "position": "CEO",
-          "company": "@ Google",
-          "desc": "Swatrixsoft education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. "
+          "company": "@ Infosys",
+          "desc": "Swatrixsoft's expertise in digital transformation is unmatched in the industry."
         },
         {
           "img": "/images/testimonial/client-03.png",
-          "title": "Valerie J. Creasman",
+          "title": "Vikram Joshi",
           "position": "Executive Designer",
-          "company": "@ Google",
-          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. "
+          "company": "@ Wipro",
+          "desc": "Their creative solutions and technical excellence have significantly elevated our brand."
         },
         {
           "img": "/images/testimonial/client-04.png",
-          "title": "Hannah R. Sutton",
+          "title": "Sonia Patel",
           "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "People says about, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "company": "@ Reliance",
+          "desc": "Swatrixsoft consistently delivers top-notch IT solutions that drive business success."
         },
         {
           "img": "/images/testimonial/client-05.png",
-          "title": "Pearl B. Hill",
+          "title": "Rajesh Mehta",
           "position": "Chairman SR",
-          "company": "@ Facebook",
-          "desc": "Like this swatrixsoft, vulputate at sapien sit amet,auctor iaculis lorem. In vel hend rerit."
+          "company": "@ Google",
+          "desc": "Their innovative approach and seamless execution have been key to our digital evolution."
         },
         {
           "img": "/images/testimonial/client-06.png",
-          "title": "Mandy F. Wood",
+          "title": "Neha Gupta",
           "position": "SR Designer",
-          "company": "@ Google",
-          "desc": "Educational template, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "company": "@ Adobe",
+          "desc": "Swatrixsoft's commitment to excellence is reflected in every project they undertake."
         },
         {
           "img": "/images/testimonial/client-07.png",
-          "title": "Mildred W. Diaz",
+          "title": "Kiran Desai",
           "position": "Executive Officer",
-          "company": "@ Yelp",
-          "desc": "Online leaning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "company": "@ Flipkart",
+          "desc": "Their proactive strategies and technical expertise make a significant difference in our IT operations."
         },
         {
           "img": "/images/testimonial/client-08.png",
-          "title": "Christopher H. Win",
+          "title": "Vijay Reddy",
           "position": "Product Designer",
-          "company": "@ Google",
-          "desc": "Remote learning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "company": "@ Amazon",
+          "desc": "Their innovative solutions and strong technical foundation drive digital success."
         },
         {
           "img": "/images/testimonial/client-01.png",
-          "title": "Martha Maldonado",
+          "title": "Rohan Sharma",
           "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "University managemnet, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "company": "@ TCS",
+          "desc": "Swatrixsoft’s strategic approach has transformed our digital capabilities."
         }
       ]
     }
   ],
   "testimonialThree": [
     {
-      "tag": "EDUCATION FOR EVERYONE",
-      "title": "Student's Feedback",
-      "desc": "Learning communicate to global world and build a bright future and career development, increase your skill with our swatrixsoft.",
+      "tag": "IT SOLUTIONS FOR EVERY ENTERPRISE",
+      "title": "Client Feedback",
+      "desc": "Our partners trust Swatrixsoft to deliver innovative IT solutions that drive efficiency, security, and digital growth.",
       "accordion": [
         {
           "heading": "headingOne",
@@ -265,8 +265,8 @@
           "expanded": true,
           "show": true,
           "collapsed": true,
-          "btnText": "What is Swatrixsoft ? How does it work?",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be run their online leaning management system by swatrixsoft education template."
+          "btnText": "How does Swatrixsoft transform businesses?",
+          "desc": "Swatrixsoft delivers end-to-end IT services—from custom software development to cloud integration—that empower businesses to innovate and grow."
         },
         {
           "heading": "headingTwo",
@@ -274,8 +274,8 @@
           "expanded": false,
           "show": false,
           "collapsed": false,
-          "btnText": "How can I get the customer support?",
-          "desc": "After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com."
+          "btnText": "What support services do you offer?",
+          "desc": "We provide round-the-clock support and consultancy to ensure your digital infrastructure remains secure and efficient."
         },
         {
           "heading": "headingThree",
@@ -283,60 +283,60 @@
           "expanded": false,
           "show": false,
           "collapsed": false,
-          "btnText": "Can I get update regularly and For how long do I get updates?",
-          "desc": "Yes, We will get update the Swatrixsoft. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update."
+          "btnText": "How frequently do you update your solutions?",
+          "desc": "Our solutions are continuously updated to reflect the latest technology trends and ensure optimal performance."
         }
       ],
       "body": [
         {
           "img": "/images/testimonial/client-01.png",
-          "title": "Martha Maldonado",
-          "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "company": "Swatrixsoft",
+          "desc": "Swatrixsoft transformed our digital operations, enabling seamless integration of innovative IT solutions that drive real business value."
         },
         {
-          "img": "/images/testimonial/client-01.png",
-          "title": "Martha Maldonado",
-          "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+          "img": "/images/testimonial/client-02.png",
+          "title": "Anjali Sharma",
+          "position": "CEO",
+          "company": "Swatrixsoft",
+          "desc": "Their proactive approach and robust technical expertise have been instrumental in our digital transformation journey."
         },
         {
-          "img": "/images/testimonial/client-01.png",
-          "title": "Martha Maldonado",
-          "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the"
+          "img": "/images/testimonial/client-03.png",
+          "title": "Suresh Gupta",
+          "position": "Head of IT",
+          "company": "Swatrixsoft",
+          "desc": "The solutions provided were cutting-edge and highly scalable, perfectly aligning with our business needs."
         }
       ]
     }
   ],
   "testimonialFour": [
     {
-      "tag": "EDUCATION FOR EVERYONE",
-      "title": "Student's Feedback",
+      "tag": "EXPERIENCE THE DIFFERENCE",
+      "title": "Client Testimonials",
       "body": [
         {
           "img": "/images/testimonial/client-01.png",
-          "title": "Martha Maldonado",
-          "position": "Executive Chairman",
-          "company": "@ Google",
-          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "company": "Swatrixsoft",
+          "desc": "Swatrixsoft's IT solutions have redefined our approach to digital transformation."
         },
         {
           "img": "/images/testimonial/client-02.png",
-          "title": "Michael D. Lovelady",
+          "title": "Anjali Sharma",
           "position": "CEO",
-          "company": "@ Google",
-          "desc": "Swatrixsoft education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. "
+          "company": "Swatrixsoft",
+          "desc": "Their commitment to excellence and innovation is truly remarkable."
         },
         {
           "img": "/images/testimonial/client-03.png",
-          "title": "Valerie J. Creasman",
-          "position": "Executive Designer",
-          "company": "@ Google",
-          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+          "title": "Suresh Gupta",
+          "position": "Head of IT",
+          "company": "Swatrixsoft",
+          "desc": "Our business has benefited tremendously from their advanced IT strategies."
         }
       ]
     }
@@ -349,73 +349,73 @@
           "img": "/images/icons/facebook.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Martha Maldonado",
-          "position": "CEO",
-          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "desc": "Swatrixsoft's innovative solutions have transformed our digital landscape."
         },
         {
           "client": "/images/testimonial/client-02.png",
           "img": "/images/icons/google.png",
-          "title": "Michael D. Lovelady",
+          "title": "Anjali Sharma",
           "position": "CEO",
-          "desc": "Swatrixsoft education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. Vestibulum eget risus velit."
+          "desc": "Their forward-thinking approach has redefined our IT strategy."
         },
         {
           "client": "/images/testimonial/client-03.png",
           "img": "/images/icons/yelp.png",
-          "title": "Valerie J. Creasman",
-          "position": "CEO",
-          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. "
+          "title": "Suresh Gupta",
+          "position": "Head of IT",
+          "desc": "Expert guidance and cutting-edge technology that delivers results."
         },
         {
           "client": "/images/testimonial/client-04.png",
           "img": "/images/icons/facebook.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Hannah R. Sutton",
-          "position": "CEO",
-          "desc": "People says about, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "title": "Priya Singh",
+          "position": "COO",
+          "desc": "Their solutions consistently exceed our expectations."
         },
         {
           "client": "/images/testimonial/client-05.png",
           "img": "/images/icons/bing.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Pearl B. Hill",
-          "position": "Marketing",
-          "desc": "Like this swatrixsoft, vulputate at sapien sit amet,auctor iaculis lorem. In vel hend rerit."
+          "title": "Deepak Mehta",
+          "position": "Digital Strategist",
+          "desc": "Swatrixsoft empowers our business with innovative digital strategies."
         },
         {
           "client": "/images/testimonial/client-06.png",
           "img": "/images/icons/facebook.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Mandy F. Wood",
-          "position": "CEO",
-          "desc": "Educational template, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "title": "Neha Reddy",
+          "position": "Senior Consultant",
+          "desc": "Their technical expertise and creative solutions set them apart."
         },
         {
           "client": "/images/testimonial/client-07.png",
           "img": "/images/icons/hubs.png",
-          "title": "Mildred W. Diaz",
-          "position": "Executive",
-          "desc": "Online leaning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "title": "Amit Patel",
+          "position": "VP Operations",
+          "desc": "Swatrixsoft’s IT strategies have been a key driver of our success."
         },
         {
           "client": "/images/testimonial/client-08.png",
           "img": "/images/icons/bing.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Christopher H. Win",
-          "position": "CEO",
-          "desc": "Remote learning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "title": "Sunita Verma",
+          "position": "Chief Innovation Officer",
+          "desc": "Their commitment to digital excellence is evident in every project."
         },
         {
           "client": "/images/testimonial/client-09.png",
           "img": "/images/icons/yelp.png",
-          "title": "Martha Maldonado",
-          "position": "SR Designer",
-          "desc": "University managemnet, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "desc": "Swatrixsoft’s visionary approach has redefined our digital infrastructure."
         }
       ],
       "right": [
@@ -424,72 +424,284 @@
           "img": "/images/icons/facebook.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Martha Maldonado",
-          "position": "CEO",
-          "desc": "After the launch, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "desc": "Their innovative IT solutions have consistently driven our digital growth."
         },
         {
           "client": "/images/testimonial/client-02.png",
           "img": "/images/icons/google.png",
-          "title": "Michael D. Lovelady",
+          "title": "Anjali Sharma",
           "position": "CEO",
-          "desc": "Swatrixsoft education, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit. "
+          "desc": "Swatrixsoft’s expertise is a major asset to our digital transformation journey."
         },
         {
           "client": "/images/testimonial/client-03.png",
           "img": "/images/icons/yelp.png",
-          "title": "Valerie J. Creasman",
-          "position": "Executive Designer",
-          "desc": "Our educational, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi."
+          "title": "Suresh Gupta",
+          "position": "Head of IT",
+          "desc": "Their proactive strategies and technical expertise have been game changers."
         },
         {
           "client": "/images/testimonial/client-04.png",
           "img": "/images/icons/bing.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Hannah R. Sutton",
-          "position": "Executive Chairman",
-          "desc": "People says about, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "title": "Priya Singh",
+          "position": "COO",
+          "desc": "Swatrixsoft delivers exceptional IT solutions that drive operational excellence."
         },
         {
           "client": "/images/testimonial/client-05.png",
           "img": "/images/icons/hubs.png",
-          "title": "Pearl B. Hill",
-          "position": "Chairman SR",
-          "desc": "Like this swatrixsoft, vulputate at sapien sit amet,auctor iaculis lorem. In vel hend rerit."
+          "title": "Deepak Mehta",
+          "position": "Digital Strategist",
+          "desc": "Their digital strategies have transformed our approach to technology."
         },
         {
           "client": "/images/testimonial/client-06.png",
           "img": "/images/icons/yelp.png",
-          "title": "Mandy F. Wood",
-          "position": "SR Designer",
-          "desc": "Educational template, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit."
+          "title": "Neha Reddy",
+          "position": "Senior Consultant",
+          "desc": "Consistent, innovative, and reliable—Swatrixsoft truly stands out."
         },
         {
           "client": "/images/testimonial/client-07.png",
           "img": "/images/icons/facebook.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Mildred W. Diaz",
-          "position": "Executive Officer",
-          "company": "@ Yelp",
-          "desc": "Online leaning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "title": "Amit Patel",
+          "position": "VP Operations",
+          "company": "@ Reliance",
+          "desc": "Their expert guidance has been pivotal in our IT modernization."
         },
         {
           "client": "/images/testimonial/client-08.png",
           "img": "/images/icons/bing.png",
           "wtd": 50,
           "ht": 50,
-          "title": "Christopher H. Win",
-          "position": "Product Designer",
-          "desc": "Remote learning, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "title": "Sunita Verma",
+          "position": "Chief Innovation Officer",
+          "desc": "Swatrixsoft’s commitment to digital innovation is truly inspiring."
         },
         {
           "client": "/images/testimonial/client-09.png",
           "img": "/images/icons/yelp.png",
-          "title": "Martha Maldonado",
-          "position": "Executive Chairman",
-          "desc": "University managemnet, vulputate at sapien sit amet, auctor iaculis lorem. In vel hend rerit nisi. Vestibulum eget risus velit."
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "desc": "Their transformative IT solutions have redefined our digital strategy."
+        }
+      ]
+    }
+  ],
+  "testimonialFour": [
+    {
+      "tag": "IT SOLUTIONS FOR EVERY ENTERPRISE",
+      "title": "Client Testimonials",
+      "body": [
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "company": "@ TCS",
+          "desc": "Swatrixsoft's IT solutions have revolutionized our digital infrastructure."
+        },
+        {
+          "img": "/images/testimonial/client-02.png",
+          "title": "Anjali Sharma",
+          "position": "CEO",
+          "company": "@ Infosys",
+          "desc": "Their innovative strategies and seamless execution set a new standard in digital transformation."
+        },
+        {
+          "img": "/images/testimonial/client-03.png",
+          "title": "Suresh Gupta",
+          "position": "Head of IT",
+          "company": "@ Wipro",
+          "desc": "Our business operations have never been more agile, thanks to Swatrixsoft."
+        }
+      ]
+    }
+  ],
+  "testimonialSeven": [
+    {
+      "left": [
+        {
+          "client": "/images/testimonial/client-01.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "desc": "Swatrixsoft's digital strategies transformed our IT landscape."
+        },
+        {
+          "client": "/images/testimonial/client-02.png",
+          "img": "/images/icons/google.png",
+          "title": "Anjali Sharma",
+          "position": "CEO",
+          "desc": "Their innovative solutions have driven our digital success."
+        },
+        {
+          "client": "/images/testimonial/client-03.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Suresh Gupta",
+          "position": "Head of IT",
+          "desc": "Expert solutions that deliver measurable results."
+        },
+        {
+          "client": "/images/testimonial/client-04.png",
+          "img": "/images/icons/bing.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Priya Singh",
+          "position": "COO",
+          "desc": "Their proactive approach sets them apart."
+        },
+        {
+          "client": "/images/testimonial/client-05.png",
+          "img": "/images/icons/hubs.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Deepak Mehta",
+          "position": "Digital Strategist",
+          "desc": "Swatrixsoft’s solutions empower our business growth."
+        },
+        {
+          "client": "/images/testimonial/client-06.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Neha Reddy",
+          "position": "Senior Consultant",
+          "desc": "Consistently innovative and reliable IT solutions."
+        },
+        {
+          "client": "/images/testimonial/client-07.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Amit Patel",
+          "position": "VP Operations",
+          "company": "@ Reliance",
+          "desc": "Their expert IT guidance has been transformative."
+        },
+        {
+          "client": "/images/testimonial/client-08.png",
+          "img": "/images/icons/bing.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Sunita Verma",
+          "position": "Chief Innovation Officer",
+          "desc": "Swatrixsoft’s commitment to digital excellence is exceptional."
+        },
+        {
+          "client": "/images/testimonial/client-09.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "desc": "Their transformative IT solutions have redefined our digital strategy."
+        }
+      ],
+      "right": [
+        {
+          "client": "/images/testimonial/client-01.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "desc": "Innovative IT solutions that drive our business forward."
+        },
+        {
+          "client": "/images/testimonial/client-02.png",
+          "img": "/images/icons/google.png",
+          "title": "Anjali Sharma",
+          "position": "CEO",
+          "desc": "Swatrixsoft’s expertise in digital transformation is second to none."
+        },
+        {
+          "client": "/images/testimonial/client-03.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Suresh Gupta",
+          "position": "Head of IT",
+          "desc": "Their cutting-edge strategies have elevated our IT infrastructure."
+        },
+        {
+          "client": "/images/testimonial/client-04.png",
+          "img": "/images/icons/bing.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Priya Singh",
+          "position": "COO",
+          "desc": "Swatrixsoft delivers exceptional value with its innovative approach."
+        },
+        {
+          "client": "/images/testimonial/client-05.png",
+          "img": "/images/icons/hubs.png",
+          "title": "Deepak Mehta",
+          "position": "Digital Strategist",
+          "desc": "Their comprehensive IT solutions are a key driver of our growth."
+        },
+        {
+          "client": "/images/testimonial/client-06.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Neha Reddy",
+          "position": "Senior Consultant",
+          "desc": "Their proactive support and expertise make a real difference."
+        },
+        {
+          "client": "/images/testimonial/client-07.png",
+          "img": "/images/icons/facebook.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Amit Patel",
+          "position": "VP Operations",
+          "company": "@ Reliance",
+          "desc": "Their strategic vision has revolutionized our IT operations."
+        },
+        {
+          "client": "/images/testimonial/client-08.png",
+          "img": "/images/icons/bing.png",
+          "wtd": 50,
+          "ht": 50,
+          "title": "Sunita Verma",
+          "position": "Chief Innovation Officer",
+          "desc": "Swatrixsoft’s digital expertise is truly transformative."
+        },
+        {
+          "client": "/images/testimonial/client-09.png",
+          "img": "/images/icons/yelp.png",
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "desc": "Their IT solutions have redefined our approach to digital transformation."
+        }
+      ]
+    }
+  ],
+  "testimonialFour": [
+    {
+      "tag": "IT SOLUTIONS FOR EVERY ENTERPRISE",
+      "title": "Client Testimonials",
+      "body": [
+        {
+          "img": "/images/testimonial/client-01.png",
+          "title": "Ravi Kumar",
+          "position": "CTO",
+          "company": "@ TCS",
+          "desc": "Swatrixsoft's IT solutions have revolutionized our digital infrastructure."
+        },
+        {
+          "img": "/images/testimonial/client-02.png",
+          "title": "Anjali Sharma",
+          "position": "CEO",
+          "company": "@ Infosys",
+          "desc": "Their innovative strategies and seamless execution set a new benchmark in digital transformation."
+        },
+        {
+          "img": "/images/testimonial/client-03.png",
+          "title": "Suresh Gupta",
+          "position": "Head of IT",
+          "company": "@ Wipro",
+          "desc": "Our operations have become significantly more agile and efficient thanks to their IT expertise."
         }
       ]
     }

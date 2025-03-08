@@ -1,31 +1,32 @@
 {
   "advanceOne": [
     {
-      "tag": "YOU CAN CUSTOMIZE ALL",
-      "title": "Advance Tab Style One.",
+      "tag": "CUSTOMIZE YOUR EXPERIENCE",
+      "title": "Innovative IT Solutions Overview",
+      "subTitle": "Empowering Your Business",
       "body": [
         {
-          "text": "Market Researce.",
+          "text": "Market Analysis",
           "isActive": false,
           "tab": "home-tab",
           "target": "home",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "Leverage our cutting-edge market research to uncover digital opportunities tailored for your industry.",
           "img": "/images/tab/tabs-03.jpg"
         },
         {
-          "text": "Corporate Report.",
+          "text": "Corporate Strategy",
           "isActive": true,
           "tab": "profile-tab",
           "target": "profile",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "Our strategic planning integrates innovative IT solutions to drive sustainable business growth.",
           "img": "/images/tab/tabs-02.jpg"
         },
         {
-          "text": "App Development.",
+          "text": "Custom Development",
           "isActive": false,
           "tab": "contact-tab",
           "target": "contact",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "From web and app development to robust LMS platforms, our custom solutions are designed to scale.",
           "img": "/images/tab/tabs-01.jpg"
         }
       ]
@@ -33,32 +34,31 @@
   ],
   "advanceTwo": [
     {
-      "tag": "YOU CAN CUSTOMIZE ALL",
-      "title": "Advance Tab Style Two.",
-
+      "tag": "CUSTOMIZE YOUR EXPERIENCE",
+      "title": "Innovative IT Services Panel",
       "body": [
         {
-          "text": "Market Researce.",
+          "text": "Market Analysis",
           "isActive": false,
           "tab": "home-tab-2",
           "target": "home-2",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "Unlock insights with our detailed market research, helping you identify growth opportunities.",
           "img": "/images/tab/tabs-04.jpg"
         },
         {
-          "text": "Corporate Report.",
+          "text": "Business Intelligence",
           "isActive": true,
           "tab": "profile-tab-2",
           "target": "profile-2",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "Our data-driven approach delivers actionable insights that power your digital strategy.",
           "img": "/images/tab/tabs-05.jpg"
         },
         {
-          "text": "App Development.",
+          "text": "Application Development",
           "isActive": false,
           "tab": "contact-tab-2",
           "target": "contact-2",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "We build scalable web and mobile applications that meet the unique demands of your business.",
           "img": "/images/tab/tabs-06.jpg"
         }
       ]
@@ -66,32 +66,31 @@
   ],
   "advanceThree": [
     {
-      "tag": "YOU CAN CUSTOMIZE ALL",
-      "title": "Advance Tab Style Three.",
-
+      "tag": "CUSTOMIZE YOUR EXPERIENCE",
+      "title": "Cutting-Edge IT Innovation",
       "body": [
         {
-          "text": "Market Researce.",
+          "text": "Market Insights",
           "isActive": false,
           "tab": "home-tab-3",
           "target": "home-3",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "Stay ahead with our comprehensive market insights that drive your competitive edge.",
           "img": "/images/tab/tabs-07.jpg"
         },
         {
-          "text": "Corporate Report.",
+          "text": "Strategic Consulting",
           "isActive": true,
           "tab": "profile-tab-3",
           "target": "profile-3",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "Our consulting services help streamline operations and refine your digital strategy.",
           "img": "/images/tab/tabs-08.jpg"
         },
         {
-          "text": "App Development.",
+          "text": "Full-Stack Solutions",
           "isActive": false,
           "tab": "contact-tab-3",
           "target": "contact-3",
-          "desc": "Use Doob template you can build a corporate website a short time.",
+          "desc": "From development to deployment, we offer complete IT solutions that ensure seamless performance.",
           "img": "/images/tab/tabs-09.jpg"
         }
       ]
@@ -99,43 +98,43 @@
   ],
   "advanceFour": [
     {
-      "tag": "YOU CAN CUSTOMIZE ALL",
-      "title": "Advance Tab Style Four.",
+      "tag": "CUSTOMIZE YOUR EXPERIENCE",
+      "title": "Enterprise Digital Transformation",
       "body": [
         {
-          "text": "Educational Technology.",
+          "text": "Innovative Technologies",
           "isActive": false,
           "tab": "home-tab-4",
           "target": "home-4",
           "controls": "home",
-          "desc": "Educational technology ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+          "desc": "Harness innovative technologies to drive your digital transformation and achieve operational excellence."
         },
         {
-          "text": "Physical Education.",
+          "text": "Integrated Solutions",
           "isActive": true,
           "tab": "profile-tab-4",
           "target": "profile-4",
           "controls": "profile",
-          "desc": "Physical education ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+          "desc": "We deliver integrated IT solutions that combine web, mobile, and LMS systems for a unified digital experience."
         },
         {
-          "text": "Experiencing Music.",
+          "text": "Creative Design",
           "isActive": false,
           "tab": "contact-tab-4",
           "target": "contact-4",
           "controls": "contact",
-          "desc": "Experiencing music ipsum dolor sit amet consectetur, adipisicing elit. Tempora sequi doloremque dicta quia unde odio nam minus reiciendis ullam aliquam, dolorum ab quisquam cum numquam nemo iure cumque iste. Accusamus necessitatibus."
+          "desc": "Our creative design team crafts visually compelling and user-friendly interfaces that captivate audiences."
         }
       ],
       "gallery": [
         {
-          "text": "Education",
+          "text": "Digital Innovation",
           "img": "/images/gallery/gallery-01.jpg",
           "width": 638,
           "height": 623,
           "subGallery": [
             {
-              "text": "React",
+              "text": "Web Development",
               "lgImg": true,
               "smImg": false,
               "img": "/images/gallery/gallery-02.jpg",
@@ -143,7 +142,7 @@
               "height": 294
             },
             {
-              "text": "Javascript",
+              "text": "Mobile App",
               "lgImg": false,
               "smImg": true,
               "img": "/images/gallery/gallery-03.jpg",
@@ -151,7 +150,7 @@
               "height": 298
             },
             {
-              "text": "Vue-Js",
+              "text": "Digital Marketing",
               "lgImg": false,
               "smImg": true,
               "img": "/images/gallery/gallery-04.jpg",
@@ -165,36 +164,36 @@
   ],
   "advanceFive": [
     {
-      "tag": "YOU CAN CUSTOMIZE ALL",
-      "title": "Advance Tab Style Five.",
+      "tag": "CUSTOMIZE YOUR EXPERIENCE",
+      "title": "Advanced IT Service Insights",
       "img": "/images/tab/tabs-02.jpg",
       "body": [
         {
-          "text": "Strategy",
+          "text": "Strategic Planning",
           "isActive": true,
           "tab": "home-tab-5",
           "target": "home-5",
           "controls": "home",
-          "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo.",
-          "descTwo": "Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo."
+          "desc": "Our strategic planning services ensure your digital transformation journey is well mapped and executed with precision.",
+          "descTwo": "We collaborate closely with your team to understand your vision and deliver solutions that align with your business goals."
         },
         {
-          "text": "Reporting",
+          "text": "Performance Reporting",
           "isActive": false,
           "tab": "profile-tab-5",
           "target": "profile-5",
           "controls": "profile",
-          "desc": "Ipsum lorem dolor sit amet consectetur, adipisicing elit. Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo.",
-          "descTwo": "Ipsa Quibusdam, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo.."
+          "desc": "Our reporting tools provide real-time insights into your digital performance, enabling informed decision-making.",
+          "descTwo": "Detailed analytics help you track progress and optimize your digital strategy continuously."
         },
         {
-          "text": "Development",
+          "text": "Custom Development",
           "isActive": false,
           "tab": "contact-tab-5",
           "target": "contact-5",
           "controls": "contact",
-          "desc": "Exercitationem Ipsum lorem dolor sit amet consectetur, adipisicing elit. Quibusdam ipsa, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla tempore corrupti! Nemo.",
-          "descTwo": "Ipsa Quibusdam, deleniti soluta minima minus asperiores doloribus enim vitae obcaecati fuga assumenda laudantium nemo odio provident nulla exercitationem tempore corrupti! Nemo."
+          "desc": "We deliver bespoke development solutions tailored to your business needs, ensuring robust and scalable applications.",
+          "descTwo": "Our end-to-end service covers design, development, testing, and deployment to guarantee success."
         }
       ]
     }

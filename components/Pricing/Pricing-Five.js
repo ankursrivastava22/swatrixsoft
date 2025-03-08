@@ -22,12 +22,12 @@ const PricingFive = ({ title, tag }) => {
             <div className="advance-pricing">
               <div className="inner">
                 <div className="row row--0">
+                  {/* Premium IT Solution Plan */}
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="pricing-left">
-                      <h3 className="main-title">Active Plan Mode.</h3>
+                      <h3 className="main-title">Premium IT Solution Plan</h3>
                       <p className="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo, quisquam.
+                        Our premium plan offers a comprehensive suite of advanced IT services, including custom software development, cloud integration, and robust cybersecurity—tailored to meet enterprise-level demands.
                       </p>
                       <div className="price-wrapper">
                         <span className="price-amount">
@@ -36,10 +36,10 @@ const PricingFive = ({ title, tag }) => {
                       </div>
                       <div className="pricing-btn-group">
                         <button className="rbt-btn btn-gradient w-100">
-                          Purchase Now
+                          Get Started
                         </button>
                         <button className="rbt-btn btn-border w-100">
-                          Upgrade
+                          Learn More
                         </button>
                       </div>
                       <div className="rating">
@@ -105,57 +105,55 @@ const PricingFive = ({ title, tag }) => {
                         </Link>
                       </div>
                       <small className="subtitle">
-                        rated 4.5/5 Stars in 1000+ reviews.
+                        Rated 4.5/5 Stars in 1000+ reviews.
                       </small>
                     </div>
                   </div>
+                  {/* Standard IT Solution Plan */}
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="pricing-right position-relative">
                       <div className="pricing-offer">
                         <div className="single-list">
                           <h4 className="price-title">
-                            Advance Plans You can Get.
+                            Advanced IT Solutions
                           </h4>
                           <ul className="plan-offer-list">
                             <li>
-                              <i className="feather-check"></i> 5 PPC Campaigns
+                              <i className="feather-check"></i> Custom Software Development
                             </li>
                             <li>
-                              <i className="feather-check"></i> Digital
-                              Marketing
+                              <i className="feather-check"></i> Cloud Integration
                             </li>
                             <li>
-                              <i className="feather-check"></i> Marketing Agency
+                              <i className="feather-check"></i> Enterprise Security
                             </li>
                             <li>
-                              <i className="feather-check"></i> Seo Friendly
+                              <i className="feather-check"></i> Scalable Infrastructure
                             </li>
                           </ul>
                         </div>
                         <div className="single-list mt--40">
                           <h4 className="price-title">
-                            Basic Plans You can Get.
+                            Standard IT Solutions
                           </h4>
                           <ul className="plan-offer-list">
                             <li>
-                              <i className="feather-check"></i> 5 PPC Campaigns
+                              <i className="feather-check"></i> Responsive Web Design
                             </li>
                             <li>
-                              <i className="feather-check"></i> Digital
-                              Marketing
+                              <i className="feather-check"></i> Basic App Development
                             </li>
                             <li>
-                              <i className="feather-check"></i> Marketing Agency
+                              <i className="feather-check"></i> SEO & Content Strategy
                             </li>
                             <li>
-                              <i className="feather-check"></i> Seo Friendly
+                              <i className="feather-check"></i> Optimized System Performance
                             </li>
                             <li>
                               <i className="feather-check"></i> App Development
                             </li>
                             <li className="off">
-                              <i className="feather-x"></i> 24/7 Dedicated
-                              Support
+                              <i className="feather-x"></i> 24/7 Dedicated Support
                             </li>
                           </ul>
                         </div>

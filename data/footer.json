@@ -1,26 +1,26 @@
 {
   "footerOne": [
     {
-      "description": " We’re always in search for talented and motivated people.Don’t be shy introduce yourself!",
-      "phone": "(406) 555-0120",
-      "mail": "rainbow@example.com",
-      "address": "North America, USA",
+      "description": "Swatrixsoft is your trusted partner in digital transformation. Connect with us for innovative IT solutions that drive business growth.",
+      "phone": "+91-9876543210",
+      "mail": "contact@swatrixsoft.com",
+      "address": "Bengaluru, India",
       "usefulLinks": [
         {
-          "text": "Marketplace",
-          "link": "/12-marketplace"
+          "text": "Digital Solutions",
+          "link": "/digital-solutions"
         },
         {
-          "text": "kindergarten",
-          "link": "/04-kindergarten"
+          "text": "Cloud Services",
+          "link": "/cloud-services"
         },
         {
-          "text": "University",
-          "link": "/13-university-classic"
+          "text": "Enterprise IT",
+          "link": "/enterprise-it"
         },
         {
-          "text": "Classic Lms",
-          "link": "/05-classic-lms"
+          "text": "Consulting",
+          "link": "/consulting"
         },
         {
           "text": "FAQ",
@@ -29,24 +29,24 @@
       ],
       "ourCompany": [
         {
-          "text": "Contact Us",
-          "link": "/contact"
+          "text": "About Us",
+          "link": "/about-us"
         },
         {
-          "text": "Become Teacher",
-          "link": "/become-a-teacher"
+          "text": "Our Services",
+          "link": "/services"
         },
         {
           "text": "Blog",
           "link": "/blog-list"
         },
         {
-          "text": "Instructor",
-          "link": "/elements/team"
+          "text": "Careers",
+          "link": "/careers"
         },
         {
-          "text": "Events",
-          "link": "/pages/event-list"
+          "text": "Contact Us",
+          "link": "/contact"
         }
       ],
       "socialLink": [
@@ -64,34 +64,34 @@
         },
         {
           "icon": "feather-linkedin",
-          "link": "https://www.linkdin.com/"
+          "link": "https://www.linkedin.com/"
         }
       ]
     }
   ],
   "footerTwo": [
     {
-      "description": "We’re always in search for talented and motivated people.Don’t be shy introduce yourself!",
-      "descriptionTwo": "2000+ Our students are subscribe Around the World.Don’t be shy introduce yourself!",
-      "phone": "(406) 555-0120",
-      "mail": "admin@example.com",
-      "address": "North America, USA",
+      "description": "Swatrixsoft empowers enterprises with cutting-edge IT solutions—ranging from digital transformation and cloud integration to bespoke software development.",
+      "descriptionTwo": "Join thousands of clients across India and worldwide who trust Swatrixsoft to drive innovation and optimize digital performance.",
+      "phone": "+91-9876543210",
+      "mail": "support@swatrixsoft.com",
+      "address": "Mumbai, India",
       "usefulLinks": [
         {
-          "text": "Marketplace",
-          "link": "/12-marketplace"
+          "text": "Digital Solutions",
+          "link": "/digital-solutions"
         },
         {
-          "text": "kindergarten",
-          "link": "/04-kindergarten"
+          "text": "Cloud Services",
+          "link": "/cloud-services"
         },
         {
-          "text": "University",
-          "link": "/13-university-classic"
+          "text": "Enterprise IT",
+          "link": "/enterprise-it"
         },
         {
-          "text": "Classic Lms",
-          "link": "/05-classic-lms"
+          "text": "Consulting",
+          "link": "/consulting"
         },
         {
           "text": "FAQ",
@@ -100,24 +100,24 @@
       ],
       "ourCompany": [
         {
-          "text": "Contact Us",
-          "link": "/contact"
+          "text": "About Us",
+          "link": "/about-us"
         },
         {
-          "text": "Become Teacher",
-          "link": "/become-a-teacher"
+          "text": "Our Services",
+          "link": "/services"
         },
         {
           "text": "Blog",
           "link": "/blog-list"
         },
         {
-          "text": "Instructor",
-          "link": "/elements/team"
+          "text": "Careers",
+          "link": "/careers"
         },
         {
-          "text": "Events",
-          "link": "/pages/event-list"
+          "text": "Contact Us",
+          "link": "/contact"
         }
       ],
       "socialLink": [
@@ -135,7 +135,7 @@
         },
         {
           "icon": "feather-linkedin",
-          "link": "https://www.linkdin.com/"
+          "link": "https://www.linkedin.com/"
         }
       ]
     }

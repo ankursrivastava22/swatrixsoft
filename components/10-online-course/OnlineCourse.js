@@ -208,9 +208,7 @@ const OnlineCourse = () => {
                     Want to stay informed about new courses & swatrixsoft?
                   </h2>
                   <p className="description mt--20">
-                    Swatrixsoft educational platform ipsum dolor sit amet
-                    consectetur adipisicing elit. Nam inventore praesentium
-                    alias incidunt! Veritatis.
+                  Swatrixsoft is a full-service website development company based in Jodhpur. We help businesses of all sizes transform ideas into engaging online experiences. Our team crafts high-performance websites, intuitive user interfaces, and scalable solutions—ensuring your digital presence truly stands out.
                   </p>
                   <div className="social-share-wrapper mt--30">
                     <h5>You can also follow us on:</h5>

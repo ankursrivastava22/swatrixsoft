@@ -1,10 +1,10 @@
 {
   "aboutOne": [
     {
-      "tag": "KNOW ABOUT US",
+      "tag": "ABOUT SWATRIXSOFT",
       "title": "Know About Swatrixsoft",
-      "subTitle": " Learning Platform",
-      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "subTitle": "Your Digital Solutions Partner",
+      "desc": "Swatrixsoft is a Jodhpur-based website development company committed to bringing your digital ideas to life. Our mission is to craft high-performance, user-centric web solutions for businesses of all sizes, ensuring you stand out in a competitive online landscape.",
       "images": [
         {
           "id": 1,
@@ -30,32 +30,32 @@
       ],
       "children": [
         {
-          "title": "Flexible Classes",
+          "title": "Flexible Approach",
           "icon": "feather-heart",
           "isPrimary": false,
-          "info": "It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout."
+          "info": "We tailor every project to your unique goals and timeline, ensuring a smooth, collaborative experience."
         },
         {
-          "title": "Learn From Anywhere",
+          "title": "Collaborate From Anywhere",
           "icon": "feather-book",
           "isPrimary": true,
-          "info": "Sed distinctio repudiandae eos recusandae laborum eaque non eius iure suscipit laborum eaque non eius iure suscipit."
+          "info": "Our remote-friendly workflow keeps you involved and informed, no matter where you’re located."
         },
         {
-          "title": "Experienced Teacher's service.",
+          "title": "Expert Developers",
           "icon": "feather-monitor",
           "isPrimary": false,
-          "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aliquid mollitia Officia, aliquid mollitia."
+          "info": "Our skilled team has years of experience delivering secure, scalable, and visually stunning web solutions."
         }
       ]
     }
   ],
   "aboutTwo": [
     {
-      "tag": "KNOW ABOUT US",
-      "title": "Know About Swatrixsoft",
-      "subTitle": " Learning Platform",
-      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "tag": "ABOUT SWATRIXSOFT",
+      "title": "Discover Swatrixsoft",
+      "subTitle": "Innovative Web Solutions",
+      "desc": "We combine strategy, creativity, and cutting-edge technology to build websites that empower businesses online. Whether you need a custom platform, a redesign, or ongoing support, our team is ready to help you thrive in the digital space.",
       "images": [
         {
           "id": 1,
@@ -81,68 +81,68 @@
       ],
       "children": [
         {
-          "title": "Flexible Classes",
+          "title": "Client-Centric Process",
           "icon": "feather-heart",
           "isPrimary": false,
-          "info": "It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout."
+          "info": "We focus on understanding your business objectives, ensuring each project delivers real value."
         },
         {
-          "title": "Learn From Anywhere",
+          "title": "Seamless Collaboration",
           "icon": "feather-book",
           "isPrimary": true,
-          "info": "Sed distinctio repudiandae eos recusandae laborum eaque non eius iure suscipit laborum eaque non eius iure suscipit."
+          "info": "Whether you’re local or global, our communication channels keep you involved every step of the way."
         }
       ]
     }
   ],
   "aboutThree": [
     {
-      "title": "About the University we are creative preapre you for your career supportive.",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil! Ipsa aspernatur aperiam recusandae pariatur odit repudiandae assumenda architecto."
+      "title": "We Are Creative & Prepare You for Your Digital Future",
+      "desc": "At Swatrixsoft, we believe in leveraging technology to fuel growth and innovation. Our solutions are designed to help businesses navigate the digital landscape with confidence, ensuring a robust online presence that stands the test of time."
     }
   ],
   "aboutFour": [
     {
-      "title": "Graduate Programs.",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil.",
-      "descTwo": "Graduate Programs dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil."
+      "title": "Our Approach to Web Development",
+      "desc": "We blend strategy, creativity, and modern tools to build solutions that truly stand out. Each project is approached with a clear understanding of your business objectives, ensuring the end product not only looks great but delivers exceptional performance.",
+      "descTwo": "Our ultimate goal is to provide value through scalable and future-proof solutions. From user experience design to backend architecture, we prioritize quality at every step."
     }
   ],
   "aboutFive": [
     {
       "name": "John Lee",
-      "title": "The Founder Of Swatrixsoft Academy.",
-      "info": "Web teacher and leacture for future development.",
-      "designation": "Web designer & developer",
+      "title": "The Founder of Swatrixsoft",
+      "info": "A passionate innovator dedicated to delivering top-notch web solutions for businesses worldwide.",
+      "designation": "Founder & Lead Developer",
       "phone": "+01910203040",
-      "address": "Dhaka, Bangladesh",
+      "address": "Jodhpur, India",
       "authorImg": "/images/about/about-12.jpg",
       "signature": "/images/shape/signature.png"
     }
   ],
   "aboutSix": [
     {
-      "tag": "ABOUT swatrixsoft",
-      "title": "What is Swatrixsoft For You?.",
-      "strong": "Swatrixsoft educational platform",
-      "desc": "ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil.",
+      "tag": "ABOUT SWATRIXSOFT",
+      "title": "What is Swatrixsoft For You?",
+      "strong": "Your Go-To Website Development Partner",
+      "desc": "We offer a broad range of digital services tailored to your needs. From concept to deployment, our team leverages modern tech stacks to deliver robust, secure, and visually appealing websites that drive business results.",
       "img": "/images/about/about-06.png"
     }
   ],
   "aboutSaven": [
     {
-      "tag": "ABOUT swatrixsoft",
-      "title": "What is Swatrixsoft For You?.",
-      "strong": "Swatrixsoft educational platform",
-      "desc": "ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil.",
+      "tag": "ABOUT SWATRIXSOFT",
+      "title": "What is Swatrixsoft For You?",
+      "strong": "Empowering Your Online Presence",
+      "desc": "At Swatrixsoft, we’re dedicated to building digital experiences that help you stand out in a crowded marketplace. Our focus on collaboration, quality, and innovation ensures every project we undertake exceeds expectations.",
       "img": "/images/about/about-06.png"
     }
   ],
   "aboutEight": [
     {
-      "title": "What is Swatrixsoft For You?.",
-      "strong": "Swatrixsoft educational platform",
-      "desc": "ipsum dolor sit amet consectetur adipisicing elit. Nam inventore praesentium alias incidunt! Veritatis, necessitatibus fuga dolore tenetur, beatae suscipit fugit est ea perspiciatis quo provident nisi dolor similique architecto nihil."
+      "title": "What is Swatrixsoft For You?",
+      "strong": "Your Trusted Website Development Company",
+      "desc": "Based in Jodhpur, we specialize in crafting tailored web solutions for businesses across various industries. Our approach prioritizes your unique goals, ensuring each project delivers a lasting impact on your bottom line."
     }
   ]
 }

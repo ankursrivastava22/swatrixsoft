@@ -8,23 +8,23 @@ const SingleCourseBanner = () => {
           <div className="inner text-center ptb--80">
             <div className="section-title">
               <span className="subtitle bg-primary-opacity">
-                Hello! Web Development Course
+                Welcome to Swatrixsoft Solutions
               </span>
             </div>
             <h2 className="title theme-gradient rbt-display-1">
-              A Complete Guide to Web Development.
+              Your Comprehensive Guide to Digital Transformation.
             </h2>
 
             <p className="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              perferendis, maiores?
+              At Swatrixsoft, we empower businesses with end-to-end IT solutions—
+              from web and app development to LMS, digital marketing, and more.
             </p>
 
             <div className="rbt-single-course-meta text-center mt--20">
               <div className="enroll-btn mt--15">
                 <a className="rbt-btn btn-gradient hover-icon-reverse" href="#">
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Enrol Course Now</span>
+                    <span className="btn-text">Start Your Project Today</span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
                     </span>
@@ -41,17 +41,17 @@ const SingleCourseBanner = () => {
                 <div className="col-lg-4 col-md-4 col-sm-6 text-start">
                   <ul className="rbt-meta">
                     <li className="color-primary">
-                      <i className="feather-book"></i>12 Lessons
+                      <i className="feather-book"></i>12 Modules
                     </li>
                     <li className="color-primary">
-                      <i className="feather-users"></i>50 Students
+                      <i className="feather-users"></i>50+ Clients Served
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-6 text-center">
                   <div className="rbt-price large-size justify-content-start justify-content-lg-center">
-                    <span className="current-price">$750.00</span>
-                    <span className="off-price">$1500.00</span>
+                    <span className="current-price">Starting at $750</span>
+                    <span className="off-price">Custom Pricing Available</span>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-6 text-end">
@@ -78,4 +78,4 @@ const SingleCourseBanner = () => {
   );
 }
 
-export default SingleCourseBanner
+export default SingleCourseBanner;

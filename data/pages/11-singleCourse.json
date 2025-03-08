@@ -1,40 +1,20 @@
 {
   "courseFeatureBox": [
     {
-      "title": "What you'll learn",
-      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.",
+      "title": "What You'll Learn",
+      "desc": "Discover the key capabilities that power modern digital transformation.",
       "img": "/images/course/course-single-01.jpg",
       "featureList": [
-        {
-          "text": "Become an advanced, confident."
-        },
-        {
-          "text": "Have an intermediate skill."
-        },
-        {
-          "text": "Have a portfolio of various."
-        },
-        {
-          "text": "Have a portfolio of various."
-        },
-        {
-          "text": "Use the numpy library to create."
-        },
-        {
-          "text": "Use the Jupyter Notebook."
-        },
-        {
-          "text": "Use the pandas module with."
-        },
-        {
-          "text": "Have a portfolio of various."
-        },
-        {
-          "text": "Create data visualizations."
-        },
-        {
-          "text": "Have a portfolio of various."
-        }
+        { "text": "Master advanced digital strategies." },
+        { "text": "Develop innovative web & mobile solutions." },
+        { "text": "Build scalable IT infrastructures." },
+        { "text": "Integrate cutting-edge LMS and marketing tools." },
+        { "text": "Leverage data analytics for decision making." },
+        { "text": "Implement agile project management." },
+        { "text": "Optimize user experience across platforms." },
+        { "text": "Enhance security and performance." },
+        { "text": "Create visually stunning digital interfaces." },
+        { "text": "Develop comprehensive IT portfolios." }
       ]
     }
   ],
@@ -44,25 +24,13 @@
         {
           "img": "/images/course/single-course-02.jpg",
           "imgTwo": "/images/course/course-feature-03.jpg",
-          "tag": "Hello! Web Development Course",
-          "title": "Complete app development course with swatrixsoft",
-          "desc": "The idea of establishing a private university to provide quality education at an affordable cost in Uk London.",
+          "tag": "Complete IT Solutions Course",
+          "title": "Master Full-Stack Digital Transformation with Swatrixsoft",
+          "desc": "Our comprehensive course covers web and app development, LMS integration, and digital marketing—providing you with all the skills needed to drive business success.",
           "list": [
-            {
-              "icon": "/images/icons/card-icon-1.png",
-              "num": 300,
-              "text": "Got Hired"
-            },
-            {
-              "icon": "/images/icons/card-icon-4.png",
-              "num": 10,
-              "text": "Enrolled"
-            },
-            {
-              "icon": "/images/icons/card-icon-2.png",
-              "num": 300,
-              "text": "Month Required"
-            }
+            { "icon": "/images/icons/card-icon-1.png", "num": 300, "text": "Projects Delivered" },
+            { "icon": "/images/icons/card-icon-4.png", "num": 10, "text": "Expert Instructors" },
+            { "icon": "/images/icons/card-icon-2.png", "num": 300, "text": "Hours of Content" }
           ]
         }
       ],
@@ -70,42 +38,24 @@
         {
           "img": "/images/course/single-course-06.jpg",
           "imgTwo": "/images/course/course-feature-01.jpg",
-          "title": "Get a Certificate",
-          "desc": "Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September year Undergraduate.",
+          "title": "Earn a Professional Certification",
+          "desc": "Enroll in our advanced certification program and get recognized for your skills in digital transformation and IT solutions.",
           "list": [
-            {
-              "icon": "/images/icons/card-icon-11.png",
-              "num": 5000,
-              "text": "Got Award"
-            },
-            {
-              "icon": "/images/icons/card-icon-12.png",
-              "num": 10,
-              "text": "Zero to career"
-            }
+            { "icon": "/images/icons/card-icon-11.png", "num": 5000, "text": "Successful Projects" },
+            { "icon": "/images/icons/card-icon-12.png", "num": 10, "text": "Career Growth" }
           ]
         }
       ],
       "certificateThree": [
         {
           "title": "Projects You Will Build",
-          "desc": "Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September year Undergraduate.",
+          "desc": "Hands-on projects that mirror real-world challenges in digital transformation and IT innovation.",
           "list": [
-            {
-              "text": "Ecommerce Website"
-            },
-            {
-              "text": "Travel Agency"
-            },
-            {
-              "text": "Shopping Cart"
-            },
-            {
-              "text": "News Portal"
-            },
-            {
-              "text": "Education Management"
-            }
+            { "text": "Ecommerce Website" },
+            { "text": "Enterprise Portal" },
+            { "text": "Custom Mobile Application" },
+            { "text": "Integrated LMS Platform" },
+            { "text": "Digital Marketing Dashboard" }
           ]
         }
       ]
@@ -113,408 +63,108 @@
   ],
   "courseContent": [
     {
-      "title": "Intro to Course and Swatrixsoft",
+      "title": "Introduction to Swatrixsoft Solutions",
       "isShow": true,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": false,
-          "min": 30
-        },
-        {
-          "text": "Watch Before Start",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": false,
-          "min": 0.5
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": false,
-          "min": 10
-        }
+        { "text": "Overview & Strategy", "isPlay": true, "isDoc": false, "isLoc": false, "min": 30 },
+        { "text": "Product Demo", "isPlay": true, "isDoc": false, "isLoc": false, "min": 0.5 },
+        { "text": "Documentation & Resources", "isPlay": false, "isDoc": true, "isLoc": false, "min": 10 }
       ]
     },
     {
-      "title": "15 Things To Know About Education?",
+      "title": "Key Insights for Digital Transformation",
       "isShow": false,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
+        { "text": "Strategy Overview", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Resource Guide", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Challenges & Solutions", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Best Practices", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Key Performance Metrics", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Actionable Strategies", "isPlay": false, "isDoc": true, "isLoc": true }
       ]
     },
     {
-      "title": "Course Fundamentals",
+      "title": "Fundamentals of IT Solutions",
       "isShow": false,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
+        { "text": "Solution Overview", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Implementation Guide", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Technology Best Practices", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Process Optimization", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Scalability & Security", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Resource Management", "isPlay": false, "isDoc": true, "isLoc": true }
       ]
     },
     {
-      "title": "You can develop skill and setup",
+      "title": "Skill Development & Setup",
       "isShow": false,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
+        { "text": "Introduction to Tools", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Setup & Configuration", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Integration Techniques", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Workflow Optimization", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Best Practices for Implementation", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Maintenance & Updates", "isPlay": false, "isDoc": true, "isLoc": true }
       ]
     },
     {
-      "title": "Course Description",
+      "title": "Comprehensive Service Overview",
       "isShow": false,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
+        { "text": "Introduction to Services", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "In-Depth Resource Materials", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Key Advantages", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Client Success Stories", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Scalability & Flexibility", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Ongoing Support & Updates", "isPlay": false, "isDoc": true, "isLoc": true }
       ]
     },
     {
-      "title": "Route 53",
+      "title": "Digital Infrastructure & Cloud",
       "isShow": false,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
+        { "text": "Solution Overview", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Cloud Integration", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Optimization Strategies", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Resource Management", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Security Best Practices", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Ongoing Support", "isPlay": false, "isDoc": true, "isLoc": true }
       ]
     },
     {
-      "title": "EC2 Instance Storage",
+      "title": "Cloud Management & Automation",
       "isShow": false,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
+        { "text": "Overview of Automation", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Best Practices for Cloud", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Integration Strategies", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Process Optimization", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Scalability Factors", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Maintenance Guidelines", "isPlay": false, "isDoc": true, "isLoc": true }
       ]
     },
     {
-      "title": "IAM & AWS CLI",
+      "title": "Advanced Cloud Automation",
       "isShow": false,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
+        { "text": "Introduction to Cloud Automation", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Setup & Configuration", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Best Practices", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Integration Techniques", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Performance Optimization", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Ongoing Maintenance", "isPlay": false, "isDoc": true, "isLoc": true }
       ]
     },
     {
-      "title": "Getting started with AWS",
+      "title": "Cloud Fundamentals",
       "isShow": false,
       "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
-      ]
-    },
-    {
-      "title": "EC2 Fundamentals",
-      "isShow": false,
-      "list": [
-        {
-          "text": "Course Intro",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Why You Should Not Go To Education.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        },
-        {
-          "text": "Ten Factors That Affect Education's Longevity.",
-          "isPlay": true,
-          "isDoc": false,
-          "isLoc": true
-        },
-        {
-          "text": "Read Before You Start",
-          "isPlay": false,
-          "isDoc": true,
-          "isLoc": true
-        }
+        { "text": "Introduction to Cloud Services", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Service Setup and Configuration", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Key Concepts and Practices", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Maintenance and Support", "isPlay": false, "isDoc": true, "isLoc": true },
+        { "text": "Scalability and Cost Optimization", "isPlay": true, "isDoc": false, "isLoc": true },
+        { "text": "Continuous Improvement", "isPlay": false, "isDoc": true, "isLoc": true }
       ]
     }
   ]

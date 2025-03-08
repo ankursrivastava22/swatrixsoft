@@ -17,7 +17,7 @@ const HomeTechnologyBanner = () => {
                 <div className="inner text-center">
                   <div className="section-title">
                     <span className="subtitle bg-primary-opacity">
-                      Welcome
+                      SwatrixSoft
                     </span>
                   </div>
 

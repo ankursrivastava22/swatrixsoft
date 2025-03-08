@@ -2,91 +2,91 @@
   "events": [
     {
       "id": 1,
-      "title": "International Education Fair 2024",
-      "category": "Web Design",
+      "title": "Swatrixsoft IT Innovation Summit 2024",
+      "category": "Digital Transformation",
       "tag": "Swatrixsoft",
       "img": "/images/event/grid-type-01.jpg",
       "eventImg": "/images/course/course-01.jpg",
       "price": 70,
       "offPrice": 120,
-      "location": "IAC",
+      "location": "IAC Building",
       "time": "8:00 am - 5:00 pm",
       "badgeDate": "11 Jan",
       "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "desc": "Join industry leaders at the Swatrixsoft IT Innovation Summit, where cutting-edge digital solutions and transformative IT strategies are unveiled. Learn how modern enterprises are leveraging technology to drive growth and competitive advantage.",
+      "descTwo": "Explore breakthrough innovations in web and app development, robust LMS integrations, and comprehensive digital marketing strategies that empower businesses to excel in today’s digital economy.",
       "eventContent": [
         {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
+          "listItem": "Key insights from leading IT experts."
         },
         {
-          "listItem": "Have an intermediate skill level of Python programming."
+          "listItem": "Live demonstrations of innovative digital solutions."
         },
         {
-          "listItem": "Have a portfolio of various data analysis projects."
+          "listItem": "Case studies on successful IT transformations."
         },
         {
-          "listItem": "Use the numpy library to create and manipulate arrays."
+          "listItem": "Interactive workshops on scalable system design."
         },
         {
-          "listItem": "Live project Software Testing Training Included."
+          "listItem": "Networking opportunities with industry pioneers."
         },
         {
-          "listItem": "Use the pandas module with Python to create and structure data."
+          "listItem": "Guidance on integrating LMS and marketing platforms."
         },
         {
-          "listItem": "Have a portfolio of various data analysis projects."
+          "listItem": "Strategies to optimize operational efficiency."
         },
         {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
+          "listItem": "Future trends in digital transformation."
         }
       ],
       "eventDescription": [
         {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
+          "listItem": "In-depth sessions covering modern IT strategies."
         },
         {
-          "listItem": "Have an intermediate skill level of Python programming."
+          "listItem": "Hands-on workshops demonstrating full-stack solutions."
         },
         {
-          "listItem": "Have a portfolio of various data analysis projects."
+          "listItem": "Interactive panels with industry innovators."
         },
         {
-          "listItem": "Use the numpy library to create and manipulate arrays."
+          "listItem": "Actionable insights to transform your digital presence."
         }
       ],
       "eventFaq": [
         {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "What is Swatrixsoft IT Innovation Summit?",
+          "desc": "Our annual summit gathers IT leaders and innovators to share insights on digital transformation and IT best practices. It’s a platform to learn about emerging technologies and network with experts.",
           "collapsed": true,
           "isShow": true,
           "expand": true
         },
         {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "Who should attend?",
+          "desc": "The event is ideal for IT professionals, business executives, and decision-makers looking to enhance their digital strategies and adopt innovative technologies.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "What topics will be covered?",
+          "desc": "Topics range from web and app development, LMS integration, and digital marketing to advanced IT infrastructure and cloud-based solutions.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "How can I register?",
+          "desc": "Registration is available online through our official event portal. Secure your spot today to join the digital revolution.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "Event Details?",
+          "desc": "For full details, including the agenda and speaker lineup, please visit our event page.",
           "collapsed": false,
           "isShow": false,
           "expand": false
@@ -96,22 +96,22 @@
         {
           "name": "Alejandro",
           "img": "/images/team/team-01.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
+          "type": "IT Consultant",
+          "location": "CO Miego, AD, USA",
+          "desc": "A seasoned IT consultant with a passion for digital innovation and enterprise solutions."
         },
         {
           "name": "Alejandro",
           "img": "/images/team/team-02.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
+          "type": "Digital Strategist",
+          "location": "CO Miego, AD, USA",
+          "desc": "Expert in crafting digital strategies that drive business growth and competitive advantage."
         }
       ],
       "eventSimilar": [
         {
-          "title": "International Education Fair 2024",
-          "category": "Web Design",
+          "title": "Swatrixsoft IT Innovation Summit 2024",
+          "category": "Digital Transformation",
           "eventImg": "/images/event/grid-type-01.jpg",
           "location": "IAC Building",
           "time": "8:00 am - 5:00 pm",
@@ -119,8 +119,8 @@
           "badgeYear": "2024"
         },
         {
-          "title": "Painting Art Contest 2020",
-          "category": "Web Design",
+          "title": "Swatrixsoft Tech Expo 2024",
+          "category": "Digital Transformation",
           "eventImg": "/images/event/grid-type-02.jpg",
           "location": "Vancouver",
           "time": "8:00 am - 5:00 pm",
@@ -129,371 +129,21 @@
         }
       ],
       "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Painting Art Contest 2020",
-      "category": "Backend",
-      "tag": "Training",
-      "img": "/images/event/grid-type-02.jpg",
-      "eventImg": "/images/course/course-02.jpg",
-      "price": 60,
-      "offPrice": 100,
-      "location": "Vancouver",
-      "time": "8:00 am - 5:00 pm",
-      "badgeDate": "9 Mar",
-      "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "eventContent": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        },
-        {
-          "listItem": "Live project Software Testing Training Included."
-        },
-        {
-          "listItem": "Use the pandas module with Python to create and structure data."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
-        }
-      ],
-      "eventDescription": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        }
-      ],
-      "eventFaq": [
-        {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": true,
-          "isShow": true,
-          "expand": true
-        },
-        {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        }
-      ],
-      "eventParticipants": [
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-03.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        },
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-02.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        }
-      ],
-      "eventSimilar": [
-        {
-          "title": "International Education Fair 2024",
-          "category": "Backend",
-          "eventImg": "/images/event/grid-type-04.jpg",
-          "location": "IAC Building",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "11 Jan",
-          "badgeYear": "2024"
-        },
-        {
-          "title": "Painting Art Contest 2020",
-          "category": "Backend",
-          "eventImg": "/images/event/grid-type-05.jpg",
-          "location": "Vancouver",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "9 Mar",
-          "badgeYear": "2024"
-        }
-      ],
-      "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Swatrixsoft Education Fair 2024",
-      "category": "Full Stack",
-      "tag": "Courses",
-      "img": "/images/event/grid-type-03.jpg",
-      "eventImg": "/images/course/course-03.jpg",
-      "price": 40,
-      "offPrice": 80,
-      "location": "Paris",
-      "time": "8:00 am - 5:00 pm",
-      "badgeDate": "10 Oct",
-      "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "eventContent": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        },
-        {
-          "listItem": "Live project Software Testing Training Included."
-        },
-        {
-          "listItem": "Use the pandas module with Python to create and structure data."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
-        }
-      ],
-      "eventDescription": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        }
-      ],
-      "eventFaq": [
-        {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": true,
-          "isShow": true,
-          "expand": true
-        },
-        {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        }
-      ],
-      "eventParticipants": [
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-04.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        },
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-05.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        }
-      ],
-      "eventSimilar": [
-        {
-          "title": "International Education Fair 2024",
-          "category": "Full Stack",
-          "eventImg": "/images/event/grid-type-05.jpg",
-          "location": "IAC Building",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "11 Jan",
-          "badgeYear": "2024"
-        },
-        {
-          "title": "Painting Art Contest 2020",
-          "category": "Full Stack",
-          "eventImg": "/images/event/grid-type-06.jpg",
-          "location": "Vancouver",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "9 Mar",
-          "badgeYear": "2024"
-        }
-      ],
-      "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
+        { "text": "Start Date", "desc": "25 Jan, 2024" },
+        { "text": "Start Time", "desc": "7:00 PM" },
+        { "text": "End Date", "desc": "25 Jan, 2024" },
+        { "text": "Skill Level", "desc": "Basic" },
+        { "text": "Ongoing", "desc": "1000+" },
+        { "text": "Location", "desc": "USA" },
+        { "text": "Certificate", "desc": "Yes" },
+        { "text": "Language", "desc": "English" }
       ]
     },
     {
       "id": 4,
-      "title": "Elegant Light Box Paper Cut Dioramas",
+      "title": "Elegant Digital Showcase: Interactive IT Demonstrations",
       "category": "Mobile Application",
-      "tag": "Learn",
+      "tag": "Showcase",
       "img": "/images/event/grid-type-04.jpg",
       "eventImg": "/images/course/course-04.jpg",
       "price": 60,
@@ -502,80 +152,80 @@
       "time": "8:00 am - 5:00 pm",
       "badgeDate": "8 Jan",
       "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "desc": "Experience an elegant display of digital innovation with our interactive IT demonstrations. Witness how cutting-edge technologies and modern design converge to create immersive digital experiences.",
+      "descTwo": "Discover the power of integrated solutions that combine mobile application development with advanced user interfaces and seamless functionality.",
       "eventContent": [
         {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
+          "listItem": "Hands-on sessions on digital innovation."
         },
         {
-          "listItem": "Have an intermediate skill level of Python programming."
+          "listItem": "Live demos of mobile and web solutions."
         },
         {
-          "listItem": "Have a portfolio of various data analysis projects."
+          "listItem": "Insights into scalable IT infrastructures."
         },
         {
-          "listItem": "Use the numpy library to create and manipulate arrays."
+          "listItem": "Interactive Q&A sessions with experts."
         },
         {
-          "listItem": "Live project Software Testing Training Included."
+          "listItem": "Workshops on integrating LMS and marketing strategies."
         },
         {
-          "listItem": "Use the pandas module with Python to create and structure data."
+          "listItem": "Real-world case studies and success stories."
         },
         {
-          "listItem": "Have a portfolio of various data analysis projects."
+          "listItem": "Strategies for optimizing digital performance."
         },
         {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
+          "listItem": "Emerging trends in IT and cloud solutions."
         }
       ],
       "eventDescription": [
         {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
+          "listItem": "In-depth demonstrations of modern digital solutions."
         },
         {
-          "listItem": "Have an intermediate skill level of Python programming."
+          "listItem": "Live performance metrics and success stories."
         },
         {
-          "listItem": "Have a portfolio of various data analysis projects."
+          "listItem": "Practical insights into scalable mobile applications."
         },
         {
-          "listItem": "Use the numpy library to create and manipulate arrays."
+          "listItem": "Guidance on integrating digital marketing strategies."
         }
       ],
       "eventFaq": [
         {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "What is the focus of this showcase?",
+          "desc": "This showcase highlights our latest innovations in mobile and web application development, emphasizing interactive design and user-centric solutions.",
           "collapsed": true,
           "isShow": true,
           "expand": true
         },
         {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "Who should attend?",
+          "desc": "The event is designed for business leaders, IT professionals, and digital innovators seeking to leverage modern technologies for competitive advantage.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "What topics will be covered?",
+          "desc": "Topics include mobile application development, user interface design, digital transformation strategies, and integrated IT solutions.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "How do I participate?",
+          "desc": "Simply register online to secure your spot and join us for a day of immersive digital experiences.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "Additional Details?",
+          "desc": "For a complete agenda and list of speakers, please visit our official event page.",
           "collapsed": false,
           "isShow": false,
           "expand": false
@@ -585,194 +235,31 @@
         {
           "name": "Alejandro",
           "img": "/images/team/team-06.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
+          "type": "Lead Developer",
+          "location": "CO Miego, AD, USA",
+          "desc": "A passionate innovator dedicated to creating immersive digital experiences."
         },
         {
           "name": "Alejandro",
           "img": "/images/team/team-05.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
+          "type": "Project Manager",
+          "location": "CO Miego, AD, USA",
+          "desc": "Ensuring every project is executed flawlessly from concept to launch."
         }
       ],
       "eventSimilar": [
         {
-          "title": "International Education Fair 2024",
+          "title": "Swatrixsoft IT Innovation Summit 2024",
           "category": "Mobile Application",
-          "eventImg": "/images/event/grid-type-01.jpg",
+          "eventImg": "/images/event/grid-type-04.jpg",
           "location": "IAC Building",
           "time": "8:00 am - 5:00 pm",
           "badgeDate": "11 Jan",
           "badgeYear": "2024"
         },
         {
-          "title": "Painting Art Contest 2020",
+          "title": "Swatrixsoft IT Expo 2024",
           "category": "Mobile Application",
-          "eventImg": "/images/event/grid-type-06.jpg",
-          "location": "Vancouver",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "9 Mar",
-          "badgeYear": "2024"
-        }
-      ],
-      "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Most Effective Ways Education's Problem.",
-      "category": "Backend",
-      "tag": "English",
-      "img": "/images/event/grid-type-05.jpg",
-      "eventImg": "/images/course/course-05.jpg",
-      "price": 70,
-      "offPrice": 120,
-      "location": "Vancouver",
-      "time": "8:00 am - 5:00 pm",
-      "badgeDate": "12 Mar",
-      "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "eventContent": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        },
-        {
-          "listItem": "Live project Software Testing Training Included."
-        },
-        {
-          "listItem": "Use the pandas module with Python to create and structure data."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
-        }
-      ],
-      "eventDescription": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        }
-      ],
-      "eventFaq": [
-        {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": true,
-          "isShow": true,
-          "expand": true
-        },
-        {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        }
-      ],
-      "eventParticipants": [
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-01.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        },
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-05.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        }
-      ],
-      "eventSimilar": [
-        {
-          "title": "International Education Fair 2024",
-          "category": "Backend",
-          "eventImg": "/images/event/grid-type-02.jpg",
-          "location": "IAC Building",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "11 Jan",
-          "badgeYear": "2024"
-        },
-        {
-          "title": "Painting Art Contest 2020",
-          "category": "Backend",
           "eventImg": "/images/event/grid-type-05.jpg",
           "location": "Vancouver",
           "time": "8:00 am - 5:00 pm",
@@ -781,616 +268,75 @@
         }
       ],
       "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Top 7 Common About Education.",
-      "category": "Finance & Accounting",
-      "tag": "Online",
-      "img": "/images/event/grid-type-06.jpg",
-      "eventImg": "/images/course/course-06.jpg",
-      "price": 30,
-      "offPrice": 50,
-      "location": "Paris",
-      "time": "8:00 am - 5:00 pm",
-      "badgeDate": "11 Oct",
-      "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "eventContent": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        },
-        {
-          "listItem": "Live project Software Testing Training Included."
-        },
-        {
-          "listItem": "Use the pandas module with Python to create and structure data."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
-        }
-      ],
-      "eventDescription": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        }
-      ],
-      "eventFaq": [
-        {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": true,
-          "isShow": true,
-          "expand": true
-        },
-        {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        }
-      ],
-      "eventParticipants": [
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-02.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        },
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-04.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        }
-      ],
-      "eventSimilar": [
-        {
-          "title": "International Education Fair 2024",
-          "category": "Finance & Accounting",
-          "eventImg": "/images/event/grid-type-03.jpg",
-          "location": "IAC Building",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "11 Jan",
-          "badgeYear": "2024"
-        },
-        {
-          "title": "Painting Art Contest 2020",
-          "category": "Finance & Accounting",
-          "eventImg": "/images/event/grid-type-04.jpg",
-          "location": "Vancouver",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "9 Mar",
-          "badgeYear": "2024"
-        }
-      ],
-      "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Most Effective Ways Education's Problem.",
-      "category": "Graphic Design",
-      "tag": "Kids",
-      "img": "/images/event/grid-type-05.jpg",
-      "eventImg": "/images/course/course-01.jpg",
-      "price": 70,
-      "offPrice": 120,
-      "location": "Vancouver",
-      "time": "8:00 am - 5:00 pm",
-      "badgeDate": "5 Mar",
-      "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "eventContent": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        },
-        {
-          "listItem": "Live project Software Testing Training Included."
-        },
-        {
-          "listItem": "Use the pandas module with Python to create and structure data."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
-        }
-      ],
-      "eventDescription": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        }
-      ],
-      "eventFaq": [
-        {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": true,
-          "isShow": true,
-          "expand": true
-        },
-        {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        }
-      ],
-      "eventParticipants": [
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-03.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        },
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-02.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        }
-      ],
-      "eventSimilar": [
-        {
-          "title": "International Education Fair 2024",
-          "category": "Graphic Design",
-          "eventImg": "/images/event/grid-type-04.jpg",
-          "location": "IAC Building",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "11 Jan",
-          "badgeYear": "2024"
-        },
-        {
-          "title": "Painting Art Contest 2020",
-          "category": "Graphic Design",
-          "eventImg": "/images/event/grid-type-02.jpg",
-          "location": "Vancouver",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "9 Mar",
-          "badgeYear": "2024"
-        }
-      ],
-      "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Elegant Light Box Paper Cut Dioramas",
-      "category": "Graphic Design",
-      "tag": "Economic",
-      "img": "/images/event/grid-type-04.jpg",
-      "eventImg": "/images/course/course-03.jpg",
-      "price": 40,
-      "offPrice": 60,
-      "location": "IAC Building",
-      "time": "8:00 am - 5:00 pm",
-      "badgeDate": "3 Jan",
-      "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "eventContent": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        },
-        {
-          "listItem": "Live project Software Testing Training Included."
-        },
-        {
-          "listItem": "Use the pandas module with Python to create and structure data."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
-        }
-      ],
-      "eventDescription": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        }
-      ],
-      "eventFaq": [
-        {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": true,
-          "isShow": true,
-          "expand": true
-        },
-        {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        },
-        {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
-          "collapsed": false,
-          "isShow": false,
-          "expand": false
-        }
-      ],
-      "eventParticipants": [
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-03.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        },
-        {
-          "name": "Alejandro",
-          "img": "/images/team/team-02.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
-        }
-      ],
-      "eventSimilar": [
-        {
-          "title": "International Education Fair 2024",
-          "category": "Graphic Design",
-          "eventImg": "/images/event/grid-type-04.jpg",
-          "location": "IAC Building",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "11 Jan",
-          "badgeYear": "2024"
-        },
-        {
-          "title": "Painting Art Contest 2020",
-          "category": "Graphic Design",
-          "eventImg": "/images/event/grid-type-02.jpg",
-          "location": "Vancouver",
-          "time": "8:00 am - 5:00 pm",
-          "badgeDate": "9 Mar",
-          "badgeYear": "2024"
-        }
-      ],
-      "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
+        { "text": "Start Date", "desc": "25 Jan, 2024" },
+        { "text": "Start Time", "desc": "7:00 PM" },
+        { "text": "End Date", "desc": "25 Jan, 2024" },
+        { "text": "Skill Level", "desc": "Basic" },
+        { "text": "Ongoing", "desc": "1000+" },
+        { "text": "Location", "desc": "USA" },
+        { "text": "Certificate", "desc": "Yes" },
+        { "text": "Language", "desc": "English" }
       ]
     },
     {
       "id": 9,
-      "title": "Swatrixsoft Education Fair 2024",
-      "category": "Personal Development",
-      "tag": "Math",
+      "title": "Swatrixsoft IT Expo 2024",
+      "category": "Full Stack",
+      "tag": "Innovation",
       "img": "/images/event/grid-type-03.jpg",
-      "eventImg": "/images/course/course-02.jpg",
-      "price": 60,
-      "offPrice": 120,
+      "eventImg": "/images/course/course-03.jpg",
+      "price": 50,
+      "offPrice": 100,
       "location": "Paris",
       "time": "8:00 am - 5:00 pm",
       "badgeDate": "1 Oct",
       "badgeYear": "2024",
-      "desc": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod te invidunt. ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam. et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
-      "descTwo": "Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "desc": "Swatrixsoft presents its annual IT Expo, where industry pioneers share insights on digital transformation, innovative IT strategies, and full-stack development. Join us to explore practical solutions that drive business success.",
+      "descTwo": "Experience live demonstrations, interactive workshops, and keynote sessions that highlight the future of digital innovation. Our expo is designed to inspire and inform, providing you with the tools to excel in a rapidly evolving tech landscape.",
       "eventContent": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        },
-        {
-          "listItem": "Live project Software Testing Training Included."
-        },
-        {
-          "listItem": "Use the pandas module with Python to create and structure data."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Create data visualizations using matplotlib and the seaborn."
-        }
+        { "listItem": "Insightful sessions on digital transformation." },
+        { "listItem": "Live demos of full-stack development solutions." },
+        { "listItem": "Interactive workshops on cloud and IT strategies." },
+        { "listItem": "Networking opportunities with industry experts." }
       ],
       "eventDescription": [
-        {
-          "listItem": "Over 37 lectures and 55.5 hours of content!"
-        },
-        {
-          "listItem": "Have an intermediate skill level of Python programming."
-        },
-        {
-          "listItem": "Have a portfolio of various data analysis projects."
-        },
-        {
-          "listItem": "Use the numpy library to create and manipulate arrays."
-        }
+        { "listItem": "Learn from leading IT professionals." },
+        { "listItem": "Experience real-time innovation through live demos." },
+        { "listItem": "Discover strategies to enhance your digital presence." },
+        { "listItem": "Gain actionable insights into IT best practices." }
       ],
       "eventFaq": [
         {
-          "title": "Intro to Course and Swatrixsoft",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "What is Swatrixsoft IT Expo?",
+          "desc": "Swatrixsoft IT Expo is an annual event that gathers digital innovators and IT leaders to discuss trends, challenges, and opportunities in the digital landscape.",
           "collapsed": true,
           "isShow": true,
           "expand": true
         },
         {
-          "title": "Course Fundamentals?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "Who should attend the Expo?",
+          "desc": "The expo is tailored for IT professionals, business leaders, and digital enthusiasts looking to stay ahead in the fast-evolving tech world.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "You can develop skill and setup?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "What topics will be covered?",
+          "desc": "Sessions will cover digital transformation, full-stack development, cloud integration, and future IT trends.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "15 Things To Know About Education?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "How do I register?",
+          "desc": "Registration is available online via our event portal. Secure your spot today and be part of the digital revolution.",
           "collapsed": false,
           "isShow": false,
           "expand": false
         },
         {
-          "title": "Course Description?",
-          "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, quisquam qui. Quia, tempore, atque, pariatur eius nobis quas nulla ipsam molestias provident fuga odio cum dolorum maiores minima? Aliquam, sequi.",
+          "title": "Additional Information?",
+          "desc": "For a complete agenda and speaker details, please visit our official event page.",
           "collapsed": false,
           "isShow": false,
           "expand": false
@@ -1400,31 +346,31 @@
         {
           "name": "Alejandro",
           "img": "/images/team/team-03.jpg",
-          "type": "Math Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
+          "type": "Lead Developer",
+          "location": "CO Miego, AD, USA",
+          "desc": "A visionary leader in digital innovation, driving transformative IT solutions."
         },
         {
           "name": "Alejandro",
           "img": "/images/team/team-02.jpg",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "Yes, I am a Depertment Teacher. I have a passion for learning system."
+          "type": "Project Manager",
+          "location": "CO Miego, AD, USA",
+          "desc": "Expert in managing complex IT projects, ensuring seamless execution and high client satisfaction."
         }
       ],
       "eventSimilar": [
         {
-          "title": "International Education Fair 2024",
-          "category": "Graphic Design",
-          "eventImg": "/images/event/grid-type-04.jpg",
+          "title": "Swatrixsoft IT Innovation Summit 2024",
+          "category": "Full Stack",
+          "eventImg": "/images/event/grid-type-01.jpg",
           "location": "IAC Building",
           "time": "8:00 am - 5:00 pm",
           "badgeDate": "11 Jan",
           "badgeYear": "2024"
         },
         {
-          "title": "Painting Art Contest 2020",
-          "category": "Graphic Design",
+          "title": "Swatrixsoft Tech Expo 2024",
+          "category": "Full Stack",
           "eventImg": "/images/event/grid-type-02.jpg",
           "location": "Vancouver",
           "time": "8:00 am - 5:00 pm",
@@ -1433,38 +379,14 @@
         }
       ],
       "roadmap": [
-        {
-          "text": "Start Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Start Time",
-          "desc": "7.00Pm"
-        },
-        {
-          "text": "End Date",
-          "desc": "25 Jan, 2024"
-        },
-        {
-          "text": "Skill Level",
-          "desc": "Basic"
-        },
-        {
-          "text": "Ongoing",
-          "desc": "1000+"
-        },
-        {
-          "text": "Location",
-          "desc": "USA"
-        },
-        {
-          "text": "Certificate",
-          "desc": "Yes"
-        },
-        {
-          "text": "Language",
-          "desc": "USA"
-        }
+        { "text": "Start Date", "desc": "15 Oct, 2024" },
+        { "text": "Start Time", "desc": "8:00 am" },
+        { "text": "End Date", "desc": "15 Oct, 2024" },
+        { "text": "Skill Level", "desc": "Intermediate" },
+        { "text": "Ongoing", "desc": "500+" },
+        { "text": "Location", "desc": "Paris" },
+        { "text": "Certificate", "desc": "Yes" },
+        { "text": "Language", "desc": "English" }
       ]
     }
   ]
