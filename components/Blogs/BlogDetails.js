@@ -125,9 +125,6 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
         >
           <p>{matchedBlog.quote}</p>
           <cite>
-            <Link href="https://themeforest.net/user/rainbow-themes/portfolio">
-              {matchedBlog.city}
-            </Link>
           </cite>
         </blockquote>
         {isQuote ? (

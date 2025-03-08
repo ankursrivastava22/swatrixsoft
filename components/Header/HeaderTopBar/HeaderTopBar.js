@@ -29,14 +29,6 @@ const HeaderTopBar = () => {
                     </span>
                   </div>
                   <div className="right-button">
-                    <Link
-                      className="rbt-btn-link color-white"
-                      href="https://themeforest.net/checkout/from_item/42846507?license=regular"
-                    >
-                      <span>
-                        Purchase Now <i className="feather-arrow-right"></i>
-                      </span>
-                    </Link>
                   </div>
                 </div>
               </div>

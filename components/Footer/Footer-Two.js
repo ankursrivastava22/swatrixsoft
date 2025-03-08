@@ -62,13 +62,6 @@ const FooterTwo = () => {
                 <div className="text mt--20">
                   <p>
                     © 2024
-                    <Link
-                      className="mx-2"
-                      target="_blank"
-                      href="https://themeforest.net/user/rbt-themes/portfolio"
-                    >
-                      Rainbow-Themes
-                    </Link>
                     . All Rights Reserved.
                   </p>
                 </div>
