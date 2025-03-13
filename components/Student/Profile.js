@@ -55,7 +55,7 @@ const Profile = () => {
               <div className="rbt-profile-content b2">Phone Number</div>
             </div>
             <div className="col-lg-8 col-md-8">
-              <div className="rbt-profile-content b2">9680469083</div>
+              <div className="rbt-profile-content b2">7976930931</div>
             </div>
           </div>
           <div className="rbt-profile-row row row--15 mt--15">
