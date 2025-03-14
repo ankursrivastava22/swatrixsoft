@@ -133,7 +133,7 @@ const Setting = () => {
                     <input
                       id="phonenumber"
                       type="tel"
-                      defaultValue="7976930931"
+                      defaultValue="7976930931, 7073875630"
                     />
                   </div>
                 </div>
