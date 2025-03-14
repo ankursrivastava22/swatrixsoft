@@ -1,42 +1,42 @@
 {
   "siderbar": [
     {
-      "link": "/student/student-dashboard",
+      "link": "/student-dashboard",
       "text": "Dashboard",
       "icon": "feather-home"
     },
     {
-      "link": "/student/student-profile",
+      "link": "/student-profile",
       "text": "My Profile",
       "icon": "feather-user"
     },
     {
-      "link": "/student/student-enrolled-course",
+      "link": "/student-enrolled-course",
       "text": "Enrolled Courses",
       "icon": "feather-book-open"
     },
     {
-      "link": "/student/student-wishlist",
+      "link": "/student-wishlist",
       "text": "Wishlist",
       "icon": "feather-bookmark"
     },
     {
-      "link": "/student/student-reviews",
+      "link": "/student-reviews",
       "text": "Reviews",
       "icon": "feather-star"
     },
     {
-      "link": "/student/student-quiz-attempts",
+      "link": "/student-quiz-attempts",
       "text": "My Quiz Attempts",
       "icon": "feather-help-circle"
     },
     {
-      "link": "/student/student-order-history",
+      "link": "/student-order-history",
       "text": "Order History",
       "icon": "feather-shopping-bag"
     },
     {
-      "link": "/student/student-settings",
+      "link": "/student-settings",
       "text": "Settings",
       "icon": "feather-settings"
     },

@@ -14,19 +14,19 @@
           "submenuItems": [
             {
               "title": "Dashboard",
-              "link": "/instructor/instructor-dashboard"
+              "link": "/instructor-dashboard"
             },
             {
               "title": "Profile",
-              "link": "/instructor/instructor-profile"
+              "link": "/instructor-profile"
             },
             {
               "title": "Enrolled Courses",
-              "link": "/instructor/instructor-enrolled-course"
+              "link": "/instructor-enrolled-course"
             },
             {
               "title": "Wishlist",
-              "link": "/instructor/instructor-wishlist"
+              "link": "/instructor-wishlist"
             },
             {
               "title": "Reviews",
@@ -34,27 +34,27 @@
             },
             {
               "title": "My Quiz Attempts",
-              "link": "/instructor/instructor-quiz-attempts"
+              "link": "/instructor-quiz-attempts"
             },
             {
               "title": "Order History",
-              "link": "/instructor/instructor-order-history"
+              "link": "/instructor-order-history"
             },
             {
               "title": "My Course",
-              "link": "/instructor/instructor-personal-courses"
+              "link": "/instructor-personal-courses"
             },
             {
               "title": "Announcements",
-              "link": "/instructor/instructor-announcements"
+              "link": "/instructor-announcements"
             },
             {
               "title": "Assignments",
-              "link": "/instructor/instructor-assignments"
+              "link": "/instructor-assignments"
             },
             {
               "title": "Settings",
-              "link": "/instructor/instructor-settings"
+              "link": "/instructor-settings"
             }
           ]
         },
@@ -64,35 +64,35 @@
           "submenuItems": [
             {
               "title": "Dashboard",
-              "link": "/student/student-dashboard"
+              "link": "/student-dashboard"
             },
             {
               "title": "Profile",
-              "link": "/student/student-profile"
+              "link": "/student-profile"
             },
             {
               "title": "Enrolled Courses",
-              "link": "/student/student-enrolled-course"
+              "link": "/student-enrolled-course"
             },
             {
               "title": "Wishlist",
-              "link": "/student/student-wishlist"
+              "link": "/student-wishlist"
             },
             {
               "title": "Reviews",
-              "link": "/student/student-reviews"
+              "link": "/student-reviews"
             },
             {
               "title": "My Quiz Attempts",
-              "link": "/student/student-quiz-attempts"
+              "link": "/student-quiz-attempts"
             },
             {
               "title": "Order History",
-              "link": "/student/student-order-history"
+              "link": "/student-order-history"
             },
             {
               "title": "Settings",
-              "link": "/student/student-settings"
+              "link": "/student-settings"
             }
           ]
         }
@@ -199,35 +199,35 @@
       "gridMenuItems1": [
         {
           "title": "About Us",
-          "link": "/pages/about-us-01"
+          "link": "/about-us-01"
         },
         {
           "title": "About Us 02",
-          "link": "/pages/about-us-02"
+          "link": "/about-us-02"
         },
         {
           "title": "Event Grid",
-          "link": "/pages/event-grid"
+          "link": "/event-grid"
         },
         {
           "title": "Event List",
-          "link": "/pages/event-list"
+          "link": "/event-list"
         },
         {
           "title": "Event Sidebar",
-          "link": "/pages/event-sidebar"
+          "link": "/event-sidebar"
         },
         {
           "title": "Event Details",
-          "link": "/pages/event-details"
+          "link": "/event-details"
         },
         {
           "title": "Academy Gallery",
-          "link": "/pages/academy-gallery"
+          "link": "/academy-gallery"
         },
         {
           "title": "Admission Guide",
-          "link": "/pages/admission-guide"
+          "link": "/admission-guide"
         }
       ],
       "gridMenuItems2": [
@@ -249,11 +249,11 @@
         },
         {
           "title": "FAQS",
-          "link": "/pages/faqs"
+          "link": "/faqs"
         },
         {
           "title": "Privacy Policy",
-          "link": "/pages/privacy-policy"
+          "link": "/privacy-policy"
         },
         {
           "title": "404 Page",
