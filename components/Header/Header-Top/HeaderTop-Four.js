@@ -26,7 +26,7 @@ const HeaderTopFour = ({
                   <ul className="rbt-information-list">
                     <li>
                       <Link href="#">
-                        <i className="feather-phone"></i>7976930931
+                        <i className="feather-phone"></i>7976930931, 7073875630
                       </Link>
                     </li>
                   </ul>
