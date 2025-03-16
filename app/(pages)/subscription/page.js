@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import SubscriptionPage from "./(subscription)";
 
 export const metadata = {
-  title: "Subscription - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Subscription - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const SubscriptionLayout = () => {

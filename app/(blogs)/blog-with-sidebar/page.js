@@ -3,8 +3,8 @@ import { getAllPostsMeta } from "@/mdx";
 import BlogWithSidebarPage from "./(blog-sidebar)";
 
 export const metadata = {
-  title: "Blog With Sidebar- Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Blog With Sidebar- Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const BlogWithSidebarLayout = async () => {

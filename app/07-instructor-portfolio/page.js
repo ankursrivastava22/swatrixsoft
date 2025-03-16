@@ -2,8 +2,8 @@ import BackToTop from "../backToTop";
 import InstructorPortfolioPage from "./(instructor-portfolio)";
 
 export const metadata = {
-  title: "Instructor Portfolio - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Instructor Portfolio - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const InstructorPortfolioLayout = () => {

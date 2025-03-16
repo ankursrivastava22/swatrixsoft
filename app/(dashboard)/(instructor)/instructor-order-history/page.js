@@ -3,8 +3,8 @@ import OrderHistoryPage from "./(order-history)";
 
 export const metadata = {
   title:
-    "Instructor Order History - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Instructor Order History - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const OrderHistoryLayout = () => {

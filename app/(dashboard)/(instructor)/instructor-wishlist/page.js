@@ -3,8 +3,8 @@ import WishlistPage from "./(wishlist)";
 
 export const metadata = {
   title:
-    "Instructor Wishlist Course - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Instructor Wishlist Course - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const WishlistLayout = () => {

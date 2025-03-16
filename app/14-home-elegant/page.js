@@ -2,8 +2,8 @@ import BackToTop from "../backToTop";
 import HomeElegantPage from "./(home-elegant)";
 
 export const metadata = {
-  title: "Home Elegant - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Home Elegant - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const HomeElegantLayout = () => {

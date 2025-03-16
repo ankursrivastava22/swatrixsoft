@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import StudentDashboard from "./(dashboard)";
 
 export const metadata = {
-  title: "Student Dashboard - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Student Dashboard - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const StudentDashboardLayout = () => {

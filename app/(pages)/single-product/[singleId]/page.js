@@ -1,8 +1,8 @@
 import SingleProductPage from "../index";
 
 export const metadata = {
-  title: "Single Product - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Single Product - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const SingleProductLayout = ({ params }) => {

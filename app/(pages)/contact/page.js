@@ -1,8 +1,8 @@
 import ContactPage from "./(contact)";
 
 export const metadata = {
-  title: "Contact - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Contact - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const ContactLayout = () => {

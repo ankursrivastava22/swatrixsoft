@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import AllQuestionsLayout from "./(question)";
 
 export const metadata = {
-  title: "Lesson - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Lesson - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const LessonLayout = () => {
