@@ -3,8 +3,8 @@ import BlogListPage from "./(blog-list)";
 import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
-  title: "Blog List - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Blog List - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const BlogListLayout = async () => {

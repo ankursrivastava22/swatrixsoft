@@ -1,8 +1,8 @@
 import GalleryPage from "./(gallery)";
 
 export const metadata = {
-  title: "Gallery - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Gallery - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const GalleryLayout = () => {

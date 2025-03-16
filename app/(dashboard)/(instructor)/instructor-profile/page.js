@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import InstructorProfile from "./(profile)";
 
 export const metadata = {
-  title: "Instructor Profile - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Instructor Profile - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const InstructorProfileLayout = () => {

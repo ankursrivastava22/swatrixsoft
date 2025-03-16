@@ -1,8 +1,8 @@
 import SocialPage from "./(social)";
 
 export const metadata = {
-  title: "Social - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Social - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const SocialLayout = () => {

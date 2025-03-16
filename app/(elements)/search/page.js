@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import SearchPage from "./(search)";
 
 export const metadata = {
-  title: "Search - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Search - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const SearchLayout = () => {

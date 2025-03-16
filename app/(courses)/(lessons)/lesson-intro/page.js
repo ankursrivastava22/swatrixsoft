@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import LessonIntroPage from "./(intro)";
 
 export const metadata = {
-  title: "Lesson Intro - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Lesson Intro - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const LessonIntroLayout = () => {

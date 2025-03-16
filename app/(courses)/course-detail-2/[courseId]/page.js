@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import SingleCourse from "../index";
 
 export const metadata = {
-  title: "Course Details Two - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Course Details Two - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const SingleCourseLayoutTwo = ({ params }) => {
