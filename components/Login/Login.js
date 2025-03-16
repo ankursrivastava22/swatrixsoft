@@ -69,7 +69,7 @@ const Login = () => {
           }
           // Redirect to /course-filter-one-toggle
           setTimeout(() => {
-            router.push("/course-filter-one-toggle");
+            router.push("/");
           }, 1500);
         }
       } else {
