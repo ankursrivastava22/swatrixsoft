@@ -3,8 +3,8 @@ import CourseFilteTwoTogglePage from "./index";
 
 export const metadata = {
   title:
-    "Course Filter Two Toggle - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Course Filter Two Toggle - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const CourseFilteTwoToggleLayout = () => {

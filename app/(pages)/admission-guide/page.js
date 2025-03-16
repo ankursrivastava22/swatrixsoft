@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import AdmissionGuidePage from "./(admission-guide)";
 
 export const metadata = {
-  title: "Admission Guide - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Admission Guide - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const AdmissionGuideLayout = () => {

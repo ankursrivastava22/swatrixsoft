@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import SplitPage from "./(split)";
 
 export const metadata = {
-  title: "Split - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Split - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const SplitLayout = () => {

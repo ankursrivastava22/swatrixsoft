@@ -1,8 +1,8 @@
 import CartPageLayout from "./(cart)";
 
 export const metadata = {
-  title: "Cart - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Cart - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const CartPage = () => {

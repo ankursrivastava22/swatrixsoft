@@ -3,8 +3,8 @@ import StudentStory from "./(order-history)";
 
 export const metadata = {
   title:
-    "Student Order History Attempts Course - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Student Order History Attempts Course - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const OrderHistoryLayout = () => {

@@ -1,8 +1,8 @@
 import MaintenancePage from "./(maintenance)";
 
 export const metadata = {
-  title: "Maintenance - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Maintenance - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const MaintenanceLayout = () => {

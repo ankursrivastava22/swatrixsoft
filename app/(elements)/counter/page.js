@@ -2,8 +2,8 @@ import BackToTop from "@/app/backToTop";
 import CounterPage from "./(counter)";
 
 export const metadata = {
-  title: "Counter - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Counter - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const CounterLayout = () => {

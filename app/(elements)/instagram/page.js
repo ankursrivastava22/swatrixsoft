@@ -1,8 +1,8 @@
 import InstagramPage from "./(instagram)";
 
 export const metadata = {
-  title: "Instagram - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Instagram - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 const InstagramLayout = () => {
   return (

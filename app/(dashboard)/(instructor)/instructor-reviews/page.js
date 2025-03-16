@@ -3,8 +3,8 @@ import ReviewPage from "./(reviews)";
 
 export const metadata = {
   title:
-    "Instructor Reviews Course - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+    "Instructor Reviews Course - Web Development Company in Jodhpur",
+  description: "Web Development Company in Jodhpur",
 };
 
 const ReviewLayout = () => {
