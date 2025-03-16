@@ -1,113 +1,183 @@
+"use client"; // Required because we use state, events, and react-toastify (client-side only)
+
+import React, { useState } from "react";
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/navigation"; // For redirection
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
+  const router = useRouter();
+  const [isRegister, setIsRegister] = useState(false); // Toggle between Login and Register
+  const [formData, setFormData] = useState({
+    username: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+    role: "user", // Default role
+  });
+  const [loading, setLoading] = useState(false);
+
+  // Handle input changes
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    // Basic client-side validation for registration
+    if (isRegister && formData.password !== formData.confirmPassword) {
+      toast.error("Passwords do not match!");
+      return;
+    }
+
+    setLoading(true);
+    const endpoint = isRegister ? "/api/auth/register" : "/api/auth/login";
+
+    try {
+      const res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+
+      if (res.ok) {
+        if (isRegister) {
+          // Registration success
+          toast.success("Registration Successful!");
+          // Reset form
+          setFormData({
+            username: "",
+            email: "",
+            password: "",
+            confirmPassword: "",
+            role: "user", // Reset role to default
+          });
+          // Switch back to login mode after a short delay
+          setTimeout(() => {
+            setIsRegister(false);
+          }, 1500);
+        } else {
+          // Login success
+          toast.success("Login Successful!");
+          // Store token if needed
+          if (data.token) {
+            localStorage.setItem("token", data.token);
+          }
+          // Redirect to /course-filter-one-toggle
+          setTimeout(() => {
+            router.push("/course-filter-one-toggle");
+          }, 1500);
+        }
+      } else {
+        toast.error(data.message || "An error occurred!");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      toast.error("An error occurred while processing your request.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <>
-      <div className="col-lg-6">
+    <div className="container">
+      {/* Toast Container for notifications */}
+      <ToastContainer />
+
+      <div className="col-lg-6 mx-auto">
         <div className="rbt-contact-form contact-form-style-1 max-width-auto">
-          <h3 className="title">Login</h3>
-          <form className="max-width-auto">
-            <div className="form-group">
-              <input
-                name="con_name"
-                type="text"
-                placeholder="Username or email *"
-              />
-              <span className="focus-border"></span>
-            </div>
-            <div className="form-group">
-              <input
-                name="con_email"
-                type="password"
-                placeholder="Password *"
-              />
-              <span className="focus-border"></span>
-            </div>
+          <h3 className="title text-center mb-4">
+            {isRegister ? "Register" : "Login"}
+          </h3>
 
-            <div className="row mb--30">
-              <div className="col-lg-6">
-                <div className="rbt-checkbox">
-                  <input type="checkbox" id="rememberme" name="rememberme" />
-                  <label htmlFor="rememberme">Remember me</label>
-                </div>
+          <form className="max-width-auto" onSubmit={handleSubmit}>
+            {isRegister && (
+              <div className="form-group">
+                <input
+                  name="username"
+                  type="text"
+                  placeholder="Username *"
+                  onChange={handleChange}
+                  value={formData.username}
+                  required
+                />
+                <span className="focus-border"></span>
               </div>
-              <div className="col-lg-6">
-                <div className="rbt-lost-password text-end">
-                  <Link className="rbt-btn-link" href="#">
-                    Lost your password?
-                  </Link>
-                </div>
-              </div>
-            </div>
+            )}
 
-            <div className="form-submit-group">
-              <button
-                type="submit"
-                className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
-              >
-                <span className="icon-reverse-wrapper">
-                  <span className="btn-text">Log In</span>
-                  <span className="btn-icon">
-                    <i className="feather-arrow-right"></i>
-                  </span>
-                  <span className="btn-icon">
-                    <i className="feather-arrow-right"></i>
-                  </span>
-                </span>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      <div className="col-lg-6">
-        <div className="rbt-contact-form contact-form-style-1 max-width-auto">
-          <h3 className="title">Register</h3>
-          <form className="max-width-auto">
             <div className="form-group">
               <input
-                name="register-email"
+                name="email"
                 type="email"
                 placeholder="Email address *"
+                onChange={handleChange}
+                value={formData.email}
+                required
               />
               <span className="focus-border"></span>
             </div>
 
             <div className="form-group">
               <input
-                name="register_user"
-                type="text"
-                placeholder="Username *"
-              />
-              <span className="focus-border"></span>
-            </div>
-
-            <div className="form-group">
-              <input
-                name="register_password"
+                name="password"
                 type="password"
                 placeholder="Password *"
+                onChange={handleChange}
+                value={formData.password}
+                required
               />
               <span className="focus-border"></span>
             </div>
 
-            <div className="form-group">
-              <input
-                name="register_conpassword"
-                type="password"
-                placeholder="Confirm Password *"
-              />
-              <span className="focus-border"></span>
-            </div>
+            {isRegister && (
+              <div className="form-group">
+                <input
+                  name="confirmPassword"
+                  type="password"
+                  placeholder="Confirm Password *"
+                  onChange={handleChange}
+                  value={formData.confirmPassword}
+                  required
+                />
+                <span className="focus-border"></span>
+              </div>
+            )}
 
-            <div className="form-submit-group">
+            {isRegister && (
+              <div className="form-group">
+                <select
+                  name="role"
+                  value={formData.role}
+                  onChange={handleChange}
+                  required
+                >
+                  <option value="admin">Admin</option>
+                  <option value="teacher">Teacher</option>
+                  <option value="student">Student</option>
+                  <option value="user">User</option>
+                </select>
+                <span className="focus-border"></span>
+              </div>
+            )}
+
+            <div className="form-submit-group mt-4">
               <button
                 type="submit"
                 className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
+                disabled={loading}
               >
                 <span className="icon-reverse-wrapper">
-                  <span className="btn-text">Register</span>
+                  <span className="btn-text">
+                    {loading
+                      ? "Please wait..."
+                      : isRegister
+                      ? "Register"
+                      : "Log In"}
+                  </span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right"></i>
                   </span>
@@ -118,9 +188,36 @@ const Login = () => {
               </button>
             </div>
           </form>
+
+          {/* Toggle between Login & Register */}
+          <div className="text-center mt-4">
+            {isRegister ? (
+              <>
+                Already have an account?{" "}
+                <Link
+                  href="#"
+                  className="rbt-btn-link"
+                  onClick={() => setIsRegister(false)}
+                >
+                  Login
+                </Link>
+              </>
+            ) : (
+              <>
+                Don't have an account?{" "}
+                <Link
+                  href="#"
+                  className="rbt-btn-link"
+                  onClick={() => setIsRegister(true)}
+                >
+                  Register
+                </Link>
+              </>
+            )}
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
