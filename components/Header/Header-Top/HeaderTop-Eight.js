@@ -98,22 +98,22 @@ const HeaderTopEight = ({
                       <div className="header-info d-none d-xl-block">
                         <ul className="social-share-transparent">
                           <li>
-                            <Link href="#">
+                            <Link href="https://www.facebook.com/swatrixsoft/">
                               <i className="fab fa-facebook-f"></i>
                             </Link>
                           </li>
                           <li>
-                            <Link href="#">
+                            <Link href="https://www.instagram.com/swatrixsoft/">
                               <i className="fab fa-twitter"></i>
                             </Link>
                           </li>
                           <li>
-                            <Link href="#">
+                            <Link href="https://www.instagram.com/swatrixsoft/">
                               <i className="fab fa-linkedin-in"></i>
                             </Link>
                           </li>
                           <li>
-                            <Link href="#">
+                            <Link href="https://www.instagram.com/swatrixsoft/">
                               <i className="fab fa-instagram"></i>
                             </Link>
                           </li>

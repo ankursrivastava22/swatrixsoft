@@ -35,7 +35,7 @@ const HeaderTopFour = ({
                 <div className="header-info">
                   <ul className="social-share-transparent">
                     <li>
-                      <Link href="#">
+                      <Link href="https://www.facebook.com/swatrixsoft/">
                         <i className="fab fa-facebook-f"></i>
                       </Link>
                     </li>
@@ -50,7 +50,7 @@ const HeaderTopFour = ({
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="https://www.instagram.com/swatrixsoft/">
                         <i className="fab fa-instagram"></i>
                       </Link>
                     </li>
