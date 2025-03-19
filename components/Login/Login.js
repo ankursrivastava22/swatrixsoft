@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation"; // For redirection
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import logo from "../../public/images/logo/logo.png";
+import Image from "next/image";
 
 const Login = () => {
   const router = useRouter();
@@ -26,7 +28,7 @@ const Login = () => {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     // Basic client-side validation for registration
     if (isRegister && formData.password !== formData.confirmPassword) {
       toast.error("Passwords do not match!");
@@ -85,135 +87,187 @@ const Login = () => {
 
   return (
     <div className="container">
+      {/* Header with logo on top left */}
+      <header style={{ position: "absolute", top: "10px", left: "10px" }}>
+        <div className="logo">
+          <Link href="/">
+            <Image
+              src={logo}
+              width={65}
+              height={50}
+              alt="Swatrixsoft"
+            />
+          </Link>
+        </div>
+      </header>
+
       {/* Toast Container for notifications */}
       <ToastContainer />
 
-      <div className="col-lg-6 mx-auto">
-        <div className="rbt-contact-form contact-form-style-1 max-width-auto">
-          <h3 className="title text-center mb-4">
-            {isRegister ? "Register" : "Login"}
-          </h3>
-
-          <form className="max-width-auto" onSubmit={handleSubmit}>
-            {isRegister && (
-              <div className="form-group">
-                <input
-                  name="username"
-                  type="text"
-                  placeholder="Username *"
-                  onChange={handleChange}
-                  value={formData.username}
-                  required
-                />
-                <span className="focus-border"></span>
-              </div>
-            )}
-
-            <div className="form-group">
-              <input
-                name="email"
-                type="email"
-                placeholder="Email address *"
-                onChange={handleChange}
-                value={formData.email}
-                required
-              />
-              <span className="focus-border"></span>
-            </div>
-
-            <div className="form-group">
-              <input
-                name="password"
-                type="password"
-                placeholder="Password *"
-                onChange={handleChange}
-                value={formData.password}
-                required
-              />
-              <span className="focus-border"></span>
-            </div>
-
-            {isRegister && (
-              <div className="form-group">
-                <input
-                  name="confirmPassword"
-                  type="password"
-                  placeholder="Confirm Password *"
-                  onChange={handleChange}
-                  value={formData.confirmPassword}
-                  required
-                />
-                <span className="focus-border"></span>
-              </div>
-            )}
-
-            {isRegister && (
-              <div className="form-group">
-                <select
-                  name="role"
-                  value={formData.role}
-                  onChange={handleChange}
-                  required
-                >
-                  <option value="admin">Admin</option>
-                  <option value="teacher">Teacher</option>
-                  <option value="student">Student</option>
-                  <option value="user">User</option>
-                </select>
-                <span className="focus-border"></span>
-              </div>
-            )}
-
-            <div className="form-submit-group mt-4">
-              <button
-                type="submit"
-                className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
-                disabled={loading}
-              >
-                <span className="icon-reverse-wrapper">
-                  <span className="btn-text">
-                    {loading
-                      ? "Please wait..."
-                      : isRegister
-                      ? "Register"
-                      : "Log In"}
-                  </span>
-                  <span className="btn-icon">
-                    <i className="feather-arrow-right"></i>
-                  </span>
-                  <span className="btn-icon">
-                    <i className="feather-arrow-right"></i>
-                  </span>
-                </span>
-              </button>
-            </div>
-          </form>
-
-          {/* Toggle between Login & Register */}
+      {/* Flex container to center the form */}
+      <div
+        className="d-flex justify-content-center align-items-center"
+        style={{ minHeight: "100vh" }}
+      >
+        <div className="col-lg-6">
+          {/* Company name above the form */}
           <div className="text-center mt-4">
-            {isRegister ? (
-              <>
-                Already have an account?{" "}
-                <Link
-                  href="#"
-                  className="rbt-btn-link"
-                  onClick={() => setIsRegister(false)}
+            <h1 className="typing-text">Swatrixsoft</h1>
+            <style jsx>{`
+    .typing-text {
+      display: inline-block;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 3rem;
+      font-weight: bold;
+      background: linear-gradient(45deg, #ff5733, #ffbd33, #33ff57, #3357ff, #8d33ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 4px solid #ff9800;
+      width: 12ch; /* Matches character length to stop cursor properly */
+      animation: typing 3s steps(12, end), blink-caret 0.75s step-end infinite;
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 12ch; } /* Stops at the right position */
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #ff9800; }
+    }
+  `}</style>
+          </div>
+
+
+          <div className="rbt-contact-form contact-form-style-1 max-width-auto">
+            <h3 className="title text-center mb-4">
+              {isRegister ? "Register" : "Login"}
+            </h3>
+
+            <form className="max-width-auto" onSubmit={handleSubmit}>
+              {isRegister && (
+                <div className="form-group">
+                  <input
+                    name="username"
+                    type="text"
+                    placeholder="Username *"
+                    onChange={handleChange}
+                    value={formData.username}
+                    required
+                  />
+                  <span className="focus-border"></span>
+                </div>
+              )}
+
+              <div className="form-group">
+                <input
+                  name="email"
+                  type="email"
+                  placeholder="Email address *"
+                  onChange={handleChange}
+                  value={formData.email}
+                  required
+                />
+                <span className="focus-border"></span>
+              </div>
+
+              <div className="form-group">
+                <input
+                  name="password"
+                  type="password"
+                  placeholder="Password *"
+                  onChange={handleChange}
+                  value={formData.password}
+                  required
+                />
+                <span className="focus-border"></span>
+              </div>
+
+              {isRegister && (
+                <div className="form-group">
+                  <input
+                    name="confirmPassword"
+                    type="password"
+                    placeholder="Confirm Password *"
+                    onChange={handleChange}
+                    value={formData.confirmPassword}
+                    required
+                  />
+                  <span className="focus-border"></span>
+                </div>
+              )}
+
+              {isRegister && (
+                <div className="form-group">
+                  <select
+                    name="role"
+                    value={formData.role}
+                    onChange={handleChange}
+                    required
+                  >
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                    <option value="user">User</option>
+                  </select>
+                  <span className="focus-border"></span>
+                </div>
+              )}
+
+              <div className="form-submit-group mt-4">
+                <button
+                  type="submit"
+                  className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
+                  disabled={loading}
                 >
-                  Login
-                </Link>
-              </>
-            ) : (
-              <>
-                Don't have an account?{" "}
-                <Link
-                  href="#"
-                  className="rbt-btn-link"
-                  onClick={() => setIsRegister(true)}
-                >
-                  Register
-                </Link>
-              </>
-            )}
+                  <span className="icon-reverse-wrapper">
+                    <span className="btn-text">
+                      {loading
+                        ? "Please wait..."
+                        : isRegister
+                          ? "Register"
+                          : "Log In"}
+                    </span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </form>
+
+            {/* Toggle between Login & Register */}
+            <div className="text-center mt-4">
+              {isRegister ? (
+                <>
+                  Already have an account?{" "}
+                  <Link
+                    href="#"
+                    className="rbt-btn-link"
+                    onClick={() => setIsRegister(false)}
+                  >
+                    Login
+                  </Link>
+                </>
+              ) : (
+                <>
+                  Don't have an account?{" "}
+                  <Link
+                    href="#"
+                    className="rbt-btn-link"
+                    onClick={() => setIsRegister(true)}
+                  >
+                    Register
+                  </Link>
+                </>
+              )}
+            </div>
           </div>
         </div>
       </div>
