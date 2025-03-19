@@ -20,18 +20,26 @@ const Login = () => {
     role: "user", // Default role
   });
   const [loading, setLoading] = useState(false);
-  const [visitCount, setVisitCount] = useState(null);
+  const [uniqueVisitors, setUniqueVisitors] = useState(null);
 
   // Fetch the visitor count when the component mounts
   useEffect(() => {
-    let visits = localStorage.getItem("visitor_count");
-    if (!visits) {
-      visits = 1; // First visit
+    let uniqueUserID = localStorage.getItem("unique_visitor_id");
+
+    if (!uniqueUserID) {
+      // Generate a unique ID for the new user
+      uniqueUserID = uuidv4();
+      localStorage.setItem("unique_visitor_id", uniqueUserID);
+
+      // Update visitor count only for new users
+      let visitorCount = localStorage.getItem("visitor_count") || 0;
+      visitorCount = parseInt(visitorCount) + 1;
+      localStorage.setItem("visitor_count", visitorCount);
+      setUniqueVisitors(visitorCount);
     } else {
-      visits = parseInt(visits) + 1; // Increment visits
+      // If user already exists, just show stored count
+      setUniqueVisitors(localStorage.getItem("visitor_count"));
     }
-    localStorage.setItem("visitor_count", visits);
-    setVisitCount(visits);
   }, []);
   
   
@@ -312,7 +320,7 @@ const Login = () => {
           fontSize: "0.9rem",
         }}
       >
-        {visitCount === null ? "Loading visitors..." : `Visitors: ${visitCount}`}
+        {uniqueVisitors === null ? "Loading visitors..." : `Visitors: ${uniqueVisitors}`}
       </div>
     </div>
   );
