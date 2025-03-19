@@ -15,6 +15,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "bcryptjs": "^3.0.2",
     "bootstrap": "^5.3.2",
+    "countapi-js": "^1.0.2",
     "framer-motion": "^11.0.8",
     "gray-matter": "^4.0.3",
     "jodit-react": "^4.1.2",
