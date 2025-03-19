@@ -24,11 +24,14 @@ const Login = () => {
 
   // Fetch the visitor count when the component mounts
   useEffect(() => {
-    // Call your own API route, which in turn calls CountAPI from the server
-    fetch("/api/visitor")
-      .then((res) => res.json())
-      .then((data) => setVisitCount(data.count))
-      .catch((err) => console.error("Error fetching visitor count:", err));
+    let visits = localStorage.getItem("visitor_count");
+    if (!visits) {
+      visits = 1; // First visit
+    } else {
+      visits = parseInt(visits) + 1; // Increment visits
+    }
+    localStorage.setItem("visitor_count", visits);
+    setVisitCount(visits);
   }, []);
   
   

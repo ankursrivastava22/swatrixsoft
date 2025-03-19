@@ -1,26 +1,61 @@
-// app/api/visitor/route.js
-import { NextResponse } from "next/server";
+"use client";
 
-export async function GET() {
-  try {
-    // A direct GET to increment the counter
-    const res = await fetch("https://api.countapi.xyz/hit/swatrixsoft.com/visits");
+import React, { useEffect, useState } from "react";
+import Script from "next/script";
 
-    if (!res.ok) {
-      // We reached CountAPI, but it returned a non-200 status
-      return NextResponse.json(
-        { error: "CountAPI returned an error" },
-        { status: res.status }
-      );
+export default function RootLayout({ children }) {
+  const [visitCount, setVisitCount] = useState(0);
+
+  useEffect(() => {
+    // Update local storage for visitor count
+    let visits = localStorage.getItem("visitor_count");
+    if (!visits) {
+      visits = 1;
+    } else {
+      visits = parseInt(visits) + 1;
     }
+    localStorage.setItem("visitor_count", visits);
+    setVisitCount(visits);
+  }, []);
 
-    const data = await res.json(); // Should be { value: <new_count> }
-    return NextResponse.json({ count: data.value });
-  } catch (error) {
-    // The fetch call failed entirely (likely a timeout or blocked)
-    return NextResponse.json(
-      { error: "Failed to reach CountAPI", details: error.message },
-      { status: 500 }
-    );
-  }
+  return (
+    <html lang="en">
+      <head>
+        {/* Google Tag */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-NY8PHCYQDV"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NY8PHCYQDV', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
+      </head>
+      <body>
+        {children}
+        
+        {/* Display visitor count */}
+        <div
+          style={{
+            position: "fixed",
+            bottom: "10px",
+            right: "10px",
+            background: "rgba(0,0,0,0.6)",
+            color: "#fff",
+            padding: "8px 12px",
+            borderRadius: "4px",
+            fontSize: "0.9rem",
+          }}
+        >
+          {visitCount ? `Total Visits: ${visitCount}` : "Loading..."}
+        </div>
+      </body>
+    </html>
+  );
 }

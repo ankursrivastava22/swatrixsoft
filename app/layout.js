@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
+import Script from "next/script"; // Import Next.js Script component
 
 import "bootstrap/scss/bootstrap.scss";
 import "../public/scss/default/euclid-circulara.scss";
@@ -25,11 +26,27 @@ export default function RootLayout({ children }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
+
   return (
     <html lang="en" dir="ltr">
-      <body className="" suppressHydrationWarning={true}>
-        {children}
-      </body>
+      <head>
+        {/* Google Tag Manager (gtag.js) */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-NY8PHCYQDV"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NY8PHCYQDV', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
+      </head>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   );
 }
