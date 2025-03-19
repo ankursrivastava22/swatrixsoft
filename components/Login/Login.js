@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import logo from "../../public/images/logo/logo.png";
 import Image from "next/image";
 import CountAPI from "countapi-js"; // Import the npm package
+import { v4 as uuidv4 } from "uuid"; // Unique ID Generator
 
 const Login = () => {
   const router = useRouter();
