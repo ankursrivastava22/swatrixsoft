@@ -30,7 +30,7 @@ const SplitTwo = ({ isImg }) => {
                   <h2 className="title">{data.title}</h2>
                   <p className="description mt--30">{data.desc}</p>
                   <div className="read-more-btn">
-                    <a className="rbt-moderbt-btn" href="#">
+                    <a className="rbt-moderbt-btn" href="/about-us-01">
                       <span className="moderbt-btn-text">
                         Learn More About Us
                       </span>

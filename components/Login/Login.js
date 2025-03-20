@@ -21,16 +21,6 @@ const Login = () => {
     role: "user", // Default role
   });
   const [loading, setLoading] = useState(false);
-  const [visitCount, setVisitCount] = useState(null);
-
-  useEffect(() => {
-    fetch("/api/visitor", { credentials: "include" }) // Fetch with cookies
-      .then((res) => res.json())
-      .then((data) => {
-        setVisitCount(data.count);
-      })
-      .catch((err) => console.error("Error fetching visitor count:", err));
-  }, []);
 
 
 
@@ -313,7 +303,6 @@ const Login = () => {
           zIndex: 9999, // (Optional) Ensure it appears above other elements
         }}
       >
-        {visitCount === null ? "Loading visitors..." : `Visitors: ${visitCount}`}
       </div>
 
     </div>

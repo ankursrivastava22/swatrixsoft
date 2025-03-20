@@ -33,7 +33,7 @@ const HomeTechnologyBanner = () => {
                   <div className="slider-btn rbt-button-group justify-content-center">
                     <a
                       className="rbt-btn btn-gradient rbt-switch-btn rbt-switch-y"
-                      href="#"
+                      href="/about-us-01"
                     >
                       <span data-text="Learn More About Us">
                         Learn More About Us

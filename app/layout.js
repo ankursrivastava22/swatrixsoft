@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useEffect } from "react";
-import Script from "next/script"; // Next.js Script component
+import React, { useState, useEffect } from "react";
+import Script from "next/script";
 
 import "bootstrap/scss/bootstrap.scss";
 import "../public/scss/default/euclid-circulara.scss";
@@ -23,9 +23,22 @@ import "swiper/css/thumbs";
 import "../public/scss/styles.scss";
 
 export default function RootLayout({ children }) {
+  // Load Bootstrap JS once on client
   useEffect(() => {
-    // Dynamically load Bootstrap JS once the component mounts (client-side)
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
+
+  // Visitor Count State
+  const [visitCount, setVisitCount] = useState(null);
+
+  // Fetch visitor count on client
+  useEffect(() => {
+    fetch("/api/visitor", { credentials: "include" })
+      .then((res) => res.json())
+      .then((data) => {
+        setVisitCount(data.count);
+      })
+      .catch((err) => console.error("Error fetching visitor count:", err));
   }, []);
 
   return (
@@ -63,8 +76,29 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
+      <body suppressHydrationWarning={true}>
+        {/* Your page content */}
+        {children}
 
-      <body suppressHydrationWarning={true}>{children}</body>
+        {/* Moved visitor counter OUT of <head> and into <body> */}
+        <div
+          style={{
+            position: "fixed",
+            bottom: "10px",
+            left: "10px",
+            background: "rgba(0,0,0,0.6)",
+            color: "#fff",
+            padding: "8px 12px",
+            borderRadius: "4px",
+            fontSize: "0.9rem",
+            zIndex: 9999,
+          }}
+        >
+          {visitCount === null
+            ? "Loading visitors..."
+            : `Visitors: ${visitCount}`}
+        </div>
+      </body>
     </html>
   );
 }
