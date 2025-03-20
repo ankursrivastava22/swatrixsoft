@@ -18,10 +18,10 @@ const AdmissionContact = () => {
             <div className="inner">
               <h4 className="title">Call us</h4>
               <p>
-                <Link href="tel:+444555666777">+444 555 666 777</Link>
+                <Link href="tel:+444555666777">+917976930931</Link>
               </p>
               <p>
-                <Link href="tel:+222222222333">+222 222 222 333</Link>
+                <Link href="tel:+222222222333">+917073875630</Link>
               </p>
             </div>
           </div>
