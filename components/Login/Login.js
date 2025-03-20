@@ -32,8 +32,8 @@ const Login = () => {
       .catch((err) => console.error("Error fetching visitor count:", err));
   }, []);
 
-  
-  
+
+
 
   // Handle input changes
   const handleChange = (e) => {
@@ -87,6 +87,7 @@ const Login = () => {
           // Redirect to /course-filter-one-toggle
           setTimeout(() => {
             router.push("/course-filter-one-toggle");
+            router.refresh();
           }, 1500);
         }
       } else {
@@ -254,8 +255,8 @@ const Login = () => {
                       {loading
                         ? "Please wait..."
                         : isRegister
-                        ? "Register"
-                        : "Log In"}
+                          ? "Register"
+                          : "Log In"}
                     </span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
@@ -303,16 +304,18 @@ const Login = () => {
         style={{
           position: "fixed",
           bottom: "10px",
-          right: "10px",
+          left: "10px",            // <-- Changed from right: "10px" to left: "10px"
           background: "rgba(0,0,0,0.6)",
           color: "#fff",
           padding: "8px 12px",
           borderRadius: "4px",
           fontSize: "0.9rem",
+          zIndex: 9999, // (Optional) Ensure it appears above other elements
         }}
       >
         {visitCount === null ? "Loading visitors..." : `Visitors: ${visitCount}`}
       </div>
+
     </div>
   );
 };

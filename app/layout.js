@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-import Script from "next/script"; // Import Next.js Script component
+import Script from "next/script"; // Next.js Script component
 
 import "bootstrap/scss/bootstrap.scss";
 import "../public/scss/default/euclid-circulara.scss";
@@ -24,6 +24,7 @@ import "../public/scss/styles.scss";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
+    // Dynamically load Bootstrap JS once the component mounts (client-side)
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
@@ -45,7 +46,24 @@ export default function RootLayout({ children }) {
             });
           `}
         </Script>
+
+        {/* Tawk.to Live Chat Script */}
+        <Script id="tawk-to" strategy="afterInteractive">
+          {`
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function() {
+              var s1 = document.createElement("script"),
+                  s0 = document.getElementsByTagName("script")[0];
+              s1.async = true;
+              s1.src = 'https://embed.tawk.to/67dbead42e2e10190e26a8c3/1impgqk5k';
+              s1.charset = 'UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1, s0);
+            })();
+          `}
+        </Script>
       </head>
+
       <body suppressHydrationWarning={true}>{children}</body>
     </html>
   );
