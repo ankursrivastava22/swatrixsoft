@@ -24,21 +24,14 @@ const AcademyGallery = () => {
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
           <Cart />
-          <BreadCrumb title="Academy Gallery" text="Academy Gallery" />
+          <BreadCrumb
+            title="Website Development Company in Jodhpur"
+            text="Hire Expert Developers & Build High-Performance Websites"
+          />
 
           <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
             <div className="container">
               <AcademyGalleryOne />
-            </div>
-          </div>
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gapBottom">
-            <div className="container">
-              <AcademyGalleryTwo />
-            </div>
-          </div>
-          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gapBottom">
-            <div className="container">
-              <AcademyGalleryThree />
             </div>
           </div>
 

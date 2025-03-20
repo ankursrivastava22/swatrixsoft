@@ -3,7 +3,7 @@ import Link from "next/link";
 const SingleCategory = ({ title, CategoryData, CategoryNum, isActive }) => {
   return (
     <li className={`dropdown-parent-list ${isActive ? "active" : ""}`}>
-      <Link href="#">{title}</Link>
+      <Link href="/academy-gallery">{title}</Link>
       <div className="dropdown-child-wrapper">
         <div className="child-inner">
           {CategoryData &&
