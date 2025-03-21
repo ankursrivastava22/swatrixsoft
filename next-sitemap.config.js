@@ -1,18 +1,9 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    // Replace with your actual domain (no trailing slash)
-    siteUrl: 'https://www.swatrixsoft.com',
-    
-    // Automatically generate a robots.txt file that references your sitemap
-    generateRobotsTxt: true,
-    
-    // Optional: Exclude routes that you don’t want to appear in your sitemap
-    exclude: ['/admin/*', '/login'],
-    
-    // Optional: If you have extra sitemaps, list them here.
-    additionalSitemaps: [
-      // 'https://yourdomain.com/some-other-sitemap-1.xml',
-      // 'https://yourdomain.com/some-other-sitemap-2.xml',
-    ],
-  };
-  
+  siteUrl: 'https://www.swatrixsoft.com', // no trailing slash
+  generateRobotsTxt: true,                // generates robots.txt
+  generateIndexSitemap: true,             // ensures sitemap.xml is created
+  sitemapBaseFileName: 'sitemap',         // this will generate sitemap.xml (not sitemap-0.xml)
+  exclude: ['/admin/*', '/login'],        // excluded routes
+  additionalSitemaps: [],                 // keep empty or add custom ones later if needed
+};
