@@ -91,14 +91,14 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     if (!validateForm()) {
       return;
     }
-
+  
     setLoading(true);
     const endpoint = isRegister ? "/api/auth/register" : "/api/auth/login";
-
+  
     try {
       const res = await fetch(endpoint, {
         method: "POST",
@@ -112,13 +112,14 @@ const Login = () => {
       });
       
       const data = await res.json();
-
+  
       if (res.ok) {
         toast.success(isRegister ? "Registration successful! Please log in." : "Login successful!");
         
         if (!isRegister) {
           await login(data.token, data.user);
-          router.replace('/');
+          // Force a page reload and redirect
+          window.location.href = '/';
         } else {
           setFormData({
             username: "",
