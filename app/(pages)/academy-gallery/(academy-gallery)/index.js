@@ -31,7 +31,37 @@ const AcademyGallery = () => {
 
           <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
             <div className="container">
+              <div className="section-title text-center mb--60">
+                <h2 className="title">Our Services</h2>
+                <p className="description">
+                  Delivering Innovative Digital Solutions
+                </p>
+              </div>
               <AcademyGalleryOne />
+            </div>
+          </div>
+
+          <div className="rbt-about-area about-style-2 bg-color-light rbt-section-gap">
+            <div className="container">
+              <div className="section-title text-center mb--60">
+                <h2 className="title">Our Tech Stack</h2>
+                <p className="description">
+                  Building with Modern Technologies
+                </p>
+              </div>
+              {/* <AcademyGalleryTwo /> */}
+            </div>
+          </div>
+
+          <div className="rbt-about-area about-style-1 bg-color-white rbt-section-gap">
+            <div className="container">
+              <div className="section-title text-center mb--60">
+                <h2 className="title">Featured Projects</h2>
+                <p className="description">
+                  Success Stories That Define Our Expertise
+                </p>
+              </div>
+              <AcademyGalleryThree />
             </div>
           </div>
 

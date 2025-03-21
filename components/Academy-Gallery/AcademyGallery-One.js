@@ -12,69 +12,64 @@ const AcademyGalleryOne = () => {
               src={aboutImg}
               width={526}
               height={645}
-              alt="About Images"
+              alt="Web Development Services"
             />
           </div>
         </div>
         <div className="col-lg-7">
           <div className="inner pl--50 pl_sm--0 pl_md--0 pl_lg--0">
             <div className="section-title text-start">
-              {/* Updated Heading */}
-              <h2 className="title">Website Development Company in Jodhpur</h2>
+              <h2 className="title">Expert Web Development Services</h2>
               
-              {/* Updated Description */}
               <p className="description mt--20">
-                Swatrixsoft is a full-service website development company based in Jodhpur. 
-                We help businesses of all sizes transform ideas into engaging online 
-                experiences. Our team crafts high-performance websites, intuitive user 
-                interfaces, and scalable solutions—ensuring your digital presence truly 
-                stands out. Whether you need to hire dedicated developers or enhance 
-                an existing platform, we have you covered.
+                As a leading web development company in Jodhpur, we specialize in creating 
+                powerful digital solutions that drive business growth. Our expert team 
+                combines technical excellence with creative innovation to deliver websites 
+                that not only look stunning but also perform exceptionally well. From 
+                startups to enterprises, we're your partner in digital success.
               </p>
 
-              <h5 className="mb--20">More Feature List:</h5>
+              <h5 className="mb--20">Our Core Services:</h5>
               <div className="plan-offer-list-wrapper">
-                {/* First Column of Features */}
                 <ul className="plan-offer-list">
                   <li>
-                    <i className="feather-check"></i> Custom Web Solutions
+                    <i className="feather-check"></i> Full-Stack Development
                   </li>
                   <li>
-                    <i className="feather-check"></i> Hire Dedicated Developers
+                    <i className="feather-check"></i> E-commerce Solutions
                   </li>
                   <li>
-                    <i className="feather-check"></i> UI/UX Design & Consulting
+                    <i className="feather-check"></i> Progressive Web Apps
                   </li>
                   <li>
-                    <i className="feather-check"></i> E-Commerce Integration
+                    <i className="feather-check"></i> Custom CMS Development
                   </li>
                   <li>
-                    <i className="feather-check"></i> Scalable & Secure Hosting
+                    <i className="feather-check"></i> API Development
                   </li>
                   <li>
-                    <i className="feather-check"></i> 24/7 Maintenance & Support
+                    <i className="feather-check"></i> Cloud Integration
                   </li>
                 </ul>
 
-                {/* Second Column of Features */}
                 <ul className="plan-offer-list">
                   <li>
-                    <i className="feather-check"></i> SEO-Friendly Development
+                    <i className="feather-check"></i> Mobile-First Design
                   </li>
                   <li>
                     <i className="feather-check"></i> Performance Optimization
                   </li>
                   <li>
-                    <i className="feather-check"></i> Third-Party API Integration
+                    <i className="feather-check"></i> Security Implementation
                   </li>
                   <li>
-                    <i className="feather-check"></i> Cross-Platform Compatibility
+                    <i className="feather-check"></i> Database Management
                   </li>
                   <li>
-                    <i className="feather-check"></i> Agile Development Process
+                    <i className="feather-check"></i> DevOps Services
                   </li>
                   <li>
-                    <i className="feather-check"></i> Timely Delivery & Transparency
+                    <i className="feather-check"></i> 24/7 Technical Support
                   </li>
                 </ul>
               </div>

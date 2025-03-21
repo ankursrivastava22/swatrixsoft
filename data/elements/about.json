@@ -2,9 +2,9 @@
   "aboutOne": [
     {
       "tag": "ABOUT SWATRIXSOFT",
-      "title": "Know About Swatrixsoft",
-      "subTitle": "Your Digital Solutions Partner",
-      "desc": "Swatrixsoft is a Jodhpur-based website development company committed to bringing your digital ideas to life. Our mission is to craft high-performance, user-centric web solutions for businesses of all sizes, ensuring you stand out in a competitive online landscape.",
+      "title": "Leading Web Development Company",
+      "subTitle": "Transforming Ideas into Digital Reality",
+      "desc": "Swatrixsoft is a premier web development company in Jodhpur, delivering innovative digital solutions that drive business growth. Our expert team combines technical excellence with creative design to create websites that make a lasting impact.",
       "images": [
         {
           "id": 1,
@@ -30,32 +30,32 @@
       ],
       "children": [
         {
-          "title": "Flexible Approach",
-          "icon": "feather-heart",
+          "title": "Custom Solutions",
+          "icon": "feather-code",
           "isPrimary": false,
-          "info": "We tailor every project to your unique goals and timeline, ensuring a smooth, collaborative experience."
+          "info": "Tailored web development solutions designed to meet your specific business requirements and goals."
         },
         {
-          "title": "Collaborate From Anywhere",
-          "icon": "feather-book",
+          "title": "Agile Development",
+          "icon": "feather-refresh-cw",
           "isPrimary": true,
-          "info": "Our remote-friendly workflow keeps you involved and informed, no matter where you’re located."
+          "info": "Flexible and iterative development process ensuring quick delivery and continuous improvement."
         },
         {
-          "title": "Expert Developers",
-          "icon": "feather-monitor",
+          "title": "Technical Excellence",
+          "icon": "feather-award",
           "isPrimary": false,
-          "info": "Our skilled team has years of experience delivering secure, scalable, and visually stunning web solutions."
+          "info": "Expert developers delivering high-performance, secure, and scalable web solutions."
         }
       ]
     }
   ],
   "aboutTwo": [
     {
-      "tag": "ABOUT SWATRIXSOFT",
-      "title": "Discover Swatrixsoft",
-      "subTitle": "Innovative Web Solutions",
-      "desc": "We combine strategy, creativity, and cutting-edge technology to build websites that empower businesses online. Whether you need a custom platform, a redesign, or ongoing support, our team is ready to help you thrive in the digital space.",
+      "tag": "WHY CHOOSE US",
+      "title": "Excellence in Web Development",
+      "subTitle": "Your Success is Our Priority",
+      "desc": "With years of experience in web development, we've helped numerous businesses establish a strong online presence. Our team of skilled developers and designers work together to create websites that not only look great but also perform exceptionally.",
       "images": [
         {
           "id": 1,
@@ -81,68 +81,68 @@
       ],
       "children": [
         {
-          "title": "Client-Centric Process",
-          "icon": "feather-heart",
+          "title": "Result-Driven Approach",
+          "icon": "feather-target",
           "isPrimary": false,
-          "info": "We focus on understanding your business objectives, ensuring each project delivers real value."
+          "info": "We focus on delivering measurable results that help your business grow and succeed online."
         },
         {
-          "title": "Seamless Collaboration",
-          "icon": "feather-book",
+          "title": "Dedicated Support",
+          "icon": "feather-life-buoy",
           "isPrimary": true,
-          "info": "Whether you’re local or global, our communication channels keep you involved every step of the way."
+          "info": "Our team provides ongoing support and maintenance to ensure your website performs optimally."
         }
       ]
     }
   ],
   "aboutThree": [
     {
-      "title": "We Are Creative & Prepare You for Your Digital Future",
-      "desc": "At Swatrixsoft, we believe in leveraging technology to fuel growth and innovation. Our solutions are designed to help businesses navigate the digital landscape with confidence, ensuring a robust online presence that stands the test of time."
+      "title": "Innovative Solutions for Digital Success",
+      "desc": "At Swatrixsoft, we combine cutting-edge technology with creative expertise to deliver web solutions that drive business growth. Our comprehensive approach ensures your website not only meets current needs but is also prepared for future digital challenges."
     }
   ],
   "aboutFour": [
     {
-      "title": "Our Approach to Web Development",
-      "desc": "We blend strategy, creativity, and modern tools to build solutions that truly stand out. Each project is approached with a clear understanding of your business objectives, ensuring the end product not only looks great but delivers exceptional performance.",
-      "descTwo": "Our ultimate goal is to provide value through scalable and future-proof solutions. From user experience design to backend architecture, we prioritize quality at every step."
+      "title": "Strategic Web Development",
+      "desc": "Our development process begins with understanding your business goals and target audience. We then create a comprehensive strategy that aligns technology with your objectives, ensuring maximum impact and ROI.",
+      "descTwo": "From responsive design to advanced functionality, we implement best practices and latest technologies to create websites that deliver exceptional user experiences and drive business growth."
     }
   ],
   "aboutFive": [
     {
       "name": "John Lee",
-      "title": "The Founder of Swatrixsoft",
-      "info": "A passionate innovator dedicated to delivering top-notch web solutions for businesses worldwide.",
-      "designation": "Founder & Lead Developer",
-      "phone": "+01910203040",
-      "address": "Jodhpur, India",
+      "title": "Visionary Leader at Swatrixsoft",
+      "info": "With over 15 years of experience in web development and digital innovation, John leads our team in delivering exceptional digital solutions.",
+      "designation": "CEO & Technical Director",
+      "phone": "+91 9876543210",
+      "address": "Jodhpur, Rajasthan, India",
       "authorImg": "/images/about/about-12.jpg",
       "signature": "/images/shape/signature.png"
     }
   ],
   "aboutSix": [
     {
-      "tag": "ABOUT SWATRIXSOFT",
-      "title": "What is Swatrixsoft For You?",
-      "strong": "Your Go-To Website Development Partner",
-      "desc": "We offer a broad range of digital services tailored to your needs. From concept to deployment, our team leverages modern tech stacks to deliver robust, secure, and visually appealing websites that drive business results.",
+      "tag": "OUR EXPERTISE",
+      "title": "Complete Web Development Solutions",
+      "strong": "Transforming Businesses Through Technology",
+      "desc": "From custom web applications to e-commerce platforms, we provide comprehensive development services that help businesses thrive in the digital world. Our solutions are scalable, secure, and designed for optimal performance.",
       "img": "/images/about/about-06.png"
     }
   ],
   "aboutSaven": [
     {
-      "tag": "ABOUT SWATRIXSOFT",
-      "title": "What is Swatrixsoft For You?",
-      "strong": "Empowering Your Online Presence",
-      "desc": "At Swatrixsoft, we’re dedicated to building digital experiences that help you stand out in a crowded marketplace. Our focus on collaboration, quality, and innovation ensures every project we undertake exceeds expectations.",
+      "tag": "OUR COMMITMENT",
+      "title": "Dedicated to Your Success",
+      "strong": "Building Digital Excellence",
+      "desc": "We're committed to delivering web solutions that exceed expectations. Our team works tirelessly to ensure every project is completed with precision, creativity, and attention to detail, helping your business achieve its digital goals.",
       "img": "/images/about/about-06.png"
     }
   ],
   "aboutEight": [
     {
-      "title": "What is Swatrixsoft For You?",
-      "strong": "Your Trusted Website Development Company",
-      "desc": "Based in Jodhpur, we specialize in crafting tailored web solutions for businesses across various industries. Our approach prioritizes your unique goals, ensuring each project delivers a lasting impact on your bottom line."
+      "title": "Partner in Your Digital Journey",
+      "strong": "Expert Web Development Services",
+      "desc": "As a leading web development company in Jodhpur, we offer comprehensive digital solutions that help businesses establish a strong online presence. Our team of experts ensures every project is delivered with excellence, focusing on your specific needs and goals."
     }
   ]
 }
