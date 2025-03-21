@@ -2,15 +2,17 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import logo from "../../public/images/logo/logo.png";
 import Image from "next/image";
-import { v4 as uuidv4 } from "uuid";
+import { useAuth } from "@/context/AuthContext";
+import { useRouter, usePathname } from "next/navigation";
 
 const Login = () => {
   const router = useRouter();
+  const pathname = usePathname();  // Add this line
+  const { login, isAuthenticated } = useAuth();
   const [isRegister, setIsRegister] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
@@ -19,23 +21,36 @@ const Login = () => {
     email: "",
     password: "",
     confirmPassword: "",
-    role: "user",
+    role: "student",
   });
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [passwordStrength, setPasswordStrength] = useState(0);
 
-  // Password strength checker
+  useEffect(() => {
+    // Check if there's a token in localStorage
+    const token = localStorage.getItem('token');
+    if (!token && pathname !== '/login') {
+      router.replace('/login');
+    }
+  }, []);
+
+  useEffect(() => {
+    if (isAuthenticated) {
+      router.replace('/');
+    }
+  }, [isAuthenticated, router]);
+
   const checkPasswordStrength = (password) => {
     let strength = 0;
     if (password.length >= 8) strength++;
     if (/[A-Z]/.test(password)) strength++;
     if (/[0-9]/.test(password)) strength++;
     if (/[^A-Za-z0-9]/.test(password)) strength++;
-    setPasswordStrength(strength);
+    if (password.length >= 12) strength++;
+    setPasswordStrength(Math.min(strength, 4));
   };
 
-  // Form validation
   const validateForm = () => {
     const newErrors = {};
     
@@ -69,7 +84,6 @@ const Login = () => {
     if (name === 'password') {
       checkPasswordStrength(value);
     }
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors(prev => ({ ...prev, [name]: '' }));
     }
@@ -88,33 +102,35 @@ const Login = () => {
     try {
       const res = await fetch(endpoint, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "Cache-Control": "no-cache",
+          "Accept": "application/json"
+        },
+        credentials: 'include',
         body: JSON.stringify(formData),
       });
       
       const data = await res.json();
 
       if (res.ok) {
-        toast.success(isRegister ? "Registration Successful!" : "Login Successful!");
+        toast.success(isRegister ? "Registration successful! Please log in." : "Login successful!");
         
-        if (!isRegister && data.token) {
-          localStorage.setItem("token", data.token);
-          setTimeout(() => {
-            router.push("/course-filter-one-toggle");
-            router.refresh();
-          }, 1500);
-        } else if (isRegister) {
+        if (!isRegister) {
+          await login(data.token, data.user);
+          router.replace('/');
+        } else {
           setFormData({
             username: "",
             email: "",
             password: "",
             confirmPassword: "",
-            role: "user",
+            role: "student",
           });
-          setTimeout(() => setIsRegister(false), 1500);
+          setTimeout(() => setIsRegister(false), 1000);
         }
       } else {
-        toast.error(data.message || "An error occurred!");
+        toast.error(data.message || "Authentication failed");
       }
     } catch (error) {
       console.error("Error:", error);
@@ -131,7 +147,7 @@ const Login = () => {
         <div className="logo">
           <Link href="/">
             <Image src={logo} width={65} height={50} alt="Swatrixsoft" />
-          </Link>
+        </Link>
         </div>
       </header>
 

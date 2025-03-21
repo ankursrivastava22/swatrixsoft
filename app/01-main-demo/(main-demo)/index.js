@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
+import { usePathname, useRouter } from 'next/navigation';
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import Context from "@/context/Context";
 import { Provider } from "react-redux";
@@ -10,28 +11,40 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import Separator from "@/components/Common/Separator";
 import FooterThree from "@/components/Footer/Footer-Three";
 import MainDemo from "@/components/01-Main-Demo/01-Main-Demo";
-import Login from "@/components/Login/Login"; // Import your login component
+import Login from "@/components/Login/Login";
+import { useAuth } from "@/context/AuthContext";
 
 const HomePageLayout = ({ getBlog }) => {
-  const [isLoggedIn, setIsLoggedIn] = useState(null);
+  const { isAuthenticated, isLoading, checkAuth } = useAuth();
+  const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
-    // Check for token in localStorage
-    const token = localStorage.getItem("token");
-    setIsLoggedIn(!!token);
-  }, []);
+    if (!isLoading && !isAuthenticated && pathname !== '/login') {
+      router.replace('/login');
+    }
+  }, [isAuthenticated, isLoading, pathname, router]);
 
-  if (isLoggedIn === null) {
-    // Still checking for token; you can optionally show a loading spinner here.
+  if (isLoading) {
+    return (
+      <div className="rbt-splash-loading">
+        <div className="wrapper">
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+        </div>
+      </div>
+    );
+  }
+
+  if (!isAuthenticated && pathname !== '/login') {
     return null;
   }
 
-  if (!isLoggedIn) {
-    // If not logged in, render only the Login component.
+  if (pathname === '/login') {
     return <Login />;
   }
-
-  // If logged in, render the full layout.
+  
   return (
     <Provider store={Store}>
       <Context>

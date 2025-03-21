@@ -26,9 +26,9 @@ const HeaderTopEight = ({
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem("token");
-    setIsAuthenticated(false);
-    router.push("/");
+    localStorage.removeItem('token');
+    // Add the logout query parameter
+    window.location.href = '/login?logout=true';
   };
 
   return (

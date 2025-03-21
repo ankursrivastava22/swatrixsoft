@@ -2,29 +2,96 @@ import dbConnect from "@/db/config/dbConnect";
 import User from "@/db/models/User";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
+import { cookies } from 'next/headers';
 
 export async function POST(req) {
-  // Ensure database connection is established
-  await dbConnect();
+  try {
+    await dbConnect();
 
-  // Parse incoming JSON request for email and password
-  const { email, password } = await req.json();
+    const { email, password } = await req.json();
 
-  // Find the user in the database using email
-  const user = await User.findOne({ email });
-  if (!user) {
-    return new Response(JSON.stringify({ message: "Invalid credentials" }), { status: 400 });
+    if (!email || !password) {
+      return new Response(
+        JSON.stringify({ 
+          success: false,
+          message: "Email and password are required" 
+        }), 
+        { 
+          status: 400,
+          headers: { 'Content-Type': 'application/json' }
+        }
+      );
+    }
+
+    const user = await User.findOne({ email }).select('+password');
+    if (!user || !(await bcrypt.compare(password, user.password))) {
+      return new Response(
+        JSON.stringify({ 
+          success: false,
+          message: "Invalid credentials" 
+        }), 
+        { 
+          status: 401,
+          headers: { 'Content-Type': 'application/json' }
+        }
+      );
+    }
+
+    const token = jwt.sign(
+      { 
+        userId: user._id,
+        email: user.email,
+        role: user.role || 'user',
+        timestamp: Date.now()
+      }, 
+      process.env.JWT_SECRET, 
+      { expiresIn: "24h" }
+    );
+
+    const cookieStore = cookies();
+    cookieStore.set('authToken', token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'strict',
+      path: '/',
+      maxAge: 86400
+    });
+
+    const userWithoutPassword = {
+      _id: user._id,
+      email: user.email,
+      name: user.name,
+      role: user.role
+    };
+
+    return new Response(
+      JSON.stringify({ 
+        success: true,
+        message: "Login successful",
+        user: userWithoutPassword,
+        token
+      }), 
+      { 
+        status: 200,
+        headers: {
+          'Content-Type': 'application/json',
+          'Cache-Control': 'no-store, no-cache, must-revalidate',
+          'Set-Cookie': `authToken=${token}; HttpOnly; Path=/; Max-Age=86400; SameSite=Strict${process.env.NODE_ENV === 'production' ? '; Secure' : ''}`
+        }
+      }
+    );
+
+  } catch (error) {
+    console.error('Login error:', error);
+    return new Response(
+      JSON.stringify({ 
+        success: false,
+        message: "Internal server error" 
+      }), 
+      { 
+        status: 500,
+        headers: { 'Content-Type': 'application/json' }
+      }
+    );
   }
-
-  // Compare provided password with the hashed password stored in the DB
-  const isMatch = await bcrypt.compare(password, user.password);
-  if (!isMatch) {
-    return new Response(JSON.stringify({ message: "Invalid credentials" }), { status: 400 });
-  }
-
-  // Generate a JWT token that expires in 1 hour
-  const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, { expiresIn: "1h" });
-
-  // Return a successful response with token and user ID
-  return new Response(JSON.stringify({ token, userId: user._id }), { status: 200 });
 }

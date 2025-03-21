@@ -2,10 +2,14 @@
 
 import React, { useState, useEffect } from "react";
 import Script from "next/script";
+import Head from 'next/head';
+import { AuthProvider } from '@/context/AuthContext';
+import { usePathname, useRouter } from 'next/navigation';
+import { useAuth } from '@/context/AuthContext';
 
+// Import styles
 import "bootstrap/scss/bootstrap.scss";
 import "../public/scss/default/euclid-circulara.scss";
-
 // ========= Plugins CSS START =========
 import "../node_modules/sal.js/dist/sal.css";
 import "../public/css/plugins/fontawesome.min.css";
@@ -23,28 +27,74 @@ import "swiper/css/thumbs";
 import "../public/scss/styles.scss";
 
 export default function RootLayout({ children }) {
-  // Load Bootstrap JS once on client
-  useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, []);
-
-  // Visitor Count State
+  const pathname = usePathname();
+  const router = useRouter();
   const [visitCount, setVisitCount] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Fetch visitor count on client
   useEffect(() => {
-    fetch("/api/visitor", { credentials: "include" })
-      .then((res) => res.json())
-      .then((data) => {
-        setVisitCount(data.count);
-      })
-      .catch((err) => console.error("Error fetching visitor count:", err));
+    const loadBootstrap = async () => {
+      try {
+        await import("bootstrap/dist/js/bootstrap.bundle.min.js");
+      } catch (error) {
+        console.error('Failed to load Bootstrap:', error);
+      }
+    };
+    loadBootstrap();
   }, []);
+
+  useEffect(() => {
+    const fetchVisitorCount = async () => {
+      if (pathname === '/login') {
+        setIsLoading(false);
+        return;
+      }
+
+      try {
+        const token = localStorage.getItem('token');
+        if (!token) {
+          router.replace('/login');
+          return;
+        }
+
+        const res = await fetch("/api/visitor", { 
+          credentials: "include",
+          headers: {
+            'Cache-Control': 'no-cache',
+            'Authorization': `Bearer ${token}`
+          }
+        });
+        
+        if (!res.ok) {
+          if (res.status === 401) {
+            router.replace('/login');
+            return;
+          }
+          throw new Error('Failed to fetch visitor count');
+        }
+        
+        const data = await res.json();
+        setVisitCount(data.count);
+      } catch (err) {
+        console.error("Error fetching visitor count:", err);
+        if (err.message.includes('401')) {
+          router.replace('/login');
+        }
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchVisitorCount();
+  }, [pathname, router]);
 
   return (
     <html lang="en" dir="ltr">
       <head>
-        {/* Google Tag Manager (gtag.js) */}
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-NY8PHCYQDV"
@@ -60,7 +110,6 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        {/* Tawk.to Live Chat Script */}
         <Script id="tawk-to" strategy="afterInteractive">
           {`
             var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -77,27 +126,32 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
       <body suppressHydrationWarning={true}>
-        {/* Your page content */}
-        {children}
-
-        {/* Moved visitor counter OUT of <head> and into <body> */}
-        <div
-          style={{
-            position: "fixed",
-            bottom: "10px",
-            left: "10px",
-            background: "rgba(0,0,0,0.6)",
-            color: "#fff",
-            padding: "8px 12px",
-            borderRadius: "4px",
-            fontSize: "0.9rem",
-            zIndex: 9999,
-          }}
-        >
-          {visitCount === null
-            ? "Loading visitors..."
-            : `Visitors: ${visitCount}`}
-        </div>
+        <AuthProvider>
+          {children}
+          {!isLoading && pathname !== '/login' && (
+            <div
+              className="visitor-counter"
+              style={{
+                position: "fixed",
+                bottom: "20px",
+                left: "20px",
+                background: "rgba(0,0,0,0.7)",
+                color: "#fff",
+                padding: "10px 15px",
+                borderRadius: "8px",
+                fontSize: "0.9rem",
+                zIndex: 9999,
+                boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
+                transition: "opacity 0.3s ease",
+                opacity: isLoading ? 0 : 1,
+              }}
+            >
+              <span role="status">
+                {visitCount !== null ? `Visitors: ${visitCount}` : "Counter unavailable"}
+              </span>
+            </div>
+          )}
+        </AuthProvider>
       </body>
     </html>
   );
