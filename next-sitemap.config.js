@@ -1,9 +1,8 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.swatrixsoft.com', // no trailing slash
-  generateRobotsTxt: true,                // generates robots.txt
-  generateIndexSitemap: true,             // ensures sitemap.xml is created
-  sitemapBaseFileName: 'sitemap',         // this will generate sitemap.xml (not sitemap-0.xml)
-  exclude: ['/admin/*', '/login'],        // excluded routes
-  additionalSitemaps: [],                 // keep empty or add custom ones later if needed
+  siteUrl: 'https://www.swatrixsoft.com', // Ensure correct domain
+  generateRobotsTxt: true, // Generates robots.txt
+  generateIndexSitemap: false, // Prevents sitemap-0.xml creation
+  sitemapBaseFileName: "sitemap", // Ensures sitemap.xml instead of sitemap-0.xml
+  exclude: ['/admin/*', '/login'], // Exclude sensitive routes
 };
