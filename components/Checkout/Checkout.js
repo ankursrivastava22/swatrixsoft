@@ -2,13 +2,72 @@
 
 import { useSelector } from "react-redux";
 import dynamic from "next/dynamic";
-
+import { useState } from "react";
 import CheckoutForm from "./CheckoutForm";
 
 const Checkout = () => {
   const { cart, total_amount, shipping_fee } = useSelector(
     (state) => state.CartReducer
   );
+
+  // Track selected payment method; default set to "upi"
+  const [paymentMethod, setPaymentMethod] = useState("upi");
+
+  // Handle order placement
+  const handlePlaceOrder = async () => {
+    // Ensure terms & conditions are accepted
+    if (!document.getElementById("accept_terms").checked) {
+      alert("Please accept the terms & conditions");
+      return;
+    }
+
+    if (paymentMethod === "upi") {
+      // Prepare order data (you might want to generate a unique order ID and get customer info dynamically)
+      const orderData = {
+        orderId: "ORDER" + Date.now(),
+        amount: total_amount + shipping_fee,
+        customerId: "CUSTOMER123", // Replace with actual customer data
+      };
+
+      try {
+        // Initiate payment by calling your API endpoint
+        const response = await fetch("/api/paytm/initiate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(orderData),
+        });
+        const data = await response.json();
+
+        if (data.paytmParams) {
+          // Create a form to submit the Paytm parameters
+          const form = document.createElement("form");
+          form.method = "post";
+          form.action =
+            process.env.NEXT_PUBLIC_PAYTM_ENV === "production"
+              ? "https://securegw.paytm.in/order/process"
+              : "https://securegw-stage.paytm.in/order/process";
+
+          Object.keys(data.paytmParams).forEach((key) => {
+            const input = document.createElement("input");
+            input.type = "hidden";
+            input.name = key;
+            input.value = data.paytmParams[key];
+            form.appendChild(input);
+          });
+          document.body.appendChild(form);
+          form.submit();
+        } else {
+          alert("Failed to initiate payment");
+        }
+      } catch (error) {
+        console.error("Error initiating payment", error);
+        alert("Error initiating payment");
+      }
+    } else {
+      // Handle other payment methods (e.g., Cash on Delivery) here
+      alert(`Payment method "${paymentMethod}" selected. Proceeding with checkout.`);
+    }
+  };
 
   return (
     <>
@@ -36,8 +95,7 @@ const Checkout = () => {
                   </ul>
 
                   <p>
-                    Sub Total
-                    <span>${total_amount}.00</span>
+                    Sub Total <span>${total_amount}.00</span>
                   </p>
 
                   <p>
@@ -45,7 +103,8 @@ const Checkout = () => {
                   </p>
 
                   <h4 className="mt--30">
-                    Grand Total <span>${total_amount + shipping_fee}.00</span>
+                    Grand Total{" "}
+                    <span>${total_amount + shipping_fee}.00</span>
                   </h4>
                 </div>
               </div>
@@ -56,160 +115,45 @@ const Checkout = () => {
                   className="checkout-payment-method accordion rbt-accordion-style rbt-accordion-05 accordion"
                   id="accordionExamplea1"
                 >
+                  {/* UPI/Paytm Payment Option */}
                   <div className="single-method">
                     <input
                       type="radio"
-                      id="payment_check"
+                      id="payment_upi"
                       name="payment-method"
-                      value="check"
+                      value="upi"
+                      checked={paymentMethod === "upi"}
+                      onChange={() => setPaymentMethod("upi")}
                     />
-                    <label
-                      htmlFor="payment_check"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#payment"
-                      aria-expanded="true"
-                      aria-controls="payment"
-                    >
-                      Check Payment
-                    </label>
-                    <div
-                      className="accordion-collapse collapse"
-                      id="payment"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExamplea1"
-                    >
-                      <div className="accordion-body">
-                        Please send a Check to Store name with Store Street,
-                        Store Town, Store State, Store Postcode, Store Country.
-                      </div>
-                    </div>
+                    <label htmlFor="payment_upi">UPI/Paytm Payment</label>
                   </div>
 
-                  <div className="single-method">
-                    <input
-                      type="radio"
-                      id="payment_bank"
-                      name="payment-method"
-                      value="bank"
-                    />
-                    <label
-                      htmlFor="payment_bank"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#bank"
-                      aria-expanded="true"
-                      aria-controls="bank"
-                    >
-                      Direct Bank Transfer
-                    </label>
-                    <div
-                      className="accordion-collapse collapse"
-                      id="bank"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExamplea1"
-                    >
-                      <div className="accordion-body">
-                        Please send a Check to Store name with Store Street,
-                        Store Town, Store State, Store Postcode, Store Country.
-                      </div>
-                    </div>
-                  </div>
-
+                  {/* Cash on Delivery Option */}
                   <div className="single-method">
                     <input
                       type="radio"
                       id="payment_cash"
                       name="payment-method"
                       value="cash"
+                      checked={paymentMethod === "cash"}
+                      onChange={() => setPaymentMethod("cash")}
                     />
-                    <label
-                      htmlFor="payment_cash"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#cash"
-                      aria-expanded="true"
-                      aria-controls="cash"
-                    >
-                      Cash on Delivery
-                    </label>
-                    <div
-                      className="accordion-collapse collapse"
-                      id="cash"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExamplea1"
-                    >
-                      <div className="accordion-body">
-                        Please send a Check to Store name with Store Street,
-                        Store Town, Store State, Store Postcode, Store Country.
-                      </div>
-                    </div>
+                    <label htmlFor="payment_cash">Cash on Delivery</label>
                   </div>
 
-                  <div className="single-method">
-                    <input
-                      type="radio"
-                      id="payment_paypal"
-                      name="payment-method"
-                      value="paypal"
-                    />
-                    <label
-                      htmlFor="payment_paypal"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#paypal"
-                      aria-expanded="true"
-                      aria-controls="paypal"
-                    >
-                      Paypal
-                    </label>
-                    <div
-                      className="accordion-collapse collapse"
-                      id="paypal"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExamplea1"
-                    >
-                      <div className="accordion-body">
-                        Please send a Check to Store name with Store Street,
-                        Store Town, Store State, Store Postcode, Store Country.
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="single-method">
-                    <input
-                      type="radio"
-                      id="payment_payoneer"
-                      name="payment-method"
-                      value="payoneer"
-                    />
-                    <label
-                      htmlFor="payment_payoneer"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#payoneer"
-                      aria-expanded="true"
-                      aria-controls="payoneer"
-                    >
-                      Payoneer
-                    </label>
-                    <div
-                      className="accordion-collapse collapse"
-                      id="payoneer"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExamplea1"
-                    >
-                      <div className="accordion-body">
-                        Please send a Check to Store name with Store Street,
-                        Store Town, Store State, Store Postcode, Store Country.
-                      </div>
-                    </div>
-                  </div>
-
+                  {/* Other payment methods can be added similarly */}
                   <div className="single-method">
                     <input type="checkbox" id="accept_terms" />
                     <label htmlFor="accept_terms">
-                      I’ve read and accept the terms & conditions
+                      I’ve read and accept the terms &amp; conditions
                     </label>
                   </div>
                 </div>
                 <div className="plceholder-button mt--50">
-                  <button className="rbt-btn btn-gradient hover-icon-reverse">
+                  <button
+                    className="rbt-btn btn-gradient hover-icon-reverse"
+                    onClick={handlePlaceOrder}
+                  >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Place order</span>
                       <span className="btn-icon">
