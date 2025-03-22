@@ -5,7 +5,7 @@ import Script from "next/script";
 import { AuthProvider } from "@/context/AuthContext";
 import { usePathname, useRouter } from "next/navigation";
 
-// Import styles
+// Styles
 import "bootstrap/scss/bootstrap.scss";
 import "../public/scss/default/euclid-circulara.scss";
 import "../node_modules/sal.js/dist/sal.css";
@@ -25,25 +25,16 @@ export default function RootLayout({ children }) {
   const pathname = usePathname();
   const router = useRouter();
   const [visitCount, setVisitCount] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const loadBootstrap = async () => {
-      try {
-        await import("bootstrap/dist/js/bootstrap.bundle.min.js");
-      } catch (error) {
-        console.error("Failed to load Bootstrap:", error);
-      }
-    };
-    loadBootstrap();
+    import("bootstrap/dist/js/bootstrap.bundle.min.js").catch((err) =>
+      console.error("Bootstrap load failed:", err)
+    );
   }, []);
 
   useEffect(() => {
-    const fetchVisitorCount = async () => {
-      if (pathname === "/login") {
-        setIsLoading(false);
-        return;
-      }
+    const loadVisitorAndChat = async () => {
+      if (pathname === "/login") return;
 
       try {
         const token = localStorage.getItem("token");
@@ -60,42 +51,30 @@ export default function RootLayout({ children }) {
           },
         });
 
-        if (!res.ok) {
-          if (res.status === 401) {
-            router.replace("/login");
-            return;
-          }
-          throw new Error("Failed to fetch visitor count");
+        if (res.ok) {
+          const data = await res.json();
+          setVisitCount(data.count);
+        } else if (res.status === 401) {
+          router.replace("/login");
+        } else {
+          throw new Error("Visitor fetch failed");
         }
 
-        const data = await res.json();
-        setVisitCount(data.count);
-      } catch (err) {
-        console.error("Error fetching visitor count:", err);
-        if (err.message.includes("401")) {
-          router.replace("/login");
-        }
-      } finally {
-        setIsLoading(false);
+        // ✅ Tawk.to script injection
+        const s1 = document.createElement("script");
+        s1.src = "https://embed.tawk.to/67dbead42e2e10190e26a8c3/1impgqk5k";
+        s1.async = true;
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        const s0 = document.getElementsByTagName("script")[0];
+        s0?.parentNode?.insertBefore(s1, s0);
+      } catch (error) {
+        console.error("Visitor or chat load error:", error);
       }
     };
 
-    fetchVisitorCount();
+    loadVisitorAndChat();
   }, [pathname, router]);
-
-  // Load Tawk.to only after page and visitor count are ready
-  useEffect(() => {
-    if (!isLoading && pathname !== "/login") {
-      const s1 = document.createElement("script");
-      s1.src = "https://embed.tawk.to/67dbead42e2e10190e26a8c3/1impgqk5k";
-      s1.async = true;
-      s1.charset = "UTF-8";
-      s1.setAttribute("crossorigin", "*");
-
-      const s0 = document.getElementsByTagName("script")[0];
-      s0?.parentNode?.insertBefore(s1, s0);
-    }
-  }, [isLoading, pathname]);
 
   return (
     <html lang="en" dir="ltr">
@@ -103,6 +82,7 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
+        <title>Swatrixsoft</title>
 
         {/* Google Analytics */}
         <Script
@@ -120,10 +100,13 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
+
       <body suppressHydrationWarning={true}>
         <AuthProvider>
           {children}
-          {!isLoading && pathname !== "/login" && (
+
+          {/* Visitor Counter */}
+          {pathname !== "/login" && visitCount !== null && (
             <div
               className="visitor-counter"
               style={{
@@ -138,13 +121,10 @@ export default function RootLayout({ children }) {
                 zIndex: 9999,
                 boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
                 transition: "opacity 0.3s ease",
-                opacity: isLoading ? 0 : 1,
               }}
             >
               <span role="status">
-                {visitCount !== null
-                  ? `Visitors: ${visitCount}`
-                  : "Counter unavailable"}
+                Visitors: {visitCount}
               </span>
             </div>
           )}
