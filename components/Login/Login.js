@@ -6,7 +6,6 @@ import Image from "next/image";
 import { useRouter, usePathname } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { signIn } from "next-auth/react";
 import logo from "../../public/images/logo/logo.png";
 import { useAuth } from "@/context/AuthContext";
 
@@ -30,18 +29,10 @@ const Login = () => {
   const [passwordStrength, setPasswordStrength] = useState(0);
 
   useEffect(() => {
-    // Check if there's a token in localStorage
-    const token = localStorage.getItem("token");
-    if (!token && pathname !== "/login") {
-      router.replace("/login");
-    }
-  }, [pathname, router]);
-
-  useEffect(() => {
-    if (isAuthenticated) {
+    if (isAuthenticated && pathname === "/login") {
       router.replace("/");
     }
-  }, [isAuthenticated, router]);
+  }, [isAuthenticated, pathname, router]);
 
   const checkPasswordStrength = (password) => {
     let strength = 0;
@@ -55,7 +46,6 @@ const Login = () => {
 
   const validateForm = () => {
     const newErrors = {};
-
     if (isRegister && !formData.username.trim()) {
       newErrors.username = "Username is required";
     }
@@ -83,9 +73,11 @@ const Login = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+
     if (name === "password") {
       checkPasswordStrength(value);
     }
+
     if (errors[name]) {
       setErrors((prev) => ({ ...prev, [name]: "" }));
     }
@@ -94,20 +86,18 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!validateForm()) {
-      return;
-    }
+    if (!validateForm()) return;
 
     setLoading(true);
-    const endpoint = isRegister ? "/api/auth/register" : "/api/auth/login";
-
+    const endpoint = isRegister
+    ? `${window.location.origin}/api/auth/register`
+    : `${window.location.origin}/api/auth/login`;
+  
     try {
       const res = await fetch(endpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Cache-Control": "no-cache",
-          Accept: "application/json",
         },
         credentials: "include",
         body: JSON.stringify(formData),
@@ -117,10 +107,10 @@ const Login = () => {
 
       if (res.ok) {
         toast.success(isRegister ? "Registration successful! Please log in." : "Login successful!");
+
         if (!isRegister) {
           await login(data.token, data.user);
-          // Force a page reload and redirect to home
-          window.location.href = "/";
+          router.replace("/");
         } else {
           setFormData({
             username: "",
@@ -137,21 +127,6 @@ const Login = () => {
     } catch (error) {
       console.error("Error:", error);
       toast.error("Network error. Please try again later.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleOAuth = async (provider) => {
-    setLoading(true);
-    try {
-      const result = await signIn(provider, { redirect: false });
-      if (result.error) {
-        toast.error(result.error);
-      }
-    } catch (err) {
-      console.error("OAuth error:", err);
-      toast.error("OAuth error. Please try again later.");
     } finally {
       setLoading(false);
     }
@@ -179,26 +154,6 @@ const Login = () => {
             <h3 className="title text-center mb-4">
               {isRegister ? "Register" : "Login"}
             </h3>
-
-            {/* OAuth Buttons */}
-            {/* <div className="mb-4">
-              <button
-                type="button"
-                className="btn btn-outline-primary w-100 mb-2"
-                onClick={() => handleOAuth("google")}
-                disabled={loading}
-              >
-                {loading ? "Loading..." : "Login with Google"}
-              </button>
-              <button
-                type="button"
-                className="btn btn-outline-primary w-100"
-                onClick={() => handleOAuth("facebook")}
-                disabled={loading}
-              >
-                {loading ? "Loading..." : "Login with Facebook"}
-              </button>
-            </div> */}
 
             <form className="max-width-auto" onSubmit={handleSubmit} noValidate>
               {isRegister && (
@@ -281,11 +236,7 @@ const Login = () => {
                       ))}
                     </div>
                     <small className="text-muted">
-                      {passwordStrength === 0 && "Very Weak"}
-                      {passwordStrength === 1 && "Weak"}
-                      {passwordStrength === 2 && "Medium"}
-                      {passwordStrength === 3 && "Strong"}
-                      {passwordStrength === 4 && "Very Strong"}
+                      {["Very Weak", "Weak", "Medium", "Strong", "Very Strong"][passwordStrength]}
                     </small>
                   </div>
                 )}
@@ -350,13 +301,7 @@ const Login = () => {
                 >
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">
-                      {loading ? (
-                        <div className="spinner-border spinner-border-sm me-2" role="status">
-                          <span className="visually-hidden">Loading...</span>
-                        </div>
-                      ) : (
-                        isRegister ? "Register" : "Log In"
-                      )}
+                      {loading ? "Loading..." : isRegister ? "Register" : "Log In"}
                     </span>
                     <span className="btn-icon">
                       <i className="feather-arrow-right"></i>
@@ -370,16 +315,24 @@ const Login = () => {
               {isRegister ? (
                 <>
                   Already have an account?{" "}
-                  <Link href="#" className="rbt-btn-link" onClick={() => setIsRegister(false)}>
+                  <button
+                    type="button"
+                    onClick={() => setIsRegister(false)}
+                    className="rbt-btn-link bg-transparent border-0 text-primary"
+                  >
                     Login
-                  </Link>
+                  </button>
                 </>
               ) : (
                 <>
                   Don't have an account?{" "}
-                  <Link href="#" className="rbt-btn-link" onClick={() => setIsRegister(true)}>
+                  <button
+                    type="button"
+                    onClick={() => setIsRegister(true)}
+                    className="rbt-btn-link bg-transparent border-0 text-primary"
+                  >
                     Register
-                  </Link>
+                  </button>
                 </>
               )}
             </div>
