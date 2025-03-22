@@ -112,7 +112,9 @@ const Login = () => {
       
         if (!isRegister) {
           await login(data.token, data.user);
-      
+          if (typeof window !== "undefined") {
+            window.location.href = "/";
+          }
           // ✅ Redirect right after setting token
           router.replace("/"); // ⬅️ instead of waiting for useEffect
         } else {
