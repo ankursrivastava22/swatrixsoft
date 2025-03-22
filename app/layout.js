@@ -2,15 +2,12 @@
 
 import React, { useState, useEffect } from "react";
 import Script from "next/script";
-import Head from 'next/head';
-import { AuthProvider } from '@/context/AuthContext';
-import { usePathname, useRouter } from 'next/navigation';
-import { useAuth } from '@/context/AuthContext';
+import { AuthProvider } from "@/context/AuthContext";
+import { usePathname, useRouter } from "next/navigation";
 
 // Import styles
 import "bootstrap/scss/bootstrap.scss";
 import "../public/scss/default/euclid-circulara.scss";
-// ========= Plugins CSS START =========
 import "../node_modules/sal.js/dist/sal.css";
 import "../public/css/plugins/fontawesome.min.css";
 import "../public/css/plugins/feather.css";
@@ -22,8 +19,6 @@ import "swiper/css/navigation";
 import "swiper/css/effect-cards";
 import "swiper/css/free-mode";
 import "swiper/css/thumbs";
-// ========= Plugins CSS END =========
-
 import "../public/scss/styles.scss";
 
 export default function RootLayout({ children }) {
@@ -37,7 +32,7 @@ export default function RootLayout({ children }) {
       try {
         await import("bootstrap/dist/js/bootstrap.bundle.min.js");
       } catch (error) {
-        console.error('Failed to load Bootstrap:', error);
+        console.error("Failed to load Bootstrap:", error);
       }
     };
     loadBootstrap();
@@ -45,40 +40,40 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     const fetchVisitorCount = async () => {
-      if (pathname === '/login') {
+      if (pathname === "/login") {
         setIsLoading(false);
         return;
       }
 
       try {
-        const token = localStorage.getItem('token');
+        const token = localStorage.getItem("token");
         if (!token) {
-          router.replace('/login');
+          router.replace("/login");
           return;
         }
 
-        const res = await fetch("/api/visitor", { 
+        const res = await fetch("/api/visitor", {
           credentials: "include",
           headers: {
-            'Cache-Control': 'no-cache',
-            'Authorization': `Bearer ${token}`
-          }
+            "Cache-Control": "no-cache",
+            Authorization: `Bearer ${token}`,
+          },
         });
-        
+
         if (!res.ok) {
           if (res.status === 401) {
-            router.replace('/login');
+            router.replace("/login");
             return;
           }
-          throw new Error('Failed to fetch visitor count');
+          throw new Error("Failed to fetch visitor count");
         }
-        
+
         const data = await res.json();
         setVisitCount(data.count);
       } catch (err) {
         console.error("Error fetching visitor count:", err);
-        if (err.message.includes('401')) {
-          router.replace('/login');
+        if (err.message.includes("401")) {
+          router.replace("/login");
         }
       } finally {
         setIsLoading(false);
@@ -88,13 +83,28 @@ export default function RootLayout({ children }) {
     fetchVisitorCount();
   }, [pathname, router]);
 
+  // Load Tawk.to only after page and visitor count are ready
+  useEffect(() => {
+    if (!isLoading && pathname !== "/login") {
+      const s1 = document.createElement("script");
+      s1.src = "https://embed.tawk.to/67dbead42e2e10190e26a8c3/1impgqk5k";
+      s1.async = true;
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+
+      const s0 = document.getElementsByTagName("script")[0];
+      s0?.parentNode?.insertBefore(s1, s0);
+    }
+  }, [isLoading, pathname]);
+
   return (
     <html lang="en" dir="ltr">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        
+
+        {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-NY8PHCYQDV"
@@ -109,26 +119,11 @@ export default function RootLayout({ children }) {
             });
           `}
         </Script>
-
-        <Script id="tawk-to" strategy="afterInteractive">
-          {`
-            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-            (function() {
-              var s1 = document.createElement("script"),
-                  s0 = document.getElementsByTagName("script")[0];
-              s1.async = true;
-              s1.src = 'https://embed.tawk.to/67dbead42e2e10190e26a8c3/1impgqk5k';
-              s1.charset = 'UTF-8';
-              s1.setAttribute('crossorigin','*');
-              s0.parentNode.insertBefore(s1, s0);
-            })();
-          `}
-        </Script>
       </head>
       <body suppressHydrationWarning={true}>
         <AuthProvider>
           {children}
-          {!isLoading && pathname !== '/login' && (
+          {!isLoading && pathname !== "/login" && (
             <div
               className="visitor-counter"
               style={{
@@ -147,7 +142,9 @@ export default function RootLayout({ children }) {
               }}
             >
               <span role="status">
-                {visitCount !== null ? `Visitors: ${visitCount}` : "Counter unavailable"}
+                {visitCount !== null
+                  ? `Visitors: ${visitCount}`
+                  : "Counter unavailable"}
               </span>
             </div>
           )}
