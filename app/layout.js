@@ -21,37 +21,37 @@ import "swiper/css/free-mode";
 import "swiper/css/thumbs";
 import "../public/scss/styles.scss";
 
-const LOGIN_ROUTE = "/login";
-
 export default function RootLayout({ children }) {
   const pathname = usePathname();
   const router = useRouter();
   const [visitCount, setVisitCount] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Load Bootstrap JS on client only
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      import("bootstrap/dist/js/bootstrap.bundle.min.js").catch((error) =>
-        console.error("Failed to load Bootstrap:", error)
-      );
-    }
+    const loadBootstrap = async () => {
+      try {
+        await import("bootstrap/dist/js/bootstrap.bundle.min.js");
+      } catch (error) {
+        console.error("Failed to load Bootstrap:", error);
+      }
+    };
+    loadBootstrap();
   }, []);
 
   useEffect(() => {
     const fetchVisitorCount = async () => {
-      if (typeof window === "undefined" || pathname === LOGIN_ROUTE) {
+      if (pathname === "/login") {
         setIsLoading(false);
         return;
       }
 
-      const token = localStorage.getItem("token");
-      if (!token) {
-        router.replace(LOGIN_ROUTE);
-        return;
-      }
-
       try {
+        const token = localStorage.getItem("token");
+        if (!token) {
+          router.replace("/login");
+          return;
+        }
+
         const res = await fetch("/api/visitor", {
           credentials: "include",
           headers: {
@@ -62,7 +62,8 @@ export default function RootLayout({ children }) {
 
         if (!res.ok) {
           if (res.status === 401) {
-            router.replace(LOGIN_ROUTE);
+            router.replace("/login");
+            return;
           }
           throw new Error("Failed to fetch visitor count");
         }
@@ -71,6 +72,9 @@ export default function RootLayout({ children }) {
         setVisitCount(data.count);
       } catch (err) {
         console.error("Error fetching visitor count:", err);
+        if (err.message.includes("401")) {
+          router.replace("/login");
+        }
       } finally {
         setIsLoading(false);
       }
@@ -79,13 +83,26 @@ export default function RootLayout({ children }) {
     fetchVisitorCount();
   }, [pathname, router]);
 
+  // Load Tawk.to only after page and visitor count are ready
+  useEffect(() => {
+    if (!isLoading && pathname !== "/login") {
+      const s1 = document.createElement("script");
+      s1.src = "https://embed.tawk.to/67dbead42e2e10190e26a8c3/1impgqk5k";
+      s1.async = true;
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+
+      const s0 = document.getElementsByTagName("script")[0];
+      s0?.parentNode?.insertBefore(s1, s0);
+    }
+  }, [isLoading, pathname]);
+
   return (
     <html lang="en" dir="ltr">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <title>Swatrixsoft</title>
 
         {/* Google Analytics */}
         <Script
@@ -102,23 +119,11 @@ export default function RootLayout({ children }) {
             });
           `}
         </Script>
-
-        {/* Tawk.to Live Chat */}
-        {!isLoading && pathname !== LOGIN_ROUTE && (
-          <Script
-            src="https://embed.tawk.to/67dbead42e2e10190e26a8c3/1impgqk5k"
-            strategy="afterInteractive"
-            async
-            crossOrigin="*"
-          />
-        )}
       </head>
-
       <body suppressHydrationWarning={true}>
         <AuthProvider>
           {children}
-
-          {!isLoading && pathname !== LOGIN_ROUTE && (
+          {!isLoading && pathname !== "/login" && (
             <div
               className="visitor-counter"
               style={{
@@ -132,8 +137,8 @@ export default function RootLayout({ children }) {
                 fontSize: "0.9rem",
                 zIndex: 9999,
                 boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
-                opacity: 1,
                 transition: "opacity 0.3s ease",
+                opacity: isLoading ? 0 : 1,
               }}
             >
               <span role="status">
