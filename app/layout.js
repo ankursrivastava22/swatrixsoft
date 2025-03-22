@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Script from "next/script";
 import { AuthProvider } from "@/context/AuthContext";
 import { usePathname, useRouter } from "next/navigation";
+import { toast, ToastContainer } from 'react-toastify';
 
 // Styles
 import "bootstrap/scss/bootstrap.scss";
@@ -20,11 +21,13 @@ import "swiper/css/effect-cards";
 import "swiper/css/free-mode";
 import "swiper/css/thumbs";
 import "../public/scss/styles.scss";
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
   const router = useRouter();
   const [visitCount, setVisitCount] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js").catch((err) =>
@@ -34,12 +37,16 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     const loadVisitorAndChat = async () => {
-      if (pathname === "/login") return;
+      if (pathname === "/login") {
+        setIsLoading(false);
+        return;
+      }
 
       try {
         const token = localStorage.getItem("token");
         if (!token) {
-          router.replace("/login");
+          const currentPath = pathname;
+          router.replace(`/login?reason=unauthorized&from=${currentPath}`);
           return;
         }
 
@@ -55,12 +62,12 @@ export default function RootLayout({ children }) {
           const data = await res.json();
           setVisitCount(data.count);
         } else if (res.status === 401) {
-          router.replace("/login");
+          router.replace("/login?reason=expired");
         } else {
-          throw new Error("Visitor fetch failed");
+          toast.error("Failed to load visitor count");
         }
 
-        // ✅ Tawk.to script injection
+        // Tawk.to chat integration
         const s1 = document.createElement("script");
         s1.src = "https://embed.tawk.to/67dbead42e2e10190e26a8c3/1impgqk5k";
         s1.async = true;
@@ -69,7 +76,10 @@ export default function RootLayout({ children }) {
         const s0 = document.getElementsByTagName("script")[0];
         s0?.parentNode?.insertBefore(s1, s0);
       } catch (error) {
-        console.error("Visitor or chat load error:", error);
+        console.error("Error:", error);
+        toast.error("Something went wrong");
+      } finally {
+        setIsLoading(false);
       }
     };
 
@@ -82,9 +92,9 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <title>Swatrixsoft</title>
+        <meta name="description" content="Swatrixsoft - Professional Web Development Services" />
+        <title>Swatrixsoft - Web Development Company</title>
 
-        {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-NY8PHCYQDV"
@@ -103,9 +113,21 @@ export default function RootLayout({ children }) {
 
       <body suppressHydrationWarning={true}>
         <AuthProvider>
-          {children}
+          <ToastContainer
+            position="top-right"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="light"
+          />
+          
+          {!isLoading && children}
 
-          {/* Visitor Counter */}
           {pathname !== "/login" && visitCount !== null && (
             <div
               className="visitor-counter"
@@ -113,18 +135,22 @@ export default function RootLayout({ children }) {
                 position: "fixed",
                 bottom: "20px",
                 left: "20px",
-                background: "rgba(0,0,0,0.7)",
+                background: "rgba(0,0,0,0.8)",
                 color: "#fff",
-                padding: "10px 15px",
-                borderRadius: "8px",
-                fontSize: "0.9rem",
+                padding: "12px 20px",
+                borderRadius: "10px",
+                fontSize: "1rem",
                 zIndex: 9999,
-                boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
-                transition: "opacity 0.3s ease",
+                boxShadow: "0 4px 15px rgba(0,0,0,0.3)",
+                transition: "all 0.3s ease",
+                display: "flex",
+                alignItems: "center",
+                gap: "8px",
               }}
             >
+              <i className="fas fa-users"></i>
               <span role="status">
-                Visitors: {visitCount}
+                Visitors: {visitCount.toLocaleString()}
               </span>
             </div>
           )}

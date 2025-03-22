@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Link as ScrollLink } from "react-scroll";
-
 import logo from "../../public/images/logo/logo.png";
 import { useAppContext } from "@/context/Context";
 
@@ -13,28 +12,21 @@ const SideNav = () => {
   const [currentSection, setCurrentSection] = useState("home");
 
   const sections = [
-    { id: "home", label: "Home" },
-    { id: "about", label: "About Us" },
-    { id: "guideline", label: "Course Guideline" },
-    { id: "coursecontent", label: "Course Content" },
-    { id: "career", label: "Career" },
+    { id: "home", label: "Home", icon: "feather-home" },
+    { id: "services", label: "Our Services", icon: "feather-layers" },
+    { id: "portfolio", label: "Portfolio", icon: "feather-grid" },
+    { id: "technologies", label: "Technologies", icon: "feather-code" },
+    { id: "contact", label: "Contact Us", icon: "feather-mail" },
   ];
 
   useEffect(() => {
-    const sectionIds = [
-      "home",
-      "about",
-      "guideline",
-      "coursecontent",
-      "career",
-    ];
+    const sectionIds = sections.map(section => section.id);
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 200;
 
       for (const sectionId of sectionIds) {
         const element = document.getElementById(sectionId);
-
         if (element && scrollPosition >= element.offsetTop) {
           setCurrentSection(sectionId);
         }
@@ -42,10 +34,7 @@ const SideNav = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, [currentSection]);
 
   return (
@@ -60,36 +49,39 @@ const SideNav = () => {
                     src={logo}
                     width={65}
                     height={50}
-                    alt="Education Logo Images"
+                    alt="Swatrixsoft Logo"
+                    priority
                   />
                 </Link>
               </div>
-              <div className="rbt-btn-close" id="btn_sideNavClose">
+              <div className="rbt-btn-close">
                 <button
                   className="rbt-round-btn"
                   onClick={() => setMobile(!mobile)}
+                  aria-label="Close Menu"
                 >
                   <i className="feather-x"></i>
                 </button>
               </div>
             </div>
             <p className="description">
-              Swatrixsoft is a education website template. You can customize all.
+              Leading Web Development Company Delivering Innovative Digital Solutions
             </p>
 
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
-                <a href="mailto:hello@example.com">
-                  <i className="feather-mail"></i>example@gmail.com
+                <a href="mailto:info@swatrixsoft.com">
+                  <i className="feather-mail"></i>swatrixsoft@gmail.com
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="feather-phone"></i>(302) 555-0107
+                <a href="tel:+919898989898">
+                  <i className="feather-phone"></i>+91 7976930931
                 </a>
               </li>
             </ul>
           </div>
+
           <nav className="side-nav w-100 mt--60 mb--80">
             <ul className="navbar-nav">
               {sections.map((sec, i) => (
@@ -103,48 +95,51 @@ const SideNav = () => {
                     smooth={true}
                     duration={500}
                     offset={-70}
-                    style={{ cursor: "pointer" }}
+                    className="nav-link"
                   >
-                    {sec.label}
+                    <i className={sec.icon}></i>
+                    <span>{sec.label}</span>
                   </ScrollLink>
                 </li>
               ))}
             </ul>
           </nav>
+
           <div className="social-share-wrapper">
-            <span className="rbt-short-title d-block">Find With Us</span>
+            <span className="rbt-short-title d-block">Connect With Us</span>
             <ul className="social-icon social-default transparent-with-border justify-content-start mt--20">
               <li>
-                <a href="https://www.facebook.com/">
-                  <i className="feather-facebook"></i>
+                <a href="https://www.linkedin.com/swatrixsoft" target="_blank" rel="noopener noreferrer">
+                  <i className="feather-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.twitter.com">
+                <a href="https://github.com/swatrixsoft" target="_blank" rel="noopener noreferrer">
+                  <i className="feather-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/swatrixsoft" target="_blank" rel="noopener noreferrer">
                   <i className="feather-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/swatrixsoft" target="_blank" rel="noopener noreferrer">
                   <i className="feather-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkdin.com/">
-                  <i className="feather-linkedin"></i>
                 </a>
               </li>
             </ul>
           </div>
+
           <ul className="rbt-secondary-menu mt--50">
             <li>
-              <a href="#">My Account</a>
+              <Link href="/dashboard">Dashboard</Link>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <Link href="/contact">Support</Link>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
           </ul>
         </div>
