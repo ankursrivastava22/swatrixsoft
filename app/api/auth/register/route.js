@@ -10,12 +10,12 @@ export async function POST(req) {
     // Destructure 'role' as well!
     const { username, email, password, role } = await req.json();
 
-    // Check if user already exists
+    // Check if a user with this email already exists
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return new Response(
         JSON.stringify({ message: "User already exists" }),
-        { status: 400 }
+        { status: 400, headers: { "Content-Type": "application/json" } }
       );
     }
 
@@ -27,20 +27,20 @@ export async function POST(req) {
       username,
       email,
       password: hashedPassword,
-      role, // <--- Use the 'role' from the request
+      role, // Use the 'role' from the request
     });
 
     await newUser.save();
 
     return new Response(
       JSON.stringify({ message: "User registered successfully" }),
-      { status: 201 }
+      { status: 201, headers: { "Content-Type": "application/json" } }
     );
   } catch (error) {
     console.error("Registration Error:", error);
     return new Response(
       JSON.stringify({ message: "Server error", error: error.message }),
-      { status: 500 }
+      { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
 }

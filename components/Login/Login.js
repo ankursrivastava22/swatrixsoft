@@ -2,17 +2,19 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { useRouter, usePathname } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { signIn } from "next-auth/react";
 import logo from "../../public/images/logo/logo.png";
-import Image from "next/image";
 import { useAuth } from "@/context/AuthContext";
-import { useRouter, usePathname } from "next/navigation";
 
 const Login = () => {
   const router = useRouter();
-  const pathname = usePathname();  // Add this line
+  const pathname = usePathname();
   const { login, isAuthenticated } = useAuth();
+
   const [isRegister, setIsRegister] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
@@ -29,15 +31,15 @@ const Login = () => {
 
   useEffect(() => {
     // Check if there's a token in localStorage
-    const token = localStorage.getItem('token');
-    if (!token && pathname !== '/login') {
-      router.replace('/login');
+    const token = localStorage.getItem("token");
+    if (!token && pathname !== "/login") {
+      router.replace("/login");
     }
-  }, []);
+  }, [pathname, router]);
 
   useEffect(() => {
     if (isAuthenticated) {
-      router.replace('/');
+      router.replace("/");
     }
   }, [isAuthenticated, router]);
 
@@ -53,7 +55,7 @@ const Login = () => {
 
   const validateForm = () => {
     const newErrors = {};
-    
+
     if (isRegister && !formData.username.trim()) {
       newErrors.username = "Username is required";
     }
@@ -80,46 +82,45 @@ const Login = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-    if (name === 'password') {
+    setFormData((prev) => ({ ...prev, [name]: value }));
+    if (name === "password") {
       checkPasswordStrength(value);
     }
     if (errors[name]) {
-      setErrors(prev => ({ ...prev, [name]: '' }));
+      setErrors((prev) => ({ ...prev, [name]: "" }));
     }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     if (!validateForm()) {
       return;
     }
-  
+
     setLoading(true);
     const endpoint = isRegister ? "/api/auth/register" : "/api/auth/login";
-  
+
     try {
       const res = await fetch(endpoint, {
         method: "POST",
-        headers: { 
+        headers: {
           "Content-Type": "application/json",
           "Cache-Control": "no-cache",
-          "Accept": "application/json"
+          Accept: "application/json",
         },
-        credentials: 'include',
+        credentials: "include",
         body: JSON.stringify(formData),
       });
-      
+
       const data = await res.json();
-  
+
       if (res.ok) {
         toast.success(isRegister ? "Registration successful! Please log in." : "Login successful!");
-        
         if (!isRegister) {
           await login(data.token, data.user);
-          // Force a page reload and redirect
-          window.location.href = '/';
+          // Force a page reload and redirect to home
+          window.location.href = "/";
         } else {
           setFormData({
             username: "",
@@ -141,14 +142,28 @@ const Login = () => {
     }
   };
 
-  // Rest of your JSX with updated form fields to include error messages and password visibility toggles
+  const handleOAuth = async (provider) => {
+    setLoading(true);
+    try {
+      const result = await signIn(provider, { redirect: false });
+      if (result.error) {
+        toast.error(result.error);
+      }
+    } catch (err) {
+      console.error("OAuth error:", err);
+      toast.error("OAuth error. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="container">
       <header style={{ position: "absolute", top: "10px", left: "10px" }}>
         <div className="logo">
           <Link href="/">
             <Image src={logo} width={65} height={50} alt="Swatrixsoft" />
-        </Link>
+          </Link>
         </div>
       </header>
 
@@ -158,13 +173,32 @@ const Login = () => {
         <div className="col-lg-6">
           <div className="text-center mt-4">
             <h1 className="typing-text">Swatrixsoft</h1>
-            {/* Your existing CSS styles here */}
           </div>
 
           <div className="rbt-contact-form contact-form-style-1 max-width-auto">
             <h3 className="title text-center mb-4">
               {isRegister ? "Register" : "Login"}
             </h3>
+
+            {/* OAuth Buttons */}
+            {/* <div className="mb-4">
+              <button
+                type="button"
+                className="btn btn-outline-primary w-100 mb-2"
+                onClick={() => handleOAuth("google")}
+                disabled={loading}
+              >
+                {loading ? "Loading..." : "Login with Google"}
+              </button>
+              <button
+                type="button"
+                className="btn btn-outline-primary w-100"
+                onClick={() => handleOAuth("facebook")}
+                disabled={loading}
+              >
+                {loading ? "Loading..." : "Login with Facebook"}
+              </button>
+            </div> */}
 
             <form className="max-width-auto" onSubmit={handleSubmit} noValidate>
               {isRegister && (
@@ -218,30 +252,30 @@ const Login = () => {
                   onClick={() => setShowPassword(!showPassword)}
                   aria-label="Toggle password visibility"
                   style={{
-                    position: 'absolute',
-                    right: '10px',
-                    top: '50%',
-                    transform: 'translateY(-50%)',
-                    background: 'none',
-                    border: 'none',
-                    cursor: 'pointer'
+                    position: "absolute",
+                    right: "10px",
+                    top: "50%",
+                    transform: "translateY(-50%)",
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
                   }}
                 >
-                  {showPassword ? '👁️' : '👁️‍🗨️'}
+                  {showPassword ? "👁️" : "👁️‍🗨️"}
                 </button>
                 {errors.password && (
                   <span className="error-message text-danger">{errors.password}</span>
                 )}
                 {isRegister && (
                   <div className="password-strength-meter mt-2">
-                    <div className="strength-bars" style={{ display: 'flex', gap: '5px' }}>
+                    <div className="strength-bars" style={{ display: "flex", gap: "5px" }}>
                       {[...Array(4)].map((_, index) => (
                         <div
                           key={index}
                           style={{
-                            height: '5px',
+                            height: "5px",
                             flex: 1,
-                            background: index < passwordStrength ? '#4CAF50' : '#ddd'
+                            background: index < passwordStrength ? "#4CAF50" : "#ddd",
                           }}
                         />
                       ))}
@@ -275,16 +309,16 @@ const Login = () => {
                     onClick={() => setShowConfirmPassword(!showConfirmPassword)}
                     aria-label="Toggle confirm password visibility"
                     style={{
-                      position: 'absolute',
-                      right: '10px',
-                      top: '50%',
-                      transform: 'translateY(-50%)',
-                      background: 'none',
-                      border: 'none',
-                      cursor: 'pointer'
+                      position: "absolute",
+                      right: "10px",
+                      top: "50%",
+                      transform: "translateY(-50%)",
+                      background: "none",
+                      border: "none",
+                      cursor: "pointer",
                     }}
                   >
-                    {showConfirmPassword ? '👁️' : '👁️‍🗨️'}
+                    {showConfirmPassword ? "👁️" : "👁️‍🗨️"}
                   </button>
                   {errors.confirmPassword && (
                     <span className="error-message text-danger">{errors.confirmPassword}</span>
