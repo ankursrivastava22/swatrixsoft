@@ -33,6 +33,8 @@ const Login = () => {
       router.replace("/");
     }
   }, [isAuthenticated, pathname, router]);
+  
+  
 
   const checkPasswordStrength = (password) => {
     let strength = 0;
@@ -107,10 +109,12 @@ const Login = () => {
 
       if (res.ok) {
         toast.success(isRegister ? "Registration successful! Please log in." : "Login successful!");
-
+      
         if (!isRegister) {
           await login(data.token, data.user);
-          router.replace("/");
+      
+          // ✅ Redirect right after setting token
+          router.replace("/"); // ⬅️ instead of waiting for useEffect
         } else {
           setFormData({
             username: "",
@@ -121,7 +125,8 @@ const Login = () => {
           });
           setTimeout(() => setIsRegister(false), 1000);
         }
-      } else {
+      }
+       else {
         toast.error(data.message || "Authentication failed");
       }
     } catch (error) {
