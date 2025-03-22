@@ -1,172 +1,87 @@
 {
   "team": [
     {
-      "img": "/images/team/team-05.webp",
-      "isLarge": true,
-      "isActive": true,
-      "details": [
-        {
-          "img": "/images/team/team-05.webp",
-          "name": "Mames Mary",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-02.webp",
+      "img": "/images/team/team-03.jpg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-02.webp",
-          "name": "Christopher",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/team-03.jpg", 
+          "name": "Full Stack Development",
+          "type": "Development",
+          "location": "Jodhpur",
+          "desc": "Our expert full-stack development team specializes in creating robust web applications using cutting-edge technologies. We deliver scalable solutions that drive business growth and innovation.",
+          "descTwo": "From frontend to backend, we ensure seamless integration and optimal performance across the entire technology stack.",
           "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
+          "email": "swatrixsoft@gmail.com"
         }
       ]
     },
     {
-      "img": "/images/team/team-03.webp",
+      "img": "/images/team/team-05.jpg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-03.webp",
-          "name": "Robert Song",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/team-05.jpg",
+          "name": "UI/UX Design",
+          "type": "Design",
+          "location": "Jodhpur",
+          "desc": "Our design team creates intuitive and engaging user interfaces that enhance user experience. We focus on modern design principles and user-centered approaches.",
+          "descTwo": "From wireframes to final designs, we ensure every pixel is perfect and every interaction is meaningful.",
           "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
+          "email": "design@swatrixsoft.com"
         }
       ]
     },
     {
-      "img": "/images/team/team-04.webp",
-      "isLarge": true,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-04.webp",
-          "name": "William Susan",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-05.webp",
+      "img": "/images/team/team-06.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-05.webp",
-          "name": "Soseph Sara",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/team-06.jpg",
+          "name": "Digital Marketing",
+          "type": "Development",
+          "location": "Jodhpur",
+          "desc": "Our backend team specializes in building secure, scalable server-side applications using modern technologies and robust database solutions.",
+          "descTwo": "We ensure efficient data management, API development, and optimal server performance for all our applications.",
           "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
+          "email": "backend@swatrixsoft.com"
         }
       ]
     },
     {
-      "img": "/images/team/team-02.webp",
+      "img": "/images/team/team-11.webp",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-02.webp",
-          "name": "Thomas Dal",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/team-11.webp",
+          "name": "Frontend Development",
+          "type": "Development",
+          "location": "Jodhpur",
+          "desc": "Our frontend developers create responsive, interactive user interfaces using modern frameworks and best practices in web development.",
+          "descTwo": "We focus on creating engaging user experiences with clean, efficient code and optimal performance.",
           "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
+          "email": "frontend@swatrixsoft.com"
         }
       ]
     },
     {
-      "img": "/images/team/team-03.webp",
+      "img": "/images/team/team-03.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-03.webp",
-          "name": "Irma J. Erwin",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
+          "img": "/images/team/team-03.jpg",
+          "name": "Mobile Development",
+          "type": "Development",
+          "location": "Jodhpur",
+          "desc": "Our mobile development team excels in creating native and cross-platform applications that deliver exceptional user experiences.",
+          "descTwo": "We build high-performance mobile solutions that work seamlessly across different platforms and devices.",
           "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-04.webp",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-04.webp",
-          "name": "John Due",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-05.webp",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-05.webp",
-          "name": "Joo Bieden",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-03.webp",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-03.webp",
-          "name": "Alejandro",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Swatrixsoft easily. Any School, University, College can be use this swatrixsoft education template for their educational purpose. A university can be success you.",
-          "phone": "7976930931, 7073875630",
-          "email": "example@gmail.com"
+          "email": "mobile@swatrixsoft.com"
         }
       ]
     }
