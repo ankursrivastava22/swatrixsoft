@@ -169,7 +169,7 @@ const Login = () => {
 
       <ToastContainer />
 
-      <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
+      <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "70vh" }}>
         <div className="col-lg-6">
           <div className="text-center mt-4">
             <h1 className="typing-text">Swatrixsoft</h1>
