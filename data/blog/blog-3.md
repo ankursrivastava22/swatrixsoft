@@ -19,7 +19,7 @@ addImg: "/images/blog/blog-bl-02.jpg"
 name: "Jone Song"
 position: "CEO & Founder"
 imgPoster:
-  - galleryImg: "/images/blog/blog-single-03.png"
+  - galleryImg: "/images/blog/blog-single-03.jpg"
   - galleryImg: "/images/blog/blog-single-04.png"
 caption: "Empowering businesses with modern digital solutions."
 linkOne: "Explore Our Services"
@@ -29,7 +29,7 @@ quote: "Innovation is the relentless pursuit of better ways to serve, connect, a
 city: "Jodhpur"
 
 thumbnail:
-  large: "/images/blog/blog-single-03.png"
+  large: "/images/blog/blog-single-03.jpg"
 
 categories: ["IT & Business"]
 publishedAt: "Aug 27 2024"
