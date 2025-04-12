@@ -4,6 +4,9 @@ import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
 import clientPromise from "@/db/mongodb";
 import User from "@/db/models/User";
 
+// 🚫 Prevent static optimization (important on Vercel)
+export const dynamic = "force-dynamic";
+
 export const authOptions = {
   providers: [
     GoogleProvider({
@@ -11,25 +14,26 @@ export const authOptions = {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
   ],
+
   adapter: MongoDBAdapter(clientPromise),
 
   callbacks: {
     async signIn({ user, account }) {
+      console.time("signIn");
+
       try {
         const existingUser = await User.findOne({ email: user.email });
 
         if (existingUser) {
-          // Block login if account was created with different provider
           if (existingUser.provider && existingUser.provider !== account?.provider) {
             console.warn("❌ Provider mismatch for:", user.email);
             throw new Error("OAuthAccountNotLinked");
           }
 
-          // ✅ Allow login for same provider
-          return true;
+          return true; // ✅ Login allowed
         }
 
-        // 🔵 Create user if not exists
+        // 🔵 Register new Google user
         await User.create({
           email: user.email,
           username: user.name || "",
@@ -41,6 +45,8 @@ export const authOptions = {
       } catch (error) {
         console.error("❌ signIn error:", error.message);
         return false;
+      } finally {
+        console.timeEnd("signIn");
       }
     },
 
@@ -48,8 +54,8 @@ export const authOptions = {
       try {
         const dbUser = await User.findOne({ email: session.user.email });
         if (dbUser) {
-          session.user.role = dbUser.role;
           session.user.id = dbUser._id.toString();
+          session.user.role = dbUser.role;
         }
       } catch (error) {
         console.error("❌ session callback error:", error);
@@ -61,7 +67,7 @@ export const authOptions = {
 
   pages: {
     signIn: "/login",
-    error: "/login", // Redirect OAuthAccountNotLinked errors here
+    error: "/login", // Handles OAuthAccountNotLinked and others
   },
 
   secret: process.env.NEXTAUTH_SECRET,
