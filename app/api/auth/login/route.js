@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic"; // ⬅️ prevents MongoDB call at build time
+
 import dbConnect from "@/db/config/dbConnect";
 import User from "@/db/models/User";
 import bcrypt from "bcryptjs";

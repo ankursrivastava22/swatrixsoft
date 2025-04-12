@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic"; // ⬅️ This makes the route runtime-only
+
 import { cookies } from "next/headers";
 import jwt from "jsonwebtoken";
 import dbConnect from "@/db/config/dbConnect";
