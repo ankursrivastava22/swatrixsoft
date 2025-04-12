@@ -19,7 +19,7 @@ export async function POST(req) {
 
     const user = await User.findOne({ email }).select("+password");
 
-    if (!user || !(await bcrypt.compare(password, user.password))) {
+    if (!user || !user.password || !(await bcrypt.compare(password, user.password))) {
       return Response.json(
         { success: false, message: "Invalid credentials" },
         { status: 401 }
@@ -28,10 +28,9 @@ export async function POST(req) {
 
     const token = jwt.sign(
       {
-        userId: user._id,
+        userId: user._id.toString(),
         email: user.email,
         role: user.role || "user",
-        timestamp: Date.now(),
       },
       process.env.JWT_SECRET,
       { expiresIn: "24h" }
@@ -43,21 +42,19 @@ export async function POST(req) {
       secure: process.env.NODE_ENV === "production",
       sameSite: "strict",
       path: "/",
-      maxAge: 86400,
+      maxAge: 60 * 60 * 24, // 1 day
     });
-
-    const userWithoutPassword = {
-      _id: user._id,
-      email: user.email,
-      name: user.name,
-      role: user.role,
-    };
 
     return Response.json(
       {
         success: true,
         message: "Login successful",
-        user: userWithoutPassword,
+        user: {
+          _id: user._id.toString(),
+          email: user.email,
+          username: user.username,
+          role: user.role,
+        },
         token,
       },
       { status: 200 }

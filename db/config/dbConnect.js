@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
 
-const MONGO_URI = process.env.MONGO_URI;
+const MONGODB_URI = process.env.MONGODB_URI;
 
-if (!MONGO_URI) {
-  throw new Error("❌ MONGO_URI is not defined in .env.local");
+if (!MONGODB_URI) {
+  throw new Error("❌ MONGODB_URI is not defined in .env.local");
 }
 
 const dbConnect = async () => {
@@ -13,7 +13,7 @@ const dbConnect = async () => {
     return;
   }
   try {
-    await mongoose.connect(MONGO_URI, {
+    await mongoose.connect(MONGODB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });

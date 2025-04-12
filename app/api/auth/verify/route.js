@@ -5,51 +5,44 @@ import User from "@/db/models/User";
 
 export async function GET(req) {
   try {
-    // Connect to MongoDB
     await dbConnect();
 
-    // Get the 'authToken' cookie value
     const cookieStore = cookies();
     const token = cookieStore.get("authToken")?.value;
 
     if (!token) {
       return new Response(
-        JSON.stringify({
-          success: false,
-          message: "No token provided",
-        }),
-        {
-          status: 401,
-          headers: { "Content-Type": "application/json" },
-        }
+        JSON.stringify({ success: false, message: "No token provided" }),
+        { status: 401, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    // Verify token using your JWT_SECRET
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    let decoded;
+    try {
+      decoded = jwt.verify(token, process.env.JWT_SECRET);
+    } catch (err) {
+      return new Response(
+        JSON.stringify({ success: false, message: "Invalid or expired token" }),
+        { status: 401, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
     const user = await User.findById(decoded.userId).select("-password");
 
     if (!user) {
       return new Response(
-        JSON.stringify({
-          success: false,
-          message: "User not found",
-        }),
-        {
-          status: 401,
-          headers: { "Content-Type": "application/json" },
-        }
+        JSON.stringify({ success: false, message: "User not found" }),
+        { status: 404, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    // Return the user data (excluding password)
     return new Response(
       JSON.stringify({
         success: true,
         user: {
-          _id: user._id,
+          _id: user._id.toString(),
           email: user.email,
-          name: user.name,
+          username: user.username,
           role: user.role,
         },
       }),
@@ -57,21 +50,15 @@ export async function GET(req) {
         status: 200,
         headers: {
           "Content-Type": "application/json",
-          "Cache-Control": "no-store, no-cache, must-revalidate",
+          "Cache-Control": "no-store",
         },
       }
     );
   } catch (error) {
     console.error("Token verification error:", error);
     return new Response(
-      JSON.stringify({
-        success: false,
-        message: "Invalid token",
-      }),
-      {
-        status: 401,
-        headers: { "Content-Type": "application/json" },
-      }
+      JSON.stringify({ success: false, message: "Server error" }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
 }

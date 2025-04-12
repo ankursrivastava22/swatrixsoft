@@ -12,32 +12,48 @@ export const authOptions = {
     }),
   ],
   adapter: MongoDBAdapter(clientPromise),
+
   callbacks: {
-    async signIn({ user }) {
-      const existingUser = await User.findOne({ email: user.email });
+    async signIn({ user, account }) {
+      try {
+        const existingUser = await User.findOne({ email: user.email });
 
-      if (!existingUser) {
-        await User.create({
-          email: user.email,
-          username: user.name || "",   // optional
-          role: "user",                // default role
-          provider: "google",          // mark as OAuth
-          // ⛔ don't include `password`
-        });
+        if (!existingUser) {
+          await User.create({
+            email: user.email,
+            username: user.name || "",
+            role: "user",         // default role
+            provider: account?.provider || "google",
+          });
+        }
+
+        return true;
+      } catch (error) {
+        console.error("❌ signIn error:", error);
+        return false;
       }
-
-      return true;
     },
 
     async session({ session }) {
-      const dbUser = await User.findOne({ email: session.user.email });
-      if (dbUser) {
-        session.user.role = dbUser.role;
-        session.user.id = dbUser._id;
+      try {
+        const dbUser = await User.findOne({ email: session.user.email });
+        if (dbUser) {
+          session.user.role = dbUser.role;
+          session.user.id = dbUser._id.toString(); // 🟢 cast to string
+        }
+      } catch (error) {
+        console.error("❌ session callback error:", error);
       }
+
       return session;
     },
   },
+
+  pages: {
+    signIn: "/login",  // 👈 Optional: direct Google error flow to your login page
+    error: "/login",   // 👈 Send failed logins here too
+  },
+
   secret: process.env.NEXTAUTH_SECRET,
 };
 

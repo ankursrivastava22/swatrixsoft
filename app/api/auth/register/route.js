@@ -16,7 +16,20 @@ export async function POST(req) {
     }
 
     const existingUser = await User.findOne({ email });
+
     if (existingUser) {
+      // 🚫 Prevent password-based registration if user already exists (OAuth or otherwise)
+      if (!existingUser.password) {
+        return Response.json(
+          {
+            success: false,
+            message:
+              "This email is already registered with Google. Please use Google login.",
+          },
+          { status: 400 }
+        );
+      }
+
       return Response.json(
         { success: false, message: "User already exists" },
         { status: 400 }
@@ -30,6 +43,7 @@ export async function POST(req) {
       email,
       password: hashedPassword,
       role,
+      provider: "credentials", // 👈 tag it as manually registered
     });
 
     await newUser.save();
