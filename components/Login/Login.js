@@ -408,7 +408,7 @@ const Login = () => {
             </form>
 
             {/* Google Login Button */}
-            <div className="text-center mt-3">
+            {/* <div className="text-center mt-3">
               <button
                 type="button"
                 onClick={() =>
@@ -437,7 +437,7 @@ const Login = () => {
                   </span>
                 </span>
               </button>
-            </div>
+            </div> */}
 
             <div className="text-center mt-4">
               {isRegister ? (
