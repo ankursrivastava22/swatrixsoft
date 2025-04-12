@@ -18,18 +18,28 @@ export const authOptions = {
       try {
         const existingUser = await User.findOne({ email: user.email });
 
-        if (!existingUser) {
-          await User.create({
-            email: user.email,
-            username: user.name || "",
-            role: "user",         // default role
-            provider: account?.provider || "google",
-          });
+        if (existingUser) {
+          // Block login if account was created with different provider
+          if (existingUser.provider && existingUser.provider !== account?.provider) {
+            console.warn("❌ Provider mismatch for:", user.email);
+            throw new Error("OAuthAccountNotLinked");
+          }
+
+          // ✅ Allow login for same provider
+          return true;
         }
+
+        // 🔵 Create user if not exists
+        await User.create({
+          email: user.email,
+          username: user.name || "",
+          role: "user",
+          provider: account?.provider || "google",
+        });
 
         return true;
       } catch (error) {
-        console.error("❌ signIn error:", error);
+        console.error("❌ signIn error:", error.message);
         return false;
       }
     },
@@ -39,7 +49,7 @@ export const authOptions = {
         const dbUser = await User.findOne({ email: session.user.email });
         if (dbUser) {
           session.user.role = dbUser.role;
-          session.user.id = dbUser._id.toString(); // 🟢 cast to string
+          session.user.id = dbUser._id.toString();
         }
       } catch (error) {
         console.error("❌ session callback error:", error);
@@ -50,8 +60,8 @@ export const authOptions = {
   },
 
   pages: {
-    signIn: "/login",  // 👈 Optional: direct Google error flow to your login page
-    error: "/login",   // 👈 Send failed logins here too
+    signIn: "/login",
+    error: "/login", // Redirect OAuthAccountNotLinked errors here
   },
 
   secret: process.env.NEXTAUTH_SECRET,
