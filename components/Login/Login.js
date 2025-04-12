@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useRouter, usePathname } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { signIn } from "next-auth/react";
 import logo from "../../public/images/logo/logo.png";
 import { useAuth } from "@/context/AuthContext";
 
@@ -33,8 +34,6 @@ const Login = () => {
       router.replace("/");
     }
   }, [isAuthenticated, pathname, router]);
-  
-  
 
   const checkPasswordStrength = (password) => {
     let strength = 0;
@@ -92,9 +91,9 @@ const Login = () => {
 
     setLoading(true);
     const endpoint = isRegister
-    ? `${window.location.origin}/api/auth/register`
-    : `${window.location.origin}/api/auth/login`;
-  
+      ? `${window.location.origin}/api/auth/register`
+      : `${window.location.origin}/api/auth/login`;
+
     try {
       const res = await fetch(endpoint, {
         method: "POST",
@@ -108,15 +107,18 @@ const Login = () => {
       const data = await res.json();
 
       if (res.ok) {
-        toast.success(isRegister ? "Registration successful! Please log in." : "Login successful!");
-      
+        toast.success(
+          isRegister
+            ? "Registration successful! Please log in."
+            : "Login successful!"
+        );
+
         if (!isRegister) {
           await login(data.token, data.user);
           if (typeof window !== "undefined") {
             window.location.href = "/";
           }
-          // ✅ Redirect right after setting token
-          router.replace("/"); // ⬅️ instead of waiting for useEffect
+          router.replace("/");
         } else {
           setFormData({
             username: "",
@@ -127,8 +129,7 @@ const Login = () => {
           });
           setTimeout(() => setIsRegister(false), 1000);
         }
-      }
-       else {
+      } else {
         toast.error(data.message || "Authentication failed");
       }
     } catch (error) {
@@ -141,63 +142,99 @@ const Login = () => {
 
   return (
     <div
-    className="container"
-    style={{
-      minHeight: "100vh",
-      padding: "20px",
-    }}
-  >
-    <header style={{ position: "absolute", top: "10px", left: "10px" }}>
-      <div className="logo" style={{ filter: "drop-shadow(2px 2px 4px rgba(0,0,0,0.3))" }}>
-        <Link href="/">
-          <Image src={logo} width={65} height={50} alt="Swatrixsoft" />
-        </Link>
-      </div>
-    </header>
-  
-    <ToastContainer />
-  
-    <div
-      className="d-flex justify-content-center align-items-center"
-      style={{ minHeight: "70vh" }}
+      className="container"
+      style={{
+        minHeight: "100vh",
+        padding: "20px",
+      }}
     >
-      <div
-        className="col-lg-6"
-        style={{
-          backgroundColor: "#fff",
-          borderRadius: "10px",
-          padding: "2rem",
-          boxShadow: "0 8px 16px rgba(0,0,0,0.15)",
-        }}
-      >
-        <div className="text-center mt-4">
-          <h1
-            className="typing-text"
-            style={{ color: "#333", textShadow: "1px 1px 2px rgba(0,0,0,0.2)" }}
-          >
-            Swatrixsoft
-          </h1>
-        </div>
-  
+      <header style={{ position: "absolute", top: "10px", left: "10px" }}>
         <div
-          className="rbt-contact-form contact-form-style-1 max-width-auto"
-          style={{ padding: "1rem" }}
+          className="logo"
+          style={{ filter: "drop-shadow(2px 2px 4px rgba(0,0,0,0.3))" }}
         >
-          <h3 className="title text-center mb-4" style={{ color: "#333" }}>
-            {isRegister ? "Register" : "Login"}
-          </h3>
-  
-          <form className="max-width-auto" onSubmit={handleSubmit} noValidate>
-            {isRegister && (
+          <Link href="/">
+            <Image src={logo} width={65} height={50} alt="Swatrixsoft" />
+          </Link>
+        </div>
+      </header>
+
+      <ToastContainer />
+
+      <div
+        className="d-flex justify-content-center align-items-center"
+        style={{ minHeight: "70vh" }}
+      >
+        <div
+          className="col-lg-6"
+          style={{
+            backgroundColor: "#fff",
+            borderRadius: "10px",
+            padding: "2rem",
+            boxShadow: "0 8px 16px rgba(0,0,0,0.15)",
+          }}
+        >
+          <div className="text-center mt-4">
+            <h1
+              className="typing-text"
+              style={{ color: "#333", textShadow: "1px 1px 2px rgba(0,0,0,0.2)" }}
+            >
+              Swatrixsoft
+            </h1>
+          </div>
+
+          <div
+            className="rbt-contact-form contact-form-style-1 max-width-auto"
+            style={{ padding: "1rem" }}
+          >
+            <h3
+              className="title text-center mb-4"
+              style={{ color: "#333" }}
+            >
+              {isRegister ? "Register" : "Login"}
+            </h3>
+
+            <form
+              className="max-width-auto"
+              onSubmit={handleSubmit}
+              noValidate
+            >
+              {isRegister && (
+                <div className="form-group">
+                  <input
+                    name="username"
+                    type="text"
+                    placeholder="Username *"
+                    onChange={handleChange}
+                    value={formData.username}
+                    aria-label="Username"
+                    aria-invalid={!!errors.username}
+                    required
+                    style={{
+                      width: "100%",
+                      padding: "10px",
+                      marginBottom: "10px",
+                      border: "1px solid #ddd",
+                      borderRadius: "5px",
+                    }}
+                  />
+                  {errors.username && (
+                    <span className="error-message text-danger">
+                      {errors.username}
+                    </span>
+                  )}
+                </div>
+              )}
+
               <div className="form-group">
                 <input
-                  name="username"
-                  type="text"
-                  placeholder="Username *"
+                  name="email"
+                  type="email"
+                  placeholder="Email address *"
                   onChange={handleChange}
-                  value={formData.username}
-                  aria-label="Username"
-                  aria-invalid={!!errors.username}
+                  value={formData.email}
+                  aria-label="Email"
+                  aria-invalid={!!errors.email}
                   required
                   style={{
                     width: "100%",
@@ -207,116 +244,22 @@ const Login = () => {
                     borderRadius: "5px",
                   }}
                 />
-                {errors.username && (
+                {errors.email && (
                   <span className="error-message text-danger">
-                    {errors.username}
+                    {errors.email}
                   </span>
                 )}
               </div>
-            )}
-  
-            <div className="form-group">
-              <input
-                name="email"
-                type="email"
-                placeholder="Email address *"
-                onChange={handleChange}
-                value={formData.email}
-                aria-label="Email"
-                aria-invalid={!!errors.email}
-                required
-                style={{
-                  width: "100%",
-                  padding: "10px",
-                  marginBottom: "10px",
-                  border: "1px solid #ddd",
-                  borderRadius: "5px",
-                }}
-              />
-              {errors.email && (
-                <span className="error-message text-danger">
-                  {errors.email}
-                </span>
-              )}
-            </div>
-  
-            <div className="form-group position-relative">
-              <input
-                name="password"
-                type={showPassword ? "text" : "password"}
-                placeholder="Password *"
-                onChange={handleChange}
-                value={formData.password}
-                aria-label="Password"
-                aria-invalid={!!errors.password}
-                required
-                style={{
-                  width: "100%",
-                  padding: "10px",
-                  marginBottom: "10px",
-                  border: "1px solid #ddd",
-                  borderRadius: "5px",
-                }}
-              />
-              <button
-                type="button"
-                className="password-toggle"
-                onClick={() => setShowPassword(!showPassword)}
-                aria-label="Toggle password visibility"
-                style={{
-                  position: "absolute",
-                  right: "10px",
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  background: "none",
-                  border: "none",
-                  cursor: "pointer",
-                }}
-              >
-                {showPassword ? "👁️" : "👁️‍🗨️"}
-              </button>
-              {errors.password && (
-                <span className="error-message text-danger">
-                  {errors.password}
-                </span>
-              )}
-              {isRegister && (
-                <div className="password-strength-meter mt-2">
-                  <div
-                    className="strength-bars"
-                    style={{ display: "flex", gap: "5px" }}
-                  >
-                    {[...Array(4)].map((_, index) => (
-                      <div
-                        key={index}
-                        style={{
-                          height: "5px",
-                          flex: 1,
-                          background:
-                            index < passwordStrength ? "#4CAF50" : "#ddd",
-                        }}
-                      />
-                    ))}
-                  </div>
-                  <small className="text-muted">
-                    {["Very Weak", "Weak", "Medium", "Strong", "Very Strong"][
-                      passwordStrength
-                    ]}
-                  </small>
-                </div>
-              )}
-            </div>
-  
-            {isRegister && (
+
               <div className="form-group position-relative">
                 <input
-                  name="confirmPassword"
-                  type={showConfirmPassword ? "text" : "password"}
-                  placeholder="Confirm Password *"
+                  name="password"
+                  type={showPassword ? "text" : "password"}
+                  placeholder="Password *"
                   onChange={handleChange}
-                  value={formData.confirmPassword}
-                  aria-label="Confirm password"
-                  aria-invalid={!!errors.confirmPassword}
+                  value={formData.password}
+                  aria-label="Password"
+                  aria-invalid={!!errors.password}
                   required
                   style={{
                     width: "100%",
@@ -329,8 +272,8 @@ const Login = () => {
                 <button
                   type="button"
                   className="password-toggle"
-                  onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                  aria-label="Toggle confirm password visibility"
+                  onClick={() => setShowPassword(!showPassword)}
+                  aria-label="Toggle password visibility"
                   style={{
                     position: "absolute",
                     right: "10px",
@@ -341,48 +284,153 @@ const Login = () => {
                     cursor: "pointer",
                   }}
                 >
-                  {showConfirmPassword ? "👁️" : "👁️‍🗨️"}
+                  {showPassword ? "👁️" : "👁️‍🗨️"}
                 </button>
-                {errors.confirmPassword && (
+                {errors.password && (
                   <span className="error-message text-danger">
-                    {errors.confirmPassword}
+                    {errors.password}
                   </span>
                 )}
+                {isRegister && (
+                  <div className="password-strength-meter mt-2">
+                    <div
+                      className="strength-bars"
+                      style={{ display: "flex", gap: "5px" }}
+                    >
+                      {[...Array(4)].map((_, index) => (
+                        <div
+                          key={index}
+                          style={{
+                            height: "5px",
+                            flex: 1,
+                            background:
+                              index < passwordStrength ? "#4CAF50" : "#ddd",
+                          }}
+                        />
+                      ))}
+                    </div>
+                    <small className="text-muted">
+                      {["Very Weak", "Weak", "Medium", "Strong", "Very Strong"][
+                        passwordStrength
+                      ]}
+                    </small>
+                  </div>
+                )}
               </div>
-            )}
-  
-            {isRegister && (
-              <div className="form-group">
-                <select
-                  name="role"
-                  value={formData.role}
-                  onChange={handleChange}
-                  required
-                  aria-label="Select role"
-                  style={{
-                    width: "100%",
-                    padding: "10px",
-                    marginBottom: "10px",
-                    border: "1px solid #ddd",
-                    borderRadius: "5px",
-                  }}
+
+              {isRegister && (
+                <div className="form-group position-relative">
+                  <input
+                    name="confirmPassword"
+                    type={showConfirmPassword ? "text" : "password"}
+                    placeholder="Confirm Password *"
+                    onChange={handleChange}
+                    value={formData.confirmPassword}
+                    aria-label="Confirm password"
+                    aria-invalid={!!errors.confirmPassword}
+                    required
+                    style={{
+                      width: "100%",
+                      padding: "10px",
+                      marginBottom: "10px",
+                      border: "1px solid #ddd",
+                      borderRadius: "5px",
+                    }}
+                  />
+                  <button
+                    type="button"
+                    className="password-toggle"
+                    onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                    aria-label="Toggle confirm password visibility"
+                    style={{
+                      position: "absolute",
+                      right: "10px",
+                      top: "50%",
+                      transform: "translateY(-50%)",
+                      background: "none",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  >
+                    {showConfirmPassword ? "👁️" : "👁️‍🗨️"}
+                  </button>
+                  {errors.confirmPassword && (
+                    <span className="error-message text-danger">
+                      {errors.confirmPassword}
+                    </span>
+                  )}
+                </div>
+              )}
+
+              {isRegister && (
+                <div className="form-group">
+                  <select
+                    name="role"
+                    value={formData.role}
+                    onChange={handleChange}
+                    required
+                    aria-label="Select role"
+                    style={{
+                      width: "100%",
+                      padding: "10px",
+                      marginBottom: "10px",
+                      border: "1px solid #ddd",
+                      borderRadius: "5px",
+                    }}
+                  >
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                    <option value="user">User</option>
+                  </select>
+                </div>
+              )}
+
+              <div className="form-submit-group mt-4">
+                <button
+                  type="submit"
+                  className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
+                  disabled={loading}
                 >
-                  <option value="teacher">Teacher</option>
-                  <option value="student">Student</option>
-                  <option value="user">User</option>
-                </select>
+                  <span className="icon-reverse-wrapper">
+                    <span className="btn-text">
+                      {loading
+                        ? "Loading..."
+                        : isRegister
+                        ? "Register"
+                        : "Log In"}
+                    </span>
+                    <span className="btn-icon">
+                      <i className="feather-arrow-right"></i>
+                    </span>
+                  </span>
+                </button>
               </div>
-            )}
-  
-            <div className="form-submit-group mt-4">
+            </form>
+
+            {/* Google Login Button */}
+            <div className="text-center mt-3">
               <button
-                type="submit"
-                className="rbt-btn btn-md btn-gradient hover-icon-reverse w-100"
-                disabled={loading}
+                type="button"
+                onClick={() =>
+                  signIn("google", { callbackUrl: "/" })
+                }
+                className="rbt-btn btn-md btn-border hover-icon-reverse w-100 mt-2"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
               >
                 <span className="icon-reverse-wrapper">
                   <span className="btn-text">
-                    {loading ? "Loading..." : isRegister ? "Register" : "Log In"}
+                    <Image
+                      src="/images/googleimage.png"
+                      alt="Google"
+                      width={20}
+                      height={20}
+                      style={{ marginRight: "8px" }}
+                    />
+                    Continue with Google
                   </span>
                   <span className="btn-icon">
                     <i className="feather-arrow-right"></i>
@@ -390,38 +438,36 @@ const Login = () => {
                 </span>
               </button>
             </div>
-          </form>
-  
-          <div className="text-center mt-4">
-            {isRegister ? (
-              <>
-                Already have an account?{" "}
-                <button
-                  type="button"
-                  onClick={() => setIsRegister(false)}
-                  className="rbt-btn-link bg-transparent border-0 text-primary"
-                >
-                  Login
-                </button>
-              </>
-            ) : (
-              <>
-                Don't have an account?{" "}
-                <button
-                  type="button"
-                  onClick={() => setIsRegister(true)}
-                  className="rbt-btn-link bg-transparent border-0 text-primary"
-                >
-                  Register
-                </button>
-              </>
-            )}
+
+            <div className="text-center mt-4">
+              {isRegister ? (
+                <>
+                  Already have an account?{" "}
+                  <button
+                    type="button"
+                    onClick={() => setIsRegister(false)}
+                    className="rbt-btn-link bg-transparent border-0 text-primary"
+                  >
+                    Login
+                  </button>
+                </>
+              ) : (
+                <>
+                  Don't have an account?{" "}
+                  <button
+                    type="button"
+                    onClick={() => setIsRegister(true)}
+                    className="rbt-btn-link bg-transparent border-0 text-primary"
+                  >
+                    Register
+                  </button>
+                </>
+              )}
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  
   );
 };
 

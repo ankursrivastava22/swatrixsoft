@@ -4,9 +4,8 @@ const UserSchema = new mongoose.Schema(
   {
     username: {
       type: String,
-      required: [true, "Please provide a username"],
-      unique: true,
       trim: true,
+      required: false, // Optional for Google users
     },
     email: {
       type: String,
@@ -17,7 +16,7 @@ const UserSchema = new mongoose.Schema(
     },
     password: {
       type: String,
-      required: [true, "Please provide a password"],
+      required: false, // Optional for OAuth users
     },
     role: {
       type: String,
@@ -25,11 +24,14 @@ const UserSchema = new mongoose.Schema(
       default: "user",
       required: true,
     },
+    provider: {
+      type: String,
+      default: "credentials", // Can be 'credentials' or 'google'
+    },
   },
   {
-    timestamps: true, // Automatically adds createdAt and updatedAt fields
+    timestamps: true,
   }
 );
 
-// Avoid model recompilation during hot reloads in development
 export default mongoose.models.User || mongoose.model("User", UserSchema);

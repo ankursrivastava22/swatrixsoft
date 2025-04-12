@@ -60,13 +60,14 @@ const Category = () => {
               CategoryData={CategoryData}
               CategoryNum={CategoryData.categoryItemSeven}
             />
-            {/* <li className="dropdown-parent-list">
-              <Link href="#">Classic LMS</Link>
-            </li> */}
+            {/* 
+              You can add more categories or custom links here if needed
+            */}
           </ul>
         </div>
       </div>
     </div>
   );
 };
+
 export default Category;
