@@ -1,11 +1,10 @@
+export const dynamic = "force-dynamic"; // Ensure this route runs at request time
+
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
 import clientPromise from "@/db/mongodb";
 import User from "@/db/models/User";
-
-// 🚫 Prevent static optimization (important on Vercel)
-export const dynamic = "force-dynamic";
 
 export const authOptions = {
   providers: [
@@ -20,27 +19,23 @@ export const authOptions = {
   callbacks: {
     async signIn({ user, account }) {
       console.time("signIn");
-
       try {
         const existingUser = await User.findOne({ email: user.email });
-
         if (existingUser) {
+          // Check provider mismatch
           if (existingUser.provider && existingUser.provider !== account?.provider) {
             console.warn("❌ Provider mismatch for:", user.email);
             throw new Error("OAuthAccountNotLinked");
           }
-
-          return true; // ✅ Login allowed
+          return true; // Allow sign in if same provider
         }
-
-        // 🔵 Register new Google user
+        // Create new user for Google
         await User.create({
           email: user.email,
           username: user.name || "",
-          role: "user",
+          role: "user", // Default role
           provider: account?.provider || "google",
         });
-
         return true;
       } catch (error) {
         console.error("❌ signIn error:", error.message);
@@ -60,14 +55,13 @@ export const authOptions = {
       } catch (error) {
         console.error("❌ session callback error:", error);
       }
-
       return session;
     },
   },
 
   pages: {
     signIn: "/login",
-    error: "/login", // Handles OAuthAccountNotLinked and others
+    error: "/login", // Redirect errors to login
   },
 
   secret: process.env.NEXTAUTH_SECRET,
