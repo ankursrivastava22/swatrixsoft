@@ -1,13 +1,15 @@
-import { NextResponse } from 'next/server';
-import { jwtVerify } from 'jose';
+// middleware.js
+import { NextResponse } from "next/server";
+import { jwtVerify } from "jose";
 
 export async function middleware(request) {
   const { pathname } = request.nextUrl;
 
-  // ✅ Allow all API routes and static files
+  // ✅ Allow public routes: API, static files, /login, AND /
   if (
     pathname.startsWith("/api") ||
     pathname === "/login" ||
+    pathname === "/" ||            // <-- add this
     pathname.startsWith("/_next") ||
     pathname.includes(".")
   ) {
@@ -15,7 +17,6 @@ export async function middleware(request) {
   }
 
   const authToken = request.cookies.get("authToken");
-
   if (!authToken) {
     return NextResponse.redirect(new URL("/login", request.url));
   }
@@ -24,6 +25,7 @@ export async function middleware(request) {
     const secret = new TextEncoder().encode(process.env.JWT_SECRET);
     await jwtVerify(authToken.value, secret);
 
+    // refresh cookie
     const response = NextResponse.next();
     response.cookies.set("authToken", authToken.value, {
       httpOnly: true,
@@ -32,9 +34,8 @@ export async function middleware(request) {
       maxAge: 86400,
       path: "/",
     });
-
     return response;
-  } catch (error) {
+  } catch {
     const response = NextResponse.redirect(new URL("/login", request.url));
     response.cookies.delete("authToken");
     return response;
@@ -43,6 +44,6 @@ export async function middleware(request) {
 
 export const config = {
   matcher: [
-    '/((?!_next/static|favicon.ico|images).*)',
+    "/((?!_next/static|favicon.ico|images).*)",
   ],
 };

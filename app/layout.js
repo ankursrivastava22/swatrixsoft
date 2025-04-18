@@ -1,10 +1,11 @@
+// layout.js
 "use client";
 
 import React, { useState, useEffect } from "react";
 import Script from "next/script";
 import { AuthProvider } from "@/context/AuthContext";
 import { usePathname, useRouter } from "next/navigation";
-import { toast, ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from "react-toastify";
 
 // Styles
 import "bootstrap/scss/bootstrap.scss";
@@ -21,7 +22,7 @@ import "swiper/css/effect-cards";
 import "swiper/css/free-mode";
 import "swiper/css/thumbs";
 import "../public/scss/styles.scss";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -37,7 +38,8 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     const loadVisitorAndChat = async () => {
-      if (pathname === "/login") {
+      // Allow public access to "/" and "/login"
+      if (pathname === "/login" || pathname === "/") {
         setIsLoading(false);
         return;
       }
@@ -92,7 +94,10 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Swatrixsoft - Professional Web Development Services" />
+        <meta
+          name="description"
+          content="Swatrixsoft - Professional Web Development Services"
+        />
         <title>Swatrixsoft - Web Development Company</title>
 
         <Script
@@ -125,9 +130,11 @@ export default function RootLayout({ children }) {
             pauseOnHover
             theme="light"
           />
-          
+
+          {/* Render children only after loading/auth check */}
           {!isLoading && children}
 
+          {/* Visitor counter for authenticated pages */}
           {pathname !== "/login" && visitCount !== null && (
             <div
               className="visitor-counter"

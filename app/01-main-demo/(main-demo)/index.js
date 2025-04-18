@@ -1,7 +1,8 @@
+// homepagelayout.js
 "use client";
 
 import React, { useEffect } from "react";
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useRouter } from "next/navigation";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import Context from "@/context/Context";
 import { Provider } from "react-redux";
@@ -15,16 +16,23 @@ import Login from "@/components/Login/Login";
 import { useAuth } from "@/context/AuthContext";
 
 const HomePageLayout = ({ getBlog }) => {
-  const { isAuthenticated, isLoading, checkAuth } = useAuth();
+  const { isAuthenticated, isLoading } = useAuth();
   const router = useRouter();
   const pathname = usePathname();
 
   useEffect(() => {
-    if (!isLoading && !isAuthenticated && pathname !== '/login') {
-      router.replace('/login');
+    // Redirect to /login for any route except "/" and "/login" when unauthenticated
+    if (
+      !isLoading &&
+      !isAuthenticated &&
+      pathname !== "/login" &&
+      pathname !== "/"
+    ) {
+      router.replace("/login");
     }
   }, [isAuthenticated, isLoading, pathname, router]);
 
+  // Show a loading spinner while auth status is being determined
   if (isLoading) {
     return (
       <div className="rbt-splash-loading">
@@ -37,14 +45,21 @@ const HomePageLayout = ({ getBlog }) => {
     );
   }
 
-  if (!isAuthenticated && pathname !== '/login') {
+  // Block rendering of protected pages until authenticated
+  if (
+    !isAuthenticated &&
+    pathname !== "/login" &&
+    pathname !== "/"
+  ) {
     return null;
   }
 
-  if (pathname === '/login') {
+  // Show the Login component on /login
+  if (pathname === "/login") {
     return <Login />;
   }
-  
+
+  // Public home page ("/") and all authenticated pages
   return (
     <Provider store={Store}>
       <Context>
