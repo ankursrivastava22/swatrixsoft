@@ -86,6 +86,7 @@ const Nav = () => {
         <li>
           <Link href="/contact">Contact</Link>
         </li>
+
       </ul>
     </nav>
   );

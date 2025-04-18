@@ -83,6 +83,9 @@ const HeaderTopFour = ({
                       <Link href="/contact">Contact Us</Link>
                     </li>
                     <li>
+                      <Link href="/hireteam">Hire Team</Link>
+                    </li>
+                    <li>
                       <Link href="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>

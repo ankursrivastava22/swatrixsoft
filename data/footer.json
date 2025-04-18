@@ -47,6 +47,10 @@
         {
           "text": "Contact Us",
           "link": "/contact"
+        },
+        {
+          "title": "Hire Team",
+          "link": "/hireteam"
         }
       ],
       "socialLink": [
@@ -118,6 +122,10 @@
         {
           "text": "Contact Us",
           "link": "/contact"
+        },
+        {
+          "title": "Hire Team",
+          "link": "/hireteam"
         }
       ],
       "socialLink": [

@@ -139,6 +139,9 @@ const SideNav = () => {
               <Link href="/contact">Support</Link>
             </li>
             <li>
+              <Link href="/hireteam">Hire Team</Link>
+            </li>
+            <li>
               <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
           </ul>
