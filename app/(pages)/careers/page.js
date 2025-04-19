@@ -1,4 +1,4 @@
-import CareerPage from "./(career)";
+import CareerPage from "./(careers)";
 
 export const metadata = {
   title: "Contact - Web Development Company in Jodhpur",

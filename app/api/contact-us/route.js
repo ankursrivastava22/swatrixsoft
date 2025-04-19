@@ -4,7 +4,7 @@ export async function POST(req) {
   try {
     const { name, email, phone, company, subject, message } = await req.json();
 
-    const receiverEmail = "swatrixsoft@gmail.com";
+    const receiverEmail = "ankurdevops22@gmail.com";
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',

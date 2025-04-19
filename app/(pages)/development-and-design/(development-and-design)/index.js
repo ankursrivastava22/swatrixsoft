@@ -15,8 +15,9 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import AcademyGalleryOne from "@/components/Academy-Gallery/AcademyGallery-One";
 import AcademyGalleryTwo from "@/components/Academy-Gallery/AcademyGallery-Two";
 import AcademyGalleryThree from "@/components/Academy-Gallery/AcademyGallery-Three";
+import DevelopmentDesign from "@/components/development-and-design/DevelopmentDesign";
 
-const Webdevelopment = () => {
+const DevelopmentandDesign = () => {
   return (
     <>
       <Provider store={Store}>
@@ -37,7 +38,7 @@ const Webdevelopment = () => {
                   Delivering Innovative Digital Solutions
                 </p>
               </div>
-              <AcademyGalleryOne />
+              <DevelopmentDesign />
             </div>
           </div>
 
@@ -73,4 +74,4 @@ const Webdevelopment = () => {
   );
 };
 
-export default Webdevelopment;
+export default DevelopmentandDesign;
