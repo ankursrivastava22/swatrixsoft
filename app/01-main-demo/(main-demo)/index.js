@@ -68,7 +68,7 @@ const HomePageLayout = ({ getBlog }) => {
         <MainDemo blogs={getBlog} />
         <Cart />
         <Separator />
-        <FooterThree />
+        {/* <FooterThree /> */}
       </Context>
     </Provider>
   );
