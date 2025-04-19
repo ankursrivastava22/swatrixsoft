@@ -242,3 +242,7 @@
 	Dark Mode
 ***************************************/
 @import 'dark-mode/dark-mode';
+html,
+body {
+  overflow-x: hidden !important;
+}

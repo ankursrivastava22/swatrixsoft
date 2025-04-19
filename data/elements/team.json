@@ -7,7 +7,7 @@
       "details": [
         {
           "img": "/images/team/team-03.jpg", 
-          "name": "Full Stack Development",
+          "name": "Artificial Intelligence & Machine Learning (AI/ML)",
           "type": "Development",
           "location": "Jodhpur",
           "desc": "Our expert full-stack development team specializes in creating robust web applications using cutting-edge technologies. We deliver scalable solutions that drive business growth and innovation.",
@@ -18,13 +18,13 @@
       ]
     },
     {
-      "img": "/images/team/team-05.jpg",
+      "img": "/images/team/team-04.jpeg",
       "isLarge": true,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-05.jpg",
-          "name": "UI/UX Design",
+          "img": "/images/team/team-04.jpeg",
+          "name": "Data Engineering",
           "type": "Design",
           "location": "Jodhpur",
           "desc": "Our design team creates intuitive and engaging user interfaces that enhance user experience. We focus on modern design principles and user-centered approaches.",
@@ -35,13 +35,13 @@
       ]
     },
     {
-      "img": "/images/team/team-06.jpg",
+      "img": "/images/team/team-01.jpg",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-06.jpg",
-          "name": "Digital Marketing",
+          "img": "/images/team/team-01.jpg",
+          "name": "Online Learning Management",
           "type": "Development",
           "location": "Jodhpur",
           "desc": "Our backend team specializes in building secure, scalable server-side applications using modern technologies and robust database solutions.",
@@ -52,13 +52,13 @@
       ]
     },
     {
-      "img": "/images/team/team-11.webp",
+      "img": "/images/team/team-02.png",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-11.webp",
-          "name": "Frontend Development",
+          "img": "/images/team/team-02.png",
+          "name": "Mobile Development",
           "type": "Development",
           "location": "Jodhpur",
           "desc": "Our frontend developers create responsive, interactive user interfaces using modern frameworks and best practices in web development.",
@@ -69,13 +69,13 @@
       ]
     },
     {
-      "img": "/images/team/team-03.jpg",
+      "img": "/images/team/team-03.png",
       "isLarge": false,
       "isActive": false,
       "details": [
         {
-          "img": "/images/team/team-03.jpg",
-          "name": "Mobile Development",
+          "img": "/images/team/team-03.png",
+          "name": "Backend Development",
           "type": "Development",
           "location": "Jodhpur",
           "desc": "Our mobile development team excels in creating native and cross-platform applications that deliver exceptional user experiences.",

@@ -343,13 +343,6 @@ const Hireteam = () => {
       <section className="rbt-section-gap bg-color-white">
         <div className="container">
           <div className="row g-4 align-items-center">
-            <div className="col-md-3">
-              <h5 className="mb-3">Explore More</h5>
-              <ul className="rbt-list-style-1">
-                <li><a href="#">Dribbble</a></li>
-                <li><a href="#">Behance</a></li>
-              </ul>
-            </div>
             {stats.map((s, i) => (
               <div className="col-md-3 text-center" key={i}>
                 <h2 className="mb-0">{s.value}</h2>
@@ -376,7 +369,7 @@ const Hireteam = () => {
         </div>
       </section>
 
-      <FooterOne />
+      {/* <FooterOne /> */}
     </>
   );
 };
