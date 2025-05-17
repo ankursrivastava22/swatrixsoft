@@ -1,19 +1,20 @@
 import BackToTop from "@/app/backToTop";
-import Webdevelopment from "./(web-development)";
+import Webdevelopment from "./(ott-platform-development)";
+import OTTPage from "./(ott-platform-development)";
 
 export const metadata = {
   title: "Web Development - Best website Company in Jodhpur",
   description: "Web Development Company in Jodhpur",
 };
 
-const WebDevelopmentLayout = () => {
+const OTTPageLayout = () => {
   return (
     <>
-      <Webdevelopment />
+      <OTTPage />
 
       <BackToTop />
     </>
   );
 };
 
-export default WebDevelopmentLayout;
+export default OTTPageLayout;

@@ -1,19 +1,19 @@
 import BackToTop from "@/app/backToTop";
-import Webdevelopment from "./(web-development)";
+import StartupConsultingPage from "./(startup-consulting)";
 
 export const metadata = {
   title: "Web Development - Best website Company in Jodhpur",
   description: "Web Development Company in Jodhpur",
 };
 
-const WebDevelopmentLayout = () => {
+const StartupConsultingPageLayout = () => {
   return (
     <>
-      <Webdevelopment />
+      <StartupConsultingPage />
 
       <BackToTop />
     </>
   );
 };
 
-export default WebDevelopmentLayout;
+export default StartupConsultingPageLayout;

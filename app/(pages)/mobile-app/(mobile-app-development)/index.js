@@ -15,6 +15,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import AcademyGalleryOne from "@/components/Academy-Gallery/AcademyGallery-One";
 import AcademyGalleryTwo from "@/components/Academy-Gallery/AcademyGallery-Two";
 import AcademyGalleryThree from "@/components/Academy-Gallery/AcademyGallery-Three";
+import MobileAppDevelopment from "@/components/mobile-app-development/MobileAppDevelopment";
 
 const MobileDevelopment = () => {
   return (
@@ -37,7 +38,7 @@ const MobileDevelopment = () => {
                   Delivering Innovative Digital Solutions
                 </p>
               </div>
-              <AcademyGalleryOne />
+              <MobileAppDevelopment />
             </div>
           </div>
 

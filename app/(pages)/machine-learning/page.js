@@ -1,19 +1,19 @@
 import BackToTop from "@/app/backToTop";
-import Webdevelopment from "./(web-development)";
+import MLPage from "./(machine-learning)";
 
 export const metadata = {
   title: "Web Development - Best website Company in Jodhpur",
   description: "Web Development Company in Jodhpur",
 };
 
-const WebDevelopmentLayout = () => {
+const MLPageLayout = () => {
   return (
     <>
-      <Webdevelopment />
+      <MLPage />
 
       <BackToTop />
     </>
   );
 };
 
-export default WebDevelopmentLayout;
+export default MLPageLayout;

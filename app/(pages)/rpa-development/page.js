@@ -1,19 +1,19 @@
 import BackToTop from "@/app/backToTop";
-import Webdevelopment from "./(web-development)";
+import RPAPage from "./(rpa-development)";
 
 export const metadata = {
   title: "Web Development - Best website Company in Jodhpur",
   description: "Web Development Company in Jodhpur",
 };
 
-const WebDevelopmentLayout = () => {
+const RPAPageLayout = () => {
   return (
     <>
-      <Webdevelopment />
+      <RPAPage />
 
       <BackToTop />
     </>
   );
 };
 
-export default WebDevelopmentLayout;
+export default RPAPageLayout;
