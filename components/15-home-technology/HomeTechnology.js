@@ -126,40 +126,6 @@ const HomeTechnology = () => {
       </div>
 
       {/* Service / LMS Content Section */}
-      <div
-        className="rbt-course-content rbt-section-gap bg-color-extra2"
-        id="coursecontent"
-      >
-        <div className="container">
-          <div className="row align-items-end mb--60">
-            <div className="col-lg-6 col-md-6">
-              <div className="section-title text-start">
-                <h2 className="title">Our Full Range of Services</h2>
-                <p className="description has-small-font-size mt--10">
-                  We offer a variety of solutions across web & app development,
-                  digital marketing, LMS platforms, and more.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="expend-button text-start text-md-end">
-                <Link className="rbt-btn-link w-700" href="#">
-                  See All Services
-                  <i className="feather-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="row gy-5 row--30">
-            {/* Reusing CourseLessonProp to show your approach or a “service content” list. */}
-            <CourseLessonProp
-              courseImg={courseImg}
-              courseContent={SingleCourseData.courseContent}
-            />
-          </div>
-        </div>
-      </div>
 
       {/* Brand / Partners Section */}
       <div className="rbt-brand-area bg-color-secondary-alt rbt-section-gap">
