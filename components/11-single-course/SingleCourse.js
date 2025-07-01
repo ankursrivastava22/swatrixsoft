@@ -97,7 +97,7 @@ const SingleCourse = () => {
                       </div>
 
                       <div className="read-more-btn mt--40">
-                        <Link className="rbt-moderbt-btn" href="#">
+                        <Link className="rbt-moderbt-btn" href="/about-us-01">
                           <span className="moderbt-btn-text">
                             Learn More About Us
                           </span>

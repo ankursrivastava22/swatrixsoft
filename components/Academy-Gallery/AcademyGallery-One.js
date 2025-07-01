@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import aboutImg from "../../public/images/about/about-14.jpg";
 
 const AcademyGalleryOne = () => {
@@ -13,58 +12,64 @@ const AcademyGalleryOne = () => {
               src={aboutImg}
               width={526}
               height={645}
-              alt="About Images"
+              alt="Web Development Services"
             />
           </div>
         </div>
         <div className="col-lg-7">
           <div className="inner pl--50 pl_sm--0 pl_md--0 pl_lg--0">
             <div className="section-title text-start">
-              <h2 className="title">Arts & Humanities</h2>
+              <h2 className="title">Expert Web Development Services</h2>
+              
               <p className="description mt--20">
-              Swatrixsoft is a full-service website development company based in Jodhpur. We help businesses of all sizes transform ideas into engaging online experiences. Our team crafts high-performance websites, intuitive user interfaces, and scalable solutions—ensuring your digital presence truly stands out.
+                As a leading web development company in Jodhpur, we specialize in creating 
+                powerful digital solutions that drive business growth. Our expert team 
+                combines technical excellence with creative innovation to deliver websites 
+                that not only look stunning but also perform exceptionally well. From 
+                startups to enterprises, we're your partner in digital success.
               </p>
 
-              <h5 className="mb--20">More Feature List:</h5>
+              <h5 className="mb--20">Our Core Services:</h5>
               <div className="plan-offer-list-wrapper">
                 <ul className="plan-offer-list">
                   <li>
-                    <i className="feather-check"></i> Art, Film
+                    <i className="feather-check"></i> Full-Stack Development
                   </li>
                   <li>
-                    <i className="feather-check"></i> Visual Studies
+                    <i className="feather-check"></i> E-commerce Solutions
                   </li>
                   <li>
-                    <i className="feather-check"></i> Anthropology
+                    <i className="feather-check"></i> Progressive Web Apps
                   </li>
                   <li>
-                    <i className="feather-check"></i> Arts
+                    <i className="feather-check"></i> Custom CMS Development
                   </li>
                   <li>
-                    <i className="feather-check"></i> Humanities
+                    <i className="feather-check"></i> API Development
                   </li>
                   <li>
-                    <i className="feather-check"></i> ARTS Is Better
+                    <i className="feather-check"></i> Cloud Integration
                   </li>
                 </ul>
+
                 <ul className="plan-offer-list">
                   <li>
-                    <i className="feather-check"></i> Guide To ARTS
+                    <i className="feather-check"></i> Mobile-First Design
                   </li>
                   <li>
-                    <i className="feather-check"></i> Selling ARTS
+                    <i className="feather-check"></i> Performance Optimization
                   </li>
                   <li>
-                    <i className="feather-check"></i> About ARTS
+                    <i className="feather-check"></i> Security Implementation
                   </li>
                   <li>
-                    <i className="feather-check"></i> Your ARTS
+                    <i className="feather-check"></i> Database Management
                   </li>
                   <li>
-                    <i className="feather-check"></i> Practices For ARTS
+                    <i className="feather-check"></i> DevOps Services
                   </li>
                   <li>
-                    <i className="feather-check"></i> Old School ARTS
+                    <i className="feather-check"></i> 24/7 Technical Support
                   </li>
                 </ul>
               </div>

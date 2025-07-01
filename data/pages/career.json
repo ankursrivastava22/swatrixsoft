@@ -1,0 +1,169 @@
+[
+    {
+      "title": "Technical Content Writer",
+      "icon": "feather-download",
+      "color": "danger",
+      "experience": "1 to 2 Years",
+      "openings": 2,
+      "qualifications": "Any",
+      "urgent": false,
+      "responsibilities": [
+        "Complete fluency in English with impeccable grammar",
+        "Write technical blogs for the IT services industry",
+        "Research SEO best practices",
+        "Collaborate with SMEs for technical accuracy",
+        "Produce case‑studies, whitepapers and documentation"
+      ]
+    },
+    {
+      "title": "BDE (Lead Generation)",
+      "icon": "feather-download",
+      "color": "info",
+      "experience": "2 to 5 Years",
+      "openings": 4,
+      "qualifications": "B.E / B.Tech",
+      "urgent": true,
+      "responsibilities": [
+        "Generate qualified leads via research and outreach",
+        "Maintain CRM with client details",
+        "Schedule demos and follow‑ups",
+        "Hit monthly lead‑generation targets"
+      ]
+    },
+    {
+      "title": "Sr. Business Development Executive",
+      "icon": "feather-download",
+      "color": "info",
+      "experience": "4 to 10 Years",
+      "openings": 4,
+      "qualifications": "B.E / B.Tech",
+      "urgent": true,
+      "responsibilities": [
+        "Drive strategic partnerships and large accounts",
+        "Lead proposal writing and contract negotiation",
+        "Forecast sales pipeline and meet revenue goals",
+        "Coach junior BDE team members"
+      ]
+    },
+    {
+      "title": "Sr. WordPress Developer",
+      "icon": "feather-download",
+      "color": "danger",
+      "experience": "4+ Years",
+      "openings": 3,
+      "qualifications": "B.E / B.Tech",
+      "urgent": false,
+      "responsibilities": [
+        "Develop custom themes and plugins",
+        "Optimize performance and security",
+        "Integrate third‑party APIs",
+        "Troubleshoot and debug production issues"
+      ]
+    },
+    {
+      "title": "Flutter App Developer",
+      "icon": "feather-download",
+      "color": "info",
+      "experience": "4+ Years",
+      "openings": 3,
+      "qualifications": "B.E / B.Tech",
+      "urgent": false,
+      "responsibilities": [
+        "Build cross‑platform mobile apps with Flutter",
+        "Implement state management (Provider, Bloc)",
+        "Integrate with RESTful APIs",
+        "Deploy to App Store and Play Store"
+      ]
+    },
+    {
+      "title": "DotNet Developer",
+      "icon": "feather-download",
+      "color": "info",
+      "experience": "3+ Years",
+      "openings": 4,
+      "qualifications": "B.E / B.Tech",
+      "urgent": false,
+      "responsibilities": [
+        "Develop ASP.NET Core microservices",
+        "Work with C# and Entity Framework",
+        "Write unit tests with xUnit",
+        "Manage SQL Server databases"
+      ]
+    },
+    {
+      "title": "PHP Developer",
+      "icon": "feather-download",
+      "color": "danger",
+      "experience": "4+ Years",
+      "openings": 5,
+      "qualifications": "B.E / B.Tech",
+      "urgent": false,
+      "responsibilities": [
+        "Build PHP applications with Laravel/CodeIgniter",
+        "Design & optimize MySQL databases",
+        "Integrate third‑party services",
+        "Ensure code security and best practices"
+      ]
+    },
+    {
+      "title": "MERN Stack Developer",
+      "icon": "feather-download",
+      "color": "primary",
+      "experience": "3 to 6 Years",
+      "openings": 3,
+      "qualifications": "B.E / B.Tech / MCA",
+      "urgent": true,
+      "responsibilities": [
+        "Develop React.js front‑end applications",
+        "Build Node.js/Express APIs",
+        "Work with MongoDB and Mongoose",
+        "Write tests with Jest/Mocha"
+      ]
+    },
+    {
+      "title": "React & Node.js Developer",
+      "icon": "feather-download",
+      "color": "primary",
+      "experience": "2 to 5 Years",
+      "openings": 2,
+      "qualifications": "B.E / B.Tech / MCA",
+      "urgent": false,
+      "responsibilities": [
+        "Create reusable React components",
+        "Develop RESTful APIs in Node.js",
+        "Manage state with Redux or Context",
+        "Deploy services to AWS/Azure"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "icon": "feather-download",
+      "color": "primary",
+      "experience": "3 to 7 Years",
+      "openings": 3,
+      "qualifications": "B.E / B.Tech / MCA",
+      "urgent": false,
+      "responsibilities": [
+        "Handle both front‑end & back‑end development",
+        "Integrate third‑party APIs",
+        "Implement authentication & security",
+        "Participate in CI/CD pipelines"
+      ]
+    },
+    {
+      "title": "Java Developer",
+      "icon": "feather-download",
+      "color": "warning",
+      "experience": "3 to 6 Years",
+      "openings": 2,
+      "qualifications": "B.E / B.Tech / MCA",
+      "urgent": false,
+      "responsibilities": [
+        "Develop Spring Boot microservices",
+        "Write unit tests with JUnit",
+        "Design relational DB schemas",
+        "Optimize performance and scalability"
+      ]
+    }
+  ]
+  

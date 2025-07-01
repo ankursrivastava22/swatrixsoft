@@ -17,10 +17,10 @@ const LoginPage = () => {
     <>
       <Provider store={Store}>
         <Context>
-          <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
+          {/* <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
           <MobileMenu />
           <Cart />
-          <BreadCrumb title="Login & Register" text="Login & Register" />
+          <BreadCrumb title="Login & Register" text="Login & Register" /> */}
 
           <div className="rbt-elements-area bg-color-white rbt-section-gap">
             <div className="container">
@@ -29,12 +29,12 @@ const LoginPage = () => {
               </div>
             </div>
           </div>
-
+{/* 
           <div className="rbt-newsletter-area bg-gradient-6 ptb--50">
             <NewsletterThree />
           </div>
 
-          <FooterOne />
+          <FooterOne /> */}
         </Context>
       </Provider>
     </>

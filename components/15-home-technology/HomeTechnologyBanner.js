@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 import brand1 from "../../public/images/brand/partner-5.webp";
 import brand2 from "../../public/images/brand/partner-1.webp";
@@ -22,24 +23,26 @@ const HomeTechnologyBanner = () => {
                   </div>
 
                   <h1 className="banner-title">
-                    Website Development Company
-                    <span className="theme-gradient"> In Jodhpur</span>
+                    Jodhpur's Elite Tech Company Web, Mobile, AI & more.
                   </h1>
 
                   <p className="description has-medium-font-size mt--20">
-                  We craft high-performance, secure, and scalable websites using a diverse range of modern technologies. Let us bring your vision to life.
+                    We craft high-performance, secure, and scalable websites using a diverse range of modern technologies. Let us bring your vision to life.
                   </p>
 
                   <div className="slider-btn rbt-button-group justify-content-center">
-                    <a
-                      className="rbt-btn btn-gradient rbt-switch-btn rbt-switch-y"
-                      href="#"
-                    >
-                      <span data-text="Learn More About Us">
-                        Learn More About Us
-                      </span>
-                    </a>
+                    <Link href="/contact" legacyBehavior>
+                      <a className="rbt-btn btn-gradient rbt-switch-btn rbt-switch-y me-3">
+                        <span data-text="Get a Solution">Get a Solution</span>
+                      </a>
+                    </Link>
+                    <Link href="/hireteam" legacyBehavior>
+                      <a className="rbt-btn btn-border rbt-switch-btn rbt-switch-y">
+                        <span data-text="Hire a Team">Hire a Team</span>
+                      </a>
+                    </Link>
                   </div>
+
                   <div className="brand-area mt--60">
                     <span className="follow-us-text">
                       Making sensitive clients more valuable for companies like

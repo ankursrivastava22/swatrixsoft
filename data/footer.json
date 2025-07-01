@@ -24,7 +24,7 @@
         },
         {
           "text": "FAQ",
-          "link": "/pages/faqs"
+          "link": "/faqs"
         }
       ],
       "ourCompany": [
@@ -47,6 +47,10 @@
         {
           "text": "Contact Us",
           "link": "/contact"
+        },
+        {
+          "title": "Hire Team",
+          "link": "/hireteam"
         }
       ],
       "socialLink": [
@@ -95,7 +99,7 @@
         },
         {
           "text": "FAQ",
-          "link": "/pages/faqs"
+          "link": "/faqs"
         }
       ],
       "ourCompany": [
@@ -118,6 +122,10 @@
         {
           "text": "Contact Us",
           "link": "/contact"
+        },
+        {
+          "title": "Hire Team",
+          "link": "/hireteam"
         }
       ],
       "socialLink": [

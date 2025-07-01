@@ -222,7 +222,7 @@
           "link": "/event-details"
         },
         {
-          "title": "Academy Gallery",
+          "title": "Website Development",
           "link": "/academy-gallery"
         },
         {
@@ -238,6 +238,10 @@
         {
           "title": "Contact Us",
           "link": "/contact"
+        },
+        {
+          "title": "Hire Team",
+          "link": "/hireteam"
         },
         {
           "title": "Become a Teacher",
