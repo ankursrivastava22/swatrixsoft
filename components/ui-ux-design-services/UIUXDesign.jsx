@@ -1,19 +1,19 @@
 import React from "react";
 import Image from "next/image";
-import designImg from "../../public/images/ui-ux-design/ui-ux-design.jpg";
+// import designImg from "../../public/images/ui-ux-design/ui-ux-design.jpg";
 
 const UIUXDesign = () => {
   return (
     <div className="row g-5 align-items-center">
       <div className="col-lg-5">
         <div className="content">
-          <Image
+          {/* <Image
             className="w-100 radius-10"
             src={designImg}
             width={526}
             height={645}
             alt="UI/UX Design Services by Swatrixsoft"
-          />
+          /> */}
         </div>
       </div>
       <div className="col-lg-7">
