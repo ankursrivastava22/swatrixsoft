@@ -65,31 +65,8 @@ export async function middleware(request) {
     return NextResponse.next();
   }
 
-  // All other routes require a valid authToken
-  const authToken = request.cookies.get("authToken");
-  if (!authToken) {
-    return NextResponse.redirect(new URL("/login", request.url));
-  }
-
-  try {
-    const secret = new TextEncoder().encode(process.env.JWT_SECRET);
-    await jwtVerify(authToken.value, secret);
-
-    // Refresh cookie on each request
-    const response = NextResponse.next();
-    response.cookies.set("authToken", authToken.value, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "strict",
-      maxAge: 86400,
-      path: "/",
-    });
-    return response;
-  } catch {
-    const response = NextResponse.redirect(new URL("/login", request.url));
-    response.cookies.delete("authToken");
-    return response;
-  }
+  // Allow all routes
+  return NextResponse.next();
 }
 
 export const config = {

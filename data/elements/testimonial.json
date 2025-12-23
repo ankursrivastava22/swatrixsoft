@@ -72,7 +72,7 @@
           "tab": "testimonial-tab3-tab",
           "target": "testimonial-tab3",
           "isSelected": false,
-          "desc": "Swatrixsoft’s expertise in cloud integration and custom software development is truly unparalleled.",
+          "desc": "Swatrixsoft's expertise in cloud integration and custom software development is truly unparalleled.",
           "name": "Suresh Gupta",
           "post": "Head of IT, Swatrixsoft"
         },
@@ -104,7 +104,7 @@
           "tab": "testimonial-tab7-tab",
           "target": "testimonial-tab7",
           "isSelected": false,
-          "desc": "Innovative, reliable, and forward-thinking – that’s the Swatrixsoft promise.",
+          "desc": "Innovative, reliable, and forward-thinking – that's the Swatrixsoft promise.",
           "name": "Amit Patel",
           "post": "VP of Operations, Swatrixsoft"
         },
@@ -126,21 +126,21 @@
           "img": "/images/testimonial/client-01.png",
           "title": "Rohan Sharma",
           "position": "Executive Chairman",
-          "company": "@ TCS",
+          "company": "@ TechCorp",
           "desc": "Swatrixsoft's IT solutions revolutionized our digital strategy, delivering exceptional performance and scalability."
         },
         {
           "img": "/images/testimonial/client-02.png",
           "title": "Ayesha Khan",
           "position": "CEO",
-          "company": "@ Infosys",
+          "company": "@ DataSystems",
           "desc": "Their innovative approach and seamless integration capabilities have significantly boosted our business."
         },
         {
           "img": "/images/testimonial/client-03.png",
           "title": "Vikram Joshi",
           "position": "Executive Designer",
-          "company": "@ Wipro",
+          "company": "@ CloudNet",
           "desc": "The creativity and technical expertise at Swatrixsoft are evident in every project they deliver."
         },
         {
@@ -177,13 +177,6 @@
           "position": "Product Designer",
           "company": "@ Amazon",
           "desc": "Their cutting-edge technology and commitment to quality set them apart in the IT industry."
-        },
-        {
-          "img": "/images/testimonial/client-01.png",
-          "title": "Rohan Sharma",
-          "position": "Executive Chairman",
-          "company": "@ TCS",
-          "desc": "Swatrixsoft's strategic vision and technical prowess make them an invaluable partner for digital transformation."
         }
       ],
       "right": [
@@ -191,21 +184,21 @@
           "img": "/images/testimonial/client-01.png",
           "title": "Rohan Sharma",
           "position": "Executive Chairman",
-          "company": "@ TCS",
+          "company": "@ TechCorp",
           "desc": "Their IT solutions have redefined our digital landscape with innovative and scalable approaches."
         },
         {
           "img": "/images/testimonial/client-02.png",
           "title": "Ayesha Khan",
           "position": "CEO",
-          "company": "@ Infosys",
+          "company": "@ DataSystems",
           "desc": "Swatrixsoft's expertise in digital transformation is unmatched in the industry."
         },
         {
           "img": "/images/testimonial/client-03.png",
           "title": "Vikram Joshi",
           "position": "Executive Designer",
-          "company": "@ Wipro",
+          "company": "@ CloudNet",
           "desc": "Their creative solutions and technical excellence have significantly elevated our brand."
         },
         {
@@ -227,481 +220,50 @@
           "title": "Neha Gupta",
           "position": "SR Designer",
           "company": "@ Adobe",
-          "desc": "Swatrixsoft's commitment to excellence is reflected in every project they undertake."
+          "desc": "Swatrixsoft's commitment to excellence is reflected in every project they deliver."
         },
         {
           "img": "/images/testimonial/client-07.png",
           "title": "Kiran Desai",
           "position": "Executive Officer",
           "company": "@ Flipkart",
-          "desc": "Their proactive strategies and technical expertise make a significant difference in our IT operations."
+          "desc": "Their innovative IT solutions have transformed our business operations."
         },
         {
           "img": "/images/testimonial/client-08.png",
           "title": "Vijay Reddy",
           "position": "Product Designer",
           "company": "@ Amazon",
-          "desc": "Their innovative solutions and strong technical foundation drive digital success."
-        },
+          "desc": "Swatrixsoft's technical expertise and creative vision are truly exceptional."
+        }
+      ]
+    }
+  ],
+  "testimonialFour": [
+    {
+      "tag": "CLIENT SUCCESS STORIES",
+      "title": "What Our Clients Say About Swatrixsoft",
+      "body": [
         {
           "img": "/images/testimonial/client-01.png",
           "title": "Rohan Sharma",
           "position": "Executive Chairman",
-          "company": "@ TCS",
-          "desc": "Swatrixsoft’s strategic approach has transformed our digital capabilities."
-        }
-      ]
-    }
-  ],
-  "testimonialThree": [
-    {
-      "tag": "IT SOLUTIONS FOR EVERY ENTERPRISE",
-      "title": "Client Feedback",
-      "desc": "Our partners trust Swatrixsoft to deliver innovative IT solutions that drive efficiency, security, and digital growth.",
-      "accordion": [
-        {
-          "heading": "headingOne",
-          "collapse": "collapseOne",
-          "expanded": true,
-          "show": true,
-          "collapsed": true,
-          "btnText": "How does Swatrixsoft transform businesses?",
-          "desc": "Swatrixsoft delivers end-to-end IT services—from custom software development to cloud integration—that empower businesses to innovate and grow."
-        },
-        {
-          "heading": "headingTwo",
-          "collapse": "collapseTwo",
-          "expanded": false,
-          "show": false,
-          "collapsed": false,
-          "btnText": "What support services do you offer?",
-          "desc": "We provide round-the-clock support and consultancy to ensure your digital infrastructure remains secure and efficient."
-        },
-        {
-          "heading": "headingThree",
-          "collapse": "collapseThree",
-          "expanded": false,
-          "show": false,
-          "collapsed": false,
-          "btnText": "How frequently do you update your solutions?",
-          "desc": "Our solutions are continuously updated to reflect the latest technology trends and ensure optimal performance."
-        }
-      ],
-      "body": [
-        {
-          "img": "/images/testimonial/client-01.png",
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "company": "Swatrixsoft",
-          "desc": "Swatrixsoft transformed our digital operations, enabling seamless integration of innovative IT solutions that drive real business value."
+          "company": "@ TechCorp",
+          "desc": "Swatrixsoft's IT solutions revolutionized our digital strategy, delivering exceptional performance and scalability that exceeded our expectations."
         },
         {
           "img": "/images/testimonial/client-02.png",
-          "title": "Anjali Sharma",
+          "title": "Ayesha Khan",
           "position": "CEO",
-          "company": "Swatrixsoft",
-          "desc": "Their proactive approach and robust technical expertise have been instrumental in our digital transformation journey."
+          "company": "@ DataSystems",
+          "desc": "Their innovative approach and seamless integration capabilities have significantly boosted our business operations and efficiency."
         },
         {
           "img": "/images/testimonial/client-03.png",
-          "title": "Suresh Gupta",
-          "position": "Head of IT",
-          "company": "Swatrixsoft",
-          "desc": "The solutions provided were cutting-edge and highly scalable, perfectly aligning with our business needs."
-        }
-      ]
-    }
-  ],
-  "testimonialFour": [
-    {
-      "tag": "EXPERIENCE THE DIFFERENCE",
-      "title": "Client Testimonials",
-      "body": [
-        {
-          "img": "/images/testimonial/client-01.png",
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "company": "Swatrixsoft",
-          "desc": "Swatrixsoft's IT solutions have redefined our approach to digital transformation."
-        },
-        {
-          "img": "/images/testimonial/client-02.png",
-          "title": "Anjali Sharma",
-          "position": "CEO",
-          "company": "Swatrixsoft",
-          "desc": "Their commitment to excellence and innovation is truly remarkable."
-        },
-        {
-          "img": "/images/testimonial/client-03.png",
-          "title": "Suresh Gupta",
-          "position": "Head of IT",
-          "company": "Swatrixsoft",
-          "desc": "Our business has benefited tremendously from their advanced IT strategies."
-        }
-      ]
-    }
-  ],
-  "testimonialSeven": [
-    {
-      "left": [
-        {
-          "client": "/images/testimonial/client-01.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "desc": "Swatrixsoft's innovative solutions have transformed our digital landscape."
-        },
-        {
-          "client": "/images/testimonial/client-02.png",
-          "img": "/images/icons/google.png",
-          "title": "Anjali Sharma",
-          "position": "CEO",
-          "desc": "Their forward-thinking approach has redefined our IT strategy."
-        },
-        {
-          "client": "/images/testimonial/client-03.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Suresh Gupta",
-          "position": "Head of IT",
-          "desc": "Expert guidance and cutting-edge technology that delivers results."
-        },
-        {
-          "client": "/images/testimonial/client-04.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Priya Singh",
-          "position": "COO",
-          "desc": "Their solutions consistently exceed our expectations."
-        },
-        {
-          "client": "/images/testimonial/client-05.png",
-          "img": "/images/icons/bing.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Deepak Mehta",
-          "position": "Digital Strategist",
-          "desc": "Swatrixsoft empowers our business with innovative digital strategies."
-        },
-        {
-          "client": "/images/testimonial/client-06.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Neha Reddy",
-          "position": "Senior Consultant",
-          "desc": "Their technical expertise and creative solutions set them apart."
-        },
-        {
-          "client": "/images/testimonial/client-07.png",
-          "img": "/images/icons/hubs.png",
-          "title": "Amit Patel",
-          "position": "VP Operations",
-          "desc": "Swatrixsoft’s IT strategies have been a key driver of our success."
-        },
-        {
-          "client": "/images/testimonial/client-08.png",
-          "img": "/images/icons/bing.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Sunita Verma",
-          "position": "Chief Innovation Officer",
-          "desc": "Their commitment to digital excellence is evident in every project."
-        },
-        {
-          "client": "/images/testimonial/client-09.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "desc": "Swatrixsoft’s visionary approach has redefined our digital infrastructure."
-        }
-      ],
-      "right": [
-        {
-          "client": "/images/testimonial/client-01.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "desc": "Their innovative IT solutions have consistently driven our digital growth."
-        },
-        {
-          "client": "/images/testimonial/client-02.png",
-          "img": "/images/icons/google.png",
-          "title": "Anjali Sharma",
-          "position": "CEO",
-          "desc": "Swatrixsoft’s expertise is a major asset to our digital transformation journey."
-        },
-        {
-          "client": "/images/testimonial/client-03.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Suresh Gupta",
-          "position": "Head of IT",
-          "desc": "Their proactive strategies and technical expertise have been game changers."
-        },
-        {
-          "client": "/images/testimonial/client-04.png",
-          "img": "/images/icons/bing.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Priya Singh",
-          "position": "COO",
-          "desc": "Swatrixsoft delivers exceptional IT solutions that drive operational excellence."
-        },
-        {
-          "client": "/images/testimonial/client-05.png",
-          "img": "/images/icons/hubs.png",
-          "title": "Deepak Mehta",
-          "position": "Digital Strategist",
-          "desc": "Their digital strategies have transformed our approach to technology."
-        },
-        {
-          "client": "/images/testimonial/client-06.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Neha Reddy",
-          "position": "Senior Consultant",
-          "desc": "Consistent, innovative, and reliable—Swatrixsoft truly stands out."
-        },
-        {
-          "client": "/images/testimonial/client-07.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Amit Patel",
-          "position": "VP Operations",
-          "company": "@ Reliance",
-          "desc": "Their expert guidance has been pivotal in our IT modernization."
-        },
-        {
-          "client": "/images/testimonial/client-08.png",
-          "img": "/images/icons/bing.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Sunita Verma",
-          "position": "Chief Innovation Officer",
-          "desc": "Swatrixsoft’s commitment to digital innovation is truly inspiring."
-        },
-        {
-          "client": "/images/testimonial/client-09.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "desc": "Their transformative IT solutions have redefined our digital strategy."
-        }
-      ]
-    }
-  ],
-  "testimonialFour": [
-    {
-      "tag": "IT SOLUTIONS FOR EVERY ENTERPRISE",
-      "title": "Client Testimonials",
-      "body": [
-        {
-          "img": "/images/testimonial/client-01.png",
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "company": "@ TCS",
-          "desc": "Swatrixsoft's IT solutions have revolutionized our digital infrastructure."
-        },
-        {
-          "img": "/images/testimonial/client-02.png",
-          "title": "Anjali Sharma",
-          "position": "CEO",
-          "company": "@ Infosys",
-          "desc": "Their innovative strategies and seamless execution set a new standard in digital transformation."
-        },
-        {
-          "img": "/images/testimonial/client-03.png",
-          "title": "Suresh Gupta",
-          "position": "Head of IT",
-          "company": "@ Wipro",
-          "desc": "Our business operations have never been more agile, thanks to Swatrixsoft."
-        }
-      ]
-    }
-  ],
-  "testimonialSeven": [
-    {
-      "left": [
-        {
-          "client": "/images/testimonial/client-01.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "desc": "Swatrixsoft's digital strategies transformed our IT landscape."
-        },
-        {
-          "client": "/images/testimonial/client-02.png",
-          "img": "/images/icons/google.png",
-          "title": "Anjali Sharma",
-          "position": "CEO",
-          "desc": "Their innovative solutions have driven our digital success."
-        },
-        {
-          "client": "/images/testimonial/client-03.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Suresh Gupta",
-          "position": "Head of IT",
-          "desc": "Expert solutions that deliver measurable results."
-        },
-        {
-          "client": "/images/testimonial/client-04.png",
-          "img": "/images/icons/bing.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Priya Singh",
-          "position": "COO",
-          "desc": "Their proactive approach sets them apart."
-        },
-        {
-          "client": "/images/testimonial/client-05.png",
-          "img": "/images/icons/hubs.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Deepak Mehta",
-          "position": "Digital Strategist",
-          "desc": "Swatrixsoft’s solutions empower our business growth."
-        },
-        {
-          "client": "/images/testimonial/client-06.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Neha Reddy",
-          "position": "Senior Consultant",
-          "desc": "Consistently innovative and reliable IT solutions."
-        },
-        {
-          "client": "/images/testimonial/client-07.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Amit Patel",
-          "position": "VP Operations",
-          "company": "@ Reliance",
-          "desc": "Their expert IT guidance has been transformative."
-        },
-        {
-          "client": "/images/testimonial/client-08.png",
-          "img": "/images/icons/bing.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Sunita Verma",
-          "position": "Chief Innovation Officer",
-          "desc": "Swatrixsoft’s commitment to digital excellence is exceptional."
-        },
-        {
-          "client": "/images/testimonial/client-09.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "desc": "Their transformative IT solutions have redefined our digital strategy."
-        }
-      ],
-      "right": [
-        {
-          "client": "/images/testimonial/client-01.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "desc": "Innovative IT solutions that drive our business forward."
-        },
-        {
-          "client": "/images/testimonial/client-02.png",
-          "img": "/images/icons/google.png",
-          "title": "Anjali Sharma",
-          "position": "CEO",
-          "desc": "Swatrixsoft’s expertise in digital transformation is second to none."
-        },
-        {
-          "client": "/images/testimonial/client-03.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Suresh Gupta",
-          "position": "Head of IT",
-          "desc": "Their cutting-edge strategies have elevated our IT infrastructure."
-        },
-        {
-          "client": "/images/testimonial/client-04.png",
-          "img": "/images/icons/bing.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Priya Singh",
-          "position": "COO",
-          "desc": "Swatrixsoft delivers exceptional value with its innovative approach."
-        },
-        {
-          "client": "/images/testimonial/client-05.png",
-          "img": "/images/icons/hubs.png",
-          "title": "Deepak Mehta",
-          "position": "Digital Strategist",
-          "desc": "Their comprehensive IT solutions are a key driver of our growth."
-        },
-        {
-          "client": "/images/testimonial/client-06.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Neha Reddy",
-          "position": "Senior Consultant",
-          "desc": "Their proactive support and expertise make a real difference."
-        },
-        {
-          "client": "/images/testimonial/client-07.png",
-          "img": "/images/icons/facebook.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Amit Patel",
-          "position": "VP Operations",
-          "company": "@ Reliance",
-          "desc": "Their strategic vision has revolutionized our IT operations."
-        },
-        {
-          "client": "/images/testimonial/client-08.png",
-          "img": "/images/icons/bing.png",
-          "wtd": 50,
-          "ht": 50,
-          "title": "Sunita Verma",
-          "position": "Chief Innovation Officer",
-          "desc": "Swatrixsoft’s digital expertise is truly transformative."
-        },
-        {
-          "client": "/images/testimonial/client-09.png",
-          "img": "/images/icons/yelp.png",
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "desc": "Their IT solutions have redefined our approach to digital transformation."
-        }
-      ]
-    }
-  ],
-  "testimonialFour": [
-    {
-      "tag": "IT SOLUTIONS FOR EVERY ENTERPRISE",
-      "title": "Client Testimonials",
-      "body": [
-        {
-          "img": "/images/testimonial/client-01.png",
-          "title": "Ravi Kumar",
-          "position": "CTO",
-          "company": "@ TCS",
-          "desc": "Swatrixsoft's IT solutions have revolutionized our digital infrastructure."
-        },
-        {
-          "img": "/images/testimonial/client-02.png",
-          "title": "Anjali Sharma",
-          "position": "CEO",
-          "company": "@ Infosys",
-          "desc": "Their innovative strategies and seamless execution set a new benchmark in digital transformation."
-        },
-        {
-          "img": "/images/testimonial/client-03.png",
-          "title": "Suresh Gupta",
-          "position": "Head of IT",
-          "company": "@ Wipro",
-          "desc": "Our operations have become significantly more agile and efficient thanks to their IT expertise."
+          "title": "Vikram Joshi",
+          "position": "Executive Designer",
+          "company": "@ CloudNet",
+          "desc": "The creativity and technical expertise at Swatrixsoft are evident in every project they deliver. Truly professional service."
         }
       ]
     }

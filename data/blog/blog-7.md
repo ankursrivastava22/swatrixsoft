@@ -1,8 +1,8 @@
 ---
 id: 7
-title: "Maximizing Your Digital Potential: A Comprehensive Guide"
-titleTwo: "Driving Innovation in Web, App, and LMS Solutions"
-desc: "In today's fast-paced digital landscape, having a robust online presence is crucial for sustained success."
+title: "Data Analytics and Machine Learning Integration"
+titleTwo: "Transforming raw data into intelligent business decisions"
+desc: "Transforming raw data into intelligent business decisions."
 descOne: "Swatrixsoft is a full-service IT company offering web and app development, LMS platforms, and targeted digital marketing strategies to help businesses thrive."
 descTwo: "We bring new ideas to life by combining creative design, technical expertise, and a deep understanding of modern technology stacks. Our solutions are thoughtful, secure, and scalable."
 descThree: "From startups to established enterprises, we partner with clients across the globe to deliver impactful digital experiences that transform how they operate and engage with users."
@@ -74,7 +74,7 @@ comment:
     date: "Nov 23, 2018 at 12:23 pm"
     desc: "Swatrixsoft delivered a top-notch web solution that redefined our online presence. Their innovative approach truly sets them apart."
     children:
-      - name: "John Due"
+      - name: "animesh tiwari"
         img: "/images/testimonial/testimonial-2.jpg"
         date: "Nov 23, 2018 at 12:23 pm"
         desc: "Their commitment to quality and customer satisfaction is evident in every interaction. Highly recommended!"

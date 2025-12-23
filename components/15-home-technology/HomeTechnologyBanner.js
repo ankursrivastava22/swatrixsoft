@@ -23,7 +23,7 @@ const HomeTechnologyBanner = () => {
                   </div>
 
                   <h1 className="banner-title">
-                    Jodhpur's Elite Tech Company Web, Mobile, AI & more.
+                    India's Elite Tech Company Web, Mobile, AI & more.
                   </h1>
 
                   <p className="description has-medium-font-size mt--20">

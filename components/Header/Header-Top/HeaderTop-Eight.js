@@ -142,7 +142,7 @@ const HeaderTopEight = ({
                   )}
 
                   {/* Language Dropdown */}
-                  <div className="header-info">
+                  {/* <div className="header-info">
                     <ul className="rbt-dropdown-menu switcher-language">
                       {item.language.map((lng, innerIndex) => (
                         <li className="has-child-menu" key={innerIndex}>
@@ -176,10 +176,10 @@ const HeaderTopEight = ({
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </div> */}
 
                   {/* Currency Dropdown */}
-                  <div className="header-info">
+                  {/* <div className="header-info">
                     <ul className="rbt-dropdown-menu currency-menu">
                       {item.currency.map((curnc, innerIndex) => (
                         <li className="has-child-menu" key={innerIndex}>
@@ -203,7 +203,7 @@ const HeaderTopEight = ({
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </div> */}
 
                   {/* Login / Logout Button */}
                   {isAuthenticated ? (

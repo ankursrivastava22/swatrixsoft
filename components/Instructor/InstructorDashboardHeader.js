@@ -16,7 +16,7 @@ const InstructorDashboardHeader = () => {
               />
             </div>
             <div className="tutor-content">
-              <h5 className="title">John Due</h5>
+              <h5 className="title">animesh tiwari</h5>
               <div className="rbt-review">
                 <div className="rating">
                   <i className="fas fa-star" />

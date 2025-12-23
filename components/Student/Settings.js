@@ -153,7 +153,7 @@ const Setting = () => {
                       Display name publicly as
                     </label>
                     <select id="displayname" className="w-100">
-                      <option>John Due</option>
+                      <option>animesh tiwari</option>
                       <option>John</option>
                       <option>Due</option>
                       <option>Due John</option>

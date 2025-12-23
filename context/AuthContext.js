@@ -75,11 +75,6 @@ export function AuthProvider({ children }) {
     deleteAuthTokenCookie();
     setIsAuthenticated(false);
     setUser(null);
-
-    // Only redirect if you’re not already on "/" or "/login"
-    if (pathname !== "/" && pathname !== "/login") {
-      router.replace("/login");
-    }
   };
 
   const deleteAuthTokenCookie = () => {

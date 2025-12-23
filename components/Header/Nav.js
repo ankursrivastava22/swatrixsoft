@@ -32,7 +32,7 @@ const Nav = () => {
         </li>
 
         {/* 3) SERVICES */}
-        <li className="has-dropdown has-menu-child-item">
+        {/* <li className="has-dropdown has-menu-child-item">
           <Link
             className={activeMenuItem === "dashboard" ? "open" : ""}
             href="#"
@@ -70,7 +70,7 @@ const Nav = () => {
                 return null;
               })}
           </ul>
-        </li>
+        </li> */}
 
         {/* 4) PORTFOLIO - Now directly links to /service */}
         <li>

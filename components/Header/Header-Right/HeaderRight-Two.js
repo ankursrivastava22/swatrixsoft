@@ -28,7 +28,7 @@ const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
           </Link>
         </li>
 
-        <li className="access-icon rbt-mini-cart">
+        {/* <li className="access-icon rbt-mini-cart">
           <Link
             className="rbt-cart-sidenav-activation rbt-round-btn"
             href="#"
@@ -37,9 +37,9 @@ const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
             <i className="feather-shopping-cart"></i>
             <span className="rbt-cart-count">{total_items}</span>
           </Link>
-        </li>
+        </li> */}
 
-        <li className="account-access rbt-user-wrapper d-none d-xl-block">
+        {/* <li className="account-access rbt-user-wrapper d-none d-xl-block">
           <Link href="#">
             <i className="feather-user"></i>
             {userType}
@@ -52,14 +52,14 @@ const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
             <i className="feather-user"></i>
           </Link>
           <User />
-        </li>
+        </li> */}
       </ul>
 
-      <div className="rbt-btn-wrapper d-none d-xl-block">
+      {/* <div className="rbt-btn-wrapper d-none d-xl-block">
         <Link className={`rbt-btn ${btnClass}`} href="#">
           <span data-text={`${btnText}`}>{btnText}</span>
         </Link>
-      </div>
+      </div> */}
 
       <div className="mobile-menu-bar d-block d-xl-none">
         <div className="hamberger">

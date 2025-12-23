@@ -62,7 +62,7 @@ const Reviews = () => {
                   </thead>
                   <tbody>
                     <tr>
-                      <th>John Due</th>
+                      <th>animesh tiwari</th>
                       <td>January 30, 2021</td>
                       <td>
                         <span className="b3">
@@ -82,7 +82,7 @@ const Reviews = () => {
                       </td>
                     </tr>
                     <tr>
-                      <th>John Due</th>
+                      <th>animesh tiwari</th>
                       <td>June 30, 2022</td>
                       <td>
                         <span className="b3">
@@ -102,7 +102,7 @@ const Reviews = () => {
                       </td>
                     </tr>
                     <tr>
-                      <th>John Due</th>
+                      <th>animesh tiwari</th>
                       <td>April 30, 2022</td>
                       <td>
                         <span className="b3">
@@ -122,7 +122,7 @@ const Reviews = () => {
                       </td>
                     </tr>
                     <tr>
-                      <th>John Due</th>
+                      <th>animesh tiwari</th>
                       <td>March 30, 2022</td>
                       <td>
                         <span className="b3">

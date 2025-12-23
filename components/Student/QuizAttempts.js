@@ -31,7 +31,7 @@ const QuizAttempts = () => {
                       Write Link short essay on yourself using the 5
                     </span>
                     <p className="b3">
-                      Student: <Link href="#">John Due</Link>
+                      Student: <Link href="#">animesh tiwari</Link>
                     </p>
                   </th>
                   <td>
@@ -74,7 +74,7 @@ const QuizAttempts = () => {
                       Write Link short essay on yourself using the 5
                     </span>
                     <p className="b3">
-                      Student: <Link href="#">John Due</Link>
+                      Student: <Link href="#">animesh tiwari</Link>
                     </p>
                   </th>
                   <td>
@@ -117,7 +117,7 @@ const QuizAttempts = () => {
                       Write Link short essay on yourself using the 5
                     </span>
                     <p className="b3">
-                      Student: <Link href="#">John Due</Link>
+                      Student: <Link href="#">animesh tiwari</Link>
                     </p>
                   </th>
                   <td>
@@ -160,7 +160,7 @@ const QuizAttempts = () => {
                       Write Link short essay on yourself using the 5
                     </span>
                     <p className="b3">
-                      Student: <Link href="#">John Due</Link>
+                      Student: <Link href="#">animesh tiwari</Link>
                     </p>
                   </th>
                   <td>

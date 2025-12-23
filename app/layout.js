@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
   const router = useRouter();
   const [visitCount, setVisitCount] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [isNavigating, setIsNavigating] = useState(false);
 
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min.js").catch((err) =>
@@ -36,37 +37,34 @@ export default function RootLayout({ children }) {
     );
   }, []);
 
+  // Handle route change loading
+  useEffect(() => {
+    setIsNavigating(true);
+    const timer = setTimeout(() => {
+      setIsNavigating(false);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [pathname]);
+
   useEffect(() => {
     const loadVisitorAndChat = async () => {
-      // Allow public access to "/" and "/login"
-      if (pathname === "/login" || pathname === "/") {
-        setIsLoading(false);
-        return;
-      }
-
+      setIsLoading(false);
+      
       try {
         const token = localStorage.getItem("token");
-        if (!token) {
-          const currentPath = pathname;
-          router.replace(`/login?reason=unauthorized&from=${currentPath}`);
-          return;
-        }
+        if (token) {
+          const res = await fetch("/api/visitor", {
+            credentials: "include",
+            headers: {
+              "Cache-Control": "no-cache",
+              Authorization: `Bearer ${token}`,
+            },
+          });
 
-        const res = await fetch("/api/visitor", {
-          credentials: "include",
-          headers: {
-            "Cache-Control": "no-cache",
-            Authorization: `Bearer ${token}`,
-          },
-        });
-
-        if (res.ok) {
-          const data = await res.json();
-          setVisitCount(data.count);
-        } else if (res.status === 401) {
-          router.replace("/login?reason=expired");
-        } else {
-          toast.error("Failed to load visitor count");
+          if (res.ok) {
+            const data = await res.json();
+            setVisitCount(data.count);
+          }
         }
 
         // Tawk.to chat integration
@@ -79,14 +77,11 @@ export default function RootLayout({ children }) {
         s0?.parentNode?.insertBefore(s1, s0);
       } catch (error) {
         console.error("Error:", error);
-        toast.error("Something went wrong");
-      } finally {
-        setIsLoading(false);
       }
     };
 
     loadVisitorAndChat();
-  }, [pathname, router]);
+  }, [pathname]);
 
   return (
     <html lang="en" dir="ltr">
@@ -131,8 +126,49 @@ export default function RootLayout({ children }) {
             theme="light"
           />
 
-          {/* Render children only after loading/auth check */}
-          {!isLoading && children}
+          {/* Show loading spinner with Swatrixsoft logo while loading or navigating */}
+          {(isLoading || isNavigating) ? (
+            <div style={{ 
+              display: 'flex', 
+              justifyContent: 'center', 
+              alignItems: 'center', 
+              minHeight: '100vh',
+              backgroundColor: '#f8f9fa',
+              position: 'fixed',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              zIndex: 9999
+            }}>
+              <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '20px'
+              }}>
+                <img 
+                  src="/images/logo/logo.png" 
+                  alt="Swatrixsoft" 
+                  style={{
+                    width: '120px',
+                    height: 'auto',
+                    animation: 'pulse 2s infinite'
+                  }}
+                />
+                <div className="spinner-border text-primary" role="status" style={{ width: '3rem', height: '3rem' }}>
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+              </div>
+              <style jsx>{`
+                @keyframes pulse {
+                  0% { opacity: 0.6; transform: scale(1); }
+                  50% { opacity: 1; transform: scale(1.05); }
+                  100% { opacity: 0.6; transform: scale(1); }
+                }
+              `}</style>
+            </div>
+          ) : children}
 
           {/* Visitor counter for authenticated pages */}
           {pathname !== "/login" && visitCount !== null && (
