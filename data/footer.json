@@ -5,52 +5,26 @@
       "phone": "+91-7976930931, 7073875630",
       "mail": "contact@swatrixsoft.com",
       "address": "Jodhpur, India",
-      "usefulLinks": [
-        {
-          "text": "Digital Solutions",
-          "link": "/digital-solutions"
-        },
-        {
-          "text": "Cloud Services",
-          "link": "/cloud-services"
-        },
-        {
-          "text": "Enterprise IT",
-          "link": "/enterprise-it"
-        },
-        {
-          "text": "Consulting",
-          "link": "/consulting"
-        },
-        {
-          "text": "FAQ",
-          "link": "/faqs"
-        }
-      ],
       "ourCompany": [
         {
+          "text": "Home",
+          "link": "/"
+        },
+        {
           "text": "About Us",
-          "link": "/about-us"
+          "link": "/about-us-01"
         },
         {
-          "text": "Our Services",
-          "link": "/services"
+          "text": "Portfolio",
+          "link": "/service"
         },
         {
-          "text": "Blog",
+          "text": "Blog/Insights",
           "link": "/blog-list"
         },
         {
-          "text": "Careers",
-          "link": "/careers"
-        },
-        {
-          "text": "Contact Us",
+          "text": "Contact",
           "link": "/contact"
-        },
-        {
-          "title": "Hire Team",
-          "link": "/hireteam"
         }
       ],
       "socialLink": [
@@ -80,52 +54,26 @@
       "phone": "+91-7976930931, 7073875630",
       "mail": "support@swatrixsoft.com",
       "address": "Mumbai, India",
-      "usefulLinks": [
-        {
-          "text": "Digital Solutions",
-          "link": "/digital-solutions"
-        },
-        {
-          "text": "Cloud Services",
-          "link": "/cloud-services"
-        },
-        {
-          "text": "Enterprise IT",
-          "link": "/enterprise-it"
-        },
-        {
-          "text": "Consulting",
-          "link": "/consulting"
-        },
-        {
-          "text": "FAQ",
-          "link": "/faqs"
-        }
-      ],
       "ourCompany": [
         {
+          "text": "Home",
+          "link": "/"
+        },
+        {
           "text": "About Us",
-          "link": "/about-us"
+          "link": "/about-us-01"
         },
         {
-          "text": "Our Services",
-          "link": "/services"
+          "text": "Portfolio",
+          "link": "/service"
         },
         {
-          "text": "Blog",
+          "text": "Blog/Insights",
           "link": "/blog-list"
         },
         {
-          "text": "Careers",
-          "link": "/careers"
-        },
-        {
-          "text": "Contact Us",
+          "text": "Contact",
           "link": "/contact"
-        },
-        {
-          "title": "Hire Team",
-          "link": "/hireteam"
         }
       ],
       "socialLink": [

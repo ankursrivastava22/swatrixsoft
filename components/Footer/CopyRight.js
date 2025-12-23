@@ -19,7 +19,7 @@ const CopyRight = () => {
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <ul className="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
-                <li>
+                {/* <li>
                   <Link href="/terms-of-service">Terms of Service</Link>
                 </li>
                 <li>
@@ -30,7 +30,7 @@ const CopyRight = () => {
                 </li>
                 <li>
                   <Link href="/login">Login & Register</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
